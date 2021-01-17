@@ -1,0 +1,18 @@
+Soloviev_S_U=> nrel_main_idtf:
+[Соловьёв С.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Soloviev_S_U] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Soloviev_S_U;;
+Soloviev_S_U <- concept_participant_of_conference_OSTIS2014;;
+Soloviev_S_U <- concept_participant_of_conference_OSTIS2012;;
+Soloviev_S_U <- concept_participant_of_conference_OSTIS2015;;
+Soloviev_S_U <- concept_participant_of_conference_OSTIS2016;;
+Soloviev_S_U <- concept_participant_of_conference_OSTIS2013;;
+Soloviev_S_U => nrel_contact_information:[soloviev@glossary.ru];;
+

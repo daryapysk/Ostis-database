@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_15_OSTISX2014;;
+Doklad_15_OSTISX2014=>nrel_main_idtf:[Доклад 15 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_15_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_15_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_15_OSTISX2014 <= nrel_name_of_doclad: [Персональная онтология профессионального опыта](* <- lang_ru;;*);;
+
+// Doklad_15_OSTISX2014 <= nrel_authors : ...(* -> Sosnin_P._I.;; *);;
+
+Doklad_15_OSTISX2014 <= nrel_authors: Sosnin_P._I.;; 
+
+// Doklad_15_OSTISX2014 <= nrel_articke: ...(* -> 15._Sosnin_P.I._X_PersoOPO;; *);;

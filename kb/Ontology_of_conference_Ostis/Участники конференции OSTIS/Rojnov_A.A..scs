@@ -1,0 +1,17 @@
+
+Rojnov_A.A.=> nrel_main_idtf:
+	[Рожнов А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Rojnov_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Rojnov_A.A. => nrel_email: [rozhnov@ntmdt.ru](*<-lang_en;;*);;
+
+//Rojnov_A.A. <= nrel_authors:  ...(* -> Doklad_9.02_OSTISX2011;; *);;
+
+//Rojnov_A.A. <- concept_participant_of_conference_OSTIS;;
+Rojnov_A.A. <- concept_participant_of_conference_OSTIS2011;;

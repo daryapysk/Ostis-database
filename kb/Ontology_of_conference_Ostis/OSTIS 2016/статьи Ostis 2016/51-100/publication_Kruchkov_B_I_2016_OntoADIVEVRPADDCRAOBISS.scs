@@ -1,0 +1,29 @@
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_main_idtf:
+[Крючков Б.И. 2016 - ОнтоПкПИВСдВППДпДУР-ПКнМКС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS => nrel_name_publication:[Онтологический подход к построению интерактивной виртуальной среды для визуального представления планируемых действий при диалоговом управлении роботом-помощником космонавта на МКС](*
+	<- lang_ru;;
+	*);;
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS<= nrel_authors:
+Kruchkov_B_I;;
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS<= nrel_authors:
+Usov_V_M;;
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS<= nrel_authors:
+Karpov_A.A.;;
+
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS <- article;;
+
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS=> nrel_reference_standard: [Крючков, Б.И. Онтологический подход к построению интерактивной виртуальной среды для визуального представления планируемых действий при диалоговом управлении роботом-помощником космонавта на МКС/ Б.И. Крючков, В.М. Усов, А.А. Карпов  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 477–482.];;
+
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS=> nrel_year_publication: 2016;;
+
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Kruchkov_B_I_2016_OntoADIVEVRPADDCRAOBISS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Крючков.pdf";; *);;*);;

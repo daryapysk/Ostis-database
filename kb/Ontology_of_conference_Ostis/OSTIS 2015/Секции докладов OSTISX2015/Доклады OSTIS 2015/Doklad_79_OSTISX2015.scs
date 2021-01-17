@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_79_OSTISX2015;;
+Doklad_79_OSTISX2015=>nrel_main_idtf:[Доклад 79 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_79_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_79_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_79_OSTISX2015 => nrel_name_of_doclad: [Об одном методе применения обобщенной онтологии для анализа естественно-языковых сообщений пользователей сети интернет](* <- lang_ru;;*);;
+
+//Doklad_79_OSTISX2015 <= nrel_authors : ...(* -> Deeva_N._V.;Visnevskij_S._A.;; *);;
+
+//Doklad_79_OSTISX2015 <= nrel_articke: ...(* -> 79._Deeva_N.V.X_Visnevskij_S.A._–_ObOMPOOdAEXASPSI;; *);;
+
+Doklad_79_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/79. Деева Н.В., Вишневский С.Я. – ОбОМПООдАЕ-ЯСПСИ.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_79_OSTISX2015 => nrel_authors: Deeva_N.V.;Visnevskij_S.A.;;

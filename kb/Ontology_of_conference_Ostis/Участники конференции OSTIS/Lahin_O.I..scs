@@ -1,0 +1,25 @@
+
+Lahin_O.I.=> nrel_main_idtf:
+	[Лахин О.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lahin_O.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lahin_O.I. => nrel_email: [lakhin@yandex.ru](*<-lang_en;;*);;
+
+Lahin_O.I. <- concept_participant_of_conference_OSTIS2014;;
+Lahin_O.I. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Lahin_O.I. <= nrel_authors:  ...(* -> Doklad_59_OSTISX2015;Doklad_28_OSTISX2014;; *);;
+
+Lahin_O.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Lahin_O.I. -> rukovoditelX_napravlenia;;
+
+Lahin_O.I. <- rrel_key_sc_element: ..illustration_Lahin_O.I.(* <- sc_illustation;; *);;
+..illustration_Lahin_O.I. <= nrel_translation : ..translation_illustration_Lahin_O.I.;;
+..translation_illustration_Lahin_O.I.-> rrel_example : [<img src="http://127.0.0.1:8181/Лахин.jpg"/>] (* => nrel_format: format_html;; *);;*/

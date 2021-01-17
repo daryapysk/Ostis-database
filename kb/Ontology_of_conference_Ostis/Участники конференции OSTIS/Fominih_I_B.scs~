@@ -1,0 +1,15 @@
+Fominih_I_B => nrel_main_idtf:
+[Фоминых И. Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fominih_I_B] 
+	(*
+	<- lang_en;;
+	*);;
+
+<- concept_participant_of_conference_OSTIS2016;; -> Fominih_I_B;;
+
+Fominih_I_B => nrel_contact_information:[igborfomin@mail.ru];;
+
+//OSTIS_conference_2016 => nrel_participant: Fominih_I_B ;;

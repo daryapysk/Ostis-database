@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_08_OSTISX2014;;
+Doklad_08_OSTISX2014=>nrel_main_idtf:[Доклад 08 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_08_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_08_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_08_OSTISX2014 <= nrel_name_of_doclad: [Построение интеллектуальных систем, основанных на знаниях, с повторным использованием компонентов](* <- lang_ru;;*);;
+
+// Doklad_08_OSTISX2014 <= nrel_authors : ...(* -> Borisov_A._N.;; *);;
+
+Doklad_08_OSTISX2014 <= nrel_authors: Borisov_A._N.;; 
+
+// Doklad_08_OSTISX2014 <= nrel_articke: ...(* -> 08._Borisov_A.N._X_PostrISOnZsPIK;; *);;

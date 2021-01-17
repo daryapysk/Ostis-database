@@ -1,0 +1,21 @@
+//sc_node_not_relation->Doklad_23_OSTISX2015;;
+Doklad_23_OSTISX2015=>nrel_main_idtf:[Доклад 23 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_23_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_23_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_23_OSTISX2015 => nrel_name_of_doclad: [Методы и инструменты работы с бизнес-правилами](* <- lang_ru;;*);;
+
+//Doklad_23_OSTISX2015 <= nrel_authors : ...(* -> Savin_A._M.;; *);;
+
+//Doklad_23_OSTISX2015 <= nrel_articke: ...(* -> 23._Savin_A.M._X_MetodyiIRsBXP;; *);;
+
+Doklad_23_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/23._Савин_А.М._-_МетодыиИРсБ-П.pdf";;
+						    *);; 
+					*);;
+
+Doklad_23_OSTISX2015=> nrel_authors: Savin_A.M.;;

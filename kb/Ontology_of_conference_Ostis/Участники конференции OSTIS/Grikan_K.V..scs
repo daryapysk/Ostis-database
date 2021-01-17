@@ -1,0 +1,21 @@
+
+Grikan_K.V.=> nrel_main_idtf:
+	[Грикян К.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Grikan_K.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Grikan_K.V.  <- concept_participant_of_conference_OSTIS;;
+
+Grikan_K.V. <- student;;
+
+/*Grikan_K.V. <- rrel_key_sc_element: ..illustration_Grikan_K.V.(* <- sc_illustation;; *);;
+..illustration_Grikan_K.V. <= nrel_translation : ..translation_illustration_Grikan_K.V.;;
+..translation_illustration_Grikan_K.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Grik9nK.jpg"/>] (* => nrel_format: format_html;; *);;
+
+Grikan_K.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.56;; *);;*/

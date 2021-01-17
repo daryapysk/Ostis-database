@@ -1,0 +1,24 @@
+
+Oksanic_I.G.=> nrel_main_idtf:
+	[Оксанич И.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Oksanic_I.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Oksanic_I.G. => nrel_email: [krotuk-i-g@rambler.ru](*<-lang_en;;*);;
+
+//Oksanic_I.G. <- concept_participant_of_conference_OSTIS;;
+Oksanic_I.G. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Oksanic_I.G. <= nrel_authors:  ...(* -> Doklad_29_OSTISX2015;; *);;
+
+Oksanic_I.G. -> Ucastnik_konferenzii_OSTIS;;
+
+Oksanic_I.G. -> k.n.;;
+k.n. <- ucenoe_zvanie;;
+
+Oksanic_I.G. -> dozent;;*/

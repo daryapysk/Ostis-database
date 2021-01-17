@@ -1,0 +1,20 @@
+sc_node_role_relation -> nrel_report_language;; 
+
+nrel_report_language => nrel_main_idtf:[язык доклада*] (* <-lang_ru;; *);;
+
+nrel_report_language => nrel_main_idtf:[report language*] (* <-lang_en;; *);;
+
+
+nrel_report_language <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(язык доклада)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Язык доклада - язык, на котором был представлен доклад.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

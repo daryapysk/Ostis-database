@@ -1,0 +1,15 @@
+Gecevich_U_A => nrel_main_idtf:
+[Гецэвіч Ю.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gecevich_U_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS ->Gecevich_U_A;;
+
+Gecevich_U_A => nrel_contact_information:[yury.hetsevich@gmail.com];;
+
+//OSTIS_conference_2016 => nrel_participant: Gecevich_U_A;;

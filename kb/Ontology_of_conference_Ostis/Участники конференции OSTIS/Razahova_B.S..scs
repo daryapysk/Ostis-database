@@ -1,0 +1,14 @@
+sc_node_not_relation->Razahova_B.S.;;
+Razahova_B.S.=>nrel_main_ru_idtf:[Разахова Б.Ш.];;
+
+Razahova_B.S. <= nrel_email: [utalina@mail.ru](*<-lang_en;;*);;
+
+Razahova_B.S. <= nrel_authors:  ...(* -> Doklad_88_OSTISX2014;; *);;
+
+Razahova_B.S. -> Ucastnik_konferenzii_OSTIS;;
+
+Razahova_B.S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Razahova_B.S. -> dozent;;
+dozent <- ucenoe_zvanie;;

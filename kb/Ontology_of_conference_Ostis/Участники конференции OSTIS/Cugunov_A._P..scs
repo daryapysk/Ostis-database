@@ -1,0 +1,15 @@
+
+Cugunov_A.P.=> nrel_main_idtf:
+	[Чугунов А. П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Cugunov_A.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Cugunov_A.P. <= nrel_authors:  ...(* -> Doklad_54_OSTISX2014;; *);;
+
+Cugunov_A.P. <- concept_participant_of_conference_OSTIS2014;;

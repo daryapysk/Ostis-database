@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_92_OSTISX2015;;
+Doklad_92_OSTISX2015=>nrel_main_idtf:[Доклад 92 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_92_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_92_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_92_OSTISX2015 => nrel_name_of_doclad: [Решение задачи прогнозирования возрастания нагрузки в системе дистанционного обучения «Ispring Learn»](* <- lang_ru;;*);;
+
+/*Doklad_92_OSTISX2015 <= nrel_authors : ...(* -> SokolXnikov_A._M.;Sidorkina_I._G.;; *);;
+
+Doklad_92_OSTISX2015 <= nrel_articke: ...(* -> 92._SokolXnikov_A.M.X_Sidorkina_I.G._–_ResenieZPVNvSDOIL;; *);;*/
+
+Doklad_92_OSTISX2015  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/92. Сокольников А.М., Сидоркина И.Г. – РешениеЗПВНвСДОIL.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_92_OSTISX2015=> nrel_authors:SokolXnikov_A.M.;Sidorkina_I.G.;;

@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_01_OSTISX2015;;
+Doklad_01_OSTISX2015=>nrel_main_idtf:[Доклад 01 OSTIS-2015](*<- lang_ru;;*);;
+
+
+Doklad_01_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_01_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_01_OSTISX2015 => nrel_name_of_doclad: [ПроблемаПНиБИИ](* <- lang_ru;;*);;
+
+//Doklad_01_OSTISX2015 <= nrel_authors : ...(* -> Tarasov_V._B.;; *);;
+
+//Doklad_01_OSTISX2015 <= nrel_articke: ...(* -> 01._Tarasov_V.B._X_ProblemaPNiBII;; *);;
+
+
+Doklad_01_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/01._Тарасов_В.Б._-_ПроблемаПНиБИИ.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_01_OSTISX2015 => nrel_authors: Tarasov_V.B.;; 

@@ -1,0 +1,19 @@
+concept_event => nrel_main_idtf: 
+[мероприятие] (* <- lang_ru;; *);
+[event] (* <- lang_en;; *);;
+
+concept_event <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(мероприятие)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Мероприятие - совокупность действий, направленных на осуществление определенной цели с привлечением широкого круга лиц.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+

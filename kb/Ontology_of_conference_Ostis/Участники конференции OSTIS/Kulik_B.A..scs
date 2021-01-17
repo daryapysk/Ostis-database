@@ -1,0 +1,31 @@
+
+Kulik_B.A.=> nrel_main_idtf:
+	[Кулик Б.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulik_B.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kulik_B.A. => nrel_email: [ba-kulik@yandex.ru](*<-lang_en;;*);;
+
+//Kulik_B.A. <= nrel_authors:  ...(* -> Doklad_3.6_OSTISX2013;Doklad_1.04_OSTISX2011;; *);;
+
+/*Kulik_B.A. <= nrel_publication : ...(* -> Kulik_B.A.2005stXVeroaLnOAK;Kulik_B.A.2004stXModifRvRKL;Kulik_B.A.2003stXObobsPkMiAPOnOQCsiAK;Kulik_B.A.2002stXoMOEL;Kulik_B.A.2001stXVeroaMSnOAK;Kulik_B.A.2000stXIndukVvES;Kulik_B.A.2000stXLogicMRZnOES;Kulik_B.A..2000stXAlgebPkMiAERnOES;Kulik_B.A..1999stX_AlgebOEREs;Kulik_B.A..1998stXSisteLVnLG;Kulik_B.A..1997stXInterSLV;Kulik_B.A..1996stXModelRnOZAM;; *);;*/
+
+//Kulik_B.A.<- concept_participant_of_conference_OSTIS;;
+Kulik_B.A. <- concept_participant_of_conference_OSTIS2011;
+concept_participant_of_conference_OSTIS2013;;
+
+/*Kulik_B.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Kulik_B.A. -> s.n.s.;;
+
+Kulik_B.A. <- rrel_key_sc_element: ..illustration_Kulik_B.A.(* <- sc_illustation;; *);;
+..illustration_Kulik_B.A. <= nrel_translation : ..translation_illustration_Kulik_B.A.;;
+..translation_illustration_Kulik_B.A.-> rrel_example : [<img src="http://127.0.0.1:8181/KulikBA.png"/>] (* => nrel_format: format_html;; *);;
+
+Kulik_B.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.11;Foto_OSTISX2011.02.10.10.43;Foto_OSTISX2011.02.10.10.52;Foto_OSTISX2011.02.10.11.17;Foto_OSTISX2011.02.10.11.47;Foto_OSTISX2011.02.10.11.55;Foto_OSTISX2011.02.10.12.03;Foto_OSTISX2011.02.10.12.13;; *);;*/

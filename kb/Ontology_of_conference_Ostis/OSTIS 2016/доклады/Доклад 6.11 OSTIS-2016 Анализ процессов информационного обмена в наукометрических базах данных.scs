@@ -1,0 +1,32 @@
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_main_idtf:
+[Доклад 6.11 OSTIS-2016 Анализ процессов информационного обмена в наукометрических базах данных]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.11 OSTIS-2016 Analysis of information exchange processes in scientometric databases] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD <- doklad_OSTISX2016;;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD <= nrel_authors:Potebnia_A_V;
+Pogorelyi_S_D;;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_published_material: publication_Potebnia_A_V_2016_AnalysoIXPiSD;;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_report_language: lang_ru;;
+
+
+/*report_6.11_OSTIS_2016_AnalysoIXPiSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_name: [Анализ процессов информационного обмена в наукометрических базах данных](*<- lang_ru;;*);;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD <= nrel_speaker: Potebnia_A_V;;
+
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_time_speech: [12:30 - 12:45];;
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_data_speech: [19 февраля 2016];;
+
+report_6.11_OSTIS_2016_AnalysoIXPiSD => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_9.03_OSTISX2011;;
+Doklad_9.03_OSTISX2011=>nrel_main_idtf:[Доклад 9.03 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_9.03_OSTISX2011 <- doklad_OSTISX2011;;
+
+//Doklad_9.03_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_9.03_OSTISX2011 => nrel_name_of_doclad: [Концепция и реализация объединения научно-производственных и образовательных учреждений: союз высоких технологий](* <- lang_ru;;*);;
+
+Doklad_9.03_OSTISX2011 <= nrel_section: [Секция 9 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_9.03_OSTISX2011 <= nrel_authors:  ...(* -> Segolev_A._G.;Pavlova_Z._I.;; *);;
+
+Doklad_9.03_OSTISX2011 <= nrel_articke: ...(* -> Segolev_A.G..2011stXKonzeIRONPiOUSVT;; *);;
+
+Doklad_9.03_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X28_OSTISX2011;; *);;
+
+
+Doklad_9.03_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Щеголев_А.Г..2011ст-КонцеИРОНПиОУСВТ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_9.03_OSTISX2011=>nrel_authors: Segolev_A.G.;Pavlova_Z.I.;;

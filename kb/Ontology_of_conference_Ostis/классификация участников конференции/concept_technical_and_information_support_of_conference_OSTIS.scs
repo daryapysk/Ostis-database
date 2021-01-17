@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_technical_and_information_support_of_conference_OSTIS;; 
+concept_technical_and_information_support_of_conference_OSTIS=>nrel_main_idtf:
+[техническая и информационная поддержка конференции OSTIS](*<-lang_ru;;*);
+[technical and information support of conference OSTIS](*<-lang_en;;*);;
+concept_technical_and_information_support_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Tехническая и информационная поддержка конференции OSTIS -издание, оказывающее информационную поддержку конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_technical_and_information_support_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->technical_information_support_OSTIS_conference_2011; 
+technical_information_support_OSTIS_conference_2012; 
+technical_information_support_OSTIS_conference_2013; 
+technical_information_support_OSTIS_conference_2014;technical_information_support_OSTIS_conference_2015;
+technical_information_support_OSTIS_conference_2016;;
+*);;
+

@@ -1,0 +1,33 @@
+
+publication_Karpov_V_E_2016_SensorMIBR => nrel_main_idtf:
+[Карпов В.Э. 2016 -  СенсоМППР] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Karpov_V_E_2016_DevelDOIPBOA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Karpov_V_E_2016_SensorMIBR => nrel_name_publication:[Сенсорная модель подражательного поведения роботов](*
+	<- lang_ru;;
+	*);;
+publication_Karpov_V_E_2016_SensorMIBR<= nrel_authors:
+Karpov_V_E;;
+publication_Karpov_V_E_2016_SensorMIBR => nrel_article_language: lang_ru;;
+publication_Karpov_V_E_2016_SensorMIBR => nrel_annotation: [В работе рассматриваются вопросы реализации моделей подражательного поведения робота. Предложена модель, основанная на наблюдении субъектом за поведением других членов группы. Показано, что результат наблюдения должен оказывать воздействие на поведенческую мотивацию агента. Приведены результаты имитационного моделирования предложенной схемы на примере решения простой поведенческой задачи. Показано, что целесообразность применения подражательного поведения далеко не однозначна и определяется сложностью решаемых задач и степенью когнитивных способностей субъекта.];;
+
+publication_Karpov_V_E_2016_SensorMIBR => nrel_count_page: 6;;
+
+publication_Karpov_V_E_2016_SensorMIBR <- article_OSTIS_2016;;
+
+
+
+publication_Karpov_V_E_2016_SensorMIBR=> nrel_reference_standard: [Карпов, В.Э. Сенсорная модель подражательного поведения роботов/ В.Э. Карпов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 471–476.];;
+
+publication_Karpov_V_E_2016_SensorMIBR=> nrel_year_publication: 2016;;
+
+publication_Karpov_V_E_2016_SensorMIBR => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Karpov_V_E_2016_SensorMIBR<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Карпов.pdf";; *);;*);;
+

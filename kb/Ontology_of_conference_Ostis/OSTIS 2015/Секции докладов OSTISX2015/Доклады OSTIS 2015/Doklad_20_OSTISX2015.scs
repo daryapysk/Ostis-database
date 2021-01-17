@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_20_OSTISX2015;;
+Doklad_20_OSTISX2015=>nrel_main_idtf:[Доклад 20 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_20_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_20_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_20_OSTISX2015 => nrel_name_of_doclad: [Методы и средства ситуационного управления в энергетике на основе семантического моделирования](* <- lang_ru;;*);;
+
+//Doklad_20_OSTISX2015 <= nrel_authors : ...(* -> MasselX_L._V.;MasselX_A._G.;; *);;
+
+//Doklad_20_OSTISX2015 <= nrel_articke: ...(* -> 20._MasselX_L.V.X_MasselX_A.G._X_MetodyiSSUvEnOSM;; *);;
+
+
+Doklad_20_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/20._Массель_Л.В.,_Массель_А.Г._-_МетодыиССУвЭнОСМ.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_20_OSTISX2015 => nrel_authors: MasselX_L.V.;MasselX_A.G.;;

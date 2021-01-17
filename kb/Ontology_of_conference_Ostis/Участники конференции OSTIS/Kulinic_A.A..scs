@@ -1,0 +1,25 @@
+
+Kulinic_A.A.=> nrel_main_idtf:
+	[Кулинич А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulinic_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kulinic_A.A. => nrel_email: [kulinich@ipu.ru](*<-lang_en;;*);;
+
+//Kulinic_A.A. <= nrel_authors:  ...(* -> Doklad_32_OSTISX2014;; *);;
+
+Kulinic_A.A. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Kulinic_A.A. -> kandidat_nauk;;
+kandidat_nauk <- ucenaa_stepenX;;
+
+Kulinic_A.A. -> s.n.s.;;
+
+Kulinic_A.A. <- rrel_key_sc_element: ..illustration_Kulinic_A.A.(* <- sc_illustation;; *);;
+..illustration_Kulinic_A.A. <= nrel_translation : ..translation_illustration_Kulinic_A.A.;;
+..translation_illustration_Kulinic_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Кулинич_1.jpg"/>] (* => nrel_format: format_html;; *);;*/

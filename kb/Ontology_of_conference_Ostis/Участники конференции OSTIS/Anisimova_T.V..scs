@@ -1,0 +1,24 @@
+
+Anisimova_T.V. => nrel_main_idtf:
+	[Анисимова Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Anisimova_T.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Anisimova_T.V. => nrel_email: [hvostya@gmail.com](*<-lang_en;;*);;
+
+//Anisimova_T.V. <= nrel_authors:  ...(* -> Doklad_83_OSTISX2014;; *);;
+
+/*Anisimova_T.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Anisimova_T.V. -> net;;
+net <- ucenaa_stepenX;;
+
+Anisimova_T.V. -> assistent;;
+assistent <- ucenoe_zvanie;;*/
+
+Anisimova_T.V.<- concept_participant_of_conference_OSTIS2014;;

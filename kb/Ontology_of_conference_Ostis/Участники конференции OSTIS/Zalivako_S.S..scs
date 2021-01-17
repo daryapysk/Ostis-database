@@ -1,0 +1,24 @@
+
+Zalivako_S.S.=> nrel_main_idtf:
+	[Заливако С.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zalivako_S.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Zalivako_S.S. => nrel_email: [zalivako@mail.ru](*<-lang_en;;*);;
+
+//Zalivako_S.S. <= nrel_authors:  ...(* -> Doklad_3.07_OSTISX2012;Doklad_8.05_OSTISX2011;Doklad_5.07_OSTISX2011;; *);;
+
+//Zalivako_S.S.<- concept_participant_of_conference_OSTIS;;
+Zalivako_S.S. <- concept_participant_of_conference_OSTIS2011;;
+Zalivako_S.S. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Zalivako_S.S. <- rrel_key_sc_element: ..illustration_Zalivako_S.S.(* <- sc_illustation;; *);;
+..illustration_Zalivako_S.S. <= nrel_translation : ..translation_illustration_Zalivako_S.S.;;
+..translation_illustration_Zalivako_S.S.-> rrel_example : [<img src="http://127.0.0.1:8181/ZalivakoS.jpg"/>] (* => nrel_format: format_html;; *);;
+
+Zalivako_S.S. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.55;Foto_OSTISX2011.02.10.10.57;Fajl:OSTISX2013.02.21.08.59.jpg;; *);;*/

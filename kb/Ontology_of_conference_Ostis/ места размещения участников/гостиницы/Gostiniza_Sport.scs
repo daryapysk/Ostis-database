@@ -1,0 +1,17 @@
+
+Gostiniza_Sport=>nrel_main_idtf:[Гостиница Спорт](* <- lang_ru;; *);;
+
+Gostiniza_Sport <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Sport <- concept_hotel;;
+
+/*Gostiniza_Sport => nrel_phone: [бронирование](* <- lang_ru;;*);;
+Gostiniza_Sport => nrel_phone: [администратор](* <- lang_ru;;*);;*/
+
+Gostiniza_Sport =>nrel_address : [г. Минск, ул. Я. Коласа, 35](* <- lang_ru;;*);;
+
+Gostiniza_Sport => nrel_site: [http://www.hotel-sport.of.by];;
+
+//Gostiniza_Sport => nrel_location : [г. Минск, Коласа, 35](* <- lang_ru;;*);;
+
+//Gostiniza_Sport => nrel_content : "file://Схема проезда к гост. Спорт.zip";;

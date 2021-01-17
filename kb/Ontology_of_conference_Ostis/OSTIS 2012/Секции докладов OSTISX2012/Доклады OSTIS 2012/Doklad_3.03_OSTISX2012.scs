@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_3.03_OSTISX2012;;
+Doklad_3.03_OSTISX2012=>nrel_main_idtf:[Доклад 3.03 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.03_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.03_OSTISX2012 => nrel_name_of_doclad: [Формирование многоагентных систем с помощью ресурсно-целевых сетей](* <- lang_ru;;*);;
+
+Doklad_3.03_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.03_OSTISX2012 <= nrel_authors : ...(* -> Dundukov_V._S.;Tarasov_V._B.;; *);;
+
+Doklad_3.03_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 3.3 OSTIS-2012";;
+
+Doklad_3.03_OSTISX2012 <= nrel_articke: ...(* -> Dundukla_V.S..2012stXFormiMSsPRZS;; *);;
+
+Doklad_3.03_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X5_OSTISX2012;; *);;*/
+
+Doklad_3.03_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Дюндюкла_В.С..2012ст-ФормиМСсПРЦС.pdf";;
+						    *);; 
+					*);;
+Doklad_3.03_OSTISX2012=> nrel_authors:Dundukov_V.S.;Tarasov_V.B.;;

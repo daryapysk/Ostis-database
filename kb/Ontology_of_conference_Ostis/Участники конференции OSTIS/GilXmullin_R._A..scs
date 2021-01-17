@@ -1,0 +1,25 @@
+
+GilXmullin_R.A.=> nrel_main_idtf:
+	[Гильмуллин Р. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[GilXmullin_R.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+GilXmullin_R.A. => nrel_email: [rinatgilmullin@gmail.com](*<-lang_en;;*);;
+
+GilXmullin_R.A. <- concept_participant_of_conference_OSTIS2014;;
+GilXmullin_R.A. <- concept_participant_of_conference_OSTIS2015;;
+GilXmullin_R.A. <- concept_participant_of_conference_OSTIS2016;;
+
+/*GilXmullin_R._A. <= nrel_authors:  ...(* -> Doklad_63_OSTISX2015;Doklad_79_OSTISX2014;; *);;
+
+GilXmullin_R._A. -> Ucastnik_konferenzii_OSTIS;;
+
+GilXmullin_R._A. -> k.n.;;
+k.n. <- ucenaa_stepenX;;
+
+GilXmullin_R._A. -> Zaveduusij_otdelom_«Kognitivnyh_issledovanij»;;*/

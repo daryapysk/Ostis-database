@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.10_OSTISX2013;;
+Doklad_2.10_OSTISX2013=>nrel_main_idtf:[Доклад 2.10 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.10_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.10_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.10_OSTISX2013 <= nrel_name_of_doclad: [Построение интеллектуальной системы на основе векторного проблемно-ориентированного процессора](* <- lang_ru;;*);;
+
+// //Doklad_2.10_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.10_OSTISX2013 <= nrel_authors : ...(* -> Verenik_N._L.;Tatur_M._M.;; *);;
+Doklad_2.10_OSTISX2013 <= nrel_authors: Verenik_N._L.;Tatur_M._M.;;
+
+//Doklad_2.10_OSTISX2013 <= nrel_articke: ...(* -> Verenik_N.L..2013stXPostrISnOVPXOP;; *);;
+
+Doklad_2.10_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Вереник_Н.Л..2013ст-ПострИСнОВП-ОП.pdf";;
+						    *);;
+					*);;

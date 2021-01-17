@@ -1,0 +1,16 @@
+// sc_node_not_relation->Doklad_3.6_OSTISX2013;;
+Doklad_3.6_OSTISX2013=>nrel_main_idtf:[Доклад 3.6 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_3.6_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_3.6_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_3.6_OSTISX2013 <= nrel_name_of_doclad: [ИНТЕЛЛЕКТУАЛЬНЫЕ ОБУЧАЮЩИЕ СИСТЕМЫ НА ОСНОВЕ АЛГЕБРАИЧЕСКОГО ПРЕДСТАВЛЕНИЯ ВОПРОСНО-ОТВЕТНЫХ ТЕКСТОВ](* <- lang_ru;;*);;
+
+// //Doklad_3.6_OSTISX2013 <= nrel_section: [Секция 3 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_3.6_OSTISX2013 <= nrel_authors : ...(* -> Zuenko_A._A.;Kulik_B._A.;Fridman_A._A.;; *);;
+Doklad_3.6_OSTISX2013 <= nrel_authors: Zuenko_A._A.;Kulik_B._A.;Fridman_A._A.;; 
+
+//Doklad_3.6_OSTISX2013 <= nrel_articke: ...(* -> Zuenko_A.A.X_Kulik_B.A.X_Fridman_A.A._2013stXIOSNOAPVOT;; *);;

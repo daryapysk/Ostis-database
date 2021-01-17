@@ -1,0 +1,10 @@
+sc_node_not_relation->Ostrovskij_S.A.;;
+Ostrovskij_S.A.=>nrel_main_ru_idtf:[Островский С.А.];;
+
+Ostrovskij_S.A. <= nrel_email: [ostazzz92@gmail.com](*<-lang_en;;*);;
+
+Ostrovskij_S.A. <= nrel_authors:  ...(* -> Doklad_42_OSTISX2014;; *);;
+
+Ostrovskij_S.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Ostrovskij_S.A. <= nrel_photo: ...(* -> Fajl:Ostrovskiy.JPG;; *);;

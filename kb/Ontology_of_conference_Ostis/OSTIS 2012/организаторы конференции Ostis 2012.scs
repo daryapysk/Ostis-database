@@ -1,0 +1,24 @@
+//sc_node_not_relation -> organizer_OSTIS_conference_2012;;
+organizer_OSTIS_conference_2012 => nrel_main_idtf:
+	[Организатор Конференции OSTIS-2012]
+	(*
+	<- lang_ru;;
+	*);
+	[Organizer OSTIS-2012 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+organizer_OSTIS_conference_2012 ->  ministry_of_Education_of_the_Republic_of_Belarus; 
+Educational_Establishment_BSUIR; 
+Administration_high_tech_park;
+Melsoft;
+Recevye_tehnologii;
+exigenservices;
+Generetion_P;
+RAII;
+IIO_RAO;
+anti_virus;
+FGBNU_Institute_of_Education_Management_Russian_Academy_Education;
+Scand_Ltd;;
+

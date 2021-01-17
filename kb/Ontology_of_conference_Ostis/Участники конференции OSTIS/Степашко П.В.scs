@@ -1,0 +1,14 @@
+Stepashko_P_V => nrel_main_idtf:
+[Степашко П.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepashko_P_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Stepashko_P_V;;
+
+Stepashko_P_V => nrel_contact_information:[pstepashko@gmail.com];;
+

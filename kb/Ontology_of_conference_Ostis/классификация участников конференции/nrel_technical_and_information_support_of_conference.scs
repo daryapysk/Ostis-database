@@ -1,0 +1,19 @@
+sc_node_norole_relation -> nrel_technical_and_information_support_of_conference;; 
+nrel_technical_and_information_support_of_conference=> nrel_main_idtf:[техническая и информационная поддержка конференции*] (* <-lang_ru;; *);;
+nrel_technical_and_information_support_of_conference=> nrel_main_idtf:[technical support and information support of conference*] (* <-lang_en;; *);;
+
+nrel_technical_and_information_support_of_conference<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Техническая и информационная поддержка конференции - издание, оказывающее информационную поддержку конференции .](*<-lang_ru;;*);;
+		*);;
+	*);;
+	nrel_technical_and_information_support_of_conference=>nrel_first_domain:concept_conference;;
+nrel_technical_and_information_support_of_conference=>nrel_second_domain:concept_participant;;
+nrel_technical_and_information_support_of_conference=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;

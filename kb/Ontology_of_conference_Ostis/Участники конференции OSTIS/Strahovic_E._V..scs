@@ -1,0 +1,28 @@
+
+Strahovic_E.V.=> nrel_main_idtf:
+	[Страхович Э. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Strahovic_E.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Strahovic_E.V. => nrel_email: [strakhovich@gsom.pu.ru](*<-lang_en;;*);;
+
+//Strahovic_E.V. <- concept_participant_of_conference_OSTIS;;
+Strahovic_E.V. <- concept_participant_of_conference_OSTIS2011;;
+Strahovic_E.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Strahovic_E._V. <= nrel_authors:  ...(* -> Doklad_21_OSTISX2015;; *);;
+
+Strahovic_E._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Strahovic_E._V. -> k.fizXmat.n.;;
+k.fizXmat.n. <- ucenaa_stepenX;;
+
+Strahovic_E._V. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Strahovic_E._V. -> starsij_prepodavatelX;;*/

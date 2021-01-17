@@ -1,0 +1,14 @@
+sc_node_not_relation->Ugov_A.S.;;
+Ugov_A.S.=>nrel_main_ru_idtf:[Югов А.С.];;
+
+Ugov_A.S. <= nrel_email: [YugovAS@live.ru](*<-lang_en;;*);;
+
+Ugov_A.S. <= nrel_authors:  ...(* -> Doklad_82_OSTISX2014;Doklad_81_OSTISX2014;; *);;
+
+Ugov_A.S. -> Ucastnik_konferenzii_OSTIS;;
+
+Ugov_A.S. -> net;;
+net <- ucenaa_stepenX;;
+
+Ugov_A.S. -> student;;
+student <- ucenoe_zvanie;;

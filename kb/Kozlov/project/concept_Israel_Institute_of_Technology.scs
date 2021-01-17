@@ -1,0 +1,46 @@
+
+concept_Israel_Institute_of_Technology<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Израильский технологический институт]
+      (*<-lang_ru;;*);
+       [Israel Institute of Technology]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Израильский технологический институт)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_univesity;
+      concept_Haifa;
+      concept_Israel
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Израильский технологический институт — университет в городе Хайфа в Израиле. ] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Израильский технологический институт)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_rating;
+    concept_hundred
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Израильский технологический институт входит в первую сотню университетов в мировом рейтинге](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Israel_Institute_of_Technology -> rrel_example: [Израильский технологический институт был основан в 1912 году.](* <- lang_ru;; *);;
+concept_Israel_Institute_of_Technology <=nrel_inclusion:concept_higher_education_institution;;
+Yaakov_Ziv<-nrel_employee:concept_Israel_Institute_of_Technology;;
+Yaakov_Ziv<-nrel_graduate:concept_Israel_Institute_of_Technology;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Israel_Institute_of_Technology;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Teh.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Институт перспективных исследований)](*<- lang_ru;;*);;
+*);;

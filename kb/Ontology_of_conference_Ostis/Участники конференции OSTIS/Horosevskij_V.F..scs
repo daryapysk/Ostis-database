@@ -1,0 +1,40 @@
+
+Horosevskij_V.F.=> nrel_main_idtf:
+	[Хорошевский В.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Horosevskij_V.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+Horosevskij_V.F. => nrel_email: [V.Khor@mail.ru](*<-lang_en;;*);;
+
+/*Horosevskij_V.F. <= nrel_authors:  ...(* -> Doklad_01_OSTISX2014;Doklad_4.4_OSTISX2013;Doklad_2.01_OSTISX2012;Doklad_2.01_OSTISX2011;; *);;
+
+Horosevskij_V.F. <= nrel_publication : ...(* -> Horosevskij_V.F.2008stX_PostrZvSIiSW;Horosevskij_V.F.2009stX_PostrZvSIiSW;Osipov_G.S..1999stX_RazviMPSdMPSS;Horosevskij_V.F..1996stX_RazraTMiPOSIViOPBZKKBIV&D;Horosevskij_V.F..1994stX_RazraTMiPOSIKPAPZKKBIS;; *);;*/
+
+
+
+Horosevskij_V.F. <- concept_participant_of_conference_OSTIS2014;;
+Horosevskij_V.F. <- concept_participant_of_conference_OSTIS2011;;
+Horosevskij_V.F. <- concept_participant_of_conference_OSTIS2012;
+concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+
+/*Horosevskij_V.F. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Horosevskij_V.F. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Horosevskij_V.F. -> zav._sektorom;;
+
+Horosevskij_V.F. -> gl.n.s.;;
+
+Horosevskij_V.F. <- rrel_key_sc_element: ..illustration_Horosevskij_V.F.(* <- sc_illustation;; *);;
+..illustration_Horosevskij_V.F. <= nrel_translation : ..translation_illustration_Horosevskij_V.F.;;
+..translation_illustration_Horosevskij_V.F.-> rrel_example : [<img src="http://127.0.0.1:8181/Horoshevskij.png"/>] (* => nrel_format: format_html;; *);;
+
+Horosevskij_V.F. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.07;Foto_OSTISX2011.02.10.09.11;Foto_OSTISX2011.02.10.10.07;Foto_OSTISX2011.02.10.10.08;Foto_OSTISX2011.02.10.10.17;Foto_OSTISX2011.02.10.10.31;Foto_OSTISX2011.02.10.10.33;Foto_OSTISX2011.02.10.10.44;Foto_OSTISX2011.02.10.10.48;Foto_OSTISX2011.02.10.10.54;Foto_OSTISX2011.02.10.11.13;Foto_OSTISX2011.02.10.11.49;Foto_OSTISX2011.02.10.12.16;Foto_OSTISX2011.02.10.12.28;Foto_OSTISX2011.02.10.12.40;Foto_OSTISX2011.02.10.13.16;Foto_OSTISX2011.02.10.13.48;Foto_OSTISX2011.02.10.13.57;; *);;*/

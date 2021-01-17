@@ -1,0 +1,21 @@
+
+Serkunov_V.V.=> nrel_main_idtf:
+	[Шеркунов В. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serkunov_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Serkunov_V.V. => nrel_email: [v.sherkunov@gmail.com](*<-lang_en;;*);;
+
+//Serkunov_V.V. <- concept_participant_of_conference_OSTIS;;
+Serkunov_V.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Serkunov_V._V. <= nrel_authors:  ...(* -> Doklad_45_OSTISX2015;; *);;
+
+Serkunov_V._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Serkunov_V._V. -> zaveduusij_laboratoriej;;*/

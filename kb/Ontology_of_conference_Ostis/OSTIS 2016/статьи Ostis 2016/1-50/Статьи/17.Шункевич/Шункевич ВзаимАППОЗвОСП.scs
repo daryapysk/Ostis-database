@@ -1,0 +1,37 @@
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_main_idtf:
+[Шункевич Д.В. 2016 - ВзаимАППОЗвОСП]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2016_AsynAPKPIICSM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_name_publication:[Взаимодествие асинхронных параллельных процессов обработки знаний в общей семантической памяти](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM <= nrel_authors:
+shunkevich_d_v;;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM <- article;;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_reference_standard: [Шункевич, Д. В. Взаимодествие асинхронных параллельных процессов обработки знаний в общей семантической памяти / Д.В. Шункевич // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_year_publication: 2016;;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/17.shunkevich.pdf";; *);; *);;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM =>  nrel_annotation:
+[В работерассматривается базовая модель построения машин обработки знаний систем, управляемых знаниями,построенных по открытой семантической технологии проектирования интеллектуальных систем.В частности,описываются базовые принципы взаимодействия асинхронных параллельных процессов обработки знаний вобщей  семантической  памяти,  типология  действий,  выполняемых  агентами  в  такой  памяти,  типология  исредства  описания  блокировок,  необходимых  для  синхронизации  деятельности  агентов  над  общейсемантической памятью](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_count_page: 8;;
+
+publication_Shunkevich_D_V_2016_AsynAPKPIICSM => nrel_article_language: lang_ru;;
+

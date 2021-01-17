@@ -1,0 +1,11 @@
+sc_node_not_relation->CUP_XLaboratoria_startapovX;;
+CUP_XLaboratoria_startapovX=>nrel_main_idtf:[ЧУП "Лаборатория стартапов"](* <- lang_ru;;*);;
+
+
+CUP_XLaboratoria_startapovX => nrel_doundation_year: [2012](* <- lang_ru;;*);;
+
+CUP_XLaboratoria_startapovX => nrel_phone: [+375 17 392 53 52](* <- lang_ru;;*);;
+
+CUP_XLaboratoria_startapovX => nrel_address : [г. Минск, ул. Беды, 45](* <- lang_ru;;*);;
+
+CUP_XLaboratoria_startapovX => nrel_location : [г. Минск, ул. Беды, 45](* <- lang_ru;;*);;

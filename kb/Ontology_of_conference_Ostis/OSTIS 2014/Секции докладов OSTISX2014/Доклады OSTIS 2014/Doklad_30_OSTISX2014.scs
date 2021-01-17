@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_30_OSTISX2014;;
+Doklad_30_OSTISX2014=>nrel_main_idtf:[Доклад 30 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_30_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_30_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_30_OSTISX2014 <= nrel_name_of_doclad: [Исследование нейросетевых алгоритмов обучения в интеллектуальных эволюционных системах](* <- lang_ru;;*);;
+
+// Doklad_30_OSTISX2014 <= nrel_authors : ...(* -> Antipova_O._V.;Komarzova_L._G.;Lavrenkov_U._N.;; *);;
+
+Doklad_30_OSTISX2014 <= nrel_authors: Antipova_O._V.;Komarzova_L._G.;Lavrenkov_U._N.;; 
+
+// Doklad_30_OSTISX2014 <= nrel_articke: ...(* -> 30._Antipova_O.VX_Komarzova_L.G.X_Lavrenkov_U.N._X_IssleNAOvIES;; *);;

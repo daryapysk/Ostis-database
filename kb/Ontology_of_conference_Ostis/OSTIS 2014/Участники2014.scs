@@ -1,0 +1,9 @@
+concept_participant_of_conference_OSTIS2014 => nrel_main_idtf:
+[Участник Конференции OSTIS-2014]
+	(*
+	<- lang_ru;;
+	*);
+	[member conference OSTIS-2014] 
+	(*
+	<- lang_en;;
+	*);;

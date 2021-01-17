@@ -1,0 +1,52 @@
+
+concept_degree => nrel_idtf: [degree](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Учёная степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Учёная степень — степень квалификационной системы в науке, позволяющей ранжировать научных деятелей на отдельных этапах академической карьеры. Решение о присуждении учёной степени базируется на оценке только научно-исследовательского уровня соискателя.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_degree;;
+<= nrel_using_constants :...
+(*
+-> concept_power; concept_science; concept_seeker;;
+*);;
+*);;
+
+ concept_degree -> rrel_example: [Магистрант получил учёную степень.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Учёная степень, система)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Система учёных степеней была оформлена «Предварительными правилами народного просвещения».](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_degree; concept_sistem;;
+*);; 
+
+concept_education_system => concept_degree;;
+
+concept_degree <= nrel_subdividing: ...
+(*  		<-concept_academician;;
+		<-concept_academician_rank;;
+		<-concept_adjunct;;
+		<-concept_agrege;;
+		<-concept_bachelor;;
+		<-concept_candidate_eciences;;
+		<-concept_degree_lissance;;
+		<-concept_doctor;;
+		<-concept_doctorant;;
+		<-concept_DPh;;
+		<-concept_licenciat;;
+		<-concept_master;;
+		<-concept_Ph.D;;
+		<-concept_postdoc;;
+		<-concept_qualification;;
+		<-concept_thesis;;
+	  
+*);;
+
+

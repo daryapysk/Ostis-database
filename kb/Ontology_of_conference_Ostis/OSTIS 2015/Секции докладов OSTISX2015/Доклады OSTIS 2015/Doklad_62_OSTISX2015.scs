@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_62_OSTISX2015;;
+Doklad_62_OSTISX2015=>nrel_main_idtf:[Доклад 62 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_62_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_62_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_62_OSTISX2015 => nrel_name_of_doclad: [Создание онтологической модели локальной компьютерной сети](* <- lang_ru;;*);;
+
+//Doklad_62_OSTISX2015 <= nrel_authors : ...(* -> Bikmullina_I._I.;; *);;
+
+//Doklad_62_OSTISX2015 <= nrel_articke: ...(* -> 62._Bikmullina_I.I._X_TehnologiaASISsPSMPO;; *);;
+
+Doklad_62_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/62._Бикмуллина_И.И._-_ТехнологияАСИСсПСМПО.pdf";;
+						    *);; 
+					*);;
+
+Doklad_62_OSTISX2015=> nrel_authors: Bikmullina_I.I.;;

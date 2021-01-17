@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_24_OSTISX2014;;
+Doklad_24_OSTISX2014=>nrel_main_idtf:[Доклад 24 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_24_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_24_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_24_OSTISX2014 <= nrel_name_of_doclad: [Применение КГГВ-алгоритма для научных текстов](* <- lang_ru;;*);;
+
+// Doklad_24_OSTISX2014 <= nrel_authors : ...(* -> Lande_D._V.;Snarskij_A._A.;Agunova_E_V;; *);;
+
+Doklad_24_OSTISX2014 <= nrel_authors: Lande_D._V.;Snarskij_A._A.;Agunova_E_V;; 
+
+// Doklad_24_OSTISX2014 <= nrel_articke: ...(* -> 24._Lande_D.V.X_Snarskij_A.A.X_Agunova_E_V_X_PrimeKGGVXAdNT;; *);;

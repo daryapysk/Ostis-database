@@ -1,0 +1,22 @@
+sc_node_not_relation->Parhimenko_V.A.;;
+Parhimenko_V.A.=>nrel_main_idtf:[Пархоменко В.А.](*<-lang_ru;;*);;
+
+Parhimenko_V.A. => nrel_email: [parkhimenko@bsuir.by](*<-lang_en;;*);;
+
+/*Parhimenko_V.A. <= nrel_publication : ...(* -> Parhimenko_V.A.2009ucXEkonomRP;Parhimenko_V.A.2009ucXOsnovP;Parhimenko_V.A.2009ucXMarket;; *);;
+
+Parhimenko_V.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Parhimenko_V.A. -> Orgkomitet_OSTISX2011;;
+
+Parhimenko_V.A. -> k.e.n.;;
+k.e.n. <- ucenaa_stepenX;;
+
+Parhimenko_V.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Parhimenko_V.A. -> zaveduusij;;
+
+Parhimenko_V.A. <- rrel_key_sc_element: ..illustration_Parhimenko_V.A.(* <- sc_illustation;; *);;
+..illustration_Parhimenko_V.A. <= nrel_translation : ..translation_illustration_Parhimenko_V.A.;;
+..translation_illustration_Parhimenko_V.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Parhimenko.png"/>] (* => nrel_format: format_html;; *);;*/

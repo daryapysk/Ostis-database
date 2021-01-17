@@ -1,0 +1,12 @@
+International_Journal_Software_and_system => nrel_main_idtf:
+	[Международный журнал «Программные продукты и
+системы»]
+	(*
+	<- lang_ru;;
+	*);
+	[International Journal "Software and
+system "]
+	(*
+	<- lang_en;;
+	*);;
+

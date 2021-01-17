@@ -1,0 +1,71 @@
+
+concept_higher_education_institution<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Высшее учебное заведение]
+      (*<-lang_ru;;*);
+       [higher education institution]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+      concept_scientific_activity;
+      concept_education_institution;
+	 concept_higher_vocational_education
+   };; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Высшее учебное заведение — учебное заведение, дающее высшее профессиональное образование и осуществляющее научную деятельность] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Университет)] (* <- lang_ru;; *);;
+      => nrel_using_constants: {
+	concept_people;
+	concept_education 
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Люди приходят в высшее учебное заведение для получения высшего образования](*<-lang_ru;;*);;
+      *);;
+  *);;
+
+ concept_higher_education_institution -> rrel_example: [К высшим учебным заведениям относятся такие места как:Курантовский институт математических наук,Принстонский университет, Массачусетский технологический институт)..](* <- lang_ru;; *);;
+concept_higher_education_institution<=nrel_university:...
+(*
+  <-concept_Courant_Institute_of_Mathematical_Sciences;;
+  <-concept_University_of_Michigan;;
+  <-concept_Brandeis_University;;
+  <-concept_Massachusetts_Institute_of_Technology;;
+  <-concept_The_University_of_California;;
+  <-concept_University_of_Illinois_at_Urbana_Champaign;;
+  <-concept_New_York_University;;
+  <-concept_University_of_Texas_at_Austin;;
+  <-concept_Leland_Stanford_Junior_University;;
+  <-concept_Princeton_University;;
+  <-concept_Harvard_University;;
+  <-concept_Paris_Dauphine_University;;
+  <-concept_Institute_for_Advanced_Study;;
+  <-concept_University_of_Edinburgh;;
+  <-concept_University_of_Chicago;;
+  <-concept_Israel_Institute_of_Technology;;
+  <-concept_Duke_University;;
+  <-concept_University_of_Virginia;;
+  <-concept_Yale_University;;
+  <-concept_University_of_Pennsylvania;;
+  <-concept_University_of_Madras;;
+  <-concept_Carnegie_Mellon_University;;
+  <-concept_Brussel_Univesity;;
+  <-concept_University_of_California_at_Los_Angeles;;
+  <-concept_Moscow_Institute_of_Physics_and_Technology;;
+  <-concept_University_of_California_at_Los_Angeles;;
+  <-concept_Budapest_University;;
+  <-concept_Columbia_University;;
+  <-concept_Engineering_and_Technology_Academy_YUFU;;
+  
+
+*);;
+

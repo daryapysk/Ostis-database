@@ -1,0 +1,29 @@
+
+concept_professor => nrel_idtf: [professor](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Профессор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Профессор — это учёное звание, присваиваемое наиболее квалифицированным преподавателям высших учебных заведений и научным сотрудникам научно-исследовательских учреждений, руководящим научно-исследовательской работой, а также лицо, носящее это звание.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_professor;;
+<= nrel_using_constants :...
+(*
+-> concept_lecturer; concept_academic_title; concept_higher_education_institution; concept_research_work;;
+*);;
+*);;
+
+ concept_professor -> rrel_example: [Профессор Голенков Владимир Васильевич]  (* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Профессор, интелект)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Профессор Голенков Владимир Васильевич на лекциях по математическим основам интеллектуальных систем рассказывает что такое искусственный интеллект.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_professor; concept_intelligence;;
+*);; 
+

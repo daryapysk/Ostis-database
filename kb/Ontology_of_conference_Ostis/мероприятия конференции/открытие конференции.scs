@@ -1,0 +1,16 @@
+nrel_opening_of_conference => nrel_main_idtf:
+[открытие конференции*](* <- lang_ru;; *);
+[opening of conference*] (* <- lang_en;; *);;
+
+nrel_opening_of_conference <- rrel_key_sc_element: ...
+	(*
+	=> nrel_main_idtf: [пояснение*] (*<-lang_ru;; *);;
+	<-sc_task;;
+	<= nrel_sc_text_translation: ...
+	(*
+		<- rrel_example:
+			[Открытие конференции* - этап конференции, характеризующийся действиями, направленными на начало конференции с выступлением организаторов конференции.] 
+		(* <- lang_ru;; *);;
+
+	*);;
+*);;

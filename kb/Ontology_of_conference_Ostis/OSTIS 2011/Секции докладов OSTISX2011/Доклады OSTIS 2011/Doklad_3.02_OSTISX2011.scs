@@ -1,0 +1,30 @@
+//sc_node_not_relation->Doklad_3.02_OSTISX2011;;
+Doklad_3.02_OSTISX2011=>nrel_main_idtf:[Доклад 3.02 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.02_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_3.02_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_3.02_OSTISX2011 => nrel_name_of_doclad: [Рекурсивный поиск в динамической ассоциативной ресурсной сети](* <- lang_ru;;*);;
+
+/*Doklad_3.02_OSTISX2011 <= nrel_section: [Секция 3 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.02_OSTISX2011 <= nrel_authors : ...(* -> Jilakova_L._U.;; *);;
+
+Doklad_3.02_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 3.1 OSTIS-2011";;
+Doklad_3.02_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 3.1 OSTIS-2011 приложение 1";;
+Doklad_3.02_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 3.1 OSTIS-2011 приложение 2";;
+
+Doklad_3.02_OSTISX2011 <= nrel_articke: ...(* -> Jilakova_L.U.2011stXRekurPvDARS;; *);;
+
+Doklad_3.02_OSTISX2011 <= nrel_stand: ...(* -> Stend_607X9_OSTISX2011;; *);;*/
+
+Doklad_3.02_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Жилякова_Л.Ю.2011ст-РекурПвДАРС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_3.02_OSTISX2011=>nrel_authors:Jilakova_L.U.;;

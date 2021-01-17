@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_photo_collection;; 
+
+nrel_photo_collection => nrel_main_idtf:[фотоматериалы*] (* <-lang_ru;; *);;
+
+nrel_photo_collection => nrel_main_idtf:[photo collection*] (* <-lang_en;; *);;

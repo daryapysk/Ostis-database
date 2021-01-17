@@ -1,0 +1,12 @@
+Anureev_I._S.=> nrel_main_idtf:
+	[Ануреев И.С.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Anureev_I._S.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+ // Anureev_I._S. <- concept_participant_of_conference_OSTIS;;
+  Anureev_I._S. <- concept_participant_of_conference_OSTIS2013;;

@@ -1,0 +1,13 @@
+Gostiniza_XAkademiceskaaX=>nrel_main_idtf:[Гостиница "Академическая"](* <- lang_ru;; *);;
+
+Gostiniza_XAkademiceskaaX <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_XAkademiceskaaX <- concept_hotel;;
+
+Gostiniza_XAkademiceskaaX ->nrel_phone: [+375 17 2842701](* <- lang_ru;;*);;
+
+Gostiniza_XAkademiceskaaX =>nrel_address : [г. Минск, ул. Сурганова, д. 7](* <- lang_ru;;*);;
+
+//Gostiniza_XAkademiceskaaX => nrel_location : [г. Минск, ул. Сурганова, д.7](* <- lang_ru;;*);;
+
+//Gostiniza_XAkademiceskaaX => nrel_content : "file://Схема проезда к гост. Академическая.zip";;

@@ -1,0 +1,18 @@
+sc_node_not_relation->Jukov_I.I.;;
+Jukov_I.I.=>nrel_main_ru_idtf:[Жуков И.И.];;
+
+Jukov_I.I. <= nrel_email: [ivan.zhukau@gmail.com](*<-lang_en;;*);;
+
+Jukov_I.I. <= nrel_authors:  ...(* -> Doklad_04_OSTISX2015;Doklad_6.7_OSTISX2013;; *);;
+
+Jukov_I.I. <= nrel_publication : ...(* -> Jukov_I.I.X_Grakova_N.V._2013stXSUPIS;; *);;
+
+Jukov_I.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Jukov_I.I. -> assistent;;
+
+Jukov_I.I. -> ucastnik_proekta_OSTIS;;
+
+Jukov_I.I. <= nrel_photo: ...(* -> Foto_OSTISX2013.02.23.09.38;; *);;
+
+Jukov_I.I. <= nrel_photo : ...(* -> Foto_OSTISX2013.02.23.09.48;; *);;

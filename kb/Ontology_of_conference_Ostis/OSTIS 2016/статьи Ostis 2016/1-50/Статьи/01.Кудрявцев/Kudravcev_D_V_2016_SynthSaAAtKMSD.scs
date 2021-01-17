@@ -1,0 +1,34 @@
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_main_idtf:
+[Кудрявцев Д.В. 2016 - СинтСиАПкПСУЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kudravcev_D_V_2016_SynthSaAAtKMSD] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_name:[Синтез сервисного и архитектурного подходов к проектированию систем и управления заниями](*
+	<- lang_ru;;
+	*);;
+ 
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_article_language: lang_ru;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD <= nrel_authors: Gavrilova_T_A;
+Kudravcev_D_V;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_annotation: [Доклад  посвящен  использованиюсервисного  и архитектурного  подходов для  проектирования    системуправления  знаниями.  Кратко  описаны  основы  методологии  ПРОТЕСИС  (ПРОект -ТЕхнология-СИСтема),разработанной в рамках проектаРФФИИНС-Порт (Интеллектуальные сервисыподдержки порталов знанийна основе онтологий).В частности, рассмотрено использование«строительных блоков»для проектированиясистем управления знаниями и представленыфрагменты каталогов программных сервисов и компонент];;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_count_page: 4;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD <- article_OSTIS_2016;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_reference_standard: [Кудрявцев, Д. В. Синтез сервисного и архитектурного подходов к проектированию систем и управления заниями / Д.В. Кудрявцев, Т.А. Гаврилова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 18-20 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_year_publication: 2016;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Kudravcev_D_V_2016_SynthSaAAtKMSD <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/01.kudravcev.pdf";; *);; *);;
+

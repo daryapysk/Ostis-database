@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_56_OSTISX2014;;
+Doklad_56_OSTISX2014=>nrel_main_idtf:[Доклад 56 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_56_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_56_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_56_OSTISX2014 <= nrel_name_of_doclad: [Состояние, тенденции и концепция развития интеллектуальных технологий в защите информации](* <- lang_ru;;*);;
+
+// Doklad_56_OSTISX2014 <= nrel_authors : ...(* -> Visnakov_V._A.;; *);;
+
+Doklad_56_OSTISX2014 <= nrel_authors: Visnakov_V._A.;; 
+
+// Doklad_56_OSTISX2014 <= nrel_articke: ...(* -> 56._Visnakov_V.A._X_SostoiTRITvZIKSU;; *);;

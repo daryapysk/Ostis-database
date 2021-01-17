@@ -1,0 +1,34 @@
+
+Silin_L.U.=> nrel_main_idtf:
+	[Шилин Л.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Silin_L.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Silin_L.U. => nrel_email: [dekfitu@bsuir.by](*<-lang_en;;*);;
+
+//Silin_L.U. <= nrel_authors:  ...(* -> Doklad_8.12_OSTISX2011;; *);;
+
+//Silin_L.U. <- concept_participant_of_conference_OSTIS;;
+Silin_L.U. <- concept_participant_of_conference_OSTIS2011;;
+
+
+
+
+/*Silin_L.U. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Silin_L.U. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Silin_L.U. -> dekan;;
+
+Silin_L.U. <- rrel_key_sc_element: ..illustration_Silin_L.U.(* <- sc_illustation;; *);;
+..illustration_Silin_L.U. <= nrel_translation : ..translation_illustration_Silin_L.U.;;
+..translation_illustration_Silin_L.U.-> rrel_example : [<img src="http://127.0.0.1:8181/Shilin.png"/>] (* => nrel_format: format_html;; *);;
+
+Silin_L.U. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.09;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.13;Foto_OSTISX2011.02.10.10.22;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.11.19;Foto_OSTISX2011.02.10.12.18;; *);;*/

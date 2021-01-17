@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_08_OSTISX2015;;
+Doklad_08_OSTISX2015=>nrel_main_idtf:[Доклад 08 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_08_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_08_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_08_OSTISX2015 => nrel_name_of_doclad: [Представление семантических сетей и алгоритмы их организации и семантической обработки на вычислительных системах с массовым параллелизмом](* <- lang_ru;;*);;
+
+//Doklad_08_OSTISX2015 <= nrel_authors : ...(* -> Ivasenko_V._P.;Verenik_N._L.;GirelX_A._I.;Sejtkulov_E._N.;Tatur_M._M.;; *);;
+
+//Doklad_08_OSTISX2015 <= nrel_articke: ...(* -> 08._Ivasenko_V.P.X_Verenik_N.L.X_GirelX_A.I.X_Sejtkulov_E.N.X_Tatur_M.M;; *);;
+
+
+Doklad_08_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/08._Ивашенко_В.П.,_Вереник_Н.Л.,_Гирель_А.И.,_Сейткулов_Е.Н.,_Татур_М.М.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_08_OSTISX2015=> nrel_authors: Ivashenko_Valerian_Petrovich;Verenik_N.L.;GirelX_A.I.;Sejtkulov_E.N.;Tatur_M.M.;;

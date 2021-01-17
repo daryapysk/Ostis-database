@@ -1,0 +1,21 @@
+
+Alekseev_A_V=> nrel_main_idtf:
+	[Алексеев А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Alekseev_A_V]
+	(*
+	<- lang_en;;
+	*);;
+
+//Alekseev_A_V <- concept_participant_of_conference_OSTIS;;
+Alekseev_A_V <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+/*Alekseev_A_V <= nrel_authors:  ...(* -> Doklad_88_OSTISX2015;; *);;
+
+Alekseev_A_V -> Ucastnik_konferenzii_OSTIS;;
+
+Alekseev_A_V -> magistrant;;*/

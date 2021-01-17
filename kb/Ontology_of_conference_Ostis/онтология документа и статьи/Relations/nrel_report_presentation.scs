@@ -1,0 +1,20 @@
+sc_node_role_relation -> nrel_report_presentation;; 
+
+nrel_report_presentation => nrel_main_idtf:[презентация доклада*] (* <-lang_ru;; *);;
+
+nrel_report_presentation => nrel_main_idtf:[report presentation*] (* <-lang_en;; *);;
+
+
+nrel_report_presentation <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(презентация доклада)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Презентация доклада - презентация, с помощью которой был представлен доклад.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

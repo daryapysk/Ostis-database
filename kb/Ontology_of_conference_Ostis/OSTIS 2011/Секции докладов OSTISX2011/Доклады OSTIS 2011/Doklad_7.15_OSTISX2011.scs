@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_7.15_OSTISX2011;;
+Doklad_7.15_OSTISX2011=>nrel_main_idtf:[Доклад 7.15 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.15_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_7.15_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.15_OSTISX2011 => nrel_name_of_doclad: [Речевая аналитика в интеллектуальных диалоговых системах](* <- lang_ru;;*);;
+
+/*Doklad_7.15_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.15_OSTISX2011 <= nrel_authors : ...(* -> Kiselev_V._V.;Visnakova_M._A.;; *);;
+
+Doklad_7.15_OSTISX2011 <= nrel_articke: ...(* -> Kiselev_V.V..2011stXRecevAvIDS;; *);;
+
+Doklad_7.15_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X18_OSTISX2011;; *);;*/
+
+Doklad_7.15_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Киселёв_В.В..2011ст-РечевАвИДС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_7.15_OSTISX2011=>nrel_authors:  Kiselev_V.V.;Visnakova_M.A.;;

@@ -1,0 +1,30 @@
+
+concept_engineer => nrel_idtf: [engineer](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Инженер)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Инженер — специалист, осуществляющий инженерную деятельность.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_engineer;;
+<= nrel_using_constants :...
+(*
+-> concept_specialist; concept_engineering_activity;;
+*);;
+*);;
+
+ concept_engineer -> rrel_example: [Инженер Губаревич Анастасия Владимировна.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Инженер, проект)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Инженер обсуждал проект с заказчиком.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_engineer; concept_project;;
+*);; 
+
+

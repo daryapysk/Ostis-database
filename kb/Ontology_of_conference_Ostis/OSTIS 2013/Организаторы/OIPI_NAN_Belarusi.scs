@@ -1,0 +1,16 @@
+sc_node_not_relation->OIPI_NAN_Belarusi;;
+OIPI_NAN_Belarusi=>nrel_main_idtf:[ОИПИ НАН Беларуси](* <- lang_ru;;*);;
+
+
+//OIPI_NAN_Belarusi => nrel_email: [oipinanb_logo.gif](*<-lang_en;;*);;
+
+OIPI_NAN_Belarusi => nrel_doundation_year: [1965](* <- lang_ru;;*);;
+
+OIPI_NAN_Belarusi => nrel_phone: [+375 17 284-21-76](* <- lang_ru;;*);;
+OIPI_NAN_Belarusi => nrel_phone: [+375 17 284 21 54](* <- lang_ru;;*);;
+
+OIPI_NAN_Belarusi =>nrel_address : [г. Минск, ул. Сурганова, д.6](* <- lang_ru;;*);;
+
+OIPI_NAN_Belarusi => nrel_site: [http://uiip.bas-net.by];;
+
+OIPI_NAN_Belarusi =>nrel_location : [г. Минск, ул. Сурганова, д.6](* <- lang_ru;;*);;

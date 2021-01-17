@@ -1,0 +1,20 @@
+sc_node_not_relation->Snarskij_A.A.;;
+Snarskij_A.A.=>nrel_main_ru_idtf:[Снарский А.А.];;
+
+Snarskij_A.A. <= nrel_email: [ASnarskii@gmail.com](*<-lang_en;;*);;
+
+Snarskij_A.A. <= nrel_authors:  ...(* -> Doklad_24_OSTISX2014;; *);;
+
+Snarskij_A.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Snarskij_A.A. -> doktor_fizikoXmatematiceskih_nauk;;
+doktor_fizikoXmatematiceskih_nauk <- ucenaa_stepenX;;
+
+Snarskij_A.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Snarskij_A.A. -> professor;;
+
+Snarskij_A.A. <- rrel_key_sc_element: ..illustration_Snarskij_A.A.(* <- sc_illustation;; *);;
+..illustration_Snarskij_A.A. <= nrel_translation : ..translation_illustration_Snarskij_A.A.;;
+..translation_illustration_Snarskij_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Snarskiy.png"/>] (* => nrel_format: format_html;; *);;

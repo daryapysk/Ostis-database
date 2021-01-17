@@ -1,0 +1,25 @@
+
+Vagin_V.N.=> nrel_main_idtf:
+	[Вагин В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vagin_V.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vagin_V.N. => nrel_email: [vagin@appmat.ru](*<-lang_en;;*);;
+
+//Vagin_V.N. <- concept_participant_of_conference_OSTIS;;
+Vagin_V.N.<- concept_participant_of_conference_OSTIS2015;;
+Vagin_V.N.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Vagin_V.N. <= nrel_authors:  ...(* -> Doklad_76_OSTISX2015;; *);;
+
+Vagin_V.N. -> Ucastnik_konferenzii_OSTIS;;
+
+Vagin_V.N. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Vagin_V.N. -> professor;;*/

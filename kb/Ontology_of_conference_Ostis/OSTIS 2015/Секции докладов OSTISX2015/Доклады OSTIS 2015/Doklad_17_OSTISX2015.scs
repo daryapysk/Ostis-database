@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_17_OSTISX2015;;
+Doklad_17_OSTISX2015=>nrel_main_idtf:[Доклад 17 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_17_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_17_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_17_OSTISX2015 => nrel_name_of_doclad: [Разработка и генерация виртуальных сред на основе семантических представлений](* <- lang_ru;;*);;
+
+//Doklad_17_OSTISX2015 <= nrel_authors : ...(* -> Gribova_V._V.;Fedorisev_L._A.;; *);;
+
+//Doklad_17_OSTISX2015 <= nrel_articke: ...(* -> 17._Gribova_V.V.X_Fedorisev_L.A._X_RazrabotkaiGVSnOSP;; *);;
+
+Doklad_17_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/17._Грибова_В.В.,_Федорищев_Л.А._-_РазработкаиГВСнОСП.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_17_OSTISX2015 => nrel_authors: Gribova_V.V.;Fedorisev_L.A.;; 

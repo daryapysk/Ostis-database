@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_place_conduct;; 
+
+nrel_place_conduct => nrel_main_idtf:[место проведения*] (* <-lang_ru;; *);;
+
+nrel_place_conduct => nrel_main_idtf:[place of conduct*] (* <-lang_en;; *);;

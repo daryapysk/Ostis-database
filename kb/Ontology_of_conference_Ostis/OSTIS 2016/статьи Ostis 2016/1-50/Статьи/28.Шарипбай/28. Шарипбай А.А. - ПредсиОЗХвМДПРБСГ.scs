@@ -1,0 +1,38 @@
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_main_idtf:
+[Шарипбай А.А. 2016 - ПредсиОЗХвМДПРБСГ]
+	(*
+	<- lang_ru;;
+	*);
+	[Sharipbai_A_A_2016_PresentaPKSiMDTEBSH] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_name_publication:[Представление и обработка знаний хранящихся в многомерных данных посредством расширенного базового семантического гиперграфа](*
+	<- lang_ru;;
+	*);;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <= nrel_authors:
+Sharipbay_A_A ;
+Barlibaev_A_B;;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- article;;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_reference_standard: [Шарипбай, А.А. Представление и обработка знаний хранящихся в многомерных данных посредством расширенного базового семантического гиперграфа / А.А. Шарипбай, А.Б. Барлыбаев, Т.С. Сабыров // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_year_publication: 2016;;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/28.sharipbai.pdf";; *);; *);;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH =>  nrel_annotation:
+[В данной работе рассматриваются вопросы представления и обработки знаний. Главной новизной работы является вложенность знаний, представление знан ий посредством расширенного базового семантического гиперграфа( РБСГ ) . Построена математическая модель представления знаний. Описаны технология хранения, обработки знаний. Представлен а клиентская част ьпредставления знаний.](*
+	<- lang_ru;;
+	*);;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_count_page: 6;;
+
+publication_Sharipbai_A_A_2016_PresentaPKSiMDTEBSH => nrel_article_language: lang_ru;;
+

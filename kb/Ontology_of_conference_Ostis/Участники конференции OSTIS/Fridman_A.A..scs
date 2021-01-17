@@ -1,0 +1,30 @@
+
+Fridman_A.A.=> nrel_main_idtf:
+	[Фридман А.Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fridman_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Fridman_A.A. => nrel_email: [fridman@iimm.kolasc.net.ru](*<-lang_en;;*);;
+
+/*Fridman_A.A. <= nrel_authors:  ...(* -> Doklad_3.6_OSTISX2013;Doklad_1.04_OSTISX2011;; *);;
+
+Fridman_A.A. <= nrel_publication : ...(* -> Malygina_S.N..1998stXFormaZABZPES;Olejnik_A.G..1998stX_RealiOESvSSUBDF;Sagidova_M.L..1998stX_AlgorGdMPOESMO;Fridman_A.A..2006stX_DekomDISpHVR;Fridman_A.A..2006stX_InterSKMkIDS;Fridman_A.A..2006stX_RaspoFISsPNS;; *);;
+*/
+//Fridman_A.A.<- concept_participant_of_conference_OSTIS;;
+Fridman_A.A. <- concept_participant_of_conference_OSTIS2011;
+Fridman_A.A. <- concept_participant_of_conference_OSTIS2016;
+concept_participant_of_conference_OSTIS2013;;
+
+/*Fridman_A.A. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Fridman_A.A. -> i.o._rukovoditela;;
+
+Fridman_A.A. <- rrel_key_sc_element: ..illustration_Fridman_A.A.(* <- sc_illustation;; *);;
+..illustration_Fridman_A.A. <= nrel_translation : ..translation_illustration_Fridman_A.A.;;
+..translation_illustration_Fridman_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Fridman.png"/>] (* => nrel_format: format_html;; *);;*/

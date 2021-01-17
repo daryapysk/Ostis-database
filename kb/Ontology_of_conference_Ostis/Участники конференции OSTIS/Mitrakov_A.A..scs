@@ -1,0 +1,21 @@
+
+Mitrakov_A.A.=> nrel_main_idtf:
+	[Митраков А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mitrakov_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Mitrakov_A.A. => nrel_email: [mitrakov-artem@yandex.ru](*<-lang_en;;*);;
+
+//Mitrakov_A.A. <- concept_participant_of_conference_OSTIS;;
+Mitrakov_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Mitrakov_A.A. <= nrel_authors:  ...(* -> Doklad_93_OSTISX2015;; *);;
+
+Mitrakov_A.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Mitrakov_A.A. -> programmist;;*/

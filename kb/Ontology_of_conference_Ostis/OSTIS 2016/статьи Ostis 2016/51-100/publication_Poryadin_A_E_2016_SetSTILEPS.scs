@@ -1,0 +1,27 @@
+publication_Poryadin_A_E_2016_SetSTILEPS => nrel_main_idtf:
+[Порядин А. Е. 2016 - КомплИСРЛОПСЧ]
+	(*
+	<- lang_ru;;
+	*);
+	[Poryadin_A_E_2016_SetSTILEPS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Poryadin_A_E_2016_SetSTILEPS => nrel_name_publication:[Комплекс инструментальных средств, реализующих логику оценки психофизиологического состояния человека](*
+	<- lang_ru;;
+	*);;
+
+publication_Poryadin_A_E_2016_SetSTILEPS<= nrel_authors:
+Poryadin_A_E;;
+publication_Poryadin_A_E_2016_SetSTILEPS<= nrel_authors:
+Sidorkina_I.G.;;
+
+publication_Poryadin_A_E_2016_SetSTILEPS<- article;;
+
+publication_Poryadin_A_E_2016_SetSTILEPS => nrel_reference_standard: [Порядин, А. Е. Комплекс инструментальных средств, реализующих логику оценки психофизиологического состояния человека / А.Е. Порядин, И.Г. Сидоркина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 367–370.];;
+
+publication_Poryadin_A_E_2016_SetSTILEPS => nrel_year_publication: 2016;;
+
+publication_Poryadin_A_E_2016_SetSTILEPS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Poryadin_A_E_2016_SetSTILEPS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Порядин.pdf";; *);;*);;

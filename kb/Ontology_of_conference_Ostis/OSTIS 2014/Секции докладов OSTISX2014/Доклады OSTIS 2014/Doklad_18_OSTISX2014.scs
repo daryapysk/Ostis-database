@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_18_OSTISX2014;;
+Doklad_18_OSTISX2014=>nrel_main_idtf:[Доклад 18 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_18_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_18_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_18_OSTISX2014 <= nrel_name_of_doclad: [Правила формирования терминологических кластеров](* <- lang_ru;;*);;
+
+// Doklad_18_OSTISX2014 <= nrel_authors : ...(* -> MalXkovskij_M._G.;SolovXev_S._U.;; *);;
+
+Doklad_18_OSTISX2014 <= nrel_authors: MalXkovskij_M._G.;SolovXev_S._U.;; 
+
+// Doklad_18_OSTISX2014 <= nrel_articke: ...(* -> 18._MalXkovskij_M.G.X_SolovXev_S.U._X_PraviFTK;; *);;

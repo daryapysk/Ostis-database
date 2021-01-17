@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_41_OSTISX2015;;
+Doklad_41_OSTISX2015=>nrel_main_idtf:[Доклад 41 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_41_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_41_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_41_OSTISX2015 => nrel_name_of_doclad: [Интеллектуальные технологии обучения в информационно-образовательном пространстве](* <- lang_ru;;*);;
+
+//Doklad_41_OSTISX2015 <= nrel_authors : ...(* -> TelXnov_U._F.;Trembac_V._M.;; *);;
+
+//Doklad_41_OSTISX2015 <= nrel_articke: ...(* -> 41._TelXnov_U.F.X_Trembac_V.M._–_IntellektualXnyeTOvIXOP;; *);;
+
+Doklad_41_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/41. Тельнов Ю.Ф., Трембач В.М. – ИнтеллектуальныеТОвИ-ОП.pdf";;
+						    *);; 
+					*);;
+
+
+
+Doklad_41_OSTISX2015=> nrel_authors: TelXnov_U.F.;Trembac_V.M.;;

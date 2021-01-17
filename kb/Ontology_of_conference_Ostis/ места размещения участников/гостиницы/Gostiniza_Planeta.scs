@@ -1,0 +1,16 @@
+Gostiniza_Planeta=>nrel_main_idtf:[Гостиница Планета](* <- lang_ru;; *);;
+
+Gostiniza_Planeta <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Planeta <- concept_hotel;;
+
+/*Gostiniza_Planeta => nrel_phone: [бронирование](* <- lang_ru;;*);;
+Gostiniza_Planeta => nrel_phone: [служба размещения](* <- lang_ru;;*);;*/
+
+Gostiniza_Planeta => nrel_address : [Минск, пр. Победителей, 31](* <- lang_ru;;*);;
+
+Gostiniza_Planeta=>nrel_site: [http://www.hotelplaneta.by];;
+
+//Gostiniza_Planeta => nrel_location : [Минск, пр. Победителей, 31](* <- lang_ru;;*);;
+
+//Gostiniza_Planeta => nrel_content : "file://Схема проезда к гост. Планета.zip";;

@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_2.08_OSTISX2012;;
+Doklad_2.08_OSTISX2012=>nrel_main_idtf:[Доклад 2.08 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_2.08_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_2.08_OSTISX2012 => nrel_name_of_doclad: [Семантические модели и средства интеграции и отладки баз знаний](* <- lang_ru;;*);;
+
+Doklad_2.08_OSTISX2012 => nrel_section: [Секция 2 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_2.08_OSTISX2012 <= nrel_authors : ...(* -> Ivasenko_V._P.;; *);;
+
+Doklad_2.08_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 2.8 OSTIS-2012";;
+
+Doklad_2.08_OSTISX2012 <= nrel_articke: ...(* -> Ivasenko_V.P.2012stXSemanMiSIiOBZ;; *);;
+
+Doklad_2.08_OSTISX2012 <= nrel_stand: ...(* -> Stend_609X5_OSTISX2012;; *);;*/
+
+Doklad_2.08_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Ивашенко_В.П.2012ст-СеманМиСИиОБЗ.pdf";;
+						    *);; 
+					*);;
+Doklad_2.08_OSTISX2012=> nrel_authors:Ivashenko_Valerian_Petrovich;;

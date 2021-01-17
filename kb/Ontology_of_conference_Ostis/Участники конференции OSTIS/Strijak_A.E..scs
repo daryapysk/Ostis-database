@@ -1,0 +1,18 @@
+sc_node_not_relation->Strijak_A.E.;;
+Strijak_A.E.=>nrel_main_ru_idtf:[Стрижак А.Е.];;
+
+Strijak_A.E. <= nrel_email: [sae953@gmail.com](*<-lang_en;;*);;
+
+Strijak_A.E. <= nrel_authors:  ...(* -> Doklad_42_OSTISX2014;; *);;
+
+Strijak_A.E. -> Ucastnik_konferenzii_OSTIS;;
+
+Strijak_A.E. -> kandidat_nauk;;
+kandidat_nauk <- ucenaa_stepenX;;
+
+Strijak_A.E. -> starsij_naucnyj_sotrudnik;;
+starsij_naucnyj_sotrudnik <- ucenoe_zvanie;;
+
+Strijak_A.E. <- rrel_key_sc_element: ..illustration_Strijak_A.E.(* <- sc_illustation;; *);;
+..illustration_Strijak_A.E. <= nrel_translation : ..translation_illustration_Strijak_A.E.;;
+..translation_illustration_Strijak_A.E.-> rrel_example : [<img src="http://127.0.0.1:8181/Стрижак.jpg"/>] (* => nrel_format: format_html;; *);;

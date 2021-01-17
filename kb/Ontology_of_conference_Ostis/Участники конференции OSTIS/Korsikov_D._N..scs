@@ -1,0 +1,24 @@
+
+Korsikov_D.N.=> nrel_main_idtf:
+	[Коршиков Д. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korsikov_D.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Korsikov_D.N. => nrel_email: [korshikov@smartsolutions-123.ru](*<-lang_en;;*);;
+
+//Korsikov_D.N. <- concept_participant_of_conference_OSTIS;;
+Korsikov_D.N. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Korsikov_D._N. <= nrel_authors:  ...(* -> Doklad_59_OSTISX2015;; *);;
+
+Korsikov_D._N. -> Ucastnik_konferenzii_OSTIS;;
+
+Korsikov_D._N. -> net;;
+net <- ucenaa_stepenX;;
+
+Korsikov_D._N. -> Vedusij_razrabotcik;;*/

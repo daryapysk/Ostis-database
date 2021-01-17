@@ -1,0 +1,9 @@
+ChTUP_Ai_Ji_Soft_Bel => nrel_main_idtf:
+	[ЧТУП «АйДжи Софт Бел»]
+	(*
+	<- lang_ru;;
+	*);
+	[ChTUP "Ai Ji Soft Bel"]
+	(*
+	<- lang_en;;
+	*);;

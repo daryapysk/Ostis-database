@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_04_OSTISX2014;;
+Doklad_04_OSTISX2014=>nrel_main_idtf:[Доклад 04 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_04_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_04_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_04_OSTISX2014 <= nrel_name_of_doclad: [Структуризация смыслового пространства](* <- lang_ru;;*);;
+
+// Doklad_04_OSTISX2014 <= nrel_authors : ...(* -> Golenkov_V._V.;Gulakina_N._A.;; *);;
+
+Doklad_04_OSTISX2014 <= nrel_authors: Golenkov_V._V.;Gulakina_N._A.;;
+
+// Doklad_04_OSTISX2014 <= nrel_articke: ...(* -> 04._Golenkov_V.V.X_Gulakina_N.A._X_SSP;; *);;

@@ -1,0 +1,12 @@
+sc_node_not_relation->Popova_M.A.;;
+Popova_M.A.=>nrel_main_ru_idtf:[Попова М.А.];;
+
+Popova_M.A. <= nrel_email: [pma1701@gmail.com](*<-lang_en;;*);;
+
+Popova_M.A. <= nrel_authors:  ...(* -> Doklad_42_OSTISX2014;; *);;
+
+Popova_M.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Popova_M.A. <- rrel_key_sc_element: ..illustration_Popova_M.A.(* <- sc_illustation;; *);;
+..illustration_Popova_M.A. <= nrel_translation : ..translation_illustration_Popova_M.A.;;
+..translation_illustration_Popova_M.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Popova.png"/>] (* => nrel_format: format_html;; *);;

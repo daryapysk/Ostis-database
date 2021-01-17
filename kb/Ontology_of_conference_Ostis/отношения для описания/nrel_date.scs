@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_data;; 
+
+nrel_data => nrel_main_idtf:[дата проведения*] (* <-lang_ru;; *);;
+
+nrel_data => nrel_main_idtf:[data*] (* <-lang_en;; *);;

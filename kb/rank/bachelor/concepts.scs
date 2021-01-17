@@ -1,0 +1,58 @@
+
+sc_node_not_relation->concept_bachelor;;
+concept_bachelor => nrel_main_idtf: [бакалавр](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_academician_rank;;
+concept_academician_rank => nrel_main_idtf: [академическая степень](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_higher_education_programm;;
+concept_programm => nrel_main_idtf: [образовательная программа](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_higher_education;;
+concept_higher_education => nrel_main_idtf: [высшее образование](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_qualification;;
+concept_qualification => nrel_main_idtf: [квалификация](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

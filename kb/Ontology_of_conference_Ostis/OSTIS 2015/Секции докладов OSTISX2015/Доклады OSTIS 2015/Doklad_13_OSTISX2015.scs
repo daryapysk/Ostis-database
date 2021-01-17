@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_13_OSTISX2015;;
+Doklad_13_OSTISX2015=>nrel_main_idtf:[Доклад 13 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_13_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_13_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_13_OSTISX2015 => nrel_name_of_doclad: [Распрацоўка кампанента распазнавання маўлення для натуральна маўленчага інтэрфейсу](* <- lang_ru;;*);;
+
+//Doklad_13_OSTISX2015 <= nrel_authors : ...(* -> Nikolaenko_K._A.;Kajgorodova_L._I.;Gezevic_U._S.;; *);;
+
+//Doklad_13_OSTISX2015 <= nrel_articke: ...(* -> 74._Nіkalaenka_K.A.X_Kajgarodava_L.І.X_Gezevіc_U.S._X_RasprazoўkaKRMdNMІ;; *);;
+
+Doklad_13_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/13._Шарипбай_А.А.,_Аскарова_С.А.,_Муканова_А.С._-_СозданиеОМЛКС.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_13_OSTISX2015 => nrel_authors: Nikolaenko_K.A.;Kajgorodova_L.I.;Gezevic_U.S.;;

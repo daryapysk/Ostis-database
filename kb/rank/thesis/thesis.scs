@@ -1,0 +1,30 @@
+
+concept_thesis => nrel_idtf: [thesis](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Диссертация)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Диссертация — квалификационная работа на присуждение академической или ученой степени и квалификации магистра.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_thesis;;
+<= nrel_using_constants :...
+(*
+-> concept_master; concept_academician_rank; concept_degree; concept_qualification;;
+*);;
+*);;
+
+ concept_thesis -> rrel_example: [Магистр защитил диссертацию и получил академическую степень.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Диссертация, каталог)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Электронный каталог диссертаций.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_thesis; concept_catalog;;
+*);; 
+
+

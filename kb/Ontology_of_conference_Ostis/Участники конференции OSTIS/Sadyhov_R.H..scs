@@ -1,0 +1,17 @@
+sc_node_not_relation->Sadyhov_R.H.;;
+Sadyhov_R.H.=>nrel_main_ru_idtf:[Садыхов Р.Х.];;
+
+
+Sadyhov_R.H. -> Ucastnik_konferenzii_OSTIS;;
+
+Sadyhov_R.H. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Sadyhov_R.H. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Sadyhov_R.H. -> zaveduusij;;
+
+Sadyhov_R.H. <- rrel_key_sc_element: ..illustration_Sadyhov_R.H.(* <- sc_illustation;; *);;
+..illustration_Sadyhov_R.H. <= nrel_translation : ..translation_illustration_Sadyhov_R.H.;;
+..translation_illustration_Sadyhov_R.H.-> rrel_example : [<img src="http://127.0.0.1:8181/SadihovR.jpg"/>] (* => nrel_format: format_html;; *);;

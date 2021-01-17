@@ -1,0 +1,7 @@
+sc_node_not_relation->Sapoval_I._S.;;
+Sapoval_I._S.=>nrel_main_ru_idtf:[Шаповал И. С.];;
+
+
+Sapoval_I._S. <= nrel_authors:  ...(* -> Doklad_77_OSTISX2014;; *);;
+
+Sapoval_I._S. -> Ucastnik_konferenzii_OSTIS;;

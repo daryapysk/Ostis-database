@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_05_OSTISX2014;;
+Doklad_05_OSTISX2014=>nrel_main_idtf:[Доклад 05 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_05_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_05_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_05_OSTISX2014 <= nrel_name_of_doclad: [Пользовательский интерфейс интеллектуальной метасистемы поддержки проектирования интеллектуальных систем](* <- lang_ru;;*);;
+
+// Doklad_05_OSTISX2014 <= nrel_authors : ...(* -> Koroncik_D._N.;; *);;
+
+Doklad_05_OSTISX2014 <= nrel_authors: Koroncik_D._N.;; 
+
+// Doklad_05_OSTISX2014 <= nrel_articke: ...(* -> 05._Koroncik_D.N._X_PolXzIIMPPIS;; *);;

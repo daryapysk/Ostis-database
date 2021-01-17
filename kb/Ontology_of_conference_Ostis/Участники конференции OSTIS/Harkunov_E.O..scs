@@ -1,0 +1,18 @@
+
+Harkunov_E.O.=> nrel_main_idtf:
+	[Харкунов Е.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Harkunov_E.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Harkunov_E.O. <= nrel_authors:  ...(* -> Doklad_8.04_OSTISX2011;; *);;
+
+//Harkunov_E.O. <- concept_participant_of_conference_OSTIS;;
+Harkunov_E.O. <- concept_participant_of_conference_OSTIS2011;;
+
+//Harkunov_E.O. -> student;;

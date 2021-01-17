@@ -1,0 +1,11 @@
+place_meals_for_participants_OSTIS2012 => nrel_main_idtf:
+[Пункты питания участников Конференции OSTIS-2012]
+	(*
+	<- lang_ru;;
+	*);
+	[Place meals for participants Conference OSTIS-2012]
+	(*
+	<- lang_en;;
+	*);;
+
+place_meals_for_participants_OSTIS2012 -> Kafe_XAlXXHalilXX; Restoran_XBella_RosaX ; Restoran_XStarye_tradiziiX; Stolovaa_XAmkodorX;;

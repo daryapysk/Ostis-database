@@ -1,0 +1,14 @@
+sc_node_not_relation->Vakurina_T.G.;;
+Vakurina_T.G.=>nrel_main_ru_idtf:[Вакурина Т.Г.];;
+
+Vakurina_T.G. <= nrel_email: [tvakurina@yandex.ru](*<-lang_en;;*);;
+
+Vakurina_T.G. <= nrel_authors:  ...(* -> Doklad_28_OSTISX2014;; *);;
+
+Vakurina_T.G. -> Ucastnik_konferenzii_OSTIS;;
+
+Vakurina_T.G. -> vedusij_injener;;
+
+Vakurina_T.G. <- rrel_key_sc_element: ..illustration_Vakurina_T.G.(* <- sc_illustation;; *);;
+..illustration_Vakurina_T.G. <= nrel_translation : ..translation_illustration_Vakurina_T.G.;;
+..translation_illustration_Vakurina_T.G.-> rrel_example : [<img src="http://127.0.0.1:8181/Vakurina.png"/>] (* => nrel_format: format_html;; *);;

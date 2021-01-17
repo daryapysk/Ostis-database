@@ -1,0 +1,36 @@
+//
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_main_idtf:
+[Доклад 4.01 OSTIS-2016 Средства структуризации семантических моделей баз знаний]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.01 OSTIS-2016 Funds structuring semantic models of knowledge bases] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB <- doklad_OSTISX2016;;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB <= nrel_authors: 
+Davydenko_Irina_Timofeevna ;
+Grakova_Natalia_Viktorovna;
+Sergienko_E_S;
+Fedotova_Alyona_Valerievna;;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_published_material: publication_Davydenko_I_T_2016_tTooloSTSMoKB;;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_report_language: lang_ru;;
+
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/4.01_Давыденко_СредсССМБЗ.pdf";; *);; *);;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_name: [Средства структуризации семантических моделей баз знаний](*<- lang_ru;;*);;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB <= nrel_speaker: Davydenko_Irina_Timofeevna;;
+
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_time_speech: [15:30 - 15:45];;
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_data_speech: [18 февраля 2016];;
+
+report_4.01_OSTIS_2016_tTooloSTSMoKB => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

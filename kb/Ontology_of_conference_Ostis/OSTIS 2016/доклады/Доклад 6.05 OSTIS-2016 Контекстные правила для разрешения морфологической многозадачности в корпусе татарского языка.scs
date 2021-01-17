@@ -1,0 +1,29 @@
+report_6.05_OSTIS_2016_ConteRMMDTL => nrel_main_idtf:
+[Доклад 6.05 OSTIS-2016 Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.05 OSTIS-2016 Contextual rule for microphological disambiguation in the tatar language]
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.05_OSTIS_2016_ConteRMMDTL <- doklad_OSTISX2016;;
+
+report_6.05_OSTIS_2016_ConteRMMDTL  <= nrel_authors:GilXmullin_R.A.; Gataullin_R.R.;;
+report_6.05_OSTIS_2016_ConteRMMDTL => nrel_published_material:publication_Gilmullin_R_A_2016_ConteRMMDTL;;
+
+report_6.05_OSTIS_2016_ConteRMMDTL => nrel_report_language: lang_ru;;
+
+
+report_6.05_OSTIS_2016_ConteRMMDTL  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/6.05 Гильмуллин Р. А. 2016 - КонтеПдРММвКТЯ.pdf";; *);; *);;
+
+report_6.05_OSTIS_2016_ConteRMMDTL  => nrel_name: [Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка](*<- lang_ru;;*);;
+
+report_6.05_OSTIS_2016_ConteRMMDTL  <= nrel_speaker:Gataullin_R.R.;;
+
+
+report_6.05_OSTIS_2016_ConteRMMDTL  => nrel_time_speech: [10:45 - 11:00];;
+report_6.05_OSTIS_2016_ConteRMMDTL => nrel_data_speech: [19 февраля 2016];;
+
+report_6.05_OSTIS_2016_ConteRMMDTL  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

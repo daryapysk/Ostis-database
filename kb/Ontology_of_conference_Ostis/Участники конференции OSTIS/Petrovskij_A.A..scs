@@ -1,0 +1,33 @@
+
+Petrovskij_A.A.=> nrel_main_idtf:
+	[Петровский А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Petrovskij_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Petrovskij_A.A. => nrel_email: [palex@gw.bsuir.unibel.by](*<-lang_en;;*);;
+
+//Petrovskij_A.A. <= nrel_authors:  ...(* -> Doklad_75_OSTISX2015;Doklad_69_OSTISX2014;Doklad_7.10_OSTISX2011;; *);;
+
+Petrovskij_A.A. <- concept_participant_of_conference_OSTIS2014;;
+Petrovskij_A.A. <- concept_participant_of_conference_OSTIS2011;;
+Petrovskij_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+/*Petrovskij_A.A. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Petrovskij_A.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Petrovskij_A.A. -> zaveduusij;;
+
+Petrovskij_A.A. <- rrel_key_sc_element: ..illustration_Petrovskij_A.A.(* <- sc_illustation;; *);;
+..illustration_Petrovskij_A.A. <= nrel_translation : ..translation_illustration_Petrovskij_A.A.;;
+..translation_illustration_Petrovskij_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Petrovskij.png"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_7.07_OSTISX2011;;
+Doklad_7.07_OSTISX2011=>nrel_main_idtf:[Доклад 7.07 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.07_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_7.07_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.07_OSTISX2011 => nrel_name_of_doclad: [Применение технологий искусственного интеллекта в обучении языкам](* <- lang_ru;;*);;
+
+/*Doklad_7.07_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.07_OSTISX2011 <= nrel_authors : ...(* -> Eliseeva_O._E.;; *);;
+
+Doklad_7.07_OSTISX2011 <= nrel_articke: ...(* -> Eliseeva_O.E.2011stXPrimeTIIvOA;; *);;
+
+Doklad_7.07_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X11_OSTISX2011;; *);;*/
+
+
+Doklad_7.07_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Елисеева_О.Е.2011ст-ПримеТИИвОЯ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_7.07_OSTISX2011=>nrel_authors:  Eliseeva_O.E.;; 

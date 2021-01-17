@@ -1,0 +1,14 @@
+sc_node_not_relation->Antalika;;
+Antalika=>nrel_main_idtf:[Antalika](*<-lang_ru;;*);;
+
+//Antalika => nrel_email: [antalika_logo.gif](*<-lang_en;;*);;
+
+Antalika => nrel_doundation_year: [2005](* <- lang_ru;;*);;
+
+Antalika => nrel_phone: [+375 29 708-21-68](* <- lang_ru;;*);;
+
+Antalika => nrel_address : [г. Минск, ул. Платонова, 43](* <- lang_ru;;*);;
+
+Antalika => nrel_site: [http://www.antalika.com];;
+
+Antalika => nrel_location : [г. Минск, ул. Платонова, 43](* <- lang_ru;;*);;

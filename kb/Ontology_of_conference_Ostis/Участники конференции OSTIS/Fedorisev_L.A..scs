@@ -1,0 +1,25 @@
+
+Fedorisev_L.A.=> nrel_main_idtf:
+	[Федорищев Л.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fedorisev_L.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Fedorisev_L.A. => nrel_email: [fleo1987@mail.ru](*<-lang_en;;*);;
+
+//Fedorisev_L.A. <- concept_participant_of_conference_OSTIS;;
+Fedorisev_L.A.<- concept_participant_of_conference_OSTIS2015;;
+Fedorisev_L.A.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Fedorisev_L.A. <= nrel_authors:  ...(* -> Doklad_17_OSTISX2015;; *);;
+
+Fedorisev_L.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Fedorisev_L.A. -> k.n.;;
+k.n. <- ucenaa_stepenX;;
+
+Fedorisev_L.A. -> naucnyj_sotrudnik;;*/

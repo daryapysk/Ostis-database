@@ -1,0 +1,11 @@
+sc_node_not_relation->Ajpruvd_softver;;
+Ajpruvd_softver=>nrel_main_idtf:[Айпрувд софтвер](* <- lang_ru;;*);;
+
+
+Ajpruvd_softver => nrel_doundation_year: [2012](* <- lang_ru;;*);;
+
+Ajpruvd_softver => nrel_phone: [+375 17 237 4072](* <- lang_ru;;*);;
+Ajpruvd_softver => nrel_phone: [+375 17 237 4082](* <- lang_ru;;*);;
+
+Ajpruvd_softver => nrel_address : [г. Минск, ул. В. Хоружей, 29](* <- lang_ru;;*);;
+

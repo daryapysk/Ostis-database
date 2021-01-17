@@ -1,0 +1,48 @@
+
+concept_University_of_Virginia<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Виргинский университет]
+      (*<-lang_ru;;*);
+       [University of Virginia]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Виргинский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_state;
+       concept_public_univesity;
+       concept_research_university;
+       concept_Virginia
+       
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Виргинский университет— общественный исследовательский университет в штате Виргиния] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Виргинский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_USA;
+    concept_rating
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Виргинский университет входит в тройку лучших государственных высших учебных заведений США](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_University_of_Virginia -> rrel_example: [Виргинский университет был основан в 1819 году.](* <- lang_ru;; *);;
+concept_University_of_Virginia <=nrel_inclusion:concept_higher_education_institution;;
+Costas_M._Soukoulis<-nrel_employee:concept_University_of_Virginia;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_University_of_Virginia;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Virginia.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Виргинский университет)](*<- lang_ru;;*);;
+*);;
+

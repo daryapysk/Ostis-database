@@ -1,0 +1,27 @@
+
+BiralXzev_E.V.=> nrel_main_idtf:
+	[Биряльцев Е.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[BiralXzev_E.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+BiralXzev_E.V. => nrel_email: [ltbd@ksu.ru](*<-lang_en;;*);;
+
+//BiralXzev_E.V. <= nrel_authors:  ...(* -> Doklad_3.02_OSTISX2012;; *);;
+
+//BiralXzev_E.V. <= nrel_publication : ...(* -> BiralXzev_E.V..2007stXIntegRBDnOO;BiralXzev_E.V..2007stXoDostuKEKvVBDnOO;; *);;
+
+//BiralXzev_E.V. <- concept_participant_of_conference_OSTIS;;
+
+BiralXzev_E.V. <- concept_participant_of_conference_OSTIS2012;;
+
+/*BiralXzev_E.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+BiralXzev_E.V. <- rrel_key_sc_element: ..illustration_BiralXzev_E.V.(* <- sc_illustation;; *);;
+..illustration_BiralXzev_E.V. <= nrel_translation : ..translation_illustration_BiralXzev_E.V.;;
+..translation_illustration_BiralXzev_E.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Biralcev.jpg"/>] (* => nrel_format: format_html;; *);;*/

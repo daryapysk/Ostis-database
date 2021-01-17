@@ -1,0 +1,56 @@
+
+sc_node_not_relation->concept_physics;;
+concept_physics => nrel_main_idtf: [физика](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_lector;;
+concept_lector => nrel_main_idtf: [лектор](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_rank;;
+concept_rank => nrel_main_idtf: [должность](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_teacher;;
+concept_teacher => nrel_main_idtf: [педагог](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

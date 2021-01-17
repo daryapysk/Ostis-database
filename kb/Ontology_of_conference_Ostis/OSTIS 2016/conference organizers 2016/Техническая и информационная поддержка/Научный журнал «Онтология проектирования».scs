@@ -1,0 +1,10 @@
+scientific_journal_Ontology_design => nrel_main_idtf:
+	[Научный журнал «Онтология проектирования»]
+	(*
+	<- lang_ru;;
+	*);
+	[The scientific journal "Ontology design"]
+	(*
+	<- lang_en;;
+	*);;
+

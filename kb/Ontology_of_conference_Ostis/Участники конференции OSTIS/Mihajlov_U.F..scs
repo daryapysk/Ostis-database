@@ -1,0 +1,25 @@
+
+Mihajlov_U.F.=> nrel_main_idtf:
+	[Михайлов Ю.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mihajlov_U.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Mihajlov_U.F. <= nrel_authors:  ...(* -> Doklad_57_OSTISX2014;Doklad_6.07_OSTISX2012;; *);;
+
+//Mihajlov_U.F.<- concept_participant_of_conference_OSTIS;;
+Mihajlov_U.F.<- concept_participant_of_conference_OSTIS2012;;
+Mihajlov_U.F.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Mihajlov_U.F. -> k.p.n.;;
+k.p.n. <- ucenaa_stepenX;;
+
+Mihajlov_U.F. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Mihajlov_U.F. -> s.n.s.;;*/

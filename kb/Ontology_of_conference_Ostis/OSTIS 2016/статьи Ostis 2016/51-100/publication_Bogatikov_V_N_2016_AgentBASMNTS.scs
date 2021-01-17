@@ -1,0 +1,30 @@
+publication_Bogatikov_V_N_2016_AgentBASMNTS => nrel_main_idtf:
+[ Богатиков В.Н. 2016 - АГЕНТПКУБП-ТС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Bogatikov_V_N_2016_AgentBASMNTS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Bogatikov_V_N_2016_AgentBASMNTS=> nrel_name_publication:[Агентный подход к управлению безопасностью природно-техногенной системы](*
+	<- lang_ru;;
+	*);;
+publication_Bogatikov_V_N_2016_AgentBASMNTS => nrel_article_language: lang_ru;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS => nrel_annotation: [Рассматривается система управления природно-техногенной системы на основе агентного подхода. Обеспечение безопасности населения и окружающей природной среды представляет собой весьма сложную научно-техническую задачу, решение которой невозможно без совершенствования и углубления знаний в области исследования надежности, прогнозирования и обеспечения безопасности технологических систем. Предлагается один из вариантов решения этой задачи на основе оценки идеала центра безопасности агентной системы и прогноза состояния среды на основе импульсных функций.];;
+publication_Bogatikov_V_N_2016_AgentBASMNTS => nrel_count_page: 6;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS <= nrel_authors:
+Bogatikov_V_N;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS <= nrel_authors:
+Vinogradov_G.P.;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS <= nrel_authors:
+Voronin_U_A;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS <- article_OSTIS_2016;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS=> nrel_reference_standard: [Богатиков, В.Н. Агентный подход к управлению безопасностью природно-техногенной системы/ В.Н. Богатиков, Г.П. Виноградов, Ю.А. Воронин// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 539–544.];;
+
+publication_Bogatikov_V_N_2016_AgentBASMNTS=> nrel_year_publication: 2016;;
+
+publication_Bogatikov_V_N_2016_AgentBASMNTS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Bogatikov_V_N_2016_AgentBASMNTS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Богатиков.pdf";; *);;*);;

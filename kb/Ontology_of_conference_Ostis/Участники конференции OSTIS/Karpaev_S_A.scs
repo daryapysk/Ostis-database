@@ -1,0 +1,17 @@
+Karpaev_S_A=> nrel_main_idtf:
+[Карпаев С.А. ]
+	(*
+	<- lang_ru;;
+	*);
+	[Karpaev_S_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+concept_participant_of_conference_OSTIS2016 -> Karpaev_S_A;;
+
+Karpaev_S_A => nrel_contact_information:[neonix3000@mail.ru];;
+ 
+
+//OSTIS_conference_2016 => nrel_participant: Karpaev_S_A;;
+

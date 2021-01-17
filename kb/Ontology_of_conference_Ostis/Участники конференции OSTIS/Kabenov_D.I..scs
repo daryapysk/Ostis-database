@@ -1,0 +1,24 @@
+
+Kabenov_D.I.=> nrel_main_idtf:
+	[Кабенов Д.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kabenov_D.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kabenov_D.I. <- concept_participant_of_conference_OSTIS2014;;
+
+Kabenov_D.I. => nrel_email: [Kabenov73@mail.ru](*<-lang_en;;*);;
+
+/*Kabenov_D.I. <= nrel_authors:  ...(* -> Doklad_88_OSTISX2014;; *);;
+
+Kabenov_D.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Kabenov_D.I. -> net;;
+net <- ucenaa_stepenX;;
+
+Kabenov_D.I. -> PhD_Doktorant;;
+PhD_Doktorant <- ucenoe_zvanie;;*/

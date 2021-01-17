@@ -1,0 +1,33 @@
+//
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_main_idtf:
+[Доклад 4.02 OSTIS-2016 Семантическая модель коллективного проектирования баз знаний]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.02 OSTIS-2016 The semantic model of collective design knowledge bases] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD <- doklad_OSTISX2016;;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD <= nrel_authors: 
+Davydenko_Irina_Timofeevna ;;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_published_material: publication_Davydenko_I_T_2016_tSemanMoKBCD;;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_report_language: lang_ru;;
+
+
+//report_4.02_OSTIS_2016_tSemanMoKBCD <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.05_Кобринский_ФормиМИСУЗ.pdf";; *);; *);;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_name: [Семантическая модель коллективного проектирования баз знаний](*<- lang_ru;;*);;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD <= nrel_speaker: Davydenko_Irina_Timofeevna ;;
+
+
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_time_speech: [15:30 - 15:45];;
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_data_speech: [18 февраля 2016];;
+
+report_4.02_OSTIS_2016_tSemanMoKBCD => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

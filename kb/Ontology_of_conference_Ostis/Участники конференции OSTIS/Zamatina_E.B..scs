@@ -1,0 +1,30 @@
+
+Zamatina_E.B.=> nrel_main_idtf:
+	[Замятина Е.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zamatina_E.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Zamatina_E.B. => nrel_email: [ZamyatinaEB@hse.perm.ru](*<-lang_en;;*);;
+
+//Zamatina_E.B. <= nrel_authors:  ...(* -> Doklad_93_OSTISX2015;Doklad_53_OSTISX2014;Doklad_52_OSTISX2014;Doklad_2.13_OSTISX2012;; *);;
+
+Zamatina_E.B. <- concept_participant_of_conference_OSTIS2014;;
+Zamatina_E.B. <- concept_participant_of_conference_OSTIS2012;;
+Zamatina_E.B. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Zamatina_E.B. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+Zamatina_E.B. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Zamatina_E.B. -> dozent;;
+
+Zamatina_E.B. <- rrel_key_sc_element: ..illustration_Zamatina_E.B.(* <- sc_illustation;; *);;
+..illustration_Zamatina_E.B. <= nrel_translation : ..translation_illustration_Zamatina_E.B.;;
+..translation_illustration_Zamatina_E.B.-> rrel_example : [<img src="http://127.0.0.1:8181/Zam9tinaE.jpg"/>] (* => nrel_format: format_html;; *);;*/

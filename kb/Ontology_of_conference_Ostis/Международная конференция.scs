@@ -1,0 +1,23 @@
+international_conference => nrel_main_idtf:
+	[международная конференция]
+	(*
+	<- lang_ru;;
+	*);
+	[international conference]
+	(*
+	<- lang_en;;
+	*);;
+
+international_conference <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Международная конференция – это мероприятие, целью которого является представление своей компании, ее деятельности и продуктов (услуг) иностранным партнерам (инвесторам).]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

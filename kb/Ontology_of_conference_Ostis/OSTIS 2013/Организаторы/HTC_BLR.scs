@@ -1,0 +1,15 @@
+sc_node_not_relation->HTC_BLR;;
+HTC_BLR=>nrel_main_idtf:[HTC BLR](* <- lang_ru;;*);;
+
+//HTC_BLR => nrel_email: [HTCBLR_logo.gif](*<-lang_en;;*);;
+
+HTC_BLR => nrel_doundation_year: [2006](* <- lang_ru;;*);;
+
+HTC_BLR => nrel_phone: [+375 17 328 6877](* <- lang_ru;;*);;
+HTC_BLR => nrel_phone: [+375 25 744 0853](* <- lang_ru;;*);;
+
+HTC_BLR => nrel_address : [г. Минск, ул. Янки Купалы, 25](* <- lang_ru;;*);;
+
+HTC_BLR => nrel_site: [http://www.htc.com];;
+
+HTC_BLR => nrel_location : [г. Минск, ул. Янки Купалы, 25](* <- lang_ru;;*);;

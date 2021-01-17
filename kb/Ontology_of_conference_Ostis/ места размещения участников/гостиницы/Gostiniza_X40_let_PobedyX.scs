@@ -1,0 +1,15 @@
+Gostiniza_X40_let_PobedyX=>nrel_main_idtf:[Гостиница "40 лет Победы"](* <- lang_ru;; *);;
+
+Gostiniza_X40_let_PobedyX <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_X40_let_PobedyX <- concept_hotel;;
+
+Gostiniza_X40_let_PobedyX ->nrel_phone: [+375 17 294-79-63](* <- lang_ru;;*);;
+
+Gostiniza_X40_let_PobedyX => nrel_address : [г. Минск, ул. Азгура, д. 3](* <- lang_ru;;*);;
+
+Gostiniza_X40_let_PobedyX =>nrel_site: [http://www.40hotel.by];;
+
+/*Gostiniza_X40_let_PobedyX => nrel_location : [г. Минск, ул. Азгура, д.3](* <- lang_ru;;*);;
+
+Gostiniza_X40_let_PobedyX => nrel_content : "file://Схема проезда к гост. 40 лет победы.zip";;*/

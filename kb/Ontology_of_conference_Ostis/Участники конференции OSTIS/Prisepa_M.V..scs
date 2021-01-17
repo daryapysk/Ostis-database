@@ -1,0 +1,21 @@
+
+Prisepa_M.V.=> nrel_main_idtf:
+	[Прищепа М.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Prisepa_M.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Prisepa_M.V. => nrel_email: [prischepa@iias.spb.su](*<-lang_en;;*);;
+
+/*Prisepa_M.V. <= nrel_authors:  ...(* -> Doklad_6.03_OSTISX2011;Doklad_2.03_OSTISX2011;; *);;
+
+Prisepa_M.V. <= nrel_publication : ...(* -> PrisepaM.V..2010trXRazraSITsMD;Ganbat.D..2010trXRazraVSdPOSUMP;; *);;*/
+
+//Prisepa_M.V. <- concept_participant_of_conference_OSTIS;;
+Prisepa_M.V. <- concept_participant_of_conference_OSTIS2011;;
+
+//Prisepa_M.V. -> programmist_2_kat.;;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_organizing_committee_of_conference_OSTIS;; 
+concept_organizing_committee_of_conference_OSTIS=> nrel_main_idtf:[организационный комитет конференции OSTIS] (* <-lang_ru;; *);;
+concept_organizing_committee_of_conference_OSTIS=> nrel_main_idtf:[organizing committee of conference OSTIS] (* <-lang_en;; *);;
+
+concept_organizing_committee_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Организационный комитет конференции OSTIS –люди, которые занимаются организацией конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_organizing_committee_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->concept_organizing_committee_of_conference_OSTIS2011; 
+concept_organizing_committee_of_conference_OSTIS2012; 
+concept_organizing_committee_of_conference_OSTIS2013; 
+concept_organizing_committee_of_conference_OSTIS2014;concept_organizing_committee_of_conference_OSTIS2015;
+concept_organizing_committee_of_conference_OSTIS2016;;
+*);;
+	
+

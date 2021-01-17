@@ -1,0 +1,49 @@
+
+concept_Moscow_Institute_of_Physics_and_Technology<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Московский физико-технический институт]
+      (*<-lang_ru;;*);
+       [Moscow Institute of Physics and Technology]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Московский физико-технический институт)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_specialist;
+       concept_Russia;
+       concept_Physics;
+       concept_Mathematics;
+       concept_Informatics;
+       concept_Chemistry;
+       concept_Biology
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Московский физико-технический институт — ведущий российский вуз по подготовке специалистов в области теоретической, экспериментальной и прикладной физики, математики, информатики, химии, биологии.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Московский физико-технический институт)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_Russia;
+  concept_rating
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Московский физико-технический институт-cогласно большинству национальных и международных рейтингов входит в тройку лучших вузов России](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Moscow_Institute_of_Physics_and_Technology -> rrel_example: [Московский физико-технический институт был основан в 1951 году.](* <- lang_ru;; *);;
+concept_Moscow_Institute_of_Physics_and_Technology <=nrel_inclusion:concept_higher_education_institution;;
+Victor_Mikhailovich_Glushkov<-nrel_employee:concept_Moscow_Institute_of_Physics_and_Technology;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Moscow_Institute_of_Physics_and_Technology;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//MFTI.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Московский физико-технический институт)](*<- lang_ru;;*);;
+*);;

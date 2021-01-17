@@ -1,0 +1,26 @@
+
+Morosin_O.L.=> nrel_main_idtf:
+	[Моросин О. Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Morosin_O.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Morosin_O.L. => nrel_email: [omorsik@gmail.com](*<-lang_en;;*);;
+
+//Morosin_O.L. <- concept_participant_of_conference_OSTIS;;
+Morosin_O.L. <- concept_participant_of_conference_OSTIS2015;;
+Morosin_O.L. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Morosin_O._L. <= nrel_authors:  ...(* -> Doklad_83_OSTISX2015;Doklad_72_OSTISX2014;; *);;
+
+Morosin_O._L. -> Ucastnik_konferenzii_OSTIS;;
+
+Morosin_O._L. -> m.n.s.;;
+m.n.s. <- ucenoe_zvanie;;
+
+Morosin_O._L. -> student;;*/

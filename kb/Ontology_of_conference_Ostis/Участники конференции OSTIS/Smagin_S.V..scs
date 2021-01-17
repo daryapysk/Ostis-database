@@ -1,0 +1,25 @@
+
+Smagin_S.V.=> nrel_main_idtf:
+	[Смагин С.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Smagin_S.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Smagin_S.V. => nrel_email: [smagin@iacp.dvo.ru](*<-lang_en;;*);;
+
+/*Smagin_S.V. <= nrel_authors:  ...(* -> Doklad_39_OSTISX2014;Doklad_1.01_OSTISX2011;; *);;
+
+Smagin_S.V. <= nrel_publication : ...(* -> Klesev_A.S..2010prXIspolTOVdRiUIS;Klesev_A.S..2010prXoRoliViVOSMIFZ;Klesev_A.S..2009prXKompXEpISMSRGPD;Klesev_A.S..2008prXObsijPkPKEpIFZ;; *);;
+*/
+Smagin_S.V. <- concept_participant_of_conference_OSTIS2014;;
+Smagin_S.V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Smagin_S.V. -> vedusij_injenerXprogrammist;;
+
+Smagin_S.V. <- rrel_key_sc_element: ..illustration_Smagin_S.V.(* <- sc_illustation;; *);;
+..illustration_Smagin_S.V. <= nrel_translation : ..translation_illustration_Smagin_S.V.;;
+..translation_illustration_Smagin_S.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Smagin.png"/>] (* => nrel_format: format_html;; *);;*/

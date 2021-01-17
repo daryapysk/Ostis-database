@@ -1,0 +1,19 @@
+
+Bogrest_N.M.=> nrel_main_idtf:
+	[Богрест Н. М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bogrest_N.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Bogrest_N.M. <- concept_participant_of_conference_OSTIS2012;;
+Bogrest_N.M. <- concept_participant_of_conference_OSTIS2015;;
+Bogrest_N.M. <- concept_participant_of_conference_OSTIS2016;;
+
+//Bogrest_N.M. <- concept_participant_of_conference_OSTIS;;
+

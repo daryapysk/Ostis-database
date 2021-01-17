@@ -1,0 +1,22 @@
+
+SavelXeva_O.U.=> nrel_main_idtf:
+	[Савельева О.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[SavelXeva_O.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//SavelXeva_O.U. <= nrel_authors:  ...(* -> Doklad_8.05_OSTISX2011;Doklad_5.07_OSTISX2011;; *);;
+
+//SavelXeva_O.U.<- concept_participant_of_conference_OSTIS;;
+SavelXeva_O.U. <- concept_participant_of_conference_OSTIS2011;;
+
+/*SavelXeva_O.U. -> student;;
+
+SavelXeva_O.U. <= nrel_photo: ...(* -> Foto_OSTISX2011.02.10.10.29;; *);;
+
+SavelXeva_O.U. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.14;; *);;*/

@@ -1,0 +1,44 @@
+
+concept_Institute_for_Advanced_Study<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Институт перспективных исследований]
+      (*<-lang_ru;;*);
+       [Institute for Advanced Study]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Институт перспективных исследований)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_univesity;
+       concept_research_university;
+       concept_Priston
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Институт перспективных исследований —  американский научно-исследовательский институт в г. Принстон] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Институт перспективных исследований)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_Albert_Einstein
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Институте перспективных исследований работал Альберт Эйнштейн](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Institute_for_Advanced_Study -> rrel_example: [Институт перспективных исследований был основан в 1930 году.](* <- lang_ru;; *);;
+concept_Institute_for_Advanced_Study <=nrel_inclusion:concept_higher_education_institution;;
+Curtis_Tracy_McMullen<-nrel_employee:concept_Institute_for_Advanced_Study;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Institute_for_Advanced_Study;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Princeton Institute of Advanced Studies.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Институт перспективных исследований)](*<- lang_ru;;*);;
+*);;

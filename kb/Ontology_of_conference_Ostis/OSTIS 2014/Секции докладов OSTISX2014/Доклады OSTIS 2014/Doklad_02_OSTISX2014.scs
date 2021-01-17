@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_02_OSTISX2014;;
+Doklad_02_OSTISX2014=>nrel_main_idtf:[Доклад 02 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_02_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_02_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_02_OSTISX2014 <= nrel_name_of_doclad: [От семантического кода к когнитивной лингвистике, семиотике и информатике: Наследие В. В. Мартынова](* <- lang_ru;;*);;
+
+// Doklad_02_OSTISX2014 <= nrel_authors : ...(* -> Tarasov_V._B.;; *);;
+
+Doklad_02_OSTISX2014 <= nrel_authors: Tarasov_V._B.;;
+
+// Doklad_02_OSTISX2014 <= nrel_articke: ...(* -> 02._Tarasov_V.B._X_Ot_semKkKLXSiINV.V.M;; *);;

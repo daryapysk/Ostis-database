@@ -1,0 +1,18 @@
+
+Burdo_G_B => nrel_main_idtf:
+	[Бурдо Г.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Burdo_G.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Burdo_G_B => nrel_email: [gbtms@yandex.ru](*<-lang_en;;*);;
+
+Burdo_G_B <- concept_participant_of_conference_OSTIS2015;;
+Burdo_G_B <- concept_participant_of_conference_OSTIS2016;;
+

@@ -1,0 +1,17 @@
+
+Nikolaev_V.G.=> nrel_main_idtf:
+	[Николаев В. Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nikolaev_V.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Nikolaev_V.G. <- concept_participant_of_conference_OSTIS2012;;
+
+//Nikolaev_V.G. <- concept_participant_of_conference_OSTIS;;
+

@@ -1,0 +1,14 @@
+Globa_L_S => nrel_main_idtf:
+[Глоба Л.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Globa_L_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Globa_L_S;;
+
+Globa_L_S => nrel_contact_information:[lgloba@its.kpi.ua];;
+

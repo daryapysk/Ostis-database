@@ -1,0 +1,26 @@
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_main_idtf:
+[Шарипбай А.А. 2016 - ЭкспеМОКиНАСУОП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Sharipbay_A_A_2016_ExpertEMQRASMEP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_name_publication:[Экспертные методы оценки, качества и надежности автоматизированной системы управления образовательным процессом](*
+	<- lang_ru;;
+	*);;
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP <= nrel_authors:
+Sharipbay_A_A ;;
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP <= nrel_authors:
+Niazova_R.S.;;
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP <= nrel_authors:
+Kuzenbaev_B_A;;
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_reference_standard: [ Шарипбай, А.А.Экспертные методы оценки, качества и надежности автоматизированной системы управления образовательным процессом/ А.А. Шарипбай, Р.С. Ниязова, Б.А. Кузенбаев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 527–530.];;
+
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP=> nrel_year_publication: 2016;;
+
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Sharipbay_A_A_2016_ExpertEMQRASMEP <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Шарипбай.pdf";; *);;*);;

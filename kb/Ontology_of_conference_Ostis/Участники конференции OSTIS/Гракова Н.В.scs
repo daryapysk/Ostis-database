@@ -1,0 +1,14 @@
+Grakova_N_V => nrel_main_idtf:
+[Гракова Н.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Grakova_N_V;;
+
+Grakova_N_V => nrel_contact_information:[natalia.grakova@gmail.com];;
+

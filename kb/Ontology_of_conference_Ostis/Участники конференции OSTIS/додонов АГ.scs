@@ -1,0 +1,14 @@
+Dodonov_A_G => nrel_main_idtf:
+[Додонов А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dodonov_A_G] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Dodonov_A_G;;
+
+Dodonov_A_G => nrel_contact_information:[dodonov@ipri.kiev.ua];;
+

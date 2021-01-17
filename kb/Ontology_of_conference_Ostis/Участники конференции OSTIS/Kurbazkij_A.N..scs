@@ -1,0 +1,20 @@
+
+Kurbazkij_A.N.=> nrel_main_idtf:
+	[Курбацкий А.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurbazkij_A.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kurbazkij_A.N. => nrel_email: [kurbatski@bsu.by](*<-lang_en;;*);;
+
+//Kurbazkij_A.N. <= nrel_authors:  ...(* -> Doklad_49_OSTISX2014;; *);;
+
+Kurbazkij_A.N. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Kurbazkij_A.N. <- rrel_key_sc_element: ..illustration_Kurbazkij_A.N.(* <- sc_illustation;; *);;
+..illustration_Kurbazkij_A.N. <= nrel_translation : ..translation_illustration_Kurbazkij_A.N.;;
+..translation_illustration_Kurbazkij_A.N.-> rrel_example : [<img src="http://127.0.0.1:8181/Kurbatskij.jpg"/>] (* => nrel_format: format_html;; *);;*/

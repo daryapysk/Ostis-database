@@ -1,0 +1,11 @@
+//sc_node_not_relation->LogicNow;;
+LogicNow=>nrel_main_idtf:[LogicNow](*<-lang_ru;;*);;
+
+
+LogicNow => nrel_phone: [+375 17 362-59-50](* <- lang_ru;;*);;
+
+LogicNow => nrel_address : [ул. Интернациональная 36-2-407](* <- lang_ru;;*);;
+
+LogicNow => nrel_site: [www.logicnow.com];;
+
+LogicNow => nrel_location : [ул. Интернациональная 36-2-407](* <- lang_ru;;*);;

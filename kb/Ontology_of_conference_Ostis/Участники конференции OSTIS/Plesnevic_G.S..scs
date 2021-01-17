@@ -1,0 +1,37 @@
+
+Plesnevic_G.S.=> nrel_main_idtf:
+	[Плесневич Г.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Plesnevic_G.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Plesnevic_G.S. => nrel_email: [PlesnevichGS@mpei.ru](*<-lang_en;;*);;
+
+/*Plesnevic_G.S. <= nrel_authors:  ...(* -> Doklad_33_OSTISX2015;Doklad_14_OSTISX2014;Doklad_2.03_OSTISX2012;; *);;
+
+Plesnevic_G.S. <= nrel_publication : ...;;*/
+
+Plesnevic_G.S. <- concept_participant_of_conference_OSTIS2014;;
+Plesnevic_G.S. <- concept_participant_of_conference_OSTIS2012;;
+Plesnevic_G.S. <- concept_participant_of_conference_OSTIS2015;;
+Plesnevic_G.S. <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+
+
+/*Plesnevic_G.S. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Plesnevic_G.S. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Plesnevic_G.S. -> professor;;
+
+Plesnevic_G.S. <- rrel_key_sc_element: ..illustration_Plesnevic_G.S.(* <- sc_illustation;; *);;
+..illustration_Plesnevic_G.S. <= nrel_translation : ..translation_illustration_Plesnevic_G.S.;;
+..translation_illustration_Plesnevic_G.S.-> rrel_example : [<img src="http://127.0.0.1:8181/PlesnevichGS.jpg"/>] (* => nrel_format: format_html;; *);;*/

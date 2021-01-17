@@ -1,0 +1,33 @@
+report_7.04_OSTIS_2016_AgentBASMNTS => nrel_main_idtf:
+[Доклад 7.04 OSTIS-2016 Агентный подход к управлению безопасностью природно-техногенной системы]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 7.04 OSTIS-2016 Agent - based approach to safety management of natural and technogenic system] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_7.04_OSTIS_2016_AgentBASMNTS  <- doklad_OSTISX2016;;
+
+report_7.04_OSTIS_2016_AgentBASMNTS  <= nrel_authors:Bogatikov_V_N;
+Vinogradov_G.P.;
+Voronin_U_A;;
+
+report_7.04_OSTIS_2016_AgentBASMNTS  => nrel_published_material: publication_Bogatikov_V_N_2016_AgentBASMNTS;;
+
+report_7.04_OSTIS_2016_AgentBASMNTS  => nrel_report_language: lang_ru;;
+
+
+/*report_7.04_OSTIS_2016_AgentBASMNTS  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_7.04_OSTIS_2016_AgentBASMNTS  => nrel_name: [Агентный подход к управлению безопасностью природно-техногенной системы](*<- lang_ru;;*);;
+
+report_7.04_OSTIS_2016_AgentBASMNTS  <= nrel_speaker: Voronin_U_A;;
+
+
+report_7.04_OSTIS_2016_AgentBASMNTS  => nrel_time_speech: [10:45 - 11:00];;
+report_7.04_OSTIS_2016_AgentBASMNTS  => nrel_data_speech: [20 февраля 2016];;
+
+report_7.04_OSTIS_2016_AgentBASMNTS => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

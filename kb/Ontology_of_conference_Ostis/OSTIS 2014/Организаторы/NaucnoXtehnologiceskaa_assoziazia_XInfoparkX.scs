@@ -1,0 +1,10 @@
+sc_node_not_relation->NaucnoXtehnologiceskaa_assoziazia_XInfoparkX;;
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX=>nrel_main_idtf:[Научно-технологическая ассоциация "Инфопарк"](* <- lang_ru;;*);;
+
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX => nrel_phone: [+375 17 211-03-69](* <- lang_ru;;*);;
+
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX => nrel_address : [Республика Беларусь, 220030, г. Минск, ул. Комсомольская, 12-55](* <- lang_ru;;*);;
+
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX => nrel_site: [http://infopark.by/];;
+
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX => nrel_location : [г. Минск, ул. Комсомольская, 12-55](* <- lang_ru;;*);;

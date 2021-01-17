@@ -1,0 +1,18 @@
+
+Segolev_A.G.=> nrel_main_idtf:
+	[Щеголев А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Segolev_A.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Segolev_A.G. => nrel_email: [sch@ntmdt.ru](*<-lang_en;;*);;
+
+//Segolev_A.G. <= nrel_authors:  ...(* -> Doklad_9.03_OSTISX2011;; *);;
+
+//Segolev_A.G. <- concept_participant_of_conference_OSTIS;;
+Segolev_A.G. <- concept_participant_of_conference_OSTIS2011;;
+

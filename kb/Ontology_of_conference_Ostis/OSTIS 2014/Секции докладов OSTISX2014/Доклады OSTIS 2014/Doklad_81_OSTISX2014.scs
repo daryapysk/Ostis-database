@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_81_OSTISX2014;;
+Doklad_81_OSTISX2014=>nrel_main_idtf:[Доклад 81 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_81_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_81_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_81_OSTISX2014 <= nrel_name_of_doclad: [Создание хранилища научных публикаций с применением методов корпусной лингвистики](* <- lang_ru;;*);;
+
+// Doklad_81_OSTISX2014 <= nrel_authors : ...(* -> Elohov_E._S.;Lanin_A._S.;Ugov_A._S.;; *);;
+
+Doklad_81_OSTISX2014 <= nrel_authors: Elohov_E._S.;Lanin_A._S.;Ugov_A._S.;; 
+
+// Doklad_81_OSTISX2014 <= nrel_articke: ...(* -> 81._Elohov_E.S.X_Lanin_A.S.X_Ugov_A.S._X_SozdaHNPsPMKL;; *);;

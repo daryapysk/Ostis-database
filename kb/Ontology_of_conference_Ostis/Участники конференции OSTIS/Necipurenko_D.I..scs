@@ -1,0 +1,19 @@
+
+Necipurenko_D.I.=> nrel_main_idtf:
+	[Нечипуренко Д.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Necipurenko_D.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Necipurenko_D.I. <= nrel_authors:  ...(* -> Doklad_7.08_OSTISX2011;; *);;
+
+//Necipurenko_D.I. <- concept_participant_of_conference_OSTIS;;
+Necipurenko_D.I. <- concept_participant_of_conference_OSTIS2011;;
+
+
+//Necipurenko_D.I. -> student;;

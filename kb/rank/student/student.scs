@@ -1,0 +1,31 @@
+
+concept_student => nrel_idtf: [student](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Студент)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Студент — учащийся высшего учебного заведения.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_student;;
+<= nrel_using_constants :...
+(*
+-> concept_learner; concept_higher_education_institution;;
+*);;
+*);;
+
+ concept_student -> rrel_example: [Студент кафедры  интеллектуальных информационных технологий.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Студент, семантическая сеть)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Студент задал вопрос профессору Голенкову Владимиру Васильевичу о семантических сетях.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_student; concept_semantic_network;;
+*);; 
+
+
+

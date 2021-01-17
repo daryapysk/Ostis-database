@@ -1,0 +1,31 @@
+
+Bahtizin_V.V.=> nrel_main_idtf:
+	[Бахтизин В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bahtizin_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bahtizin_V.V. =>nrel_email: [bww@bsuir.by](*<-lang_en;;*);;
+
+/*Bahtizin_V.V. <= nrel_authors:  ...(* -> Doklad_5.05_OSTISX2012;; *);;
+
+Bahtizin_V.V. <= nrel_publication : ...(* -> Bahtizin_V.V..2006ucXStandiSPO;Bahtizin_V.V..2010ucXTehnoRPO;Bahtizin_V.V._.2010ucXAzykiP;Bahtizin_V.V..2010stXPrimeMSPSvRS;Bahtizin_V.V..2010stXObobsOSPS;Anzypov_A.V..2010stXMetodONPS;Bahtizin_V.V..2010tezXModelKPSKL;Bahtizin_V.V..2010tezXKacesPSACST;Bahtizin_V.V..2010tezXOzenkKPSAO;; *);;*/
+//Bahtizin_V.V. <- concept_participant_of_conference_OSTIS;;
+
+Bahtizin_V.V. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Bahtizin_V.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Bahtizin_V.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Bahtizin_V.V. -> zaveduusij;;
+
+Bahtizin_V.V. <- rrel_key_sc_element: ..illustration_Bahtizin_V.V.(* <- sc_illustation;; *);;
+..illustration_Bahtizin_V.V. <= nrel_translation : ..translation_illustration_Bahtizin_V.V.;;
+..translation_illustration_Bahtizin_V.V.-> rrel_example : [<img src="http://127.0.0.1:8181/BahtizinVV.jpg"/>] (* => nrel_format: format_html;; *);;*/

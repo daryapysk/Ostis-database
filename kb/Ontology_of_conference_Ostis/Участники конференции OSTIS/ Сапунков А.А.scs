@@ -1,0 +1,14 @@
+Sapunkov_A_A => nrel_main_idtf:
+[Сапунков А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sapunkov_A_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Sapunkov_A_A;;
+
+Sapunkov_A_A => nrel_contact_information:[sapaslks@gmail.com];;
+

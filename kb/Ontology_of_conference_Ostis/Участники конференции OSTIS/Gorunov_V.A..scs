@@ -1,0 +1,22 @@
+
+Gorunov_V.A.=> nrel_main_idtf:
+	[Горюнов В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorunov_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gorunov_V.A. => nrel_email: [v.gorunov@grsu.by](*<-lang_en;;*);;
+
+//Gorunov_V.A. <= nrel_authors:  ...(* -> Doklad_86_OSTISX2014;; *);;
+
+Gorunov_V.A. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Gorunov_V.A. -> net;;
+net <- ucenaa_stepenX;;
+
+Gorunov_V.A. -> InjenerXprogrammist_2_kategorii;;
+InjenerXprogrammist_2_kategorii <- ucenoe_zvanie;;*/

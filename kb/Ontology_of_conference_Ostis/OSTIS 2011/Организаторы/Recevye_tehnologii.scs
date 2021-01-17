@@ -1,0 +1,21 @@
+//sc_node_not_relation->Recevye_tehnologii;;
+//Recevye_tehnologii = >nrel_main_idtf:[Речевые технологии](* <- lang_ru;; *);;
+
+/*Recevye_tehnologii = >nrel_doundation_year: [2008](* <- lang_ru;;*);;*/
+
+//Recevye_tehnologii = > rrel_work_phone: [+375 17 266-93-12](* <- lang_ru;;*);;
+
+//Recevye_tehnologii = > nrel_address : [г. Минск, пер. Уральский, д.15](* <- lang_ru;;*);;
+
+//Recevye_tehnologii = > nrel_site: [http://www.speetech.by];;
+
+/*Recevye_tehnologii = > nrel_location : [г. Минск, пер. Уральский, д.15](* <- lang_ru;;*);;*/
+
+
+Recevye_tehnologii => nrel_main_idtf:[Речевые технологии](* <- lang_ru;; *);;
+
+Recevye_tehnologii => rrel_work_phone: [+375 17 266-93-12](* <- lang_ru;;*);;
+
+Recevye_tehnologii => nrel_address : [г. Минск, пер. Уральский, д.15](* <- lang_ru;;*);;
+
+//Gostiniza_Orbita => nrel_site: [http://www.orbita-hotel.com];;

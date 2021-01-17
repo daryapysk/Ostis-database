@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_15_OSTISX2015;;
+Doklad_15_OSTISX2015=>nrel_main_idtf:[Доклад 15 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_15_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_15_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_15_OSTISX2015 => nrel_name_of_doclad: [Концепция инструментальной платформы информационной безопасности в среде облачных вычислений с использованием интеллектуальных технологий](* <- lang_ru;;*);;
+
+//Doklad_15_OSTISX2015 <= nrel_authors : ...(* -> Visnakov_V._A.;Gondaz_S.;Mozduoani_S.;; *);;
+
+//Doklad_15_OSTISX2015 <= nrel_articke: ...(* -> 15._Visnakov_V.A.X_Gondaz_Saz_M.M.X_Mozduoani_Siraz_M.G._X_KonzepziaIPIBvSOVsIIT;; *);;
+
+
+Doklad_15_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/15._Вишняков_В.А.,_Гондаз_Саз_М.М.,_Моздуоани_Шираз_М.Г._-_КонцепцияИПИБвСОВсИИТ.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_15_OSTISX2015 => nrel_authors: Visnakov_V.A.;Gondaz_S.;Mozduoani_S.;; 

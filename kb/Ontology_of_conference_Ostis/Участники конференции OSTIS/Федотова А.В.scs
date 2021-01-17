@@ -1,0 +1,14 @@
+Fedotova_A_V => nrel_main_idtf:
+[Федотова А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fedotova_A_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Fedotova_A_V;;
+
+Fedotova_A_V => nrel_contact_information:[afedotova.bmstu@gmail.com];;
+

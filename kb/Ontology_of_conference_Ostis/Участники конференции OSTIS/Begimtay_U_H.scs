@@ -1,0 +1,14 @@
+Begimtay_U_H=> nrel_main_idtf:
+[Бегимтай У. Х.]
+	(*
+	<- lang_ru;;
+	*);
+	[Begimtay_U_H] 
+	(*
+	<- lang_en;;
+	*);;
+
+concept_participant_of_conference_OSTIS2016 -> Begimtay_U_H;;
+
+Begimtay_U_H=> nrel_contact_information:[ulugbek_begimtai@mail.ru];;
+

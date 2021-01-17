@@ -1,0 +1,10 @@
+//sc_node_not_relation->Sekzia_7_OSTISX2011;;
+Sekzia_7_OSTISX2011=>nrel_main_idtf:[Секция 7 OSTIS-2011](* <-lang_ru;; *);;
+
+Sekzia_7_OSTISX2011 <- sekzia_OSTISX2011;;
+
+Sekzia_7_OSTISX2011 <= nrel_section :  Doklad_7.01_OSTISX2011;Doklad_7.02_OSTISX2011;Doklad_7.03_OSTISX2011;
+Doklad_7.04_OSTISX2011;Doklad_7.05_OSTISX2011;Doklad_7.06_OSTISX2011;
+Doklad_7.07_OSTISX2011;Doklad_7.08_OSTISX2011;Doklad_7.09_OSTISX2011;
+Doklad_7.10_OSTISX2011;Doklad_7.11_OSTISX2011;Doklad_7.12_OSTISX2011;
+Doklad_7.13_OSTISX2011;Doklad_7.14_OSTISX2011;Doklad_7.15_OSTISX2011;; 

@@ -1,0 +1,7 @@
+sc_node_not_relation->Storoj_V._V.;;
+Storoj_V._V.=>nrel_main_ru_idtf:[Сторож В. В.];;
+
+
+Storoj_V._V. <= nrel_authors:  ...(* -> Doklad_61_OSTISX2014;; *);;
+
+Storoj_V._V. -> Ucastnik_konferenzii_OSTIS;;

@@ -1,0 +1,32 @@
+
+Verenik_N.L.=> nrel_main_idtf:
+	[Вереник Н.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Verenik N.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Verenik_N.L. => nrel_email: [nick.verenik@gmail.com](*<-lang_en;;*);;
+
+/*Verenik_N.L. <= nrel_authors:  ...(* -> Doklad_08_OSTISX2015;Doklad_26_OSTISX2014;; *);;
+
+Verenik_N.L. -> Ucastnik_konferenzii_OSTIS;;*/
+//Verenik_N.L. <- concept_participant_of_conference_OSTIS;;
+Verenik_N.L. <- concept_participant_of_conference_OSTIS2013;;
+Verenik_N.L. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Verenik_N.L. -> magistr_tehniceskih_nauk;;
+magistr_tehniceskih_nauk <- ucenaa_stepenX;;
+
+Verenik_N.L. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+Verenik_N.L. -> aspirant;;
+
+Verenik_N.L. <- rrel_key_sc_element: ..illustration_Verenik_N.L.(* <- sc_illustation;; *);;
+..illustration_Verenik_N.L. <= nrel_translation : ..translation_illustration_Verenik_N.L.;;
+..translation_illustration_Verenik_N.L.-> rrel_example : [<img src="http://127.0.0.1:8181/Verenik.jpg"/>] (* => nrel_format: format_html;; *);;
+*/

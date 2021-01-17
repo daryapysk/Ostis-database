@@ -1,0 +1,30 @@
+
+concept_senior_lecturer => nrel_idtf: [senior_lecturer](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Старший преподаватель)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Старший преподаватель — читает курсы лекций и принимает зачёты и экзамены. Ведет научную работу по тематике кафедры(обычно в среднем специальном или высшем учебном заведении).](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_senior_lecturer;;
+<= nrel_using_constants :...
+(*
+-> concept_teacher; concept_higher_education_institution;;
+*);;
+*);;
+
+concept_senior_lecturer -> rrel_example: [Старший преподаватель кафедры высшей математики.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Старший преподаватель, математика)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Страший преподаватель по высший математике рассказывал про интегралы.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_senior_lecturer; concept_maths;;
+*);; 
+
+

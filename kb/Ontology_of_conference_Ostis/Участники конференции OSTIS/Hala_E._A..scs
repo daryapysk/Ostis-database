@@ -1,0 +1,28 @@
+
+Hala_E.A.=> nrel_main_idtf:
+	[Хала Е. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hala_E.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Hala_E.A.=> nrel_email: [cecerongreat@ukr.net](*<-lang_en;;*);;
+
+//Hala_E.A. <- concept_participant_of_conference_OSTIS;;
+Hala_E.A. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Hala_E._A. <= nrel_authors:  ...(* -> Doklad_32_OSTISX2015;; *);;
+
+Hala_E._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Hala_E._A. -> m.n.s.;;
+m.n.s. <- ucenaa_stepenX;;
+
+Hala_E._A. -> mladsij_naucnyj_sotrudnik;;
+mladsij_naucnyj_sotrudnik <- ucenoe_zvanie;;
+
+Hala_E._A. -> mladsij_naucnyj_sotrudnik;;*/

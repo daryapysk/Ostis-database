@@ -1,0 +1,28 @@
+
+Karpov_A.A.=> nrel_main_idtf:
+	[Карпов А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Karpov_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Karpov_A.A. => nrel_email: [karpov@iias.spb.su](*<-lang_en;;*);;
+
+//Karpov_A.A. <= nrel_authors:  ...(* -> Doklad_7.13_OSTISX2011;; *);;
+
+/*Karpov_A.A. <= nrel_publication : ...(* -> Karpov_A.A..2006bkXSpeecaMI;Karpov_A.A..2009artX_InforEKwMUI;Karpov_A.A..2008artX_aMFftCotD;Karpov_A.A..2010artX_VisemDWOfCHMMBAVSR;Karpov_A.A..2010artXAudioVSAMiaTH;Karpov_A.A..2006artX_IntellCAfDO;Karpov_A.A..2009artX_StudyoAVAoRSfIoTHN;Karpov_A.A..2009artX_StudyoAVAoRSfIoTHN;; *);;*/
+
+//Karpov_A.A. <- concept_participant_of_conference_OSTIS;;
+Karpov_A.A. <- concept_participant_of_conference_OSTIS2011;;
+Karpov_A.A. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Karpov_A.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Karpov_A.A. -> s.n.s.;;*/
+
+/*Karpov_A.A. <- rrel_key_sc_element: ..illustration_Karpov_A.A.(* <- sc_illustation;; *);;
+..illustration_Karpov_A.A. <= nrel_translation : ..translation_illustration_Karpov_A.A.;;..translation_illustration_Karpov_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/KarpovAA.png"/>] (* => nrel_format: format_html;; /*);;*/

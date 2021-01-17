@@ -1,0 +1,17 @@
+Novogrudskaya_R_L => nrel_main_idtf:
+[Новогрудская Р.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Novogrudskaya_R_L] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Novogrudskaya_R_L;;
+Novogrudskaa_R_L <- concept_participant_of_conference_OSTIS2012;;
+Novogrudskaa_R_L <- concept_participant_of_conference_OSTIS2013;;
+Novogrudskaa_R_L <- concept_participant_of_conference_OSTIS2014;;
+Novogrudskaa_R_L <- concept_participant_of_conference_OSTIS2015;;
+Novogrudskaya_R_L => nrel_contact_information:[rinan@ukr.net];;
+

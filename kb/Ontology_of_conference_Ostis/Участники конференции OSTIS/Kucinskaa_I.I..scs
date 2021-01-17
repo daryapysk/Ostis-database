@@ -1,0 +1,25 @@
+
+Kucinskaa_I.I.=> nrel_main_idtf:
+	[Кучинская И.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kucinskaa_I.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kucinskaa_I.I. => nrel_email: [ikuchinskaya@mail.by](*<-lang_en;;*);;
+
+//Kucinskaa_I.I. <= nrel_authors:  ...(* -> Doklad_4.03_OSTISX2011;; *);;
+
+//Kucinskaa_I.I. <- concept_participant_of_conference_OSTIS;;
+Kucinskaa_I.I. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Kucinskaa_I.I. -> sotrudnik;;
+
+Kucinskaa_I.I. <- rrel_key_sc_element: ..illustration_Kucinskaa_I.I.(* <- sc_illustation;; *);;
+..illustration_Kucinskaa_I.I. <= nrel_translation : ..translation_illustration_Kucinskaa_I.I.;;
+..translation_illustration_Kucinskaa_I.I.-> rrel_example : [<img src="http://127.0.0.1:8181/KuchinskayaII.png"/>] (* => nrel_format: format_html;; *);;
+
+Kucinskaa_I.I. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.39;Foto_OSTISX2011.02.10.11.31;; *);;*/

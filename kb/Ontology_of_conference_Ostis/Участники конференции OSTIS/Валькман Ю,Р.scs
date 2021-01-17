@@ -1,0 +1,14 @@
+Valkman_Y_R => nrel_main_idtf:
+[Валькман Ю.Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Valkman_Y_R] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Valkman_Y_R;;
+
+Valkman_Y_R => nrel_contact_information:[yur@valkman.kiev.ua];;
+

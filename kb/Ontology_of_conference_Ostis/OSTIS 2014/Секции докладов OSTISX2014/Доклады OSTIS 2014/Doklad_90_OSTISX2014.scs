@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_90_OSTISX2014;;
+Doklad_90_OSTISX2014=>nrel_main_idtf:[Доклад 90 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_90_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_90_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_90_OSTISX2014 <= nrel_name_of_doclad: [Виртуальный помощник абитуриента при выборе специальности](* <- lang_ru;;*);;
+
+// Doklad_90_OSTISX2014 <= nrel_authors : ...(* -> Barlybaev_A._B.;Nurgazinova_G._S.;; *);;
+
+Doklad_90_OSTISX2014 <= nrel_authors: Barlybaev_A._B.;Nurgazinova_G._S.;; 
+
+// Doklad_90_OSTISX2014 <= nrel_articke: ...(* -> 90._Barlybaev_A.B.X_Nurgazinova_G.S._X_VirtuPApVS;; *);;

@@ -1,0 +1,33 @@
+
+Kurejcik_V.M.=> nrel_main_idtf:
+	[Курейчик В.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurejcik_V.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kurejcik_V.M. =>nrel_email: [kur@tsure.ru](*<-lang_en;;*);;
+
+/*Kurejcik_V.M. <= nrel_publication : ...(* -> Kurejcik_V.M..2009artXGenetAfACADP;Kurejcik_V.M..2006ucXGenetA;Kurejcik_V.M..2005knXIntelS;Kurejcik_V.M..2004ucXDiskrMTM;Kurejcik_V.M..2004ucXAdaptnOS;Kurejcik_V.M..2004ucXAvtomPMGdUNI;Kurejcik_V.M..2004knXOptimnOEiNM;Kurejcik_V.M..2003knXTeoriiPEM;Kurejcik_V.M..2002knXMetodGP;Kurejcik_V.M.1998knXGenetA;Kurejcik_V.M.1990knXMatemOKiTPsPSAPR;Kurejcik_V.M..1987ucXTeoreOSAPR;Kurejcik_V.M..1983ucXAvtomPKRA;Kurejcik_V.M..1983knXAvtomPVS;; *);;*/
+
+//Kurejcik_V.M. <- concept_participant_of_conference_OSTIS;;
+
+
+
+/*Kurejcik_V.M. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Kurejcik_V.M. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Kurejcik_V.M. -> akademik;;
+
+
+Kurejcik_V.M. -> zam.rukovoditela_po_naucnoj_i_inovazionnoj_deatelXnosti;;
+
+Kurejcik_V.M. <- rrel_key_sc_element: ..illustration_Kurejcik_V.M.(* <- sc_illustation;; *);;
+..illustration_Kurejcik_V.M. <= nrel_translation : ..translation_illustration_Kurejcik_V.M.;;
+..translation_illustration_Kurejcik_V.M.-> rrel_example : [<img src="http://127.0.0.1:8181/KureichikVM.png"/>] (* => nrel_format: format_html;; *);;*/

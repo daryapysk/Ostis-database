@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_19_OSTISX2014;;
+Doklad_19_OSTISX2014=>nrel_main_idtf:[Доклад 19 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_19_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_19_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_19_OSTISX2014 <= nrel_name_of_doclad: [Наполнение семантических слотов реляционно-ситуационного фрейма на примере татарских синтаксем](* <- lang_ru;;*);;
+
+// Doklad_19_OSTISX2014 <= nrel_authors : ...(* -> Sulejmanov_D._S.;Gatiatullin_A._R.;; *);;
+
+Doklad_19_OSTISX2014 <= nrel_authors: Sulejmanov_D._S.;Gatiatullin_A._R.;; 
+
+// Doklad_19_OSTISX2014 <= nrel_articke: ...(* -> 19._Sulejmanov_D.S.X_Gatiatullin_A.R._X_NapolSSRXSFnPTS;; *);;

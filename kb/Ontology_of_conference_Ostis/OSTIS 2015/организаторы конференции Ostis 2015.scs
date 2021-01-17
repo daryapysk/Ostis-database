@@ -1,0 +1,25 @@
+//sc_node_not_relation -> organizer_OSTIS_conference_2015;;
+organizer_OSTIS_conference_2015 => nrel_main_idtf:
+	[Организатор Конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Organizer OSTIS-2015 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+organizer_OSTIS_conference_2015 -> 
+Educational_Establishment_BSUIR; 
+Administration_high_tech_park;
+Melsoft;
+anti_virus;
+FGBNU_Institute_of_Education_Management_Russian_Academy_Education;
+NII_PS_AN_RT;
+AndersanXsoft;
+RAII;
+IIO_RAO;
+LogicNow;
+NaucnoXtehnologiceskaa_assoziazia_XInfoparkX;
+Qulix_Systems;;
+

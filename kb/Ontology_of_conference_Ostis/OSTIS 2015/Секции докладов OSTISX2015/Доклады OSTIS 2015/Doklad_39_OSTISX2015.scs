@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_39_OSTISX2015;;
+Doklad_39_OSTISX2015=>nrel_main_idtf:[Доклад 39 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_39_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_39_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_39_OSTISX2015 => nrel_name_of_doclad: [Система приоритетного движения на перекрестках «зеленая волна» для транспортных средств оперативного назначения](* <- lang_ru;;*);;
+
+//Doklad_39_OSTISX2015 <= nrel_authors : ...(* -> Sogoan_A._L.;SutX_V._N.;; *);;
+
+//Doklad_39_OSTISX2015 <= nrel_articke: ...(* -> 39._Sogoan_A.L.X_SutX_V.N._–_SistemaPDnPZVdTSON;; *);;
+
+
+Doklad_39_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/39. Согоян А.Л., Шуть В.Н. – СистемаПДнПЗВдТСОН.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_39_OSTISX2015=> nrel_authors:Sogoan_A.L.;SutX_V.N.;;

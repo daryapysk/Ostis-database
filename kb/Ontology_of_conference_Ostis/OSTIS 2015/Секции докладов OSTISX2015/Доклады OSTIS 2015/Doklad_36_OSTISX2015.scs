@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_36_OSTISX2015;;
+Doklad_36_OSTISX2015=>nrel_main_idtf:[Доклад 36 OSTIS-2015](*<- lang_ru;;*);;
+
+
+Doklad_36_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_36_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_36_OSTISX2015 => nrel_name_of_doclad: [Motivation of modeling commonsense reasoning process](* <- lang_ru;;*);;
+
+//Doklad_36_OSTISX2015 <= nrel_authors : ...(* -> Najdenova_K._A.;; *);;
+
+//Doklad_36_OSTISX2015 <= nrel_articke: ...(* -> 36._Naidenova_X._A._X_MotivationoMCRP;; *);;
+
+
+Doklad_36_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/36._Naidenova_X._A._-_MotivationoMCRP.pdf";;
+						    *);; 
+					*);;
+
+Doklad_36_OSTISX2015=> nrel_authors: Najdenova_K.A.;;

@@ -1,0 +1,13 @@
+official_invitation_OSTIS2011 
+=> nrel_main_idtf:
+[Официальное приглашение Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Official invitation Conference OSTIS-2011]
+	(*
+	<- lang_en;;
+	*);;
+
+
+official_invitation_OSTIS2011  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://Официальное_приглашение_на_OSTIS-2011.pdf";; *);; *);;

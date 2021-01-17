@@ -1,0 +1,16 @@
+Gavrilova_T_A => nrel_main_idtf:
+[Гаврилова Т.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gavrilova_T_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Gavrilova_T_A;;
+Gavrilova_T_A <- concept_participant_of_conference_OSTIS2015;;
+Gavrilova_T_A <- concept_participant_of_conference_OSTIS2016;;
+Gavrilova_T_A <- concept_participant_of_conference_OSTIS2012;;
+Gavrilova_T_A => nrel_contact_information:[gavrilova@gsom.pu.ru];;
+

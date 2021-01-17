@@ -1,0 +1,48 @@
+
+concept_Carnegie_Mellon_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Университет Карнеги — Меллона]
+      (*<-lang_ru;;*);
+       [Carnegie Mellon University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Университет Карнеги — Меллона)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_reserch_univesity;
+       concept_private_university;
+       concept_Pittsburgh
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Университет Карнеги — Меллона — частный университет и исследовательский центр, расположенный в Питтсбурге] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Университет Карнеги — Меллона)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+    concept_technic;
+    concept_research;
+	concept_science
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Университет Карнеги — Меллона-  занимается исследованиями в области науки и техники](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Carnegie_Mellon_University -> rrel_example: [Университет Карнеги — Меллона был основан в 1900 году.](* <- lang_ru;; *);;
+concept_Carnegie_Mellon_University <=nrel_inclusion:concept_higher_education_institution;;
+Allen_Newell<-nrel_graduate:concept_Carnegie_Mellon_University;;
+Allen_Newell<-nrel_employee:concept_Carnegie_Mellon_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Carnegie_Mellon_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Mel.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Университет Карнеги — Меллона)](*<- lang_ru;;*);;
+*);;
+

@@ -1,0 +1,22 @@
+
+Galuska_I.N.=> nrel_main_idtf:
+	[Галушка И. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Galuska_I.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Galuska_I.N. => nrel_email: [ilona.galushka@ya.ru](*<-lang_en;;*);;
+
+//Galuska_I._N. <= nrel_authors:  ...(* -> Doklad_29_OSTISX2015;Doklad_76_OSTISX2014;; *);;
+
+//Galuska_I._N. -> Ucastnik_konferenzii_OSTIS;;
+Galuska_I.N. <- concept_participant_of_conference_OSTIS2014;;
+Galuska_I.N. <- concept_participant_of_conference_OSTIS2013;;
+Galuska_I.N.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Galuska_I._N. -> assistent;;
+assistent <- ucenoe_zvanie;;*/

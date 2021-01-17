@@ -1,0 +1,16 @@
+
+Makaric_M.V.=> nrel_main_idtf:
+	[Макарич М.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Makaric_M.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Makaric_M.V. => nrel_email: [2348843@tut.by](*<-lang_en;;*);;
+//Makaric_M.V. <- concept_participant_of_conference_OSTIS;;
+Makaric_M.V. <- concept_participant_of_conference_OSTIS2011;;
+
+//Makaric_M.V. <= nrel_authors:  ...(* -> Doklad_7.04_OSTISX2011;; *);;

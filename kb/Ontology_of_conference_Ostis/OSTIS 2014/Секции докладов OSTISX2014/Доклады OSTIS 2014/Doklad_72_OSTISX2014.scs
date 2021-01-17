@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_72_OSTISX2014;;
+Doklad_72_OSTISX2014=>nrel_main_idtf:[Доклад 72 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_72_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_72_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_72_OSTISX2014 <= nrel_name_of_doclad: [Методы и алгоритмы нахождения степеней обоснования в системах аргументации](* <- lang_ru;;*);;
+
+// Doklad_72_OSTISX2014 <= nrel_authors : ...(* -> Morosin_O._L.;; *);;
+
+Doklad_72_OSTISX2014 <= nrel_authors: Morosin_O._L.;; 
+
+// Doklad_72_OSTISX2014 <= nrel_articke: ...(* -> 72._Morosin_O.L._X_MetoiANSOvSA;; *);;

@@ -1,0 +1,24 @@
+
+Korolev_U.I.=> nrel_main_idtf:
+	[Королев Ю. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korolev_U.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Korolev_U.I.=> nrel_email: [korolevyu@gmail.com](*<-lang_en;;*);;
+
+Korolev_U.I. <- concept_participant_of_conference_OSTIS2014;;
+Korolev_U.I. <- concept_participant_of_conference_OSTIS2015;;
+Korolev_U.I. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Korolev_U._I. <= nrel_authors:  ...(* -> Doklad_82_OSTISX2015;Doklad_71_OSTISX2014;; *);;
+
+Korolev_U._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Korolev_U._I. -> M.n.s.;;
+M.n.s. <- ucenoe_zvanie;;*/

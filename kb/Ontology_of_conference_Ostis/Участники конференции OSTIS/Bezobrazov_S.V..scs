@@ -1,0 +1,29 @@
+
+Bezobrazov_S.V.=> nrel_main_idtf:
+	[Безобразов С.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bezobrazov_S.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bezobrazov_S.V. => nrel_email: [bescase@gmail.com](*<-lang_en;;*);;
+
+//Bezobrazov_S.V. <= nrel_authors:  ...(* -> Doklad_4.02_OSTISX2011;; *);;
+
+//Bezobrazov_S.V. <- concept_participant_of_conference_OSTIS;;
+Bezobrazov_S.V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Bezobrazov_S.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Bezobrazov_S.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Bezobrazov_S.V. -> dozent;;
+
+Bezobrazov_S.V. <- rrel_key_sc_element: ..illustration_Bezobrazov_S.V.(* <- sc_illustation;; *);;
+..illustration_Bezobrazov_S.V. <= nrel_translation : ..translation_illustration_Bezobrazov_S.V.;;
+..translation_illustration_Bezobrazov_S.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Bezobrazov.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,15 @@
+
+Fomenkova_M.A.=> nrel_main_idtf:
+	[Фоменкова М. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fomenkova_M.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Fomenkova_M.A. <= nrel_authors:  ...(* -> Doklad_67_OSTISX2014;; *);;
+
+Fomenkova_M.A. <- concept_participant_of_conference_OSTIS2014;;

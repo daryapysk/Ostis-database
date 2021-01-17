@@ -1,0 +1,13 @@
+
+sc_node_not_relation->concept_duty;;
+concept_duty => nrel_main_idtf: [обязанность](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_official_place;;
+concept_official_place => nrel_main_idtf: [служебное место](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_title;;
+concept_title => nrel_main_idtf: [звание](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_education_system;;
+concept_education_system => nrel_main_idtf: [система образования](* <- lang_ru;; *);;
+

@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_3.08_OSTISX2012;;
+Doklad_3.08_OSTISX2012=>nrel_main_idtf:[Доклад 3.08 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.08_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.08_OSTISX2012 => nrel_name_of_doclad: [Динамические модели интеллектуальных систем на основе нейронных сетей адаптивного резонанса](* <- lang_ru;;*);;
+
+Doklad_3.08_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.08_OSTISX2012 <= nrel_authors : ...(* -> Komarzova_L._G.;Lavrenkov_U._N.;Antipova_O._V.;Kadnikov_D._S.;; *);;
+
+Doklad_3.08_OSTISX2012 <= nrel_articke: ...(* -> Komarzova_L.G..2012stXDinamMISnONSAR;; *);;
+
+Doklad_3.08_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X6_OSTISX2012;; *);;*/
+
+Doklad_3.08_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Комарцова_Л.Г..2012ст-ДинамМИСнОНСАР.pdf";;
+						    *);; 
+					*);;
+Doklad_3.08_OSTISX2012=> nrel_authors:Komarzova_L.G.;Lavrenkov_U.N.;Antipova_O.V.;Kadnikov_D.S.;;

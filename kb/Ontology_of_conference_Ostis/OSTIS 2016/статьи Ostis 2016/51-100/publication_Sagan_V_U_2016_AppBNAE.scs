@@ -1,0 +1,25 @@
+publication_Sagan_V_U_2016_AppBNAE=> nrel_main_idtf:
+[ Саган В.Ю. 2016 - ПримеСБдАЭКГ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Sagan_V_U_2016_AppBNAE] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Sagan_V_U_2016_AppBNAE=> nrel_name_publication:[Применение сетей Байеса для анализа ЭКГ](*
+	<- lang_ru;;
+	*);;
+publication_Sagan_V_U_2016_AppBNAE <= nrel_authors:
+Sagan_V_U;;
+publication_Sagan_V_U_2016_AppBNAE <= nrel_authors:
+Fridman_A.A.;;
+
+publication_Sagan_V_U_2016_AppBNAE=> nrel_reference_standard: [ Саган, В.Ю. Применение сетей Байеса для анализа ЭКГ / В.Ю. Саган, Р. Фридман// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 579–582.];;
+
+publication_Sagan_V_U_2016_AppBNAE=> nrel_year_publication: 2016;;
+
+publication_Sagan_V_U_2016_AppBNAE => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Sagan_V_U_2016_AppBNAE<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Саган.pdf";; *);;*);;

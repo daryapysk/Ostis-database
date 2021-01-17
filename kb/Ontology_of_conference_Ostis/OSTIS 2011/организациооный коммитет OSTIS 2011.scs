@@ -1,0 +1,14 @@
+/*concept_organizing_committee_of_conference_OSTIS -> concept_organizing_committee_of_conference_OSTIS2011;;*/
+
+concept_organizing_committee_of_conference_OSTIS2011 => nrel_main_idtf:
+	[Организационный коммитет Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Organizing committee OSTIS-2011 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_organizing_committee_of_conference_OSTIS2011 ->  Golenkov_Vladimir_Vasilevich; Batura_M.P.; Jivizkaa_E.N.; Ivanuk_A.A.;
+Kuznezov_A.P.; NikulXsin_B.V.; Parhimenko_V.A.; Serdukov_R.E.; Stolbanov_N.A.; Silin_L.U.;;

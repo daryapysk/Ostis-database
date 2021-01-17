@@ -1,0 +1,31 @@
+
+Rozaliev_V.L.=> nrel_main_idtf:
+	[Розалиев В.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Rozaliev_V.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+/*Rozaliev_V.L. <= nrel_authors:  ...(* -> //Doklad_86_OSTISX2015;Doklad_85_OSTISX2015;Doklad_67_OSTISX2014;Doklad_65_OSTISX2014;Doklad_4.05_OSTISX2012;Doklad_4.04_OSTISX2012;Doklad_8.09_OSTISX2011;; *);;*/
+
+//Rozaliev_V.L. <= nrel_publication : ...(* -> Rozaliev_V.L.2008stXPredpVPSASRER;Rozaliev_V.L.2007stXPostrMEpRC;; *);;
+
+Rozaliev_V.L.  <- concept_participant_of_conference_OSTIS2014;;
+Rozaliev_V.L.  <- concept_participant_of_conference_OSTIS2011;;
+Rozaliev_V.L.  <- concept_participant_of_conference_OSTIS2012;;
+Rozaliev_V.L.  <- concept_participant_of_conference_OSTIS2015;;
+Rozaliev_V.L.  <- concept_participant_of_conference_OSTIS2020;;
+
+
+/*Rozaliev_V.L. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Rozaliev_V.L. -> starsij_prepodavatelX;;
+
+Rozaliev_V.L. <- rrel_key_sc_element: ..illustration_Rozaliev_V.L.(* <- sc_illustation;; *);;
+..illustration_Rozaliev_V.L. <= nrel_translation : ..translation_illustration_Rozaliev_V.L.;;
+..translation_illustration_Rozaliev_V.L.-> rrel_example : [<img src="http://127.0.0.1:8181/RozalievV.jpg"/>] (* => nrel_format: format_html;; *);;*/

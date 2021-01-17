@@ -1,0 +1,12 @@
+Kirillovic_A._V.=> nrel_main_idtf:
+	[Кириллович А.В.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Kirillovic_A._V.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Kirillovic_A._V. <- concept_participant_of_conference_OSTIS;;
+  Kirillovic_A._V. <- concept_participant_of_conference_OSTIS2013;;

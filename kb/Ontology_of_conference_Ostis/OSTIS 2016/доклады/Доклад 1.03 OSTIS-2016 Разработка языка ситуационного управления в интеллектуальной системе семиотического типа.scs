@@ -1,0 +1,38 @@
+//
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_main_idtf:
+[Доклад 1.03 OSTIS-2016 Разработка языка ситуационного управления в интеллектуальной системе семиотического типа на основе онтологического инжиниринга]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 1.03 OSTIS-2016 Language Development in the Office of the semiotic situational type of intellectual systems based on ontological engineering] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE <- doklad_OSTISX2016;;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE <= nrel_authors: MasselX_L.V.;
+MasselX_A.G.;;
+
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_published_material: publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE;;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_report_language: lang_ru;;
+
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.03_Массель_РазраЯСУвИССТнООИ.pdf";; *);; *);;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_name: [Разработка языка ситуационного управления в интеллектуальной системе семиотического типа на основе онтологического инжиниринга](*<- lang_ru;;*);;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE <= nrel_speaker: MasselX_L.V.;;
+
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_time_speech: [11:30 - 12:15];;
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_data_speech: [18 февраля 2016];;
+
+report_1.03_OSTIS_2016_tDevoSMLiISoSTBoOE => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+
+
+//спросить у Натальи Викторовны имеет ли доклад награды
+//report_01_OSTIS_2016_SynthSaAAtKMSD => nrel_reward: super_report_in_the_world;;
+

@@ -1,0 +1,22 @@
+
+Smetanin_M.U.=> nrel_main_idtf:
+	[Сметанин М.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Smetanin_M.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Smetanin_M.U. <= nrel_authors:  ...(* -> Doklad_6.03_OSTISX2012;; *);;
+
+//Smetanin_M.U. <- concept_participant_of_conference_OSTIS;;
+Smetanin_M.U. <- concept_participant_of_conference_OSTIS2012;;
+
+
+/*Smetanin_M.U. -> k.m.n.;;
+k.m.n. <- ucenaa_stepenX;;
+
+Smetanin_M.U. -> vrac;;*/

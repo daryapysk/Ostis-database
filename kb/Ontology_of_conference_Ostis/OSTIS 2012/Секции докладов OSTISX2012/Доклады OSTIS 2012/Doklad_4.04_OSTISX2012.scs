@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_4.04_OSTISX2012;;
+Doklad_4.04_OSTISX2012=>nrel_main_idtf:[Доклад 4.04 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_4.04_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_4.04_OSTISX2012 => nrel_name_of_doclad: [Задача создания системы автоматизированного распознавания эмоций](* <- lang_ru;;*);;
+
+Doklad_4.04_OSTISX2012 => nrel_section: [Секция 4 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_4.04_OSTISX2012 <= nrel_authors : ...(* -> ZaboleevaXZotova_A._V.;Orlova_U._A.;Rozaliev_V._L.;Bobkov_A._S.;; *);;
+
+Doklad_4.04_OSTISX2012 <= nrel_articke: ...(* -> ZaboleevaXZotova_A.V..2012stXZadacSSARE;; *);;
+
+Doklad_4.04_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X6_OSTISX2012;; *);;*/
+
+
+Doklad_4.04_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Заболеева-Зотова_А.В..2012ст-ЗадачССАРЭ.pdf";;
+						    *);; 
+					*);;
+Doklad_4.04_OSTISX2012=> nrel_authors:ZaboleevaXZotova_A.V.;Orlova_U.A.;Rozaliev_V.L.;Bobkov_A.S.;;

@@ -1,0 +1,31 @@
+
+Cernahovskaa_M.U.=> nrel_main_idtf:
+	[Черняховская М.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Cernahovskaa_M.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Cernahovskaa_M.U. => nrel_email: [chernyah@iacp.dvo.ru](*<-lang_en;;*);;
+
+/*Cernahovskaa_M.U. <= nrel_authors:  ...(* -> Doklad_6.02_OSTISX2012;; *);;
+
+Cernahovskaa_M.U. <= nrel_publication : ...(* -> Cernahovskaa_M.U..1992stXBazaDUBZ;Klesev_A.S..2001stXMedicDBCbMKB;Klesev_A.S..2002stXUserIDBoO;Cernahovskaa_M.U..2005stXBazaNvOIiASINBMZ;Cernahovskaa_M.U..2006stXFormiBNvKBZvOMD;Klesev_A.S..2006stXMulXtSUIRRUO;Cernahovskaa_M.U..2007stXSisteIPBUO;Cernahovskaa_M.U..2009stXBazaNvOOdBMZ;Cernahovskaa_M.U..2010stXFormaPPdBZMD;Cernahovskaa_M.U..2010stXBazaZKdKBZ;; *);;*/
+
+//Cernahovskaa_M.U. <- concept_participant_of_conference_OSTIS;;
+Cernahovskaa_M.U. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Cernahovskaa_M.U. -> d.m.n.;;
+d.m.n. <- ucenaa_stepenX;;
+
+Cernahovskaa_M.U. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Cernahovskaa_M.U. -> glavnyj_naucnyj_sotrudnik;;
+
+Cernahovskaa_M.U. <- rrel_key_sc_element: ..illustration_Cernahovskaa_M.U.(* <- sc_illustation;; *);;
+..illustration_Cernahovskaa_M.U. <= nrel_translation : ..translation_illustration_Cernahovskaa_M.U.;;
+..translation_illustration_Cernahovskaa_M.U.-> rrel_example : [<img src="http://127.0.0.1:8181/Chern9hovskajaM.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,35 @@
+
+Kozlov_O.A.=> nrel_main_idtf:
+	[Козлов О.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kozlov_O.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kozlov_O.A. => nrel_email: [iio_rao@mail.ru](*<-lang_en;;*);;
+
+/*Kozlov_O.A. <= nrel_authors:  ...(* -> Doklad_57_OSTISX2014;Doklad_6.07_OSTISX2012;; *);;
+
+Kozlov_O.A. <= nrel_publication : ...(* -> Kozlov_O.A.2006stXRegioIPKIO;Kozlov_O.A.2005stXInfraPKIOSiP;Kozlov_O.A.2001stXIspolITOvOPTV;Kozlov_O.A.2001knXTeoreMOIPKVUZ;Kozlov_O.A.2000stXRazviOvUIO;; *);;*/
+
+Kozlov_O.A.<- concept_participant_of_conference_OSTIS2014;;
+Kozlov_O.A.<- concept_participant_of_conference_OSTIS2012;;
+Kozlov_O.A.<- concept_participant_of_conference_OSTIS2016;;
+
+
+
+
+/*Kozlov_O.A. -> d.ped.n.;;
+d.ped.n. <- ucenaa_stepenX;;
+
+Kozlov_O.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Kozlov_O.A. -> zam.direktora_po_obsim_voprosam_i_innovaziam;;
+
+Kozlov_O.A. <= nrel_photo: ...(* -> Foto_OSTISX2011.02.10.10.30;; *);;
+
+Kozlov_O.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.25;Foto_OSTISX2011.02.10.10.35;Foto_OSTISX2011.02.10.11.31;; *);;*/

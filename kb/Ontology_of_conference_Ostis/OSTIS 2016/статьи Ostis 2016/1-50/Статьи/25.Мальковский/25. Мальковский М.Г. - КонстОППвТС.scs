@@ -1,0 +1,40 @@
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_main_idtf:
+[Мальковский М.Г. 2016 - КонстОППвТС]
+	(*
+	<- lang_ru;;
+	*);
+	[Malkovsky_M_G_2016_TheDoPCORitTN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_name_publication:[Конструирование отношения псевдохронологического порядка в терминологических сетях](*
+	<- lang_ru;;
+	*);;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN <= nrel_authors:
+MalXkovskij_M.G.; Soloviev_S_U;;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN <- article;;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_reference_standard: [Мальковский М.Г.  Конструирование отношения псевдохронологического порядка в терминологических сетях / М.Г. Мальковский, С.Ю. Соловьёв // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_year_publication: 2016;;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/25.malkovsky.pdf";; *);; *);;
+
+
+
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN  =>  nrel_annotation:
+[Рассматриваетсяжизненный цикл терминовнаучной и деловой лексики. Вводится понятие хронологическойшкалы   терминов.   Рассматривается   задача   восстановления   хронологических   связей   на   заданномструктурированном  множестве  терминов.  Предлагается  для  восстановления  использоватьприемы  научногопознания, которые с одной стороны используются для конструирования терминосистем, а с другой стороныпозволяют  зафиксировать  порядок  появления  терминов  в  научно-деловом  обороте.  Приводятся  образцыпродукционных  правил,  ориентированных  на  выявление  хронологических  связей.  Предлагается  методконструирования хронологической шкалы по результатам функционирования продукционной системы.](*
+	<- lang_ru;;
+	*);;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_count_page: 4;;
+
+publication_Malkovsky_M_G_2016_TheDoPCORitTN => nrel_article_language: lang_ru;;
+

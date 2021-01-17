@@ -1,0 +1,7 @@
+sc_node_not_relation->Pakladok_D._A.;;
+Pakladok_D._A.=>nrel_main_ru_idtf:[Пакладок Д. А.];;
+
+
+Pakladok_D._A. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2014;; *);;
+
+Pakladok_D._A. -> Ucastnik_konferenzii_OSTIS;;

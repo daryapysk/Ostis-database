@@ -1,0 +1,44 @@
+
+Serbak_S.S.=> nrel_main_idtf:
+	[Щербак С.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serbak_S.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Serbak_S.S. => nrel_email: [sergey.shcherbak@gmail.com](*<-lang_en;;*);;
+
+//Serbak_S.S. <= nrel_authors:  ...(* -> Doklad_29_OSTISX2015;Doklad_77_OSTISX2014;Doklad_76_OSTISX2014;Doklad_2.05_OSTISX2013;; *);;
+
+//Serbak_S.S. -> Ucastnik_konferenzii_OSTIS;;
+Serbak_S.S. <- concept_participant_of_conference_OSTIS2014;;
+Serbak_S.S. <- concept_participant_of_conference_OSTIS2013;;
+Serbak_S.S. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Serbak_S.S. -> Programmnyj_komitet_OSTISX2015;;
+
+Serbak_S.S. -> Programmnyj_komitet_OSTISX2014;;
+
+Serbak_S.S. -> Programmnyj_komitet_OSTISX2013;;
+
+Serbak_S.S. -> Programmnyj_komitet_OSTISX2012;;
+
+Serbak_S.S. -> Programmnyj_komitet_OSTISX2011;;
+
+Serbak_S.S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Serbak_S.S. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Serbak_S.S. -> dozent;;
+
+Serbak_S.S. <- rrel_key_sc_element: ..illustration_Serbak_S.S.(* <- sc_illustation;; *);;
+..illustration_Serbak_S.S. <= nrel_translation : ..translation_illustration_Serbak_S.S.;;
+..translation_illustration_Serbak_S.S.-> rrel_example : [<img src="http://127.0.0.1:8181/Scherbak.png"/>] (* => nrel_format: format_html;; *);;
+
+Serbak_S.S. <= nrel_photo : ...(* -> Fajl:Scherbak_col.jpg;Fajl:Scherbak_col2.jpg;; *);;*/

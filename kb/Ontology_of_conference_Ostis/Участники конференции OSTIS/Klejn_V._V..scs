@@ -1,0 +1,28 @@
+
+Klejn_V.V.=> nrel_main_idtf:
+	[Клейн В. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Klejn_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Klejn_V.V. => nrel_email: [vikklein93@gmail.com](*<-lang_en;;*);;
+
+//Klejn_V.V. <- concept_participant_of_conference_OSTIS;;
+Klejn_V.V. <- concept_participant_of_conference_OSTIS2015;;
+Klejn_V.V. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Klejn_V._V. <= nrel_authors:  ...(* -> Doklad_53_OSTISX2015;; *);;
+
+Klejn_V._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Klejn_V._V. -> net;;
+net <- ucenaa_stepenX;;
+
+Klejn_V._V. -> student;;
+student <- ucenoe_zvanie;;
+
+Klejn_V._V. -> student;;*/

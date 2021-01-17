@@ -1,0 +1,20 @@
+
+Djangazova_K.A.=> nrel_main_idtf:
+	[Джангазова К.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Djangazova_K.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Djangazova_K.A. => nrel_email: [qumriniso@mail.ru](*<-lang_en;;*);;
+//Djangazova_K.A. <- concept_participant_of_conference_OSTIS;;
+Djangazova_K.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Djangazova_K.A. <= nrel_authors:  ...(* -> Doklad_48_OSTISX2015;; *);;
+
+Djangazova_K.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Djangazova_K.A. -> assistent;;*/

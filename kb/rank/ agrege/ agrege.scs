@@ -1,0 +1,29 @@
+
+concept_agrege => nrel_idtf: [agrege](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Лиценциат)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Агреже - ученая степень, дающая право преподавать в лицеях и университетах.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_agrege;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_university;;
+*);;
+*);;
+
+ concept_agrege -> rrel_example: [Агреже Пол Винсент](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Агреже, физика)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Агреже вёл в лицее физику.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_agrege; concept_physics;;
+*);; 
+

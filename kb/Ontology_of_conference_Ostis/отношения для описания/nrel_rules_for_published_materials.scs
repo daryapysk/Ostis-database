@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_rules_for_published_materials;; 
+
+nrel_rules_for_published_materials => nrel_main_idtf:[правила оформления публикуемых материалов*] (* <-lang_ru;; *);;
+
+nrel_rules_for_published_materials => nrel_main_idtf:[rules for published materials*] (* <-lang_en;; *);;

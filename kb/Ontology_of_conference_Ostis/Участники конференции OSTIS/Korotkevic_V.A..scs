@@ -1,0 +1,30 @@
+
+Korotkevic_V.A.=> nrel_main_idtf:
+	[Короткевич В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korotkevic_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Korotkevic_V.A. => nrel_email: [korotkevich@gsu.by](*<-lang_en;;*);;
+
+//Korotkevic_V.A. <= nrel_authors:  ...(* -> Doklad_5.05_OSTISX2011;; *);;
+
+//Korotkevic_V.A. <- concept_participant_of_conference_OSTIS;;
+Korotkevic_V.A. <- concept_participant_of_conference_OSTIS2011;;
+
+
+/*Korotkevic_V.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Korotkevic_V.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Korotkevic_V.A. -> dozent;;
+
+Korotkevic_V.A. <- rrel_key_sc_element: ..illustration_Korotkevic_V.A.(* <- sc_illustation;; *);;
+..illustration_Korotkevic_V.A. <= nrel_translation : ..translation_illustration_Korotkevic_V.A.;;
+..translation_illustration_Korotkevic_V.A.-> rrel_example : [<img src="http://127.0.0.1:8181/KorotkevichVA.png"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,29 @@
+publication_Menshakov_P_A_2016_VoUIiACS => nrel_main_idtf:
+[Меньшаков П. А. 2016 - МетодГИнОНС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Menshakov_P_A_2016_VoUIiACS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Menshakov_P_A_2016_VoUIiACS => nrel_name_publication:[Методика голосовой идентификации на основе нейронных сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Menshakov_P_A_2016_VoUIiACS<= nrel_authors:
+MenXsakov_P.A.;;
+publication_Menshakov_P_A_2016_VoUIiACS<= nrel_authors:
+Murasko_I.A.;;
+
+
+publication_Menshakov_P_A_2016_VoUIiACS <- article;;
+
+publication_Menshakov_P_A_2016_VoUIiACS => nrel_reference_standard: [Меньшаков, П. А. Методика голосовой идентификации на основе нейронных сетей / П. А. Меньшаков, И. А. Мурашко  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 411–414.];;
+
+publication_Menshakov_P_A_2016_VoUIiACS => nrel_year_publication: 2016;;
+
+publication_Menshakov_P_A_2016_VoUIiACS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Menshakov_P_A_2016_VoUIiACS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Меньшаков.pdf";; *);;*);;

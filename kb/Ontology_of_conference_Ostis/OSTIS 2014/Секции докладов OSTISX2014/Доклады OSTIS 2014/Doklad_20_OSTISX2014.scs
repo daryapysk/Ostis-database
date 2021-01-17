@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_20_OSTISX2014;;
+Doklad_20_OSTISX2014=>nrel_main_idtf:[Доклад 20 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_20_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_20_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_20_OSTISX2014 <= nrel_name_of_doclad: [Семантические технологии для математических электронных ресурсов](* <- lang_ru;;*);;
+
+// Doklad_20_OSTISX2014 <= nrel_authors : ...(* -> Nevzorova_O._A.;; *);;
+
+Doklad_20_OSTISX2014 <= nrel_authors: Nevzorova_O._A.;; 
+
+// Doklad_20_OSTISX2014 <= nrel_articke: ...(* -> 20._Nevzorova_O.A._X_SemanTdMER;; *);;

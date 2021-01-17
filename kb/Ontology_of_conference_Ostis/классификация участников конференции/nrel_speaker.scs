@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_speaker;; 
+nrel_speaker=>nrel_main_idtf:
+[докладчик*](*<-lang_ru;;*);
+[speaker*](*<-lang_en;;*);;
+nrel_speaker<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Докладчик - персона, предоставляющая доклад.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+nrel_speaker=>nrel_first_domain:concept_conference;;
+nrel_speaker=>nrel_second_domain:concept_participant;;
+nrel_speaker=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;
+

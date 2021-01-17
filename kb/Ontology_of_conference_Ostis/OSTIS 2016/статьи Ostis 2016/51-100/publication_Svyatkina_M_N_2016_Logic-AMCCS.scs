@@ -1,0 +1,27 @@
+publication_Svyatkina_M_N_2016_LogicAMCCS => nrel_main_idtf:
+[Святкина М. Н. 2016 - Логик-АМПКС]
+	(*
+	<- lang_ru;;
+	*);
+	[Svyatkina_M_N_2016_Logic-AMCCS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS => nrel_name_publication:[Логико-алгебраические методы построения когнетивных сенсоров](*
+	<- lang_ru;;
+	*);;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS <= nrel_authors:
+Svatkina_M.N.;;
+publication_Svyatkina_M_N_2016_LogicAMCCS <= nrel_authors:
+Tarasov_V.B.;;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS <- article;;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS => nrel_reference_standard: [Святкина, М. Н. Логико-алгебраические методы построения когнетивных сенсоров / М.Н. Святкина, В.Б. Тарасов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 331–348.];;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS => nrel_year_publication: 2016;;
+
+publication_Svyatkina_M_N_2016_LogicAMCCS=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Svyatkina_M_N_2016_LogicAMCCS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Святкина.pdf";; *);;*);;

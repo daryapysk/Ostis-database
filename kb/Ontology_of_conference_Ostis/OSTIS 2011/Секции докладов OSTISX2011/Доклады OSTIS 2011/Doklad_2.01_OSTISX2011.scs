@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_2.01_OSTISX2011;;
+Doklad_2.01_OSTISX2011=>nrel_main_idtf:[Доклад 2.01 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_2.01_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_2.01_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_2.01_OSTISX2011 => nrel_name_of_doclad: [Онтологический инжиниринг в одном проекте: что нам стоит дом построить](* <- lang_ru;;*);;
+
+/*Doklad_2.01_OSTISX2011 <= nrel_section: [Секция 2 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_2.01_OSTISX2011 <= nrel_authors : ...(* -> Ena_O._V.;Efimenko_I._V.;Horosevskij_V._F.;; *);;
+
+Doklad_2.01_OSTISX2011 <= nrel_articke: ...(* -> Ena_O.V..2011stXOntolIvOPCNSDP;; *);;
+
+Doklad_2.01_OSTISX2011 <= nrel_stand: ...(* -> Stend_607X7_OSTISX2011;; *);;*/
+
+Doklad_2.01_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Ена_О.В..2011ст-ОнтолИвОПЧНСДП.pdf";;
+						    *);; 
+					*);;
+
+Doklad_2.01_OSTISX2011 =>nrel_authors: Ena_O.V.;Efimenko_I.V.;Horosevskij_V.F.;;

@@ -1,0 +1,18 @@
+
+Mocalkina_K.S.=> nrel_main_idtf:
+	[Мочалкина К.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mocalkina_K.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Mocalkina_K.S. => nrel_authors:  ...(* -> Doklad_6.06_OSTISX2012;; *);;
+
+//Mocalkina_K.S. <- concept_participant_of_conference_OSTIS;;
+Mocalkina_K.S. <- concept_participant_of_conference_OSTIS2012;;
+
+//Mocalkina_K.S. -> magistrant;;

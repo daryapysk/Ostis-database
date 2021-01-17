@@ -1,0 +1,20 @@
+
+Corakaev_O.E.=> nrel_main_idtf:
+	[Чоракаев О. Э.]
+	(*
+	<- lang_ru;;
+	*);
+	[Corakaev_O.E.]
+	(*
+	<- lang_en;;
+	*);;
+
+Corakaev_O.E. => nrel_email: [olegchorakaev@yandex.ru](*<-lang_en;;*);;
+//Corakaev_O.E. <- concept_participant_of_conference_OSTIS;;
+Corakaev_O.E. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Corakaev_O._E. <= nrel_authors:  ...(* -> Doklad_49_OSTISX2015;; *);;
+
+Corakaev_O._E. -> Ucastnik_konferenzii_OSTIS;;
+
+Corakaev_O._E. -> starsij_prepodavatelX;;*/

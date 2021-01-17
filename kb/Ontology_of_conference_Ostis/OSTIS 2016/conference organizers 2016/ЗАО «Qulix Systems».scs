@@ -1,0 +1,9 @@
+CJSC_QulixSystems => nrel_main_idtf:
+	[ЗАО «Qulix Systems»]
+	(*
+	<- lang_ru;;
+	*);
+	[CJSC «Qulix Systems»]
+	(*
+	<- lang_en;;
+	*);;

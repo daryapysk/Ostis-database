@@ -1,0 +1,14 @@
+Zubcov_R_O => nrel_main_idtf:
+[Кудрявцев Д. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zubcov_R_O] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Zubcov_R_O;;
+
+Zubcov_R_O => nrel_contact_information:[zubtsov.r@gmail.com];;
+

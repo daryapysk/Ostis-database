@@ -1,0 +1,28 @@
+
+Ankovskaa_A.E.=> nrel_main_idtf:
+	[Янковская А.Е.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ankovskaa_A.E.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ankovskaa_A.E. => nrel_email: [ayyankov@gmail.com](*<-lang_en;;*);;
+
+Ankovskaa_A.E. <- concept_participant_of_conference_OSTIS2014;;
+Ankovskaa_A.E. <- concept_participant_of_conference_OSTIS2015;;
+Ankovskaa_A.E. <- concept_participant_of_conference_OSTIS2020;;
+
+/*Ankovskaa_A.E. <= nrel_authors:  ...(* -> Doklad_42_OSTISX2015;Doklad_43_OSTISX2014;; *);;
+
+Ankovskaa_A.E. -> Ucastnik_konferenzii_OSTIS;;
+
+Ankovskaa_A.E. -> doktor_nauk;;
+doktor_nauk <- ucenaa_stepenX;;
+
+Ankovskaa_A.E. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Ankovskaa_A.E. <= nrel_photo: ...(* -> Fajl:AnkovskaaAE.JPG;; *);;*/

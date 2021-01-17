@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_38_OSTISX2015;;
+Doklad_38_OSTISX2015=>nrel_main_idtf:[Доклад 38 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_38_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_38_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_38_OSTISX2015 => nrel_name_of_doclad: [Сетевая модель распространения активности в среде гетерогенных автоматов](* <- lang_ru;;*);;
+
+//Doklad_38_OSTISX2015 <= nrel_authors : ...(* -> Jilakova_L._U.;; *);;
+
+//Doklad_38_OSTISX2015 <= nrel_articke: ...(* -> 38._Jilakova_L.U._X_SetevaaMRAvSGA_cernoXbelaa;; *);;
+
+Doklad_38_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/38._Жилякова_Л.Ю._-_СетеваяМРАвСГА_черно-белая.pdf";;
+						    *);; 
+					*);;
+
+Doklad_38_OSTISX2015=> nrel_authors: Jilakova_L.U.;;

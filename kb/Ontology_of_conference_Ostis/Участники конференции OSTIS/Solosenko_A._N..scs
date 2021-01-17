@@ -1,0 +1,26 @@
+
+Solosenko_A.N.=> nrel_main_idtf:
+	[Солошенко А. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Solosenko_A.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Solosenko_A.N.=> nrel_email: [vladimir.rozaliev@gmail.com](*<-lang_en;;*);;
+
+Solosenko_A.N. <- concept_participant_of_conference_OSTIS2014;;
+Solosenko_A.N. <- concept_participant_of_conference_OSTIS2012;;
+
+
+/*Solosenko_A._N. <= nrel_authors:  ...(* -> Doklad_84_OSTISX2015;Doklad_65_OSTISX2014;; *);;
+
+Solosenko_A._N. -> Ucastnik_konferenzii_OSTIS;;
+
+Solosenko_A._N. -> student;;
+student <- Volgogradskij_gosudarstvennyj_tehniceskij_universitet;;
+
+Solosenko_A._N. -> magistrant;;
+magistrant <- ucenoe_zvanie;;*/

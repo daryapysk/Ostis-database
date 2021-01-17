@@ -1,0 +1,17 @@
+
+Gezevich_S.A.=> nrel_main_idtf:
+	[Гецевич C.A.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gezevich_S.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Gezevich_S.A. <- concept_participant_of_conference_OSTIS2012;;
+
+//Gezevich_S.A. <- concept_participant_of_conference_OSTIS;;
+

@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_3.09_OSTISX2012;;
+Doklad_3.09_OSTISX2012=>nrel_main_idtf:[Доклад 3.09 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.09_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.09_OSTISX2012 => nrel_name_of_doclad: [Использование онтологий при построении систем распознавания образов](* <- lang_ru;;*);;
+
+Doklad_3.09_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.09_OSTISX2012 <= nrel_authors : ...(* -> Jukevic_A._I.;Olizarovic_E._V.;Rodcenko_V._G.;; *);;
+
+Doklad_3.09_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 3.9 OSTIS-2012";;
+
+Doklad_3.09_OSTISX2012 <= nrel_articke: ...(* -> Jukevic_A.I..2012stXIspolOpPSRO;; *);;
+
+Doklad_3.09_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X29_OSTISX2012;; *);;*/
+
+Doklad_3.09_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Жукевич_А.И..2012ст-ИсполОпПСРО.pdf";;
+						    *);; 
+					*);;
+Doklad_3.09_OSTISX2012=> nrel_authors:Jukevic_A.I.;Olizarovic_E.V.;Rodcenko_V.G.;;

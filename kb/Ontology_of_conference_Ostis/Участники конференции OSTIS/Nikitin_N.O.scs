@@ -1,0 +1,17 @@
+
+Nikitin_N.O.=> nrel_main_idtf:
+	[Никитин Н.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nikitin_N.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Nikitin_N.O. <- concept_participant_of_conference_OSTIS2012;;
+
+//Nikitin_N.O. <- concept_participant_of_conference_OSTIS;;
+

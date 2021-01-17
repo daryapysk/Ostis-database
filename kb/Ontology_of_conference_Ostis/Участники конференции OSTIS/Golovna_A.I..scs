@@ -1,0 +1,25 @@
+
+Golovna_A.I.=> nrel_main_idtf:
+	[Головня А.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Golovna_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+/*Golovna_A.I. <= nrel_authors:  ...(* -> Doklad_9.03_OSTISX2011;; *);;
+
+Golovna_A.I. <= nrel_publication : ...(* -> Golovna_A.I.2009stXSisteRSiGvIS;; *);;*/
+
+//Golovna_A.I. <- concept_participant_of_conference_OSTIS;;
+Golovna_A.I. <- concept_participant_of_conference_OSTIS2011;;
+Golovna_A.I. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Golovna_A.I. -> k.fil.n.;;
+k.fil.n. <- ucenaa_stepenX;;
+
+Golovna_A.I. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

@@ -1,0 +1,14 @@
+Averkin_A_N => nrel_main_idtf:
+[Аверкин А.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Averkin_A_N] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Averkin_A_N;;
+
+Averkin_A_N => nrel_contact_information:[averkin2003@inbox.ru];;
+

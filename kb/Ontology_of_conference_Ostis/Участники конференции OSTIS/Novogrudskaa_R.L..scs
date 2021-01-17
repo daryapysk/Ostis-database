@@ -1,0 +1,20 @@
+
+Novogrudskaa_R.L.=> nrel_main_idtf:
+	[Новогрудская Р.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Novogrudskaa_R.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Novogrudskaa_R.L. => nrel_email: [inan@ukr.net](*<-lang_en;;*);;
+
+/*Novogrudskaa_R.L. <= nrel_authors:  ...(* -> Doklad_26_OSTISX2015;Doklad_13_OSTISX2014;Doklad_1.04_OSTISX2013;Doklad_6.06_OSTISX2012;Doklad_5.04_OSTISX2011;; *);;*/
+
+Novogrudskaa_R.L. <- concept_participant_of_conference_OSTIS2014;;
+Novogrudskaa_R.L. <- concept_participant_of_conference_OSTIS2012;
+											concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+//Novogrudskaa_R.L. -> assistent;;

@@ -1,0 +1,14 @@
+Vagin_V_N => nrel_main_idtf:
+[Вагин В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vagin_V_N] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Vagin_V_N;;
+
+Vagin_V_N => nrel_contact_information:[vagin@appmat.ru,];;
+

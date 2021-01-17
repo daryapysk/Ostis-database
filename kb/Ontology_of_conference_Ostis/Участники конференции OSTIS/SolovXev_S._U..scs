@@ -1,0 +1,17 @@
+sc_node_not_relation->SolovXev_S._U.;;
+SolovXev_S._U.=>nrel_main_ru_idtf:[Соловьев С. Ю.];;
+
+SolovXev_S._U. <= nrel_email: [soloviev@glossary.ru](*<-lang_en;;*);;
+
+SolovXev_S._U. <= nrel_authors:  ...(* -> Doklad_34_OSTISX2015;; *);;
+
+SolovXev_S._U. -> Ucastnik_konferenzii_OSTIS;;
+SolovXev_S._U. <- concept_participant_of_conference_OSTIS2013;;
+
+SolovXev_S._U. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+SolovXev_S._U. -> professor;;
+professor <- ucenoe_zvanie;;
+
+SolovXev_S._U. -> professor;;

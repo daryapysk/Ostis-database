@@ -1,0 +1,14 @@
+Eremeev_A_P => nrel_main_idtf:
+[Еремеев А.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Eremeev_A_P] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Eremeev_A_P;;
+
+Eremeev_A_P => nrel_contact_information:[Eremeev@appmat.ru];;
+

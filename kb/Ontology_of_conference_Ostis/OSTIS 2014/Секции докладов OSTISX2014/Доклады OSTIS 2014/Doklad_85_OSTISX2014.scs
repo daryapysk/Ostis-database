@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_85_OSTISX2014;;
+Doklad_85_OSTISX2014=>nrel_main_idtf:[Доклад 85 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_85_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_85_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_85_OSTISX2014 <= nrel_name_of_doclad: [Реализация онтологической мультиагентности предметной области средствами реляционной СУБД на примере зачисления абитуриентов в университеты России](* <- lang_ru;;*);;
+
+// Doklad_85_OSTISX2014 <= nrel_authors : ...(* -> Borgest_N._M.;Lysakovskij_I._A.;; *);;
+
+Doklad_85_OSTISX2014 <= nrel_authors: Borgest_N._M.;Lysakovskij_I._A.;; 
+
+// Doklad_85_OSTISX2014 <= nrel_articke: ...(* -> 85._Borgest_N.M.X_Lysakovskij_I.A._X_RealiOMPOSRSUBDnPZAvUR;; *);;

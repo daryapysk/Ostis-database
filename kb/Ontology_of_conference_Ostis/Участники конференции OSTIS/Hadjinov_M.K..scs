@@ -1,0 +1,29 @@
+
+Hadjinov_M.K.=> nrel_main_idtf:
+	[Хаджинов М.К.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hadjinov_M.K.]
+	(*
+	<- lang_en;;
+	*);;
+
+Hadjinov_M.K. => nrel_email: [kh_m@tut.by](*<-lang_en;;*);;
+
+/*Hadjinov_M.K. <= nrel_authors:  ...(* -> Doklad_8.11_OSTISX2011;; *);;
+
+Hadjinov_M.K. <= nrel_publication : ...(* -> Hadjinov_M.K..1994ucXAlgorUSS;Antipova_M.A..2003ucXAvtomRSU;; *);;*/
+
+//Hadjinov_M.K. <- concept_participant_of_conference_OSTIS;;
+Hadjinov_M.K. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Hadjinov_M.K. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Hadjinov_M.K. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Hadjinov_M.K. <- rrel_key_sc_element: ..illustration_Hadjinov_M.K.(* <- sc_illustation;; *);;
+..illustration_Hadjinov_M.K. <= nrel_translation : ..translation_illustration_Hadjinov_M.K.;;
+..translation_illustration_Hadjinov_M.K.-> rrel_example : [<img src="http://127.0.0.1:8181/Hadjinov.png"/>] (* => nrel_format: format_html;; *);;*/

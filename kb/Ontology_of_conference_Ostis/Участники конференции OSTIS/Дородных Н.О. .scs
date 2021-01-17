@@ -1,0 +1,14 @@
+Dorodnykh_N_O => nrel_main_idtf:
+[Дородных Н.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dorodnykh_N_O_] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Dorodnykh_N_O_;;
+
+Dorodnykh_N_O_ => nrel_contact_information:[tualatin32@mail.ru];;
+

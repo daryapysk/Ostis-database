@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_02_OSTISX2015;;
+Doklad_02_OSTISX2015=>nrel_main_idtf:[Доклад 02 OSTIS-2015](*<- lang_ru;;*);;
+
+
+Doklad_02_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+
+//Doklad_02_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_02_OSTISX2015 => nrel_name_of_doclad: [Семантическая технология картирования семантических технологий](* <- lang_ru;;*);;
+
+//Doklad_02_OSTISX2015 <= nrel_authors : ...(* -> Horosevskij_V._F.;Efimenko_I._V.;; *);;
+
+//Doklad_02_OSTISX2015 <= nrel_articke: ...(* -> 02._Horosevskij_V.F.X_Efimenko_I.V._–_SemanticeskaaTKST;; *);;
+
+
+Doklad_02_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/02. Хорошевский В.Ф., Ефименко И.В. – СемантическаяТКСТ.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_02_OSTISX2015  => nrel_authors: Horosevskij_V.F.;Efimenko_I.V.;;

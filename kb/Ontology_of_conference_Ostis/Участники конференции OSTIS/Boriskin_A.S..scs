@@ -1,0 +1,18 @@
+
+Boriskin_A.S.=> nrel_main_idtf:
+	[Борискин А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Boriskin_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+//Boriskin_A.S. <- concept_participant_of_conference_OSTIS;;
+Boriskin_A.S.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Boriskin_A.S. <= nrel_authors:  ...(* -> Doklad_06_OSTISX2015;; *);;
+
+Boriskin_A.S. -> Ucastnik_konferenzii_OSTIS;;*/
+
+Boriskin_A.S. <- student;;

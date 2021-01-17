@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_10_OSTISX2015;;
+Doklad_10_OSTISX2015=>nrel_main_idtf:[Доклад 10 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_10_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_10_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_10_OSTISX2015 => nrel_name_of_doclad: [Принципы построения клинической системы поддержки принятия решений на основе технологии OSTIS](* <- lang_ru;;*);;
+
+//Doklad_10_OSTISX2015 <= nrel_authors : ...(* -> Kaesko_A._I.;Margunov_E._A.;; *);;
+
+//Doklad_10_OSTISX2015 <= nrel_articke: ...(* -> 10._Kaesko_A.I.X_Margunov_E.A._X_PrinzipyPKSPPRnOTOSTIS;; *);;
+
+Doklad_10_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/10.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_10_OSTISX2015=> nrel_authors: Kaesko_A.I.;Margunov_E.A.;;

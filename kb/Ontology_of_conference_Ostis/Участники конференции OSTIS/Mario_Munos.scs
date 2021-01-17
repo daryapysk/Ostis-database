@@ -1,0 +1,15 @@
+
+Mario_Munos=> nrel_main_idtf:
+	[Марио Мунос]
+	(*
+	<- lang_ru;;
+	*);
+	[Mario_Munos]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Mario_Munos <- concept_participant_of_conference_OSTIS;;
+Mario_Munos <- concept_participant_of_conference_OSTIS2012;;
+

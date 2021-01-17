@@ -1,0 +1,14 @@
+Voronin_U_A=> nrel_main_idtf:
+[Воронин Ю.А. ]
+	(*
+	<- lang_ru;;
+	*);
+	[Voronin_U_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Voronin_U_A;;
+
+Voronin_U_A => nrel_contact_information:[is@tstu.tver.ru];;
+ 

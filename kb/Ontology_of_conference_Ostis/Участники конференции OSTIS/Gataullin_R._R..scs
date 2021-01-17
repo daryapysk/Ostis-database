@@ -1,0 +1,22 @@
+
+Gataullin_R.R.=> nrel_main_idtf:
+	[Гатауллин Р. Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gataullin_R.R.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gataullin_R.R. => nrel_email: [ramil.gata@gmail.com](*<-lang_en;;*);;
+
+Gataullin_R.R. <- concept_participant_of_conference_OSTIS2014;;
+Gataullin_R.R.<- concept_participant_of_conference_OSTIS2015;;
+Gataullin_R.R.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Gataullin_R._R. <= nrel_authors:  ...(* -> Doklad_63_OSTISX2015;Doklad_79_OSTISX2014;; *);;
+
+Gataullin_R._R. -> Ucastnik_konferenzii_OSTIS;;
+
+Gataullin_R._R. -> m.n.s.;;*/

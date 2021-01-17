@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_material;; 
+
+nrel_material => nrel_main_idtf:[материалы конференции*] (* <-lang_ru;; *);;
+
+nrel_material => nrel_main_idtf:[material of conference*] (* <-lang_en;; *);;
+
+
+
+nrel_material <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[материалы конференции - результаты опубликования конференции или ее частей.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

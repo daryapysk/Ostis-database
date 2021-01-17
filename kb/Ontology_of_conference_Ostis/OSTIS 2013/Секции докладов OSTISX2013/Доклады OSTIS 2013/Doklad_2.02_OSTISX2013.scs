@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.02_OSTISX2013;;
+Doklad_2.02_OSTISX2013=>nrel_main_idtf:[Доклад 2.02 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.02_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.02_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.02_OSTISX2013 <= nrel_name_of_doclad: [Построение ассоциативной модели памяти. Когнитивный подход](* <- lang_ru;;*);;
+
+// //Doklad_2.02_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.02_OSTISX2013 <= nrel_authors : ...(* -> Jilakova_L._U.;; *);;
+Doklad_2.02_OSTISX2013 <= nrel_authors: Jilakova_L._U.;;
+
+//Doklad_2.02_OSTISX2013 <= nrel_articke: ...(* -> Jilakova_L.U.2013stXPostrAMPKP;; *);;
+
+Doklad_2.02_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Жилякова_Л.Ю.2013ст-ПострАМПКП.pdf";;
+						    *);;
+					*);;

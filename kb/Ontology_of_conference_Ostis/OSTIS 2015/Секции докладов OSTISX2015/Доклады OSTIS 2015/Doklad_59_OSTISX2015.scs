@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_59_OSTISX2015;;
+Doklad_59_OSTISX2015=>nrel_main_idtf:[Доклад 59 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_59_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_59_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_59_OSTISX2015 => nrel_name_of_doclad: [Методы представления знаний для решения задач моделирования](* <- lang_ru;;*);;
+
+//Doklad_59_OSTISX2015 <= nrel_authors : ...(* -> Korsikov_D.N.;Lahin_O._I.;Noskova_A._I.;Urygina_U._S.;; *);;
+
+//Doklad_59_OSTISX2015 <= nrel_articke: ...(* -> 59._Korsikov_D.N.X_Lahin_O.I.X_Noskova_A.I.X_Urygina_U.S._X_MetodyPZdRZM;; *);;
+
+
+Doklad_59_OSTISX2015  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/59._Коршиков_Д.Н.,_Лахин_О.И.,_Носкова_А.И.,_Юрыгина_Ю.С._-_МетодыПЗдРЗМ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_59_OSTISX2015 => nrel_authors: Korsikov_D.N.;Lahin_O.I.;Noskova_A.I.;Urygina_U.S.;;

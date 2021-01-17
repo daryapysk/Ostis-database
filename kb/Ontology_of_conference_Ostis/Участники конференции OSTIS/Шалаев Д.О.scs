@@ -1,0 +1,14 @@
+Shalaev_D_O => nrel_main_idtf:
+[Шалаев Д.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Shalaev_D_O] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Shalaev_D_O;;
+
+Shalaev_D_O => nrel_contact_information:[do.shalaev@ulstu.ru];;
+

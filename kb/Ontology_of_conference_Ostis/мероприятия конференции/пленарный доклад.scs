@@ -1,0 +1,21 @@
+concept_plenary_report  => nrel_main_idtf:
+[пленарный доклад](* <- lang_ru;; *);
+[plenary report] (* <- lang_en;; *);;
+
+
+concept_plenary_report <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(пленарный доклад)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Пленарный доклад - в научных конференциях, конгрессах и симпозиумах пленарное заседание открывает и заканчивает работу секций. В пленарном заседании выступают наиболее значимые лица, включая приглашенных гостей, происходит отчёт руководителей секций, принятие общих решений (резолюций).]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+concept_event -> concept_plenary_report ;;

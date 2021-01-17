@@ -1,0 +1,55 @@
+
+sc_node_not_relation->concept_assistant;;
+concept_assistant => nrel_main_idtf: [ассистент](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_academic_rank;;
+concept_academic_rank => nrel_main_idtf: [младшая преподавательская должность](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_chemical_element;;
+concept_chemical_element => nrel_main_idtf: [химический элемент](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_helper;;
+concept_helper => nrel_main_idtf: [помощник](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

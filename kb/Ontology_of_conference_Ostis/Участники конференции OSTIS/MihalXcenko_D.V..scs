@@ -1,0 +1,9 @@
+sc_node_not_relation->MihalXcenko_D.V.;;
+MihalXcenko_D.V.=>nrel_main_ru_idtf:[Михальченко Д.В.];;
+
+
+MihalXcenko_D.V. -> Ucastnik_konferenzii_OSTIS;;
+
+MihalXcenko_D.V. -> student;;
+
+MihalXcenko_D.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.37;Foto_OSTISX2011.02.10.08.52;Foto_OSTISX2011.02.10.08.56;Foto_OSTISX2011.02.10.09.00;Foto_OSTISX2011.02.10.09.01;Foto_OSTISX2011.02.10.09.04;Foto_OSTISX2011.02.10.09.14;Foto_OSTISX2011.02.10.09.15;Foto_OSTISX2011.02.10.09.16;Foto_OSTISX2011.02.10.09.35;; *);;

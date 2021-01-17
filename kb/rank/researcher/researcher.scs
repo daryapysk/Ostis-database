@@ -1,0 +1,32 @@
+
+concept_researcher => nrel_idtf: [researcher](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Научный сотрудник)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Научный сотрудник — квалификацированный работник с высшим образованием и с опытом работы не менее 5 лет.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_researcher;;
+<= nrel_using_constants :...
+(*
+-> concept_experience; concept_qualification; concept_higher_education;;
+*);;
+*);;
+
+ concept_researcher -> rrel_example: [Научный сотрудник повышает свою квалификацию и становится старшим научным сотрудником после 10 лет опыта работы.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Научный сотрудник, опыт работы)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Научный сотрудник кафедры ИИТ имеет опыт работы более 7 лет.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_researcher; concept_experience;;
+*);; 
+
+
+

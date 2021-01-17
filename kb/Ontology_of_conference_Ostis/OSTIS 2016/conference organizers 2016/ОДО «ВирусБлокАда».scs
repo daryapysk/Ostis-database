@@ -1,0 +1,10 @@
+ODO_VirusBlokAda => nrel_main_idtf:
+	[ОДО «ВирусБлокАда»]
+	(*
+	<- lang_ru;;
+	*);
+	[ODO "VirusBlokAda"]
+	(*
+	<- lang_en;;
+	*);;
+

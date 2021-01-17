@@ -1,0 +1,19 @@
+ 
+application_to_OSTIS => nrel_main_idtf:
+[Заявка на участие в Международной научно-технической конференции OSTIS](*<-lang_ru;;*);
+[Application for participation in the International Scientific and Technical Conference OSTIS](*<-lang_en;;*);;
+
+
+application_to_OSTIS <-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Заявка на участие в Международной научно-технической конференции OSTIS - письменное подтверждение участника участвовать в конкурсе на условиях, указанных в извещении о проведении конференции. Заявка подается в срок и по форме, установленной документацией конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+

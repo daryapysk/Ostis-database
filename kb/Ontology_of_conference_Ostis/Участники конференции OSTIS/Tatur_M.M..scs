@@ -1,0 +1,31 @@
+
+Tatur_M.M.=> nrel_main_idtf:
+	[Татур М.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tatur_M.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Tatur_M.M. => nrel_email: [tatur@i-proc.com](*<-lang_en;;*);;
+
+//Tatur_M.M. <= nrel_authors:  ...(* -> Doklad_08_OSTISX2015;Doklad_26_OSTISX2014;Doklad_2.10_OSTISX2013;Doklad_1.13_OSTISX2012;; *);;
+
+Tatur_M.M. <- concept_participant_of_conference_OSTIS2014;;
+Tatur_M.M.<- concept_participant_of_conference_OSTIS2012;
+ concept_participant_of_conference_OSTIS2013;concept_participant_of_conference_OSTIS2015;;
+
+
+/*Tatur_M.M. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Tatur_M.M. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Tatur_M.M. -> dozent;;
+
+Tatur_M.M. <- rrel_key_sc_element: ..illustration_Tatur_M.M.(* <- sc_illustation;; *);;
+..illustration_Tatur_M.M. <= nrel_translation : ..translation_illustration_Tatur_M.M.;;
+..translation_illustration_Tatur_M.M.-> rrel_example : [<img src="http://127.0.0.1:8181/TaturMM.jpg"/>] (* => nrel_format: format_html;; *);;*/

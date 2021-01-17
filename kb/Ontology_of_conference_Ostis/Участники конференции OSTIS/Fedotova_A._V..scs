@@ -1,0 +1,26 @@
+
+Fedotova_A.V.=> nrel_main_idtf:
+	[Федотова А. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fedotova_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Fedotova_A.V. => nrel_email: [aluon@mail.ru](*<-lang_en;;*);;
+
+Fedotova_A.V. <- concept_participant_of_conference_OSTIS2014;;
+Fedotova_A.V. <- concept_participant_of_conference_OSTIS2015;;
+Fedotova_A.V. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Fedotova_A._V. <= nrel_authors:  ...(* -> Doklad_60_OSTISX2015;Doklad_73_OSTISX2014;; *);;
+
+Fedotova_A._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Fedotova_A._V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Fedotova_A._V. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

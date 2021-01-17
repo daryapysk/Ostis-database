@@ -1,0 +1,14 @@
+Kovalenko_T_V => nrel_main_idtf:
+[Коваленко Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kovalenko_T_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kovalenko_T_V;;
+
+Kovalenko_T_V => nrel_contact_information:[2005ste@ukr.net];;
+

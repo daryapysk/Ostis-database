@@ -1,0 +1,12 @@
+Zavgorodnij_V._V.=> nrel_main_idtf:
+	[Завгородний В. В.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Zavgorodnij_V._V.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Zavgorodnij_V._V. <- concept_participant_of_conference_OSTIS;;
+  Zavgorodnij_V._V. <- concept_participant_of_conference_OSTIS2013;;

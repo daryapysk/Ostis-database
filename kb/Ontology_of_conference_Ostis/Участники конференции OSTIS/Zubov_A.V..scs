@@ -1,0 +1,36 @@
+
+Zubov_A.V.=> nrel_main_idtf:
+	[Зубов А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zubov_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Zubov_A.V. => nrel_email: [proscien@mslu.by](*<-lang_en;;*);;
+
+//Zubov_A.V. <= nrel_authors:  ...(* -> Doklad_7.03_OSTISX2011;; *);;
+
+//Zubov_A.V.<- concept_program_committee_of_conference_OSTIS;;
+
+//Zubov_A.V. <- concept_participant_of_conference_OSTIS;;
+Zubov_A.V. <- concept_participant_of_conference_OSTIS2011;;
+Zubov_A.V. <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+/*Zubov_A.V. -> d.f.n.;;
+d.f.n. <- ucenaa_stepenX;;
+
+Zubov_A.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Zubov_A.V. -> professor;;
+
+Zubov_A.V. <- rrel_key_sc_element: ..illustration_Zubov_A.V.(* <- sc_illustation;; *);;
+..illustration_Zubov_A.V. <= nrel_translation : ..translation_illustration_Zubov_A.V.;;
+..translation_illustration_Zubov_A.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Zubov1.png"/>] (* => nrel_format: format_html;; *);;
+
+Zubov_A.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.55;Foto_OSTISX2011.02.10.10.09;; *);;*/

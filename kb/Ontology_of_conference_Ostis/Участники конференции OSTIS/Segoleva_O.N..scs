@@ -1,0 +1,17 @@
+
+Segoleva_O.N.=> nrel_main_idtf:
+	[Щеголева О.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Segoleva_O.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Segoleva_O.N. => nrel_email: [osch@ntmdt.ru](*<-lang_en;;*);;
+
+//Segoleva_O.N. <= nrel_authors:  ...(* -> Doklad_9.02_OSTISX2011;; *);;
+
+//Segoleva_O.N. <- concept_participant_of_conference_OSTIS;;
+Segoleva_O.N. <- concept_participant_of_conference_OSTIS2011;;

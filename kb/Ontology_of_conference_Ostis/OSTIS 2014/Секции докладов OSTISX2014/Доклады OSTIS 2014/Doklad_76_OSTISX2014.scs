@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_76_OSTISX2014;;
+Doklad_76_OSTISX2014=>nrel_main_idtf:[Доклад 76 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_76_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_76_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_76_OSTISX2014 <= nrel_name_of_doclad: [Особенности построения информационных пространств промышленных предприятий на основе связанных данных](* <- lang_ru;;*);;
+
+// Doklad_76_OSTISX2014 <= nrel_authors : ...(* -> Galuska_I._N.;Serbak_S._S.;; *);;
+
+Doklad_76_OSTISX2014 <= nrel_authors: Galuska_I._N.;Serbak_S._S.;; 
+
+// Doklad_76_OSTISX2014 <= nrel_articke: ...(* -> 76._Galuska_I.N.X_Serbak_S.S._X_OsobePIPPPnOSD;; *);;

@@ -1,0 +1,35 @@
+//
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_main_idtf:
+[Доклад 5.04 OSTIS-2016 Программное обеспечение для автоматического решения задач по планиметрии]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.04 OSTIS-2016 Software for automated solutions for plane geometry tasks] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG <- doklad_OSTISX2016;;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG <= nrel_authors: 
+Kurbatov_S.S.;
+Lobzin_A.P.;
+Hahalin_G.K.;;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_published_material: publication_Kurbatov_S_S_2016_SoftfTASoTOPG;;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_report_language: lang_ru;;
+
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.04_Курбатов_ПрогрОАРЗпП.pdf";; *);; *);;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_name: [Программное обеспечение для автоматического решения задач по планиметрии](*<- lang_ru;;*);;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG <= nrel_speaker: Kurbatov_S.S.;;
+
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_time_speech: [11:20 - 11:40];;
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_data_speech: [19 февраля 2016];;
+
+report_5.04_OSTIS_2016_SoftfTASoTOPG => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

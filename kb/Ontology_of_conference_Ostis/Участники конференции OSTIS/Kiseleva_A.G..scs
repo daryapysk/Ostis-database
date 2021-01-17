@@ -1,0 +1,24 @@
+
+Kiseleva_A.G.=> nrel_main_idtf:
+	[Киселёва А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kiseleva_A.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+/*Kiseleva_A.G. <= nrel_authors:  ...(* -> Doklad_4.07_OSTISX2012;; *);;
+
+Kiseleva_A.G. <= nrel_publication : ...(* -> A.G._KiselevaX_U.S._Petergera_.Osobennosti_postroenia_vycislitelXnoXupravlausej_seti_lokalXnogo_obXekta;Kiseleva_A.G._Upravlenie_zagruzkami_lokalXnogo_obXekta_s_ispolXzovaniem_treugolXnika_predvidenia;Kiseleva_A.G.X_Kiselev_G.D.X_Sergeev_A.A.X_Salaginov_A.V._Obrabotka_vhodnyh_dannyh_v_mulXtimodalXnih_prilojeniah;Petergera_U._S.X_Kiseleva_A.G._Ontologiceskij_podhod_k_razrabotke_sistemy_upravlenia_elektropotrebleniem;Kiseleva_A.G._Podderjka_prinatia_resenij_v_sisteme_upravlenia_lokalXnym_obXektom;; *);;*/
+
+//Kiseleva_A.G. <- concept_participant_of_conference_OSTIS;;
+Kiseleva_A.G.<- concept_participant_of_conference_OSTIS2012;;
+
+/*Kiseleva_A.G. -> assistent;;
+
+Kiseleva_A.G. <- rrel_key_sc_element: ..illustration_Kiseleva_A.G.(* <- sc_illustation;; *);;
+..illustration_Kiseleva_A.G. <= nrel_translation : ..translation_illustration_Kiseleva_A.G.;;
+..translation_illustration_Kiseleva_A.G.-> rrel_example : [<img src="http://127.0.0.1:8181/KiselevaA.G.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,31 @@
+publication_Nikitin_N_A_2016_SoundGBICS => nrel_main_idtf:
+[ Никитин Н.А. 2016 - ГенерЗпЦГИ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Nikitin_N_A_2016_SoundGBICS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Nikitin_N_A_2016_SoundGBICS=> nrel_name_publication:[Генерация звуков по цветовой гамме изображения ](*
+	<- lang_ru;;
+	*);;
+publication_Nikitin_N_A_2016_SoundGBICS <= nrel_authors:
+Nikitin_N_A;;
+publication_Nikitin_N_A_2016_SoundGBICS <= nrel_authors:
+Rozaliev_V.L.;;
+publication_Nikitin_N_A_2016_SoundGBICS <= nrel_authors:
+Orlova_U.A.;;
+publication_Nikitin_N_A_2016_SoundGBICS <= nrel_authors:
+ZaboleevaXZotova_A.V.;;
+
+
+
+publication_Nikitin_N_A_2016_SoundGBICS=> nrel_reference_standard: [Никитин, Н.А. Генерация звуков по цветовой гамме изображения / Н.А. Никитин, В.Л. Розалиев, Ю.А. Орлова, А.В. Заболеева-Зотова / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 561–564.];;
+
+publication_Nikitin_N_A_2016_SoundGBICS=> nrel_year_publication: 2016;;
+
+publication_Nikitin_N_A_2016_SoundGBICS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Nikitin_N_A_2016_SoundGBICS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Никитин.pdf";; *);;*);;

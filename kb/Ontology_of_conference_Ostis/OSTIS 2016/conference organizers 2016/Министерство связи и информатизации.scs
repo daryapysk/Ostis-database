@@ -1,0 +1,10 @@
+Ministry_Communications_Informatization => nrel_main_idtf:
+	[Министерство связи и информатизации]
+	(*
+	<- lang_ru;;
+	*);
+	[The Ministry of Communications and Informatization]
+	(*
+	<- lang_en;;
+	*);;
+

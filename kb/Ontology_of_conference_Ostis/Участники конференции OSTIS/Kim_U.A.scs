@@ -1,0 +1,17 @@
+
+Kim_U.A.=> nrel_main_idtf:
+	[Ким Ю. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kim_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Kim_U.A.<- concept_participant_of_conference_OSTIS2012;;
+
+//Kim_U.A. <- concept_participant_of_conference_OSTIS;;
+

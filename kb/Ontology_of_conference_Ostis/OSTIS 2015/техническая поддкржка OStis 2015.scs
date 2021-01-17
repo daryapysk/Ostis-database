@@ -1,0 +1,16 @@
+technical_information_support_OSTIS_conference_2015 => nrel_main_idtf:
+	[Техническая поддержка Конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Technical information support OSTIS-2015 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+technical_information_support_OSTIS_conference_2015 -> 
+Ontologia_proektirovania;Elektronika_INFO;Informatika;Programmnye_produkty_i_sistemy;;
+
+
+
+

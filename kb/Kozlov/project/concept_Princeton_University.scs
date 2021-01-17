@@ -1,0 +1,50 @@
+
+concept_Princeton_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Принстонский университет]
+      (*<-lang_ru;;*);
+       [Princeton University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Принстонский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_private_univesity;
+       concept_research_university;
+       concept_USA
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Принстонский университет — частный исследовательский университет, один из старейших и известнейших университетов в США.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Принстонский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_specialist
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Принстонском университете работают более 1 100 преподавателей](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Princeton_University -> rrel_example: [Принстонский университет был основан в 1746 году.](* <- lang_ru;; *);;
+concept_Princeton_University <=nrel_inclusion:concept_higher_education_institution;;
+David_Leigh_Donoho<-rrel_graduate:concept_Princeton_University;;
+Curtis_Tracy_McMullen<-rrel_employee:concept_Princeton_University;;
+Robert_Endre_Tarjan<-rrel_employee:concept_Princeton_University;;
+Andrew_Chi_Chih_Yao<-rrel_employee:concept_Princeton_University;;
+Charles_Louis_Fefferman<-rrel_employee:concept_Princeton_University;;
+Charles_Louis_Fefferman<-rrel_graduate:concept_Princeton_University;;
+Robert_Elliot_Kahn<-rrel_graduate:concept_Princeton_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Princeton_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Prinston.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Принстонский университет)](*<- lang_ru;;*);;
+*);;

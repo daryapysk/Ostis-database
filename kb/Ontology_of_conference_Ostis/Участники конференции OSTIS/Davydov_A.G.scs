@@ -1,0 +1,17 @@
+
+Davydov_A.G.=> nrel_main_idtf:
+	[Давыдов А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Davydov_A.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Davydov_A.G.<- concept_participant_of_conference_OSTIS2012;;
+
+//Davydov_A.G. <- concept_participant_of_conference_OSTIS;;
+

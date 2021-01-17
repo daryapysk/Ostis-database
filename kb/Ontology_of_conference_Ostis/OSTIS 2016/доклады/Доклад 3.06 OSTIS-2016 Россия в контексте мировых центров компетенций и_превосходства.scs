@@ -1,0 +1,36 @@
+//
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_main_idtf:
+[Доклад 3.06 OSTIS-2016 Россия в контексте мировых центров компетенций и
+превосходства ]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 3.06 OSTIS-2016 Russia in the context of global competence centers and
+excellence] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_3.06_OSTIS_2016_RussiaATWCoE <- doklad_OSTISX2016;;
+
+report_3.06_OSTIS_2016_RussiaATWCoE <= nrel_author:
+Horosevskij_V.F.;
+Efimenko_I_V;;
+
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_published_material: publication_Khoroshevsky_V_F__2016_RussiaATWCoE;;
+
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_report_language: lang_ru;;
+
+
+report_3.06_OSTIS_2016_RussiaATWCoE <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/3.06_ХорошевскийВ.Ф._РоссивКМЦКиП.pdf";; *);; *);;
+
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_name: [Россия в контексте мировых центров компетенций и
+превосходства](*<- lang_ru;;*);;
+
+report_3.06_OSTIS_2016_RussiaATWCoE <= nrel_speaker: Horosevskij_V.F.;;
+
+
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_time_speech: [17:00 - 17:30];;
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_data_speech: [18 февраля 2016];;
+
+report_3.06_OSTIS_2016_RussiaATWCoE => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;

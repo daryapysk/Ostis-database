@@ -1,0 +1,20 @@
+
+Ena_O.V.=> nrel_main_idtf:
+	[Ена О.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ena_O.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ena_O.V. => nrel_email: [oleg.ena@avicomp.ru](*<-lang_en;;*);;
+
+//Ena_O.V. <= nrel_authors:  ...(* -> Doklad_2.01_OSTISX2011;; *);;
+
+//Ena_O.V. <- concept_participant_of_conference_OSTIS;;
+Ena_O.V. <- concept_participant_of_conference_OSTIS2011;;
+/*Ena_O.V. -> zam.direktora;;
+
+Ena_O.V. <= nrel_photo: ...(* -> Fajl:OlegEna.JPGX;; *);;*/

@@ -1,0 +1,29 @@
+
+Afanaseva_T_V=> nrel_main_idtf:
+	[Афанасьева Т. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Afanaseva_T_V]
+	(*
+	<- lang_en;;
+	*);;
+
+Afanaseva_T_V=> nrel_email: [tv.afanasjeva@gmail.com](*<-lang_en;;*);;
+
+//Afanaseva_T_V <- concept_participant_of_conference_OSTIS;;
+Afanaseva_T_V <- concept_participant_of_conference_OSTIS2015;;
+
+/*Afanaseva_T_V <= nrel_authors:  ...(* -> Doklad_51_OSTISX2015;; *);;
+
+Afanaseva_T_V -> Ucastnik_konferenzii_OSTIS;;
+
+Afanaseva_T_V -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Afanaseva_T_V -> professor;;
+professor <- ucenoe_zvanie;;
+
+Afanaseva_T_V -> Zam._zav._kaf.;;*/
+
+

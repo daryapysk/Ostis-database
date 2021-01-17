@@ -1,0 +1,22 @@
+// sc_node_not_relation->Doklad_2.04_OSTISX2013;;
+Doklad_2.04_OSTISX2013=>nrel_main_idtf:[Доклад 2.04 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.04_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.04_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.04_OSTISX2013 <= nrel_name_of_doclad: [Исследовательский портал по моделированию информационных систем](* <- lang_ru;;*);;
+
+// //Doklad_2.04_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.04_OSTISX2013 <= nrel_authors : ...(* -> Lanin_V._V.;Ladova_L._N.;; *);;
+Doklad_2.04_OSTISX2013 <= nrel_authors: Lanin_V._V.;Ladova_L._N.;;
+
+//Doklad_2.04_OSTISX2013 <= nrel_articke: ...(* -> Lanin_V.V..2013stXIsslePpMIS;; *);;
+Doklad_2.04_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Ланин_В.В..2013ст-ИсслеПпМИС.pdf";;
+						    *);;
+					*);;

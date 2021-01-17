@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_3.04_OSTISX2012;;
+Doklad_3.04_OSTISX2012=>nrel_main_idtf:[Доклад 3.04 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.04_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.04_OSTISX2012 => nrel_name_of_doclad: [Гранулярные, нечеткие и лингвистические онтологии для обеспечения взаимопонимания между когнитивными агентами](* <- lang_ru;;*);;
+
+Doklad_3.04_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.04_OSTISX2012 <= nrel_authors : ...(* -> Tarasov_V._B.;Kaluzkaa_A._P.;Svatkina_M._N.;; *);;
+
+Doklad_3.04_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 3.4 OSTIS-2012";;
+
+Doklad_3.04_OSTISX2012 <= nrel_articke: ...(* -> Tarasov_V.B..2012stXGranuNiLOdOVmKA;; *);;
+
+Doklad_3.04_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X5_OSTISX2012;; *);;*/
+
+Doklad_3.04_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Тарасов_В.Б..2012ст-ГрануНиЛОдОВмКА.pdf";;
+						    *);; 
+					*);;
+Doklad_3.04_OSTISX2012=> nrel_authors:Tarasov_V.B.;Kaluzkaa_A.P.;Svatkina_M.N.;;

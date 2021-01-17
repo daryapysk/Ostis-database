@@ -1,0 +1,14 @@
+Wang_L.=> nrel_main_idtf:
+	[Ванг Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Wang L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Wang_L. => nrel_email: [elpwang@ntu.edu.sg](*<-lang_en;;*);;
+Wang_L. <- concept_participant_of_conference_OSTIS2014;;
+
+

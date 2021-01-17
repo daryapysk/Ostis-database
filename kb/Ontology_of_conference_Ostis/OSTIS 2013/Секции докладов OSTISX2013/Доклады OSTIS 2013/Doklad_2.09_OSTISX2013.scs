@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.09_OSTISX2013;;
+Doklad_2.09_OSTISX2013=>nrel_main_idtf:[Доклад 2.09 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.09_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.09_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.09_OSTISX2013 <= nrel_name_of_doclad: [Реализация хранилища унифицированных семантических сетей](* <- lang_ru;;*);;
+
+// //Doklad_2.09_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.09_OSTISX2013 <= nrel_authors : ...(* -> Koroncik_D._N.;; *);;
+Doklad_2.09_OSTISX2013 <= nrel_authors: Koronchik_Denis_Nikolaevich;;
+
+//Doklad_2.09_OSTISX2013 <= nrel_articke: ...(* -> Koroncik_D.N.2013stXRealiHUSS;; *);;
+
+Doklad_2.09_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Корончик_Д.Н.2013ст-РеалиХУСС.pdf";;
+						    *);;
+					*);;

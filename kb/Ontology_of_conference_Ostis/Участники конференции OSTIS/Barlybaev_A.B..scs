@@ -1,0 +1,26 @@
+
+Barlybaev_A.B.=> nrel_main_idtf:
+	[Барлыбаев А.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Barlybaev_A.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Barlybaev_A.B. => nrel_email: [frank-ab@mail.ru](*<-lang_en;;*);;
+
+//Barlybaev_A.B. <= nrel_authors:  ...(* -> Doklad_90_OSTISX2014;Doklad_89_OSTISX2014;; *);;
+
+Barlybaev_A.B. <- concept_participant_of_conference_OSTIS2014;;
+Barlybaev_A.B. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Barlybaev_A.B. -> Ucastnik_konferenzii_OSTIS;;
+
+Barlybaev_A.B. -> net;;
+net <- ucenaa_stepenX;;
+
+Barlybaev_A.B. -> Mladsij_naucnyj_sotrudnik;;
+Mladsij_naucnyj_sotrudnik <- ucenoe_zvanie;;*/

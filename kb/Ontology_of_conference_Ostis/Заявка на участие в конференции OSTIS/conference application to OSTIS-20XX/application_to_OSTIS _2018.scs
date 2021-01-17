@@ -1,0 +1,7 @@
+ 
+application_to_OSTIS_2018 => nrel_main_idtf:
+[Заявка на участие в Международной научно-технической конференции OSTIS-2018](*<-lang_ru;;*);
+[Application for participation in the International Scientific and Technical Conference OSTIS-2018](*<-lang_en;;*);;
+
+
+application_to_OSTIS -> application_to_OSTIS_2018;;

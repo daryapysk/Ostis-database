@@ -1,0 +1,33 @@
+
+Ivanuk_A.A.=> nrel_main_idtf:
+	[Иванюк А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivanuk_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ivanuk_A.A. => nrel_email: [vmipmail@bsuir.by](*<-lang_en;;*);;
+
+/*Ivanuk_A.A. <= nrel_authors:  ...(* -> Doklad_1.12_OSTISX2012;Doklad_1.11_OSTISX2012;; *);;
+
+Ivanuk_A.A. <= nrel_publication : ...(* -> Ivanuk_A.A..2009knXMarseTdSOZU;Ivanuk_A.A..2009stXModelFNOZU;Ivanuk_A.A..1999artXErrorDRfEDRAMs;Ivanuk_A.A..2000stXTestaDAfERAM's;Ivanuk_A.A..1997stXTransWOMBIST;Ivanuk_A.A..1997stXDiagnMNKMOPS;Ivanuk_A.A..1999stXNerazTPsPVSS;Ivanuk_A.A..1999stXTehnoTOILS;Ivanuk_A.A..1997stXVstroSPsISA;; *);;*/
+
+//Ivanuk_A.A. <- concept_participant_of_conference_OSTIS;;
+Ivanuk_A.A. <- concept_participant_of_conference_OSTIS2012;;
+
+
+
+/*Ivanuk_A.A. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Ivanuk_A.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Ivanuk_A.A. -> zaveduusij;;
+
+Ivanuk_A.A. <- rrel_key_sc_element: ..illustration_Ivanuk_A.A.(* <- sc_illustation;; *);;
+..illustration_Ivanuk_A.A. <= nrel_translation : ..translation_illustration_Ivanuk_A.A.;;
+..translation_illustration_Ivanuk_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/IvanukAA.png"/>] (* => nrel_format: format_html;; *);;*/

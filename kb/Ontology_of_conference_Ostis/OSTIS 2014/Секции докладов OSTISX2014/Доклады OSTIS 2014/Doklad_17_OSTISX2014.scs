@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_17_OSTISX2014;;
+Doklad_17_OSTISX2014=>nrel_main_idtf:[Доклад 17 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_17_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_17_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_17_OSTISX2014 <= nrel_name_of_doclad: [Моделирование динамики процессов последовательностью однородных семантических сетей на основе анализа последовательности описывающих процесс текстовых выборок](* <- lang_ru;;*);;
+
+// Doklad_17_OSTISX2014 <= nrel_authors : ...(* -> Ermolenko_T._V.;Jonin_A._A.;Harlamov_A._A.;; *);;
+
+Doklad_17_OSTISX2014 <= nrel_authors: Ermolenko_T._V.;Jonin_A._A.;Harlamov_A._A.;; 
+
+// Doklad_17_OSTISX2014 <= nrel_articke: ...(* -> 17._Ermolenko_T.V.X_Jonin_A.A.X_Harlamov_A.A._X_ModelDPPOSSnOAPOPTV;; *);;

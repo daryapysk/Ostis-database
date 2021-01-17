@@ -1,0 +1,11 @@
+FGBNU_Institute_of_Education_Management_Russian_Academy_Education => nrel_main_idtf:
+	[ФГБНУ «Институт управления образованием
+Российской академии образования»]
+	(*
+	<- lang_ru;;
+	*);
+	[FGBNU "Institute of Education Management
+Russian Academy of Education "]
+	(*
+	<- lang_en;;
+	*);;

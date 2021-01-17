@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_23_OSTISX2014;;
+Doklad_23_OSTISX2014=>nrel_main_idtf:[Доклад 23 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_23_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_23_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_23_OSTISX2014 <= nrel_name_of_doclad: [САПР ТП развивающейся базой знаний](* <- lang_ru;;*);;
+
+// Doklad_23_OSTISX2014 <= nrel_authors : ...(* -> Burdo_G._B.;Paluh_B._V.;VorobXeva_E._V.;; *);;
+
+Doklad_23_OSTISX2014 <= nrel_authors: Burdo_G._B.;Paluh_B._V.;VorobXeva_E._V.;; 
+
+// Doklad_23_OSTISX2014 <= nrel_articke: ...(* -> 23._Burdo_G.B.X_Paluh_B.V.X_VorobXeva_E.V._X_CAPR_TPsRBZ;; *);;

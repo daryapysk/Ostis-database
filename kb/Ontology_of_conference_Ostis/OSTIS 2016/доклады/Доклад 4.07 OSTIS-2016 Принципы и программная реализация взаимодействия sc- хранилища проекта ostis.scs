@@ -1,0 +1,33 @@
+//
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_main_idtf:
+[Доклад 4.07 OSTIS-2016 Принципы и программная реализация взаимодействия sc- хранилища проекта ostis и программного обеспечения на платформе .NET FRAMEWORK]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.07 OSTIS-2016 Principles and software implementation of the project cooperation sc- ostis storage and software platform .NET FRAMEWORK] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP <- doklad_OSTISX2016;;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP <= nrel_authors: 
+Kaesko_A.I.;;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_published_material: publication_Kaeshko_A_I_2016_PrincaSIoIOSTISSaNFP;;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_report_language: lang_ru;;
+
+
+//report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/4.05_Ивашенко_ПринцПНиПРOSTIS.pdf";; *);; *);;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_name: [Принципы и программная реализация взаимодействия sc- хранилища проекта ostis и программного обеспечения на платформе .NET FRAMEWORK](*<- lang_ru;;*);;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP <= nrel_speaker: Kaesko_A.I.;;
+
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_time_speech: [17:00 - 17:15];;
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_data_speech: [18 февраля 2016];;
+
+report_4.07_OSTIS_2016_PrincaSIoIOSTISSaNFP => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

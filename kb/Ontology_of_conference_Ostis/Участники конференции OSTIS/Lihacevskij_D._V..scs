@@ -1,0 +1,20 @@
+
+Lihacevskij_D.V.=> nrel_main_idtf:
+	[Лихачевский Д. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lihacevskij_D.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lihacevskij_D.V. => nrel_email: [likhachevskyd@bsuir.by](*<-lang_en;;*);;
+
+//Lihacevskij_D.V.  <- concept_participant_of_conference_OSTIS;;
+
+/*Lihacevskij_D._V. -> nacalXnik;;
+
+Lihacevskij_D._V. <- rrel_key_sc_element: ..illustration_Lihacevskij_D._V.(* <- sc_illustation;; *);;
+..illustration_Lihacevskij_D._V. <= nrel_translation : ..translation_illustration_Lihacevskij_D._V.;;
+..translation_illustration_Lihacevskij_D._V.-> rrel_example : [<img src="http://127.0.0.1:8181/LihachevskyDV.png"/>] (* => nrel_format: format_html;; *);;*/

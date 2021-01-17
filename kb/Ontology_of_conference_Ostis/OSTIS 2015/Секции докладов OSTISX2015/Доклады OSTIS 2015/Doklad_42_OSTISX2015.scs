@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_42_OSTISX2015;;
+Doklad_42_OSTISX2015=>nrel_main_idtf:[Доклад 42 OSTIS-2015](*<- lang_ru;;*);;
+
+
+Doklad_42_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_42_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_42_OSTISX2015 => nrel_name_of_doclad: [Определение уровня усвоенных знаний по обучающему курсу, представленному семантической сетью](* <- lang_ru;;*);;
+
+//Doklad_42_OSTISX2015 <= nrel_authors : ...(* -> Ankovskaa_A._E.;Surygin_U._A.;Amsanov_A_V;Krivduk_N._M.;; *);;
+
+//Doklad_42_OSTISX2015 <= nrel_articke: ...(* -> 42._Ankovskaa_A.E.X_Surygin_U.A.X_Amsanov_A_V_Krivduk_N.M._–_OpredelenieUUZpOKXPSS;; *);;
+
+
+
+Doklad_42_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/42. Янковская А.Е., Шурыгин Ю.А., Ямшанов А.В., Кривдюк Н.М. – ОпределениеУУЗпОК,ПСС.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_42_OSTISX2015=> nrel_authors: Ankovskaa_A.E.;Surygin_U.A.;Amsanov_A_VKrivduk_N.M.;;

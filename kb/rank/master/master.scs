@@ -1,0 +1,28 @@
+
+concept_master => nrel_idtf: [master](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Магистр)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Магистр — академическая степень, квалификация, приобретаемая магистрантом после окончания магистратуры.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_master;;
+<= nrel_using_constants :...
+(*
+-> concept_academician_rank; concept_qualification; concept_magistracy;;
+*);;
+*);;
+
+ concept_master -> rrel_example: [Магистр обучается в магистратуре.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Магистр, экзамен)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Магистрант выдержал экзамен на степень магистра, но ещё не защитил диссертации.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_master; concept_exam;;
+*);; 

@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_50_OSTISX2014;;
+Doklad_50_OSTISX2014=>nrel_main_idtf:[Доклад 50 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_50_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_50_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_50_OSTISX2014 <= nrel_name_of_doclad: [Универсальный семантический код как технология абстрагирования для решения нечетко поставленных технических задач](* <- lang_ru;;*);;
+
+// Doklad_50_OSTISX2014 <= nrel_authors : ...(* -> Bojko_I._M.;Kandelinskij_S._L.;; *);;
+
+Doklad_50_OSTISX2014 <= nrel_authors: Bojko_I._M.;Kandelinskij_S._L.;; 
+
+// Doklad_50_OSTISX2014 <= nrel_articke: ...(* -> 50._Bojko_I._M.X_Kandelinskij_S._L._X_UniveSKkTAdRNPTZ;; *);;

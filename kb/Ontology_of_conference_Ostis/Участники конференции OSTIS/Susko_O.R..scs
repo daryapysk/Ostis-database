@@ -1,0 +1,8 @@
+sc_node_not_relation->Susko_O.R.;;
+Susko_O.R.=>nrel_main_idtf:[Сушко О.Р.](*<-lang_ru;;*);;
+
+Susko_O.R. => nrel_email: [sushko@bsuir.by](*<-lang_en;;*);;
+
+Susko_O.R. -> Ucastnik_konferenzii_OSTIS;;
+
+

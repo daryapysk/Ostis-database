@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_57_OSTISX2014;;
+Doklad_57_OSTISX2014=>nrel_main_idtf:[Доклад 57 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_57_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_57_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_57_OSTISX2014 <= nrel_name_of_doclad: [Разработка гибридной интеллектуальной системы для решения задачи оценки знаний студентов](* <- lang_ru;;*);;
+
+// Doklad_57_OSTISX2014 <= nrel_authors : ...(* -> Kozlov_O._A.;Mihajlov_U._F.;; *);;
+
+Doklad_57_OSTISX2014 <= nrel_authors: Kozlov_O._A.;Mihajlov_U._F.;; 
+
+// Doklad_57_OSTISX2014 <= nrel_articke: ...(* -> 57._Kozlov_O.A.X_Mihajlov_U.F._X_RazraGISdRZOZS;; *);;

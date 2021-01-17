@@ -1,0 +1,32 @@
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_main_idtf:
+[Плесневич Г.С. 2016 - СпециПЗвРИЛА]
+	(*
+	<- lang_ru;;
+	*);
+	[Plesniewicz_G_S_2016_SpecioWitEIAL] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_name_publication:[Спецификация потока задач в расширенной интервальной логике Аллена](*
+	<- lang_ru;;
+	*);;
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  <= nrel_authors:
+Plesnevic_G.S.;
+Nguen_Thi_Min_Vu;;
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_article_language: lang_ru;;
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_annotation: [В работе введена расширенная интервальная логика Аллена и показано как эта логика может быть использована для спецификации и анализа потоков работ (workflows). Предложениями расширенной логики служат булевы комбинации предложений логики Аллена содержащие, возможно, метрическую информацию. В частности, этот анализ включает: (1) распознавание несовместности (противоречивости) схемы потока работ; (2) вычисление ответа на запросы к непротиворечивому потоку работ.];;
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_count_page: 6;;
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  <- article_OSTIS_2016;;
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL => nrel_reference_standard: [Плесневич, Г.С. Спецификация потока задач в расширенной интервальной логике Аллена / Г.С. Плесневич, Нгуен Тхи Минь Ву // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_year_publication: 2016;;
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL  => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Plesniewicz_G_S_2016_SpecioWitEIAL <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/44.plesnevich.pdf";; *);; *);;
+

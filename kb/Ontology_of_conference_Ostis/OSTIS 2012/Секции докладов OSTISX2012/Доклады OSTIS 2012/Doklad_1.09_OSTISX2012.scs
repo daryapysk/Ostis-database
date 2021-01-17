@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_1.09_OSTISX2012;;
+Doklad_1.09_OSTISX2012=>nrel_main_idtf:[Доклад 1.09 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.09_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.09_OSTISX2012 => nrel_name_of_doclad: [Детектирование изменений в Internet-документах](* <- lang_ru;;*);;
+
+Doklad_1.09_OSTISX2012 => nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_1.09_OSTISX2012 <= nrel_authors : ...(* -> Molcanov_U._N.;Globa_L._S.;Alekseev_N_A;; *);;
+
+Doklad_1.09_OSTISX2012 <= nrel_articke: ...(* -> Molcanov_U.N..2012stXDetekiVID;; *);;
+
+Doklad_1.09_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X4_OSTISX2012;; *);;*/
+
+Doklad_1.09_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Молчанов_Ю.Н..2012ст-ДетекиВIД.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_1.09_OSTISX2012 => nrel_authors:Molcanov_U.N.;Globa_L.S.;Alekseev_N_A;;

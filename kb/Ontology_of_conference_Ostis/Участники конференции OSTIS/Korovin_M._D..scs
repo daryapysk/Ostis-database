@@ -1,0 +1,23 @@
+
+Korovin_M.D.=> nrel_main_idtf:
+	[Коровин М. Д.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korovin_M.D.]
+	(*
+	<- lang_en;;
+	*);;
+
+Korovin_M.D. => nrel_email: [maks.korovin@gmail.com](*<-lang_en;;*);;
+
+Korovin_M.D. <- concept_participant_of_conference_OSTIS2014;;
+Korovin_M.D. <- concept_participant_of_conference_OSTIS2015;;
+Korovin_M.D. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Korovin_M._D. <= nrel_authors:  ...(* -> Doklad_58_OSTISX2015;Doklad_57_OSTISX2015;Doklad_84_OSTISX2014;; *);;
+
+Korovin_M._D. -> Ucastnik_konferenzii_OSTIS;;
+
+Korovin_M._D. -> aspirant;;*/

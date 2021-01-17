@@ -1,0 +1,14 @@
+
+Kolesnikov_A.V.=> nrel_main_idtf:
+	[Колесников А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kolesnikov_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kolesnikov_A.V. => nrel_email: [avkolesnikov@yandex.ru](*<-lang_en;;*);;
+
+//Kolesnikov_A.V. <- concept_participant_of_conference_OSTIS;;

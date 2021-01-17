@@ -1,0 +1,21 @@
+
+Kozarenko_E.B.=> nrel_main_idtf:
+	[Козаренко Е.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kozarenko_E.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Kozarenko_E.B. <= nrel_authors:  ...(* -> Doklad_4.09_OSTISX2012;Doklad_4.08_OSTISX2012;; *);;
+
+//Kozarenko_E.B. <- concept_participant_of_conference_OSTIS;;
+Kozarenko_E.B.<- concept_participant_of_conference_OSTIS2012;;
+
+/*Kozarenko_E.B. -> k.fil.n.;;
+k.fil.n. <- ucenaa_stepenX;;
+
+Kozarenko_E.B. -> zaveduusij_laboratoriej;;*/

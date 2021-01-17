@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_70_OSTISX2015;;
+Doklad_70_OSTISX2015=>nrel_main_idtf:[Доклад 70 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_70_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_70_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_70_OSTISX2015 => nrel_name_of_doclad: [Разработка открытых технологий проектирования интеллектуальных робототехнических систем](* <- lang_ru;;*);;
+
+//Doklad_70_OSTISX2015 <= nrel_authors : ...(* -> Prokopovic_G._A.;Sycev_V._A.;Gerasuto_S._L.;; *);;
+
+//Doklad_70_OSTISX2015 <= nrel_articke: ...(* -> 70._Prokopovic_G.A.X_Sycev_V.A.X_Gerasuto_S.L._X_RazrabotkaOTPIRS;; *);;
+
+Doklad_70_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/70._Прокопович_Г.А.,_Сычёв_В.А.,_Герасюто_С.Л._-_РазработкаОТПИРС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_70_OSTISX2015=> nrel_authors: Prokopovic_G.A.;Sycev_V.A.;Gerasuto_S.L.;;

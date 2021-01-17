@@ -1,0 +1,9 @@
+sc_node_not_relation->Lukasevic_N.V.;;
+Lukasevic_N.V.=>nrel_main_idtf:[Лукашевич Н.В.](*<-lang_ru;;*);;
+
+Lukasevic_N.V. => nrel_email: [louk_nat@mail.ru](*<-lang_en;;*);;
+
+Lukasevic_N.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Lukasevic_N.V. -> vedusij_naucnyj_sotrudnik;;

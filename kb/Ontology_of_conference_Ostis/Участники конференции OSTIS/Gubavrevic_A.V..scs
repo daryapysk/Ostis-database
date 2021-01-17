@@ -1,0 +1,14 @@
+sc_node_not_relation->Gubarevic_A.V.;;
+Gubarevic_A.V.=>nrel_main_ru_idtf:[Губаревич А.В.];;
+
+Gubarevic_A.V. <= nrel_email: [stasia@tut.by](*<-lang_en;;*);;
+
+Gubarevic_A.V. <= nrel_authors:  ...(* -> Doklad_06_OSTISX2015;; *);;
+
+Gubarevic_A.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Gubarevic_A.V. -> Rabocaa_gruppa_OSTISX2015;;
+
+Gubarevic_A.V. -> laborant;;
+
+Gubarevic_A.V. -> magistrant;;

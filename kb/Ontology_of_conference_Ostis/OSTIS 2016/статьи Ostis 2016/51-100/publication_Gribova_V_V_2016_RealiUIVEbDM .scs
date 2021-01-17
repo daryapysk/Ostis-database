@@ -1,0 +1,33 @@
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_main_idtf:
+[Грибова В. В. 2016 - РеалиПИВСпДМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova_V_V_2016_RealiUIVEbDM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_name_publication:[Реализация пользовательских интерфейсов виртуальных сред по декларативной модели](*
+	<- lang_ru;;
+	*);;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM <= nrel_authors:
+Fedorisev_L.A.;;
+publication_Gribova_V_V_2016_RealiUIVEbDM <= nrel_authors:
+Fedorischev_L_A;;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_article_language: lang_ru;;
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_annotation: [В работе приводится описание подхода к разработке пользовательских интерфейсов виртуальных сред по декларативной модели. Данный подход позволяет заменить кодирование в разработке и сопровождении не только самих виртуальных сред, но и интерфейсов их естественным декларативным описанием, что открывает дополнительные возможности по гибкой настройке и управлению пользовательских интерфейсов.];;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_count_page: 4;;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM <- article_OSTIS_2016;;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_reference_standard: [Грибова, В. В. Реализация пользовательских интерфейсов виртуальных сред по декларативной модели / В.В. Грибова, Л.А. Федорищев // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 327–330.];;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_year_publication: 2016;;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Gribova_V_V_2016_RealiUIVEbDM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Грибова.pdf";; *);;*);;

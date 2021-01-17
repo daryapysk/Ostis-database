@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_partner_of_the_conference;; 
+nrel_partner_of_the_conference=> nrel_main_idtf:[партнер конференции*] (* <-lang_ru;; *);;
+nrel_partner_of_the_conference=> nrel_main_idtf:[рartner of the conference*] (* <-lang_en;; *);;
+
+nrel_partner_of_the_conference<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Партнер конференции- это юридическое или физическое лицо, являющееся временным соучастником конференции.](*<-lang_ru;;*);;
+		*);;
+	*);;
+	
+
+nrel_partner_of_the_conference=>nrel_first_domain:concept_conference;;
+nrel_partner_of_the_conference=>nrel_second_domain:concept_participant;;
+nrel_partner_of_the_conference=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;

@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_9.02_OSTISX2011;;
+Doklad_9.02_OSTISX2011=>nrel_main_idtf:[Доклад 9.02 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_9.02_OSTISX2011 <- doklad_OSTISX2011;;
+
+//Doklad_9.02_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_9.02_OSTISX2011 => nrel_name_of_doclad: [Современные технологии проектирования интеллектуальных информационных систем школьниками для высокотехнологичных производственных предприятий](* <- lang_ru;;*);;
+
+/*Doklad_9.02_OSTISX2011 <= nrel_section: [Секция 9 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_9.02_OSTISX2011 <= nrel_authors:  ...(* -> Segoleva_O._N.;Polakova_M._V.;Rojnov_A._A.;; *);;
+
+Doklad_9.02_OSTISX2011 <= nrel_articke: ...(* -> Segoleva_O.N..2011stXSovreTPIISSdVPP;; *);;
+
+Doklad_9.02_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X28_OSTISX2011;; *);;*/
+
+
+Doklad_9.02_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Щеголева_О.Н..2011ст-СовреТПИИСШдВПП.pdf";;
+						    *);; 
+					*);;
+
+Doklad_9.02_OSTISX2011=>nrel_authors: Segoleva_O.N.;Polakova_M.V.;Rojnov_A.A.;;

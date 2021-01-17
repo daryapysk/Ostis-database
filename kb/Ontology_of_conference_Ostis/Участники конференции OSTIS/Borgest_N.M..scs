@@ -1,0 +1,28 @@
+
+Borgest_N.M.=> nrel_main_idtf:
+	[Боргест Н.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Borgest_N.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Borgest_N.M. => nrel_email: [borgest@yandex.ru](*<-lang_en;;*);;
+
+/*Borgest_N.M. <= nrel_authors:  ...(* -> Doklad_58_OSTISX2015;Doklad_57_OSTISX2015;Doklad_85_OSTISX2014;Doklad_84_OSTISX2014;Doklad_16_OSTISX2014;Doklad_4.02_OSTISX2012;; *);;*/
+
+Borgest_N.M. <- concept_participant_of_conference_OSTIS2014;;
+Borgest_N.M. <- concept_participant_of_conference_OSTIS2012;;
+Borgest_N.M. <- concept_participant_of_conference_OSTIS2015;;
+Borgest_N.M. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Borgest_N.M. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Borgest_N.M. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Borgest_N.M. -> professor;;*/

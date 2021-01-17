@@ -1,0 +1,11 @@
+sc_node_not_relation->Turmaganbetova_S.K.;;
+Turmaganbetova_S.K.=>nrel_main_ru_idtf:[Турмаганбетова Ш.К.];;
+
+Turmaganbetova_S.K. <= nrel_email: [Sh_kurmangali@mail.ru](*<-lang_en;;*);;
+
+Turmaganbetova_S.K. <= nrel_authors:  ...(* -> Doklad_91_OSTISX2014;; *);;
+//Turmaganbetova_S.K. <- concept_participant_of_conference_OSTIS;;
+Turmaganbetova_S.K.<- concept_participant_of_conference_OSTIS2014;;
+Turmaganbetova_S.K.<- concept_participant_of_conference_OSTIS2016;;
+
+Turmaganbetova_S.K. -> Ucastnik_konferenzii_OSTIS;;

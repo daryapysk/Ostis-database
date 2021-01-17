@@ -1,0 +1,12 @@
+Azkevic_N._I.=> nrel_main_idtf:
+	[Яцкевич Н. И.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Azkevic_N._I.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Azkevic_N._I. <- concept_participant_of_conference_OSTIS;;
+  Azkevic_N._I. <- concept_participant_of_conference_OSTIS2013;;

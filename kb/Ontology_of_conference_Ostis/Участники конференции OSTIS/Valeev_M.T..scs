@@ -1,0 +1,14 @@
+sc_node_not_relation->Valeev_M.T.;;
+Valeev_M.T.=>nrel_main_ru_idtf:[Валеев М.Т.];;
+
+Valeev_M.T. <= nrel_email: [mt.vallev.1992@gmail.com](*<-lang_en;;*);;
+
+Valeev_M.T. <= nrel_authors:  ...(* -> Doklad_82_OSTISX2014;; *);;
+
+Valeev_M.T. -> Ucastnik_konferenzii_OSTIS;;
+
+Valeev_M.T. -> net;;
+net <- ucenaa_stepenX;;
+
+Valeev_M.T. -> student;;
+student <- ucenoe_zvanie;;

@@ -1,0 +1,18 @@
+
+Saripbaev_A.A.=> nrel_main_idtf:
+	[Шарипбаев А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Saripbaev_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Saripbaev_A.A. <- concept_participant_of_conference_OSTIS2012;;
+Saripbaev_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+//Saripbaev_A.A. <- concept_participant_of_conference_OSTIS;;
+

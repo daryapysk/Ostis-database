@@ -1,0 +1,22 @@
+
+Glazkova_A.V.=> nrel_main_idtf:
+	[Глазкова А. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Glazkova_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Glazkova_A.V. => nrel_email: [anya_kr@aol.com](*<-lang_en;;*);;
+
+Glazkova_A.V. <- concept_participant_of_conference_OSTIS2014;;
+Glazkova_A.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Glazkova_A._V. <= nrel_authors:  ...(* -> Doklad_81_OSTISX2015;Doklad_80_OSTISX2014;; *);;
+
+Glazkova_A._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Glazkova_A._V. -> aspirant;;*/

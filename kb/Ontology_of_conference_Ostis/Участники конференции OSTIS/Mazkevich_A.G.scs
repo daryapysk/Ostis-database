@@ -1,0 +1,17 @@
+
+Mazkevich_A.G.=> nrel_main_idtf:
+	[Мацкевич А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mazkevich_A.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Mazkevich_A.G. <- concept_participant_of_conference_OSTIS2012;;
+
+//Mazkevich_A.G. <- concept_participant_of_conference_OSTIS;;
+

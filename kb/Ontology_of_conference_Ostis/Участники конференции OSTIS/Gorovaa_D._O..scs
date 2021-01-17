@@ -1,0 +1,15 @@
+
+Gorovaa_D.O.=> nrel_main_idtf:
+	[Горовая Д. О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorovaa_D.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Gorovaa_D.O.<= nrel_authors:  ...(* -> Doklad_51_OSTISX2014;; *);;
+
+Gorovaa_D.O. <- concept_participant_of_conference_OSTIS2014;;

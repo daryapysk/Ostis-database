@@ -1,0 +1,16 @@
+Gostiniza_Ubilejnaa=>nrel_main_idtf:[Гостиница Юбилейная](* <- lang_ru;; *);;
+
+Gostiniza_Ubilejnaa <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Ubilejnaa<-concept_hotel;;
+
+/*Gostiniza_Ubilejnaa => nrel_phone: [бронирование](* <- lang_ru;;*);;
+Gostiniza_Ubilejnaa => nrel_phone: [служба размещения](* <- lang_ru;;*);;*/
+
+Gostiniza_Ubilejnaa => nrel_address : [г. Минск, пр. Победителей, 19](* <- lang_ru;;*);;
+
+Gostiniza_Ubilejnaa => nrel_site: [http://www.yhotel.by];;
+
+//Gostiniza_Ubilejnaa =>nrel_location : [г. Минск, пр. Победителей, 19](* <- lang_ru;;*);;
+
+//Gostiniza_Ubilejnaa => nrel_content : "file://Схема проезда к гост. Юбилейная.zip";;

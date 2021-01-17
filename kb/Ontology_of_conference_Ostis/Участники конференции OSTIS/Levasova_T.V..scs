@@ -1,0 +1,24 @@
+
+Levasova_T.V.=> nrel_main_idtf:
+	[Левашова Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Levasova_T.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Levasova_T.V. => nrel_email: [tatiana.levashova@iias.spb.su](*<-lang_en;;*);;
+
+/*Levasova_T.V. <= nrel_authors:  ...(* -> Doklad_2.03_OSTISX2011;; *);;
+
+Levasova_T.V. <= nrel_publication : ...(* -> Silov_N.G..2009trXSovreSVMUvIOTiT;Levasova_T.V..2009trXUpravIROSpMTS;Smirnov_A.V..2009trXModelKUSPPRvDSO;; *);;*/
+
+//Levasova_T.V. <- concept_participant_of_conference_OSTIS;;
+Levasova_T.V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Levasova_T.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Levasova_T.V. -> s.n.s.;;*/

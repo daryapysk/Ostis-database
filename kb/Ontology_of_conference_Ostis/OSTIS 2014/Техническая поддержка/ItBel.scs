@@ -1,0 +1,10 @@
+sc_node_not_relation->ItBel;;
+ItBel=>nrel_main_idtf:[ItBel](*<-lang_ru;;*);;
+
+ItBel => nrel_phone: [+375 29 373-08-00](* <- lang_ru;;*);;
+
+ItBel => nrel_address : [г. Минск, ул. Революционная, 11](* <- lang_ru;;*);;
+
+ItBel => nrel_site: [http://itbel.by/];;
+
+ItBel => nrel_location : [г. Минск, ул. Революционная, д. 11](* <- lang_ru;;*);;

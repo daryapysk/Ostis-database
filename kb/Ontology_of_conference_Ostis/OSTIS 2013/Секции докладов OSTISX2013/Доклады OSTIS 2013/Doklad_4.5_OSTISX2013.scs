@@ -1,0 +1,16 @@
+// sc_node_not_relation->Doklad_4.5_OSTISX2013;;
+Doklad_4.5_OSTISX2013=>nrel_main_idtf:[Доклад 4.5 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_4.5_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_4.5_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_4.5_OSTISX2013 <= nrel_name_of_doclad: [ГИБРИДНЫЙ ПОДХОД К ВЫЯВЛЕНИЮ КОМПЛЕКСНЫХ ОБЪЕКТОВ В ОБЛАСТИ НАУЧНО-ТЕХНИЧЕСКОГО ПРОГНОЗИРОВАНИЯ: ПРИНЦИП «ЧЕРНОГО ЯЩИКА»](* <- lang_ru;;*);;
+
+// //Doklad_4.5_OSTISX2013 <= nrel_section: [Секция 4 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_4.5_OSTISX2013 <= nrel_authors : ...(* -> Efimenko_I._V.;; *);;
+Doklad_4.5_OSTISX2013 <= nrel_authors: Efimenko_I._V.;; 
+
+//Doklad_4.5_OSTISX2013 <= nrel_articke: ...(* -> Efimenko_I._V._2013stXGPVKOONTPPCA;; *);;

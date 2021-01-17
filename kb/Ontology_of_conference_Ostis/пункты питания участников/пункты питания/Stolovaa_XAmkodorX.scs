@@ -1,0 +1,6 @@
+Stolovaa_XAmkodorX=>nrel_main_idtf:[Столовая "Амкодор"](* <- lang_ru;; *);;
+
+Stolovaa_XAmkodorX <- place_meals_for_participants_OSTIS2011;;
+
+Stolovaa_XAmkodorX => nrel_address : [г. Минск, ул. Гикало, д. 7](* <- lang_ru;;*);;
+

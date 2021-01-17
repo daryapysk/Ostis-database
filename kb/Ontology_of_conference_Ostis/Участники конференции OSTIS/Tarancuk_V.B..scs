@@ -1,0 +1,28 @@
+
+Tarancuk_V.B.=> nrel_main_idtf:
+	[Таранчук В.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tarancuk_V.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Tarancuk_V.B. => nrel_email: [valery.taranchuk@gmail.com](*<-lang_en;;*);;
+
+//Tarancuk_V.B. <- concept_participant_of_conference_OSTIS;;
+Tarancuk_V.B. <- concept_participant_of_conference_OSTIS2015;;
+Tarancuk_V.B. <- concept_participant_of_conference_OSTIS2020;;
+
+/*Tarancuk_V.B. <= nrel_authors:  ...(* -> Doklad_43_OSTISX2015;; *);;
+
+Tarancuk_V.B. -> Ucastnik_konferenzii_OSTIS;;
+
+Tarancuk_V.B. -> d.fiz.Xmat.n.;;
+d.fiz.Xmat.n. <- ucenaa_stepenX;;
+
+Tarancuk_V.B. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Tarancuk_V.B. -> zaveduusij_kafedroj_kompXuternyh_tehnologij_i_sistem;;*/

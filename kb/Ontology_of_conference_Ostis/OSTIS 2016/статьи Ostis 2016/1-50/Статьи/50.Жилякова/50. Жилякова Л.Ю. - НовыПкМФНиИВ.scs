@@ -1,0 +1,31 @@
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_main_idtf:
+[Жилякова Л.Ю. 2016 - НовыПкМФНиИВ]
+	(*
+	<- lang_ru;;
+	*);
+	[Zhilyakova_L_Yu_2016_ANATMOANaTI] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_name_publication:[Новый подход к моделированию формальных нейронов и их взаимодействий](*
+	<- lang_ru;;
+	*);;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI <= nrel_authors:
+Jilakova_L.U.;;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI <- article_OSTIS_2016;;
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_article_language: lang_ru;;
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_annotation: [В работе предпринята попытка обогатить аппарат искусственных нейронных сетей за счет усложнения модели формального нейрона. Рассматриваются не только электрические, но и химические его свойства: чувствительность к различным нейротрансмиттерам и способность их производить. Сеть из этих нейронов – гетерогенная структура, связи в которой зависят от химической ситуации в межклеточном пространстве, которое также является частью модели. В такой сети трансмиттеры могут играть решающую роль в формировании паттернов активности.];;
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_count_page: 4;;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_reference_standard: [Жилякова, Л. Ю. Новый подход к моделированию формальных нейронов и их взаимодействий / Л.Ю. Жилякова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_year_publication: 2016;;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Zhilyakova_L_Yu_2016_ANATMOANaTI <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/50.zhilyakova.pdf";; *);; *);;
+

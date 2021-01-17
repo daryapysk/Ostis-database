@@ -1,0 +1,19 @@
+
+Nevzorov_V.N.=> nrel_main_idtf:
+	[Невзоров В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nevzorov_V.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Nevzorov_V.N. => nrel_email: [nevzorov@mi.ru](*<-lang_en;;*);;
+//Nevzorov_V.N. <- concept_participant_of_conference_OSTIS;;
+Nevzorov_V.N. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Nevzorov_V.N. <= nrel_authors:  ...(* -> Doklad_7.02_OSTISX2011;; *);;
+
+Nevzorov_V.N. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;*/

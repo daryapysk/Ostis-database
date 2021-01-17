@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_partner_of_conference_OSTIS;; 
+concept_partner_of_conference_OSTIS=>nrel_main_idtf:
+[партнер конференции OSTIS](*<-lang_ru;;*);
+[partner of conference OSTIS](*<-lang_en;;*);;
+concept_partner_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Партнер конференции OSTIS -это юридическое или физическое лицо, являющееся временным соучастником конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+

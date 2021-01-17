@@ -1,0 +1,29 @@
+
+Mereja_V.L.=> nrel_main_idtf:
+	[Мережа В.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mereja_V.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Mereja_V.L. => nrel_email: [merezha@gsu.by](*<-lang_en;;*);;
+
+//Mereja_V.L. <= nrel_authors:  ...(* -> Doklad_5.04_OSTISX2011;; *);;
+
+//Mereja_V.L. <- concept_participant_of_conference_OSTIS;;
+Mereja_V.L. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Mereja_V.L. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Mereja_V.L. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Mereja_V.L. -> dozent;;
+
+Mereja_V.L. <- rrel_key_sc_element: ..illustration_Mereja_V.L.(* <- sc_illustation;; *);;
+..illustration_Mereja_V.L. <= nrel_translation : ..translation_illustration_Mereja_V.L.;;
+..translation_illustration_Mereja_V.L.-> rrel_example : [<img src="http://127.0.0.1:8181/MeregaVL.png"/>] (* => nrel_format: format_html;; *);;*/

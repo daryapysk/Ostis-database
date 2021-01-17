@@ -1,0 +1,40 @@
+//
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_main_idtf:
+[Массель Л.В. 2016 - ИнтегСКГиСМвИСССУ]
+	(*
+	<- lang_ru;;
+	*);
+	[Massel_L_V_2016_IntegoSCGaSMIISSfSM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_name_publication:[Интеграция семиотики, когнитивной графики и семантичного моделирования в интеллектуальных семиотических системах ситуационного управления](*
+	<- lang_ru;;
+	*);;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM <= nrel_author:
+MasselX_L.V.;
+MasselX_A.G.;;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM <- article;;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_reference_standard: [Массель, Л. В. Интеграция семиотики, когнитивной графики и семантичного моделирования в интеллектуальных семиотических системах ситуационного управления / Л.В. Массель, А.Г. Массель // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 18-20 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_year_publication: 2016;;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/09.massel.pdf";; *);; *);;
+
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM =>  nrel_annotation:
+[В  статье  рассматриваются  базовые  понятия,  лежащие  в  основе  предлагаемого  авторами  семиотическогоподхода к построению интеллектуальных систем ситуационного управления в критических инфраструктурах.В  предыдущих  работах  авторов  рассматривалась  современная  трактовка  ситуационного  управления,  какотображение идей Д.А. Поспелова и его учеников на современные информационные технологии. В качествеосновных  методов  ситуационного  управления  авторами  предлагаются  методы  ситуационного  анализа  иситуационного  моделирования,  реализуемые  с  помощью  технологий  и  инструментальных  средствсемантического моделирования в энергетике, к которому отнесены онтологическое, когнитивное, событийное ивероятностное (на основе Байесовских сетей доверия) моделирование. Данная статья посвящена дальнейшемуразвитию  предлагаемого  подхода,  основанного  на  интеграции  понятий  семиотики,  когнитивной  графики  исемантического моделирования.](*
+	<- lang_ru;;
+	*);;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_count_page: 6;;
+
+publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM => nrel_article_language: lang_ru;;
+

@@ -1,0 +1,27 @@
+
+Bajrak_S.A.=> nrel_main_idtf:
+	[Байрак С.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bajrak_S.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Bajrak_S.A. => nrel_authors:  ...(* -> Doklad_1.13_OSTISX2012;; *);;
+
+//Bajrak_S.A. <= nrel_publication : ...(* -> Bajrak_S.A..2008ucXAvtomPEVM;Bajrak_S.A..2008stXTestoBDiMSOK;; *);;
+
+//Bajrak_S.A. <- concept_participant_of_conference_OSTIS;;
+Bajrak_S.A. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Bajrak_S.A. -> assistent;;
+assistent <- ucenoe_zvanie;;
+
+Bajrak_S.A. -> assistent;;
+
+Bajrak_S.A. <- rrel_key_sc_element: ..illustration_Bajrak_S.A.(* <- sc_illustation;; *);;
+..illustration_Bajrak_S.A. <= nrel_translation : ..translation_illustration_Bajrak_S.A.;;
+..translation_illustration_Bajrak_S.A.-> rrel_example : [<img src="http://127.0.0.1:8181/BayrakSA.jpg"/>] (* => nrel_format: format_html;; *);;*/

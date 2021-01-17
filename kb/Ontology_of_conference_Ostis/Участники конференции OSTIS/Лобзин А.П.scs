@@ -1,0 +1,17 @@
+Lobzin_A_P => nrel_main_idtf:
+[Лобзин А.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lobzin_A_P] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Lobzin_A_P;;
+Lobzin_A_P <- concept_participant_of_conference_OSTIS2014;;
+Lobzin_A_P <- concept_participant_of_conference_OSTIS2011;;
+
+
+Lobzin_A_P => nrel_contact_information:[lobzin@rambler.ru];;
+

@@ -1,0 +1,31 @@
+
+concept_head_of_laboratory => nrel_idtf: [head_of_laboratory](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Заведующий лабораторией)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Заведующий лабораторией — руководитель научно-исследовательской лаборатории или учебно-научной лаборатории в научно-исследовательском институте или высшем учебном заведении, как правило, доктор наук или кандидат наук и имеющий опубликованные (изданные) научные труды.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_head_of_laboratory;;
+<= nrel_using_constants :...
+(*
+-> concept_Ph.D; concept_research_work;;
+*);;
+*);;
+
+ concept_head_of_laboratory -> rrel_example: [Заведующий лабораторией Паллер Борис Яковлевич.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Заведующий лабораторией, лаборатория)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Заведующий лабораторией проводил осмотр лаборатории.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_head_of_laboratory; concept_laboratory;;
+*);; 
+
+
+

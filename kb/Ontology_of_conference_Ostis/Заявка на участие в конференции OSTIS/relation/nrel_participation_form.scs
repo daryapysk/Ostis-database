@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_participation_form;; 
+
+nrel_participation_form => nrel_main_idtf:[форма участия*] (* <-lang_ru;; *);;
+
+nrel_participation_form => nrel_main_idtf:[participation form*] (* <-lang_en;; *);;

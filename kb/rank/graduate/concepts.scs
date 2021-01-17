@@ -1,0 +1,59 @@
+
+sc_node_not_relation->concept_graduate;;
+concept_graduate => nrel_main_idtf: [аспирант](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_employee;;
+concept_employee => nrel_main_idtf: [сотрудник](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_higher_scientific_activity;;
+concept_scientific_activity => nrel_main_idtf: [научная деятельность](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_research_institution;;
+concept_research_institution => nrel_main_idtf: [научно-исследовательского учреждение](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_knowledge;;
+concept_knowledge => nrel_main_idtf: [знания](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

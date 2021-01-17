@@ -1,0 +1,19 @@
+
+Antipova_O.V.=> nrel_main_idtf:
+	[Антипова О.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Antipova_O.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Antipova_O.V. => nrel_email: [a_ol_v@mail.ru](*<-lang_en;;*);;
+
+//Antipova_O.V. <= nrel_authors:  ...(* -> Doklad_30_OSTISX2014;; *);;
+
+Antipova_O.V. <- concept_participant_of_conference_OSTIS2014;;
+Antipova_O.V. <- concept_participant_of_conference_OSTIS2012;;
+
+//Antipova_O.V. -> aspirant;;

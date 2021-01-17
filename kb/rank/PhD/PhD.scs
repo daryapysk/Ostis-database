@@ -1,0 +1,29 @@
+
+concept_PhD => nrel_idtf: [PhD](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Доктор наук)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Доктор наук — ученая степень, присуждаемая государственным органом аттестации на основании ходатайства диссертационного совета, принятого после публичной защиты диссертации соискателем, имеющим ученую степень кандидата наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_PhD ;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_seeker; concept_certification; concept_thesis;;
+*);;
+*);;
+
+ concept_PhD -> rrel_example: [Давыденко Ирина Тимофеевна доктор наук.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Доктор наук, степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Впервые ученая степень доктора наук стала присуждаться в 1130 Болонским университетом.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_PhD ; concept_power;;
+*);; 

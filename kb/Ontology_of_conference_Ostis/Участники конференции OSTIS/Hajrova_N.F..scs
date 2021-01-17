@@ -1,0 +1,26 @@
+
+Hajrova_N.F.=> nrel_main_idtf:
+	[Хайрова Н.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hajrova_N.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+Hajrova_N.F. => nrel_email: [nina_khajrova@yahoo.com](*<-lang_en;;*);;
+
+//Hajrova_N.F. <= nrel_authors:  ...(* -> Doklad_36_OSTISX2014;; *);;
+
+Hajrova_N.F. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Hajrova_N.F. -> kandidat_tehniceskih_nauk;;
+kandidat_tehniceskih_nauk <- ucenaa_stepenX;;
+
+Hajrova_N.F. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Hajrova_N.F. <- rrel_key_sc_element: ..illustration_Hajrova_N.F.(* <- sc_illustation;; *);;
+..illustration_Hajrova_N.F. <= nrel_translation : ..translation_illustration_Hajrova_N.F.;;
+..translation_illustration_Hajrova_N.F.-> rrel_example : [<img src="http://127.0.0.1:8181/Хайрова.jpg"/>] (* => nrel_format: format_html;; *);;*/

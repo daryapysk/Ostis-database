@@ -1,0 +1,23 @@
+
+Vlasov_S.A.=> nrel_main_idtf:
+	[Власов С. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vlasov_S.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vlasov_S.A. => nrel_email: [vlasov@gsom.pu.ru](*<-lang_en;;*);;
+
+//Vlasov_S.A. <- concept_participant_of_conference_OSTIS;;
+Vlasov_S.A. <- concept_participant_of_conference_OSTIS2015;;
+Vlasov_S.A. <- concept_participant_of_conference_OSTIS2016;;
+Vlasov_S.A. <- concept_participant_of_conference_OSTIS2020;;
+
+/*Vlasov_S._A. <= nrel_authors:  ...(* -> Doklad_57_OSTISX2015;Doklad_21_OSTISX2015;; *);;
+
+Vlasov_S._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Vlasov_S._A. -> aspirant;;*/

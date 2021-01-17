@@ -1,0 +1,17 @@
+
+Skiba_E.V.=> nrel_main_idtf:
+	[Скиба Е.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Skiba_E.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Skiba_E.V. <= nrel_authors:  ...(* -> Doklad_7.08_OSTISX2011;; *);;
+
+//Skiba_E.V. <- concept_participant_of_conference_OSTIS;;
+Skiba_E.V. <- concept_participant_of_conference_OSTIS2011;;
+//Skiba_E.V. -> student;;

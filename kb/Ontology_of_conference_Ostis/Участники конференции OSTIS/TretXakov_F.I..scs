@@ -1,0 +1,21 @@
+
+TretXakov_F.I.=> nrel_main_idtf:
+	[Третьяков Ф.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[TretXakov_F.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+TretXakov_F.I. => nrel_email: [Fiodor.Tretyakov@gmail.com](*<-lang_en;;*);;
+
+//TretXakov_F.I. <- concept_participant_of_conference_OSTIS;;
+TretXakov_F.I. <- concept_participant_of_conference_OSTIS2015;;
+
+/*TretXakov_F.I. <= nrel_authors:  ...(* -> Doklad_80_OSTISX2015;; *);;
+
+TretXakov_F.I. -> Ucastnik_konferenzii_OSTIS;;
+
+TretXakov_F.I. -> assistent;;*/

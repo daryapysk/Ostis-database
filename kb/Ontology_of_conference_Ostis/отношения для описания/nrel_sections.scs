@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_sections;; 
+
+nrel_sections => nrel_main_idtf:[декомпозиция на последовательно выполняемые мероприятия*] (* <-lang_ru;; *);;
+
+nrel_sections => nrel_main_idtf:[decomposition to consistently performed actions*] (* <-lang_en;; *);;
+
+

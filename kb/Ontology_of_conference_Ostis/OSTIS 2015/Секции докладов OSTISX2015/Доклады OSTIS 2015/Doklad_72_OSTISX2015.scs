@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_72_OSTISX2015;;
+Doklad_72_OSTISX2015=>nrel_main_idtf:[Доклад 72 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_72_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_72_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_72_OSTISX2015 => nrel_name_of_doclad: [Построение интеллектуальных мультиагентных коборг-систем](* <- lang_ru;;*);;
+
+//Doklad_72_OSTISX2015 <= nrel_authors : ...(* -> SolovXev_V._I.;; *);;
+
+//Doklad_72_OSTISX2015 <= nrel_articke: ...(* -> 72._SolovXev_V.I._X_PostroennieIMKXS;; *);;
+
+
+Doklad_72_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/72._Соловьев_В.И._-_ПостроенниеИМК-С.pdf";;
+						    *);; 
+					*);;
+
+Doklad_72_OSTISX2015=> nrel_authors: SolovXev_V.I.;;

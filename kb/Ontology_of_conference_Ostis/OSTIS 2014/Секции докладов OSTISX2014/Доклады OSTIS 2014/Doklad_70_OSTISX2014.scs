@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_70_OSTISX2014;;
+Doklad_70_OSTISX2014=>nrel_main_idtf:[Доклад 70 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_70_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_70_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_70_OSTISX2014 <= nrel_name_of_doclad: [Кампанент для аналiзу часцiн мовы беларускiх слоў ва ўмовах абмежаваных сiстэмных рэсурсаў](* <- lang_ru;;*);;
+
+// Doklad_70_OSTISX2014 <= nrel_authors : ...(* -> Gezevіc_U._S.;Pakladok_D._A.;Scurko_M._L.;; *);;
+
+//Doklad_70_OSTISX2014 <= nrel_authors: Gezevic_U.S.;Pakladok_D._A.;Scurko_M._L.;; 
+
+// Doklad_70_OSTISX2014 <= nrel_articke: ...(* -> 70._Gezevіc_U.S.X_Pakladok_D.A.X_Scurko_M.L._X_KampadACMBSvўASR;; *);;

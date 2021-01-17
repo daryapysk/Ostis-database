@@ -1,0 +1,22 @@
+
+Pletnev_A.O.=> nrel_main_idtf:
+	[Плетнёв А.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Pletnev_A.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+Pletnev_A.O. => nrel_email: [Artem.o.pletnev@gmail.com](*<-lang_en;;*);;
+
+//Pletnev_A.O. <- concept_participant_of_conference_OSTIS;;
+Pletnev_A.O. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Pletnev_A.O. <= nrel_authors:  ...(* -> Doklad_94_OSTISX2015;; *);;
+
+Pletnev_A.O. -> Ucastnik_konferenzii_OSTIS;;
+
+Pletnev_A.O. -> student;;*/

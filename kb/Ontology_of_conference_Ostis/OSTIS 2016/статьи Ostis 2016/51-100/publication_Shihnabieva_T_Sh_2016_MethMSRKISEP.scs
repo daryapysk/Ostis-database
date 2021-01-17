@@ -1,0 +1,23 @@
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP => nrel_main_idtf:
+[Шихнабиева Т.Ш. 2016 - МетодиМСПЗвИСОН] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Shihnabieva_T_Sh_2016_MethMSRKISEP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_name_publication:[Методы и модели семантического представления знаний в интеллектуальных системах образовательного назначения](*
+	<- lang_ru;;
+	*);;
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP<= nrel_authors:
+Shihnabieva_T_Sh;;
+
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_reference_standard: [Шихнабиева, Т.Ш. Методы и модели семантического представления знаний в интеллектуальных системах образовательного назначения/ Т.Ш. Шихнабиева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 503–506.];;
+
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_year_publication: 2016;;
+
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Shihnabieva_T_Sh_2016_MethMSRKISEP<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Шихнабиева.pdf";; *);;*);;

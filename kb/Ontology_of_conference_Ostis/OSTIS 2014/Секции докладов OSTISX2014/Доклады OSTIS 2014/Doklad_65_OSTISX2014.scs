@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_65_OSTISX2014;;
+Doklad_65_OSTISX2014=>nrel_main_idtf:[Доклад 65 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_65_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_65_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_65_OSTISX2014 <= nrel_name_of_doclad: [Автоматизация семантического анализа новостных интернет-текстов](* <- lang_ru;;*);;
+
+// Doklad_65_OSTISX2014 <= nrel_authors : ...(* -> ZaboleevaXZotova_A._V.;Rozaliev_V._L.;Solosenko_A._N.;; *);;
+
+Doklad_65_OSTISX2014 <= nrel_authors: ZaboleevaXZotova_A._V.;Rozaliev_V._L.;Solosenko_A._N.;; 
+
+// Doklad_65_OSTISX2014 <= nrel_articke: ...(* -> 65._ZaboleevaXZotova_A.V.X_Rozaliev_V.L.X_Solosenko_A.N._X_AvtomSANIXT;; *);;

@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_3.01_OSTISX2011;;
+Doklad_3.01_OSTISX2011=>nrel_main_idtf:[Доклад 3.01 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.01_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_3.01_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_3.01_OSTISX2011 => nrel_name_of_doclad: [Ресурсные сети и их приложения в информационных технологиях](* <- lang_ru;;*);;
+
+/*Doklad_3.01_OSTISX2011 <= nrel_section: [Секция 3 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.01_OSTISX2011 <= nrel_authors : ...(* -> Kuznezov_O._P.;Jilakova_L._U.;; *);;
+
+Doklad_3.01_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 3.1 OSTIS-2011";;
+
+Doklad_3.01_OSTISX2011 <= nrel_articke: ...(* -> Kuznezov_O.P..2011stXResurSiIPvIT;; *);;
+
+Doklad_3.01_OSTISX2011 <= nrel_stand: ...(* -> Stend_607X9_OSTISX2011;; *);;*/
+
+Doklad_3.01_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Кузнецов_О.П..2011ст-РесурСиИПвИТ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_3.01_OSTISX2011=>nrel_authors: Kuznezov_O.P.;Jilakova_L.U.;;

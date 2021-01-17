@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_38_OSTISX2014;;
+Doklad_38_OSTISX2014=>nrel_main_idtf:[Доклад 38 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_38_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_38_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_38_OSTISX2014 <= nrel_name_of_doclad: [Ситуационный полигон как инструмент ситуационного управления в энергетике](* <- lang_ru;;*);;
+
+// Doklad_38_OSTISX2014 <= nrel_authors : ...(* -> MasselX_A._G.;Ivanov_R._A.;; *);;
+
+Doklad_38_OSTISX2014 <= nrel_authors: MasselX_A._G.;Ivanov_R._A.;; 
+
+// Doklad_38_OSTISX2014 <= nrel_articke: ...(* -> 38._MasselX_A.G.X_Ivanov_R.A._X_SituaPkISU;; *);;

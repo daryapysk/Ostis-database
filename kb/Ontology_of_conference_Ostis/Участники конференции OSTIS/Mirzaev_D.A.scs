@@ -1,0 +1,17 @@
+
+Mirzaev_D.A.=> nrel_main_idtf:
+	[Мирзаев Д. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mirzaev_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Mirzaev_D.A. <- concept_participant_of_conference_OSTIS2015;;
+
+//Mirzaev_D.A. <- concept_participant_of_conference_OSTIS;;
+

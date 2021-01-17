@@ -1,0 +1,36 @@
+
+ZagorulXko_U.A.=> nrel_main_idtf:
+	[Загорулько Ю.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[ZagorulXko_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+ZagorulXko_U.A. => nrel_email: [zagor@iis.nsk.su](*<-lang_en;;*);;
+
+/*ZagorulXko_U.A. <= nrel_authors:  ...(* -> Doklad_16_OSTISX2015;Doklad_11_OSTISX2014;Doklad_1.02_OSTISX2013;Doklad_2.06_OSTISX2012;Doklad_5.02_OSTISX2011;Doklad_1.02_OSTISX2011;; *);;
+
+ZagorulXko_U.A. <= nrel_publication : ...(* -> ZagorulXko_U.A..1996stXIssleiRMILiTMPV;ZagorulXko_U.A..2007stXTehnoPOdPNZ;ZagorulXko_U.A.2008stXAvtomSOIoIRdPNZ;ZagorulXko_U.A..2008stXPodhokPPNZ;ZagorulXko_U.A..1995artXIntegTMftDotKPS;ZagorulXko_U.A.2009stXPodhokOMDkSZiIRZPO;ZagorulXko_U.A..2010stXPodhokRSPPRnPNP;; *);;*/
+
+ZagorulXko_U.A. <- concept_participant_of_conference_OSTIS2014;;
+ZagorulXko_U.A. <- concept_participant_of_conference_OSTIS2011;;
+ZagorulXko_U.A. <- concept_participant_of_conference_OSTIS2012;
+									concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+/*ZagorulXko_U.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+ZagorulXko_U.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+ZagorulXko_U.A. -> zaveduusij_laboratoriej;;
+
+ZagorulXko_U.A. <= nrel_photo: ...(* -> Fajl:Zagorulko.PNG;; *);;
+
+ZagorulXko_U.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.01;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.38;Foto_OSTISX2011.02.10.10.54;Foto_OSTISX2011.02.10.11.17;Foto_OSTISX2011.02.10.11.47;; *);;*/

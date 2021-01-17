@@ -1,0 +1,15 @@
+sc_node_not_relation->Admiral_Soft;;
+Admiral_Soft=>nrel_main_idtf:[Admiral Soft](*<-lang_ru;;*);;
+
+
+//Admiral_Soft => nrel_email: [admiralsoft_logo.gif](*<-lang_en;;*);;
+
+Admiral_Soft => nrel_doundation_year: [2010](* <- lang_ru;;*);;
+
+Admiral_Soft => nrel_phone: [+375 29 7-724-728](* <- lang_ru;;*);;
+
+Admiral_Soft => nrel_address : [г. Минск, ул. Немига, 40](* <- lang_ru;;*);;
+
+Admiral_Soft => nrel_site: [http://www.admiralmarkets.com];;
+
+Admiral_Soft => nrel_location : [г. Минск, ул. Немига, 40](* <- lang_ru;;*);;

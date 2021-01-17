@@ -1,0 +1,70 @@
+OSTIS_conference_2013 => nrel_main_idtf:
+	[Конференция OSTIS-2013]
+	(*
+	<- lang_ru;;
+	*);
+	[OSTIS-2013 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+//OSTIS_conference_2013 => nrel_place_conduct: place_conduct_OSTIS_conference_2013;;
+
+
+OSTIS_conference_2013 => nrel_program_committe_of_conference: program_committee_of_conference_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_organizing_committee_of_conference: concept_organizing_committee_of_conference_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_sections : sekzia_OSTISX2013;;
+
+OSTIS_conference_2013 => nrel_report: official_report_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_information_mail: informational_mail_OSTIS_2013;;
+
+OSTIS_conference_2013 => nrel_start_time: ...
+(*
+<-concept_time_point;;
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2013];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[21];;
+*);;
+*);;
+
+
+OSTIS_conference_2013 => nrel_finish_time: ...
+(*
+<-concept_time_point;;          
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2013];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[23];;
+*);;
+*);;
+
+OSTIS_conference_2013 => nrel_participant_of_conference: concept_participant_of_conference_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_technical_information_support: technical_information_support_OSTIS_conference_2013;;
+
+OSTIS_conference_2013 => nrel_conference_organizer: organizer_OSTIS_conference_2013;;
+
+
+OSTIS_conference_2013 => nrel_material: Materials_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_rules_for_published_materials: Rules_for_published_materials_OSTIS2013;;
+
+//OSTIS_conference_2013 => nrel_official_invitation: official_invitation_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_official_program: official_program_OSTIS2013 ;;
+
+OSTIS_conference_2013 => nrel_photo_collection: ...;;
+
+OSTIS_conference_2013 => nrel_contact_information: [ostisconf@gmail.com];;
+
+OSTIS_conference_2013 => nrel_accommodations_of_participants: accommodations_of_participants_OSTIS2013;;
+
+OSTIS_conference_2013 => nrel_place_for_meals_for_participants: place_meals_for_participants_OSTIS2013;;
+
+OSTIS_conference_2013 <- OSTIS_conference;; 

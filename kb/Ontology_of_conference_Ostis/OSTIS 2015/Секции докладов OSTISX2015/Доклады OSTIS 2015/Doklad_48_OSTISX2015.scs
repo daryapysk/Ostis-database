@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_48_OSTISX2015;;
+Doklad_48_OSTISX2015=>nrel_main_idtf:[Доклад 48 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_48_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_48_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_48_OSTISX2015 => nrel_name_of_doclad: [Intellectual means of automation of management of training](* <- lang_ru;;*);;
+
+//Doklad_48_OSTISX2015 <= nrel_authors : ...(* -> Babamuhamedova_M._Z.;Dosanova_M._U.;Djangazova_K._A.;; *);;
+
+//Doklad_48_OSTISX2015 <= nrel_articke: ...(* -> 48._Babamukhamedova_M.Z.X_Doshchanova_M.Yu.X_Djangazova_K.A._X_IntellectualMoAoMoT;; *);;
+
+
+Doklad_48_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/48._Babamukhamedova_M.Z.,_Doshchanova_M.Yu.,_Djangazova_K.A._-_IntellectualMoAoMoT.pdf";;
+						    *);; 
+					*);;
+
+Doklad_48_OSTISX2015=> nrel_authors: Babamuhamedova_M.Z.;Dosanova_M.U.;Djangazova_K.A.;;

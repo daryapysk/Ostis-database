@@ -1,0 +1,17 @@
+
+Mozduoani_S.=> nrel_main_idtf:
+	[Моздуоани Шираз]
+	(*
+	<- lang_ru;;
+	*);
+	[Mozduoani_S.]
+	(*
+	<- lang_en;;
+	*);;
+
+//Mozduoani_S. <- concept_participant_of_conference_OSTIS;;
+Mozduoani_S. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Mozduoani_Siraz <= nrel_authors:  ...(* -> Doklad_15_OSTISX2015;; *);;
+
+Mozduoani_Siraz -> Ucastnik_konferenzii_OSTIS;;*/

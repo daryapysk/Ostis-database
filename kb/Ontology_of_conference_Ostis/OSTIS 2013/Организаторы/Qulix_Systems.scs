@@ -1,0 +1,15 @@
+sc_node_not_relation->Qulix_Systems;;
+Qulix_Systems=>nrel_main_idtf:[Qulix Systems](* <- lang_ru;;*);;
+
+
+//Qulix_Systems => nrel_email: [Qulix_Systems_logo.jpg](*<-lang_en;;*);;
+
+Qulix_Systems => nrel_doundation_year: [2000](* <- lang_ru;;*);;
+
+Qulix_Systems => nrel_phone: [+375 17 306-38-68](* <- lang_ru;;*);;
+
+Qulix_Systems => nrel_address : [г. Минск, ул. Фабрициуса, д.8](* <- lang_ru;;*);;
+
+Qulix_Systems => nrel_site: [http://www.qulix.ru];;
+
+Qulix_Systems => nrel_location : [г. Минск, ул. Фабрициуса, д.8](* <- lang_ru;;*);;

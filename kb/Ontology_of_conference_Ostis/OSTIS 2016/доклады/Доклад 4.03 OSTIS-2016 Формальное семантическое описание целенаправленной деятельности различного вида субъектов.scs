@@ -1,0 +1,36 @@
+//
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_main_idtf:
+[Доклад 4.03 OSTIS-2016 Формальное семантическое описание целенаправленной деятельности различного вида субъектов]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.03 OSTIS-2016 Formal semantic description of purposeful activity of various types of subjects] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA <- doklad_OSTISX2016;;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA <= nrel_authors: 
+shunkevich_d_v;
+Hubarevich_Anastasia_Vladimirovna;
+Svatkina_M.N.;
+Morosin_O.L.;;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_published_material: publication_Shunkevich_D_V_2016_FormalSDoTVToAPA;;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_report_language: lang_ru;;
+
+
+//report_4.03_OSTIS_2016_FormalSDoTVToAPA <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.05_Кобринский_ФормиМИСУЗ.pdf";; *);; *);;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_name: [Формальное семантическое описание целенаправленной деятельности различного вида субъектов](*<- lang_ru;;*);;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA <= nrel_speaker: shunkevich_d_v;;
+
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_time_speech: [16:00 - 16:15];;
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_data_speech: [18 февраля 2016];;
+
+report_4.03_OSTIS_2016_FormalSDoTVToAPA => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

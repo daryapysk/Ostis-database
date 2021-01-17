@@ -1,0 +1,15 @@
+sc_node_not_relation->SoftClub;;
+SoftClub=>nrel_main_idtf:[SoftClub](* <- lang_ru;;*);;
+
+
+//SoftClub => nrel_email: [softclub_logo.gif](*<-lang_en;;*);;
+
+SoftClub => nrel_doundation_year: [1993](* <- lang_ru;;*);;
+
+SoftClub => nrel_phone: [+375 17 2793300](* <- lang_ru;;*);;
+
+SoftClub => nrel_address : [г. Минск, пр-т Независимости, д. 168](* <- lang_ru;;*);;
+
+SoftClub => nrel_site: [www.softclub.by];;
+
+SoftClub => nrel_location : [г. Минск, пр-т Независимости, д. 168](* <- lang_ru;;*);;

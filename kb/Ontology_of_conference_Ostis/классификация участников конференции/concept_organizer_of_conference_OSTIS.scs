@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_organizer_of_conference_OSTIS;; 
+concept_organizer_of_conference_OSTIS=>nrel_main_idtf:
+[организатор конференции OSTIS](*<-lang_ru;;*);
+[organizer of conference OSTIS](*<-lang_en;;*);;
+concept_organizer_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Организатор конференции OSTIS -юридическое лицо, являющееся одним из организаторов конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_organizer_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->organizer_OSTIS_conference_2011; 
+organizer_OSTIS_conference_2012; 
+organizer_OSTIS_conference_2013; 
+organizer_OSTIS_conference_2014;organizer_OSTIS_conference_2015;
+organizer_OSTIS_conference_2016;;
+*);;
+
+

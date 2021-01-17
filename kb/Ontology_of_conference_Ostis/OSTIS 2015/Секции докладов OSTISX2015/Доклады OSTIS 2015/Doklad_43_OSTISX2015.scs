@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_43_OSTISX2015;;
+Doklad_43_OSTISX2015=>nrel_main_idtf:[Доклад 43 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_43_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_43_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_43_OSTISX2015 => nrel_name_of_doclad: [Wolfram Mathematica - средства и технологии разработки интеллектуальных обучающих систем](* <- lang_ru;;*);;
+
+//Doklad_43_OSTISX2015 <= nrel_authors : ...(* -> Tarancuk_V._B.;; *);;
+
+//Doklad_43_OSTISX2015 <= nrel_articke: ...(* -> 43._Tarancuk_V.B._–_WolframMXSiTRIOS;; *);;
+
+
+Doklad_43_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/43. Таранчук В.Б. – WolframM-СиТРИОС.pdf";;
+						    *);; 
+					*);;
+
+
+
+Doklad_43_OSTISX2015 => nrel_authors: Tarancuk_V.B.;;

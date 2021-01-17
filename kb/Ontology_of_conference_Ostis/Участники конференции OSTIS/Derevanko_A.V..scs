@@ -1,0 +1,21 @@
+
+Derevanko_A.V.=> nrel_main_idtf:
+	[Деревянко А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Derevanko_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Derevanko_A.V. => nrel_email: [777alterego777@gmail.com](*<-lang_en;;*);;
+
+//Derevanko_A.V. <- concept_participant_of_conference_OSTIS;;
+Derevanko_A.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Derevanko_A.V. <= nrel_authors:  ...(* -> Doklad_83_OSTISX2015;; *);;
+
+Derevanko_A.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Derevanko_A.V. -> programmist;;*/

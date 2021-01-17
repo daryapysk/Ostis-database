@@ -1,0 +1,21 @@
+
+Lavrenkov_U.N.=> nrel_main_idtf:
+	[Лавренков Ю.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lavrenkov_U.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lavrenkov_U.N.=> nrel_email: [polikarp@rambler.ru](*<-lang_en;;*);;
+
+/*Lavrenkov_U.N. <= nrel_authors:  ...(* -> Doklad_30_OSTISX2014;Doklad_3.08_OSTISX2012;; *);;
+
+Lavrenkov_U.N. <= nrel_publication : ...(* -> Komarzova_L._G..2010stXSravnANKnOMP;Lavrenkov_U._N.2011stXKoopeIAdPEOMP;Lavrenkov_U.N.2011stXNejroPkEOIM;Lavrenkov_U.N.2010stXNejroMORSMS;Lavrenkov_U.N.2011stXResenZMnONiIA;Lavrenkov_U.N.2012stXPostrAMnONAiSNL;Komarzova_L.G..2010stXNejroMORSMS;Komarzova_L.G..2010stXIssleNTdSNMET;; *);;*/
+
+Lavrenkov_U.N. <- concept_participant_of_conference_OSTIS2014;;
+Lavrenkov_U.N. <- concept_participant_of_conference_OSTIS2012;;
+
+//Lavrenkov_U.N. -> aspirant;;

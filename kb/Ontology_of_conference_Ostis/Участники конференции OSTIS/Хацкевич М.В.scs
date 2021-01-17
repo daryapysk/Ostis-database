@@ -1,0 +1,14 @@
+Hackevich_M_V => nrel_main_idtf:
+[Хацкевич М.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hackevich_M_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Hackevich_M_V;;
+
+
+

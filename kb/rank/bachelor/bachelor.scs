@@ -1,0 +1,30 @@
+
+concept_bachelor => nrel_idtf: [bachelor](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Бакалавр)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Бакалавр — академическая степень или квалификация, присуждаемая лицам, освоившим соответствующие образовательные программы высшего образования.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_bachelor;;
+<= nrel_using_constants :...
+(*
+-> concept_qualification; concept_academician_rank; concept_programm; concept_higher_education;;
+*);;
+*);;
+
+ concept_bachelor -> rrel_example: [Академическая степень бакалавр введена не во всех странах.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Бакалавр, студент)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Студенту после завершения высшего образования, присваевается академическая степень бакалавра.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_bachelor; concept_student;;
+*);; 
+
+

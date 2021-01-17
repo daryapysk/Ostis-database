@@ -1,0 +1,14 @@
+Pogorelyi_S_D => nrel_main_idtf:
+[Погорелый С.Д.]
+	(*
+	<- lang_ru;;
+	*);
+	[Pogorelyi_S_D] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Pogorelyi_S_D;;
+
+Pogorelyi_S_D => nrel_contact_information:[sdp@univ.net.ua];;
+

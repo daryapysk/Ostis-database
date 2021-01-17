@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.03_OSTISX2013;;
+Doklad_2.03_OSTISX2013=>nrel_main_idtf:[Доклад 2.03 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.03_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.03_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.03_OSTISX2013 <= nrel_name_of_doclad: [Технологии связывания данных в пространстве открытых данных на примере математической коллекции](* <- lang_ru;;*);;
+
+// //Doklad_2.03_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.03_OSTISX2013 <= nrel_authors : ...(* -> Nevzorova_O._A.;Kirillovic_A._V.;; *);;
+Doklad_2.03_OSTISX2013 <= nrel_authors: Nevzorova_O._A.;Kirillovic_A._V.;;
+
+//Doklad_2.03_OSTISX2013 <= nrel_articke: ...(* -> Nevzorova_O.A..2013stXTehnoSDvPODnPMK;; *);;
+
+Doklad_2.03_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Невзорова_О.А..2013ст-ТехноСДвПОДнПМК.pdf";;
+						    *);;
+					*);;

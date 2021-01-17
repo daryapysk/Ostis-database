@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_14_OSTISX2015;;
+Doklad_14_OSTISX2015=>nrel_main_idtf:[Доклад 14 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_14_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_14_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_14_OSTISX2015 => nrel_name_of_doclad: [Онтологическая модель процесса обеспечения информационной безопасности](* <- lang_ru;;*);;
+
+//Doklad_14_OSTISX2015 <= nrel_authors : ...(* -> Niazova_R._S.;Budanova_N.;; *);;
+
+//Doklad_14_OSTISX2015 <= nrel_articke: ...(* -> 14._Niazova_R.S.X_Budanova_N._–_OntologiceskaaMPOIB;; *);;
+
+
+Doklad_14_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/14. Ниязова Р.С., Буданова Н. – ОнтологическаяМПОИБ.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_14_OSTISX2015 => nrel_authors: Niazova_R.S.;Budanova_N.;;

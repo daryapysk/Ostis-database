@@ -1,0 +1,29 @@
+
+concept_postgraduate_studies => nrel_idtf: [postgraduate studies](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Аспирантура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Аспирантура — одна из форм подготовки кадров высшей квалификации.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_postgraduate_studies;;
+<= nrel_using_constants :...
+(*
+-> concept_qualification; concept_graduate; concept_higher_education_institution;;
+*);;
+*);;
+
+ concept_postgraduate_studies -> rrel_example: [В аспиратуре обучается около 236 аспирантов.](* <- lang_ru;; *);;
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Аспирантура, магистратура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Чтобы попасть в аспирантуру нужно окончить магистратуру.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_postgraduate_studies; concept_magistracy;;
+*);; 
+
+concept_higher_education_institution => concept_postgraduate_studies;;

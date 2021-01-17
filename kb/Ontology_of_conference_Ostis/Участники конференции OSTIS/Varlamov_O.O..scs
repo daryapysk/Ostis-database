@@ -1,0 +1,29 @@
+
+Varlamov_O.O.=> nrel_main_idtf:
+	[Варламов О.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Varlamov_O.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Varlamov_O.O. => nrel_authors:  ...(* -> Doklad_3.05_OSTISX2012;; *);;
+
+//Varlamov_O.O.<- concept_participant_of_conference_OSTIS;;
+Varlamov_O.O.<- concept_participant_of_conference_OSTIS2012;;
+
+
+/*Varlamov_O.O. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Varlamov_O.O. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Varlamov_O.O. -> s.n.s.;;
+
+Varlamov_O.O. <- rrel_key_sc_element: ..illustration_Varlamov_O.O.(* <- sc_illustation;; *);;
+..illustration_Varlamov_O.O. <= nrel_translation : ..translation_illustration_Varlamov_O.O.;;
+..translation_illustration_Varlamov_O.O.-> rrel_example : [<img src="http://127.0.0.1:8181/VarlamovO.jpg"/>] (* => nrel_format: format_html;; *);;*/

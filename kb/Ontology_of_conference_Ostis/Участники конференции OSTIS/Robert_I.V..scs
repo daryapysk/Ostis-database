@@ -1,0 +1,35 @@
+
+Robert_I.V.=> nrel_main_idtf:
+	[Роберт И.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Robert_I.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Robert_I.V. => nrel_email: [rena_robert@mtu-net.ru](*<-lang_en;;*);;
+
+//Robert_I.V. <- concept_participant_of_conference_OSTIS;;
+Robert_I.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Robert_I.V. <= nrel_publication : ...(* -> Robert_I.V.2007stXTeoriIMIOPPiTA;Robert_I.V.1994stXSovreITvODPPI;Robert_I.V.1999ucXSovreIiKTvSSPO;Robert_I.V..1999ucXInforTvNiO;Robert_I.V..2004stXOsnovNNIvOIPO;Robert_I.V..2005stXKonzeKMiMPKIO;Robert_I.V.2001stXRasprIIiKTvOP;Robert_I.V..2002stXTeoreOSOEI;EkspeISPPFnBSIiKTX2006sb;Robert_I.V..2004stXInforTvO;Robert_I.V..2007ucXInforIKTvO;Robert_I.V.2004stXTolkoSiSPAIO;; *);;
+
+Robert_I.V. -> Ucastnik_konferenzii_OSTIS;;
+
+
+Robert_I.V. -> d.p.n.;;
+d.p.n. <- ucenaa_stepenX;;
+
+Robert_I.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Robert_I.V. -> akademik;;
+
+Robert_I.V. -> direktor;;
+
+Robert_I.V. <- rrel_key_sc_element: ..illustration_Robert_I.V.(* <- sc_illustation;; *);;
+..illustration_Robert_I.V. <= nrel_translation : ..translation_illustration_Robert_I.V.;;
+..translation_illustration_Robert_I.V.-> rrel_example : [<img src="http://127.0.0.1:8181/RobertI.jpg"/>] (* => nrel_format: format_html;; *);;*/

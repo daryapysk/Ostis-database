@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_5.04_OSTISX2012;;
+Doklad_5.04_OSTISX2012=>nrel_main_idtf:[Доклад 5.04 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_5.04_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_5.04_OSTISX2012 => nrel_name_of_doclad: [Модели и методы интеграции информационных и вычислительных ресурсов](* <- lang_ru;;*);;
+
+Doklad_5.04_OSTISX2012 => nrel_section: [Секция 5 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_5.04_OSTISX2012 <= nrel_authors : ...(* -> Globa_L._S.;Novogrudskaa_R._L.;; *);;
+
+Doklad_5.04_OSTISX2012 <= nrel_articke: ...(* -> Globa_L.S..2012stXModeliMIIiVR;; *);;
+
+Doklad_5.04_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X13_OSTISX2012;; *);;*/
+
+Doklad_5.04_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Глоба_Л.С..2012ст-МоделиМИИиВР.pdf";;
+						    *);; 
+					*);;
+Doklad_5.04_OSTISX2012=> nrel_authors:Globa_L.S.;Novogrudskaa_R.L.;;

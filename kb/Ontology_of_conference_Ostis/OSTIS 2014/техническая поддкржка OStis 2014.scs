@@ -1,0 +1,17 @@
+technical_information_support_OSTIS_conference_2014 => nrel_main_idtf:
+	[Техническая поддержка Конференции OSTIS-2014]
+	(*
+	<- lang_ru;;
+	*);
+	[Technical information support OSTIS-2014 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+technical_information_support_OSTIS_conference_2014 -> 
+Recevye_tehnologii;MyGui;OGRE; Ontologia_proektirovania;ItBel;;
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+Kulajenko_U.I.=> nrel_main_idtf:
+	[Кулаженко Ю.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulajenko_U.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+//Kulajenko_U.I.<- concept_participant_of_conference_OSTIS;;
+Kulajenko_U.I.<- concept_participant_of_conference_OSTIS2016;;

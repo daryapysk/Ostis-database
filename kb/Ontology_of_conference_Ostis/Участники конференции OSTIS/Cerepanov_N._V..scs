@@ -1,0 +1,15 @@
+
+Cerepanov_N.V.=> nrel_main_idtf:
+	[Черепанов Н. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Cerepanov_N.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Cerepanov_N.V. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2014;; *);;
+
+Cerepanov_N.V.  <- concept_participant_of_conference_OSTIS2014;;

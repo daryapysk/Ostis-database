@@ -1,0 +1,16 @@
+sc_node_not_relation->Exadel;;
+Exadel=>nrel_main_ru_idtf:[Exadel](* <- lang_ru;;*);;
+
+
+//Exadel => nrel_email: [exadel_logo.gif](*<-lang_en;;*);;
+
+Exadel => nrel_doundation_year: [1998](* <- lang_ru;;*);;
+
+Exadel => nrel_phone: [+375 29 117 27 40](* <- lang_ru;;*);;
+Exadel => nrel_phone: [+375 17 254 76 05](* <- lang_ru;;*);;
+
+Exadel =>nrel_address : [г. Минск, ул. Тимирязева, 65Б](* <- lang_ru;;*);;
+
+Exadel => nrel_site: [http://www.exadel.com];;
+
+Exadel => nrel_location : [г. Минск, ул. Тимирязева, 65Б](* <- lang_ru;;*);;

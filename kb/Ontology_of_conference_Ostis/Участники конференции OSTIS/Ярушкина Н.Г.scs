@@ -1,0 +1,14 @@
+Yarushkina_N_G => nrel_main_idtf:
+[Ярушкина Н.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Yarushkina_N_G] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Yarushkina_N_G;;
+
+Yarushkina_N_G => nrel_contact_information:[jng@ulstu.ru];;
+

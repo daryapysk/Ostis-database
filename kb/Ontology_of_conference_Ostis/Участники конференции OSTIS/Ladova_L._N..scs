@@ -1,0 +1,17 @@
+
+Ladova_L.N.=> nrel_main_idtf:
+	[Лядова Л. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ladova_L.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Ladova_L.N. <= nrel_authors:  ...(* -> Doklad_53_OSTISX2014;; *);;
+
+
+Ladova_L.N. <- concept_participant_of_conference_OSTIS2014;
+concept_participant_of_conference_OSTIS2013;;

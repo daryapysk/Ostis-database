@@ -1,0 +1,32 @@
+//
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_main_idtf:
+[Доклад 5.01 OSTIS-2016 Конструирование отношения псевдохронологического порядка в терминологических сетях]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.01 OSTIS-2016 Construction relationships psevdohronologicheskogo order terminological networks] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN <- doklad_OSTISX2016;;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN <= nrel_authors: MalXkovskij_M.G.; Soloviev_S_U;;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_published_material: publication_Malkovsky_M_G_2016_TheDoPCORitTN;;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_report_language: lang_ru;;
+
+
+report_5.01_OSTIS_2016_TheDoPCORitTN <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.01_Мальковский_М.Г._КонстОППвТС.pdf";; *);; *);;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_name: [Конструирование отношения псевдохронологического порядка в терминологических сетях](*<- lang_ru;;*);;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN <= nrel_speaker: MalXkovskij_M.G.;;
+
+
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_time_speech: [10:00 - 10:30];;
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_data_speech: [19 февраля 2016];;
+
+report_5.01_OSTIS_2016_TheDoPCORitTN => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_conference_competition;; 
+
+nrel_conference_competition => nrel_main_idtf:[участие в конкурсах конференции*] (* <-lang_ru;; *);;
+
+nrel_conference_competition => nrel_main_idtf:[participation in conference competition*] (* <-lang_en;; *);;

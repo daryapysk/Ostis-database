@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_6.03_OSTISX2012;;
+Doklad_6.03_OSTISX2012=>nrel_main_idtf:[Доклад 6.03 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_6.03_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_6.03_OSTISX2012 => nrel_name_of_doclad: [Медицинская диагностика и ортогональный базис силлогистики](* <- lang_ru;;*);;
+
+Doklad_6.03_OSTISX2012 => nrel_section: [Секция 6 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_6.03_OSTISX2012 <= nrel_authors : ...(* -> Smetanin_U._M.;Smetanin_M._U.;; *);;
+
+Doklad_6.03_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 6.3 OSTIS-2012";;
+
+Doklad_6.03_OSTISX2012 <= nrel_articke: ...(* -> Smetanin_U.M..2012stXMedizDiOBS;; *);;
+
+Doklad_6.03_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X8_OSTISX2012;; *);;*/
+
+Doklad_6.03_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Сметанин_Ю.М..2012ст-МедицДиОБС.pdf";;
+						    *);; 
+					*);;
+Doklad_6.03_OSTISX2012=> nrel_authors:Smetanin_U.M.;Smetanin_M.U.;;

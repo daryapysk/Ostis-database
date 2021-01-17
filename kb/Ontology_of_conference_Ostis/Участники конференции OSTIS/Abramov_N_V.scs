@@ -1,0 +1,29 @@
+Abramov_N_V=> nrel_main_idtf:
+	[Абрамов Н. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Abramov_N_V]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Abramov_N_V <- concept_participant_of_conference_OSTIS2012;;
+
+/*Abramov_N_V-> k.c.n.;;
+k.c.n. <- ucenaa_stepenX;;
+
+Abramov_N_V-> professor;;
+professor <- ucenoe_zvanie;;
+
+Abramov_N_V-> professor;;
+
+Abramov_N_V<- rrel_key_sc_element: ..illustration_Abramov_N_V* <- sc_illustation;; *);;
+..illustration_Abramov_N_V<= nrel_translation : ..translation_illustration_Abramov_N_V;
+..translation_illustration_Abramov_N_V> rrel_example : [<img src="http://127.0.0.1:8181/Abramov.jpg"/>] (* => nrel_format: format_html;; *);;*/
+
+
+
+
+

@@ -1,0 +1,18 @@
+//sc_node_not_relation-> Doklad_1.01_OSTISX2011;;
+Doklad_1.01_OSTISX2011=>nrel_main_idtf:[Доклад 1.01 OSTIS-2011](*<- lang_ru;;*);;
+
+Doklad_1.01_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+Doklad_1.01_OSTISX2011 => nrel_name_of_doclad: [Облачная платформа для разработки и управления интеллектуальными системами](* <- lang_ru;;*);;
+
+
+Doklad_1.01_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Грибова_В.В..2011ст-ОблачПдРиУИС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_1.01_OSTISX2011 => nrel_authors: Gribova_V.V.;Klesev_A.S.;Krylov_D.A.;Moskalenko_F.M.;Smagin_S.V.;Timcenko_V.A.;Tutunnik_M.B.;Salfeeva_E.A.;; 
+

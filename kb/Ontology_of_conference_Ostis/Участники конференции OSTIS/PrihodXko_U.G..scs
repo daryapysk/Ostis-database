@@ -1,0 +1,16 @@
+sc_node_not_relation->PrihodXko_U.G.;;
+PrihodXko_U.G.=>nrel_main_ru_idtf:[Приходько Ю.Г.];;
+
+PrihodXko_U.G. <= nrel_email: [kafiit@bsuir.by](*<-lang_en;;*);;
+
+PrihodXko_U.G. -> Ucastnik_konferenzii_OSTIS;;
+
+PrihodXko_U.G. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+PrihodXko_U.G. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+PrihodXko_U.G. -> dozent;;
+
+PrihodXko_U.G. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.31;Foto_OSTISX2011.02.10.10.33;Foto_OSTISX2011.02.10.10.44;Foto_OSTISX2011.02.10.12.28;Foto_OSTISX2011.02.10.12.40;; *);;

@@ -1,0 +1,14 @@
+Romanko_A_R => nrel_main_idtf:
+[Романко А.Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Romanko_A_R] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Romanko_A_R;;
+
+Romanko_A_R => nrel_contact_information:[romanko1993@gmail.com];;
+

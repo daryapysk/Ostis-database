@@ -1,0 +1,15 @@
+
+sc_node_not_relation->concept_university;;
+concept_university => nrel_main_idtf: [университет](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_state;;
+concept_state => nrel_main_idtf: [государство](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_school;;
+concept_school => nrel_main_idtf: [школа](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_education_system;;
+concept_education_system => nrel_main_idtf: [система образования](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_model;;
+concept_model => nrel_main_idtf: [модель](* <- lang_ru;; *);;

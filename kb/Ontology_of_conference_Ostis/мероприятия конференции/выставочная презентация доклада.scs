@@ -1,0 +1,21 @@
+concept_exhibition_report_presentation  => nrel_main_idtf:
+[выставочная презентация доклада](* <- lang_ru;; *);
+[exhibition report presentation] (* <- lang_en;; *);;
+
+
+concept_exhibition_report_presentation <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(выставочная презентация доклада)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Выставочная презентация доклада -  демонстрация результатов своей разработки на выставке (презентации до 30 минут). ]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+concept_event -> concept_exhibition_report_presentation ;;

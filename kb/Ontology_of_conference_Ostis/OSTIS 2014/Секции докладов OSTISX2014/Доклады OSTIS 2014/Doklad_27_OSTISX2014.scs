@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_27_OSTISX2014;;
+Doklad_27_OSTISX2014=>nrel_main_idtf:[Доклад 27 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_27_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_27_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_27_OSTISX2014 <= nrel_name_of_doclad: [Интеллектуальные системы управления на борту отечественных спутников: фантастика или реальность](* <- lang_ru;;*);;
+
+// Doklad_27_OSTISX2014 <= nrel_authors : ...(* -> Dimitrov_D._M.;Danilin_N._S.;Sabirov_I._H.;; *);;
+
+Doklad_27_OSTISX2014 <= nrel_authors: Dimitrov_D._M.;Danilin_N._S.;Sabirov_I._H.;; 
+
+// Doklad_27_OSTISX2014 <= nrel_articke: ...(* -> 27._Dimitrov_D.M.X_Danilin_N.S.X_Sabirov_I.H._X_IntelSUnBOSFiR;; *);;

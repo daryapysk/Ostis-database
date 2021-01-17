@@ -1,0 +1,14 @@
+Kleshev_A_S => nrel_main_idtf:
+[Клещёв А. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kleshev_A_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kleshev_A_S;;
+
+Kleshev_A_S => nrel_contact_information:[kleschev@iacp.dvo.ru];;
+

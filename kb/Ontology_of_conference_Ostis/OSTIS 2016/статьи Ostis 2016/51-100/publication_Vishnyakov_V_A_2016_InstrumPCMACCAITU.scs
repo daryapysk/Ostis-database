@@ -1,0 +1,25 @@
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_main_idtf:
+[ Вишняков В.А. 2016 - КонцеИПМДвСОВсИИТ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Vishnyakov_V_A_2016_InstrumPCMACCAITU] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU=> nrel_name_publication:[Концепция инструментальной платформы в деятельности в среде облачных вычислений с использованием интеллектуальных технологий](*
+	<- lang_ru;;
+	*);;
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU <= nrel_authors:
+Vishnyakov_V_A;;
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU <= nrel_authors:
+Kazak_E_A;;
+
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU=> nrel_reference_standard: [Вишняков, В.А. Концепция инструментальной платформы в деятельности в среде облачных вычислений с использованием интеллектуальных технологий/ В.А. Вишняков, Е.А. Казак// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 545–548.];;
+
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU=> nrel_year_publication: 2016;;
+
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Vishnyakov_V_A_2016_InstrumPCMACCAITU<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Вишняков.pdf";; *);;*);;

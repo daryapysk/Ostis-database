@@ -1,0 +1,18 @@
+
+Kiselev_G.D.=> nrel_main_idtf:
+	[Киселёв Г.Д.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kiselev_G.D.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+/*Kiselev_G.D. <= nrel_authors:  ...(* -> Doklad_4.07_OSTISX2012;; *);;
+
+//Kiselev_G.D.<- concept_participant_of_conference_OSTIS;;
+Kiselev_G.D.<- concept_participant_of_conference_OSTIS2012;;
+
+Kiselev_G.D. <= nrel_publication : ...(* -> Kiselev_G.D._ParallelXnoe_i_raspredelennoe_modelirovanie_zifrovyh_shem;Kiselev_G.D._Upravlenie_ucebnymi_informazionnymi_resursami_virtualXnogo_ofisa_proektnoj_organizazii;Kiselev_G.D._Semejstvo_modelej_raspredelennoj_informazionnoj_sistemy;Kiselev_G.D._X_Kazakov_U.V._Modelirovanie_telekommunikazionnyh_sistem;Kiselev_G.D._X_Kazakov_U.V._Problemy_modelirovania_geterogennyh_telekommunikazionnyh_setej;Kiselev_G.D.X_Matusenko_V.A.X_Cepurnoj_R.V._Postroenie_vycislitelXnogo_GridXportala_dla_nazionalXnoj_Grid_seti;Kiselev_G.D.X_Kazakov_U.V.X_Molavko_O.S._Issledovanie_zaderjek_v_paketnyh_setah_peredaci_dannyh_s_ispolXzovaniem_paketa_modelirovania_NS2;; *);;*/

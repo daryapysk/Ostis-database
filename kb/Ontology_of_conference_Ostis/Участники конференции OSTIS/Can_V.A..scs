@@ -1,0 +1,25 @@
+
+Can_V.A.=> nrel_main_idtf:
+	[Чан В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Can_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Can_V.A. => nrel_email: [larinmars@rambler.ru](*<-lang_en;;*);;
+
+//Can_V.A. <- concept_participant_of_conference_OSTIS;;
+Can_V.A. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Can_V.A. <= nrel_authors:  ...(* -> Doklad_50_OSTISX2015;; *);;
+
+Can_V.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Can_V.A. -> k.t.n.;;
+k.t.n. <- ucenoe_zvanie;;
+
+Can_V.A. -> dozent;;*/

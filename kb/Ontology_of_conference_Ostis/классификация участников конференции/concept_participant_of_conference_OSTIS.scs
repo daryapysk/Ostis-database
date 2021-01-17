@@ -1,0 +1,79 @@
+sc_node_not_relation -> concept_participant_of_conference_OSTIS;; 
+concept_participant_of_conference_OSTIS=> nrel_main_idtf:[участник конференции OSTIS] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS=> nrel_main_idtf:[participant of  conference OSTIS] (* <-lang_en;; *);;
+
+concept_participant<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Участник конференции OSTIS - лицо, которое принимает участие  в конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_participant_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->concept_participant_of_conference_OSTIS2011; 
+concept_participant_of_conference_OSTIS2012; 
+concept_participant_of_conference_OSTIS2013; 
+concept_participant_of_conference_OSTIS2014;
+concept_participant_of_conference_OSTIS2015;
+concept_participant_of_conference_OSTIS2016;
+concept_participant_of_conference_OSTIS2017;
+concept_participant_of_conference_OSTIS2018;
+concept_participant_of_conference_OSTIS2019;
+concept_participant_of_conference_OSTIS2020;;
+*);;
+
+concept_participant_of_conference_OSTIS2016=> nrel_main_idtf:[Участник конференции OSTIS-2016] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2016=> nrel_main_idtf:[participant of  conference OSTIS-2016] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2011=> nrel_main_idtf:[Участник конференции OSTIS-2011] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2011=> nrel_main_idtf:[participant of  conference OSTIS-2011] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2012=> nrel_main_idtf:[Участник конференции OSTIS-2012] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2012=> nrel_main_idtf:[participant of  conference OSTIS-2012] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2013=> nrel_main_idtf:[Участник конференции OSTIS-2013] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2013=> nrel_main_idtf:[participant of  conference OSTIS-2013] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2014=> nrel_main_idtf:[Участник конференции OSTIS-2014] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2014=> nrel_main_idtf:[participant of  conference OSTIS-2014] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2015=> nrel_main_idtf:[Участник конференции OSTIS-2015] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2015=> nrel_main_idtf:[participant of  conference OSTIS-2015] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2017=> nrel_main_idtf:[Участник конференции OSTIS-2017] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2017=> nrel_main_idtf:[participant of  conference OSTIS-2017] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2018=> nrel_main_idtf:[Участник конференции OSTIS-2018] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2018=> nrel_main_idtf:[participant of  conference OSTIS-2018] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2019=> nrel_main_idtf:[Участник конференции OSTIS-2019] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2019=> nrel_main_idtf:[participant of  conference OSTIS-2019] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS2020=> nrel_main_idtf:[Участник конференции OSTIS-2020] (* <-lang_ru;; *);;
+concept_participant_of_conference_OSTIS2020=> nrel_main_idtf:[participant of  conference OSTIS-2020] (* <-lang_en;; *);;
+
+concept_participant_of_conference_OSTIS=> nrel_inclusion:concept_organizer_of_conference_OSTIS; concept_technical_and_information_support_of_conference_OSTIS; concept_organizing_committee_of_conference_OSTIS; concept_task_group_of_organizing_committee_of_conference_OSTIS; concept_partner_of_conference_OSTIS; concept_speaker_of_conference_OSTIS; concept_listener_of_conference_OSTIS; concept_participant_of_competition_of_conference_OSTIS; concept_program_committee_of_conference_OSTIS;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

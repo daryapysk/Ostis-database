@@ -1,0 +1,42 @@
+
+concept_Brandeis_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Университет Брандейса]
+      (*<-lang_ru;;*);
+       [Brandeis University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Университет Брандейса)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+      concept_research_university;
+      concept_private_univesity
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Университет Брандейса— частный американский исследовательский университет] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Университет Брандейса)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Университете Брандейса учится 5800 студентов](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Brandeis_University -> rrel_example: [Университет Брандейс был основан в 1948 году. ](* <- lang_ru;; *);;
+concept_Brandeis_University <=nrel_inclusion:concept_higher_education_institution;;
+Karen_Keskulla_Uhlenbeck<-rrel_graduate:concept_Brandeis_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Brandeis_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Brand.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Университет Брандейса)](*<- lang_ru;;*);;
+*);;

@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_4.15_OSTISX2012;;
+Doklad_4.15_OSTISX2012=>nrel_main_idtf:[Доклад 4.15 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_4.15_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_4.15_OSTISX2012 =>nrel_name_of_doclad: [Формализация семантики прагматичных фразем белорусского языка](* <- lang_ru;;*);;
+
+Doklad_4.15_OSTISX2012 => nrel_section: [Секция 4 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_4.15_OSTISX2012 <= nrel_authors : ...(* -> Kim_U._A.;Eliseeva_O._E.;; *);;
+
+Doklad_4.15_OSTISX2012 <= nrel_articke: ...(* -> Kim_U.A..2012stXFormaSPFBA;; *);;
+
+Doklad_4.15_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X12_OSTISX2012;; *);;*/
+
+Doklad_4.15_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Ким_Ю.А..2012ст-ФормаСПФБЯ.pdf";;
+						    *);; 
+					*);;
+Doklad_4.15_OSTISX2012=> nrel_authors: Kim_U.A.;Eliseeva_O.E.;;

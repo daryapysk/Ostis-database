@@ -1,0 +1,27 @@
+
+Vojt_N.N.=> nrel_main_idtf:
+	[Войт Н.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojt_N.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vojt_N.N. => nrel_email: [n.voit260883@gmail.com](*<-lang_en;;*);;
+
+//Vojt_N.N. <- concept_participant_of_conference_OSTIS;;
+Vojt_N.N. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Vojt_N.N. <= nrel_authors:  ...(* -> Doklad_44_OSTISX2015;; *);;
+
+Vojt_N.N. -> Ucastnik_konferenzii_OSTIS;;
+
+Vojt_N.N. -> k.t.n.;;
+k.t.n. <- ucenoe_zvanie;;
+
+Vojt_N.N. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Vojt_N.N. -> Direktor_issledovatelXskogo_zentra_innovazionnyh_tehnologij;;*/

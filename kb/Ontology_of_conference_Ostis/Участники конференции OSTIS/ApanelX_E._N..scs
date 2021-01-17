@@ -1,0 +1,17 @@
+
+ApanelX_E.N.=> nrel_main_idtf:
+	[Апанель Е. Н.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[ApanelX_E.N.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  ApanelX_E.N. <- concept_participant_of_conference_OSTIS2014;;
+
+
+/*ApanelX_E._N. <= nrel_authors:  ...(* -> Doklad_75_OSTISX2014;; *);;
+
+ApanelX_E._N. -> Ucastnik_konferenzii_OSTIS;;*/

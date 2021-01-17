@@ -1,0 +1,20 @@
+sc_node_not_relation->Skobelev_P.O.;;
+Skobelev_P.O.=>nrel_main_ru_idtf:[Скобелев П.О.];;
+
+Skobelev_P.O. <= nrel_email: [petr.skobelev@gmail.com](*<-lang_en;;*);;
+
+Skobelev_P.O. <= nrel_authors:  ...(* -> Doklad_28_OSTISX2014;; *);;
+
+Skobelev_P.O. -> Ucastnik_konferenzii_OSTIS;;
+
+Skobelev_P.O. -> d.n.;;
+d.n. <- ucenaa_stepenX;;
+
+Skobelev_P.O. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Skobelev_P.O. -> generalXnyj_direktor;;
+
+Skobelev_P.O. <- rrel_key_sc_element: ..illustration_Skobelev_P.O.(* <- sc_illustation;; *);;
+..illustration_Skobelev_P.O. <= nrel_translation : ..translation_illustration_Skobelev_P.O.;;
+..translation_illustration_Skobelev_P.O.-> rrel_example : [<img src="http://127.0.0.1:8181/Скобелев_Петр.jpg"/>] (* => nrel_format: format_html;; *);;

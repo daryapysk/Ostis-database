@@ -1,0 +1,38 @@
+
+Kobrinskij_B.A.=> nrel_main_idtf:
+	[Кобринский Б.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kobrinskij_B.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kobrinskij_B.A. => nrel_email: [bakob@pedklin.ru](*<-lang_en;;*);;
+
+//Kobrinskij_B.A. <= nrel_authors:  ...(* -> Doklad_1.02_OSTISX2012;; *);;
+
+//Kobrinskij_B.A. <- concept_participant_of_conference_OSTIS;;
+Kobrinskij_B.A.<- concept_participant_of_conference_OSTIS2012;;
+
+
+
+
+/*Kobrinskij_B.A. -> d.med.n.;;
+d.med.n. <- ucenaa_stepenX;;
+
+Kobrinskij_B.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Kobrinskij_B.A. -> akademik;;
+
+Kobrinskij_B.A. -> akademik;;
+
+Kobrinskij_B.A. -> glavnyj_naucnyj_sotrudnik;;
+
+Kobrinskij_B.A. -> professor;;
+
+Kobrinskij_B.A. <- rrel_key_sc_element: ..illustration_Kobrinskij_B.A.(* <- sc_illustation;; *);;
+..illustration_Kobrinskij_B.A. <= nrel_translation : ..translation_illustration_Kobrinskij_B.A.;;
+..translation_illustration_Kobrinskij_B.A.-> rrel_example : [<img src="http://127.0.0.1:8181/KobrinskiiBA.png"/>] (* => nrel_format: format_html;; *);;*/

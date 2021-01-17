@@ -1,0 +1,21 @@
+
+Sycev_V.A.=> nrel_main_idtf:
+	[Сычёв В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sycev_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sycev_V.A. => nrel_email: [vsychyov@robotics.by](*<-lang_en;;*);;
+
+//Sycev_V.A. <- concept_participant_of_conference_OSTIS;;
+Sycev_V.A.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Sycev_V.A. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2015;; *);;
+
+Sycev_V.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Sycev_V.A. -> naucnyj_sotrudnik;;*/

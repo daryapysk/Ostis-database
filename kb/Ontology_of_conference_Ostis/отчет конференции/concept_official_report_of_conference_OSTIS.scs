@@ -1,0 +1,32 @@
+sc_node_not_relation ->concept_official_report_of_conference_OSTIS;;
+concept_official_report_of_conference_OSTIS => nrel_main_idtf:
+	[отчет конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[official report of conference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_official_report_of_conference_OSTIS  <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отчет конференции OSTIS – это составленные по определенной форме сведения, данные о деятельности конференции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+concept_official_report_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->official_report_OSTIS2013 ; 
+official_report_OSTIS2014 ;
+official_report_OSTIS2015; 
+official_report_OSTIS2016 ;;
+*);;

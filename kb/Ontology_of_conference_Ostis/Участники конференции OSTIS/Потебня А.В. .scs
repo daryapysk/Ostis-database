@@ -1,0 +1,14 @@
+Potebnia_A_V => nrel_main_idtf:
+[Потебня А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Potebnia_A_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Potebnia_A_V;;
+
+Potebnia_A_V => nrel_contact_information:[admin@artem.bz.ua];;
+

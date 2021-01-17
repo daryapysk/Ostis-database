@@ -1,0 +1,31 @@
+report_3.05_OSTIS_2016_ANATMOANaTI => nrel_main_idtf:
+[Доклад 3.05 OSTIS-2016 Новый подход к моделированию формальных нейронов и их взаимодействий]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 3.05 OSTIS-2016 A new approach to modeling of artificial neuros and their interaction] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  <- doklad_OSTISX2016;;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  <= nrel_authors:Jilakova_L.U.;;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_published_material: publication_Zhilyakova_L_Yu_2016_ANATMOANaTI;;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_report_language: lang_ru;;
+
+
+/*report_3.05_OSTIS_2016_ANATMOANaTI  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_name: [Новый подход к моделированию формальных нейронов и их взаимодействий](*<- lang_ru;;*);;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  <= nrel_speaker: Jilakova_L.U.;;
+
+
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_time_speech: [16:30 - 17:00];;
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_data_speech: [18 февраля 2016];;
+
+report_3.05_OSTIS_2016_ANATMOANaTI  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

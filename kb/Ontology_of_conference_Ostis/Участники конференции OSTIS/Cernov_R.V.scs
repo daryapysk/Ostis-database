@@ -1,0 +1,17 @@
+
+Cernov_R.V.=> nrel_main_idtf:
+	[Чернов Р.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Cernov_R.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Cernov_R.V. <- concept_participant_of_conference_OSTIS2012;;
+
+//Cernov_R.V. <- concept_participant_of_conference_OSTIS;;
+

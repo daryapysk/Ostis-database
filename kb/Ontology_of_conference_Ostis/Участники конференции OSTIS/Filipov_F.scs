@@ -1,0 +1,16 @@
+
+Filipov_F.=> nrel_main_idtf:
+	[Филипов Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Filipov_F.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Filipov_F. <- concept_participant_of_conference_OSTIS2012;;
+
+//Filipov_F. <- concept_participant_of_conference_OSTIS;;
+

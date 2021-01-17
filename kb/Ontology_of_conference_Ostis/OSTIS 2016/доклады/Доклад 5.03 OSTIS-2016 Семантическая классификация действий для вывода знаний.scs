@@ -1,0 +1,32 @@
+//
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_main_idtf:
+[Доклад 5.03 OSTIS-2016 Семантическая классификация действий для вывода знаний]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.03 OSTIS-2016 Semantic classification of actions to bring the knowledge] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.03_OSTIS_2016_SemanCoAfKI <- doklad_OSTISX2016;;
+
+report_5.03_OSTIS_2016_SemanCoAfKI <= nrel_authors: Boiko_I_M;;
+
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_published_material: publication_Boiko_I_M_2016_SemanCoAfKI;;
+
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_report_language: lang_ru;;
+
+
+report_5.03_OSTIS_2016_SemanCoAfKI <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.03_Бойко_СеманКДдВЗ.pdf";; *);; *);;
+
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_name: [Семантическая классификация действий для вывода знаний](*<- lang_ru;;*);;
+
+report_5.03_OSTIS_2016_SemanCoAfKI <= nrel_speaker: Boiko_I_M;;
+
+
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_time_speech: [11:00 - 11:20];;
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_data_speech: [19 февраля 2016];;
+
+report_5.03_OSTIS_2016_SemanCoAfKI => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

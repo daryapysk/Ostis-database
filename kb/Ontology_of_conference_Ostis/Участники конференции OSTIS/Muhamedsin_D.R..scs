@@ -1,0 +1,22 @@
+
+Muhamedsin_D.R.=> nrel_main_idtf:
+	[Мухамедшин Д.Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Muhamedsin_D.R.]
+	(*
+	<- lang_en;;
+	*);;
+
+Muhamedsin_D.R. => nrel_email: [damirmuh@gmail.com](*<-lang_en;;*);;
+
+//Muhamedsin_D.R. <- concept_participant_of_conference_OSTIS;;
+Muhamedsin_D.R. <- concept_participant_of_conference_OSTIS2015;;
+Muhamedsin_D.R. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Muhamedsin_D.R. <= nrel_authors:  ...(* -> Doklad_61_OSTISX2015;; *);;
+
+Muhamedsin_D.R. -> Ucastnik_konferenzii_OSTIS;;
+
+Muhamedsin_D.R. -> student;;*/

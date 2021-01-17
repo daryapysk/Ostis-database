@@ -1,0 +1,29 @@
+
+concept_chairman => nrel_idtf: [chairman](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Председатель)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Председатель — руководитель заседания, собрания, конференции.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_chairman;;
+<= nrel_using_constants :...
+(*
+-> concept_conference; concept_collection; concept_meeting;;
+*);;
+*);;
+
+ concept_chairman -> rrel_example: [Председатель Голенков Владимир Васильевич.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Председатель, конфереция)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Председатель обсуждал организацию конференции со своими работниками.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_chairman; concept_conference;;
+*);; 
+

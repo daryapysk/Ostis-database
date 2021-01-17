@@ -1,0 +1,20 @@
+sc_node_norole_relation -> nrel_participant_of_conference;; 
+nrel_participant_of_conference=> nrel_main_idtf:[участник конференции*] (* <-lang_ru;; *);;
+nrel_participant_of_conference=> nrel_main_idtf:[participant of the conference*] (* <-lang_en;; *);;
+
+nrel_participant_of_conference<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Участник конференции - лицо, которое принимает участие  в  конференции .](*<-lang_ru;;*);;
+		*);;
+	*);;
+nrel_participant_of_conference=>nrel_first_domain:concept_conference;;
+nrel_participant_of_conference=>nrel_second_domain:person;;
+nrel_participant_of_conference=>nrel_definitional_domain:...(*<=nrel_combination:...(*->person;;->concept_conference;;*);;
+*);;
+nrel_participant_of_conference=> nrel_inclusion:nrel_listener; nrel_partner_of_the_conference; nrel_program_committe_of_conference; nrel_task_group_of_organizing_committee_of_conference; nrel_organizing_committee_of_conference; nrel_speaker; nrel_technical_and_information_support_of_conference; nrel_conference_organizer;;

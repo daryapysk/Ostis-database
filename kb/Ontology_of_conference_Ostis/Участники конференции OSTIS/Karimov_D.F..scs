@@ -1,0 +1,22 @@
+
+Karimov_D.F.=> nrel_main_idtf:
+	[Каримов Д.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Karimov_D.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+Karimov_D.F. => nrel_email: [googlicus@gmail.com](*<-lang_en;;*);;
+
+//Karimov_D.F. <- concept_participant_of_conference_OSTIS;;
+Karimov_D.F. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Karimov_D.F. <= nrel_authors:  ...(* -> Doklad_93_OSTISX2015;; *);;
+
+Karimov_D.F. -> Ucastnik_konferenzii_OSTIS;;
+
+Karimov_D.F. -> programmist;;*/

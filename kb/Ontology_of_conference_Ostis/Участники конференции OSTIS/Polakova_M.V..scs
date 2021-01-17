@@ -1,0 +1,17 @@
+
+Polakova_M.V.=> nrel_main_idtf:
+	[Полякова М.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Polakova_M.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Polakova_M.V. => nrel_email: [polyakova_m@ntmdt.ru](*<-lang_en;;*);;
+
+//Polakova_M.V. <= nrel_authors:  ...(* -> Doklad_9.02_OSTISX2011;; *);;
+
+//Polakova_M.V. <- concept_participant_of_conference_OSTIS;;
+Polakova_M.V. <- concept_participant_of_conference_OSTIS2011;;

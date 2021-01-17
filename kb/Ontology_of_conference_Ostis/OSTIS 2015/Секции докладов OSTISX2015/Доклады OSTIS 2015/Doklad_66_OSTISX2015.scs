@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_66_OSTISX2015;;
+Doklad_66_OSTISX2015=>nrel_main_idtf:[Доклад 66 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_66_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_66_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_66_OSTISX2015 => nrel_name_of_doclad: [Идентификация модели представлений агента о предметной области в ситуации выбора](* <- lang_ru;;*);;
+
+//Doklad_66_OSTISX2015 <= nrel_authors : ...(* -> Vinogradov_G._P.;Borzov_D._A.;; *);;
+
+//Doklad_66_OSTISX2015 <= nrel_articke: ...(* -> 66._Vinogradov_G.P.X_Borzov_D.A._X_IdentifikaziaMPAoPOvSV;; *);;
+
+Doklad_66_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/66._Виноградов_Г.П.,_Борзов_Д.А._-_ИдентификацияМПАоПОвСВ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_66_OSTISX2015=> nrel_authors: Vinogradov_G.P.;Borzov_D.A.;;

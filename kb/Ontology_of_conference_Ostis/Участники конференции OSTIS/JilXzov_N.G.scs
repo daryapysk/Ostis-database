@@ -1,0 +1,15 @@
+
+JilXzov_N.G.=> nrel_main_idtf:
+	[Жильцов Н.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[JilXzov_N.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//JilXzov_N.G. <- concept_participant_of_conference_OSTIS;;
+JilXzov_N.G. <- concept_participant_of_conference_OSTIS2012;;
+

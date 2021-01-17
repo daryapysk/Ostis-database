@@ -1,0 +1,30 @@
+
+concept_lecturer => nrel_idtf: [lecturer](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Преподаватель)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Преподаватель — педагог, который занимается преподаванием чего-либо (обычно в среднем специальном или высшем учебном заведении).](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_lecturer;;
+<= nrel_using_constants :...
+(*
+-> concept_teacher; concept_higher_education_institution;;
+*);;
+*);;
+
+ concept_lecturer -> rrel_example: [Классный преподаватель.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Преподаватель, физика)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Преподаватель по физике рассказывал про переменные токи.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_lecturer; concept_physics;;
+*);; 
+
+

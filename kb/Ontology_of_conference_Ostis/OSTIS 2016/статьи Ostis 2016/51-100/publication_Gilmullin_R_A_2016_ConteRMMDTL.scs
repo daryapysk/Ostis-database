@@ -1,0 +1,32 @@
+publication_Gilmullin_R_A_2016_ConteRMMDTL => nrel_main_idtf:
+[Гильмуллин Р. А. 2016 - КонтеПдРММвКТЯ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gilmullin_R_A_2016_ConteRMMDTL] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_name_publication:[Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка](*
+	<- lang_ru;;
+	*);;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL<= nrel_authors:
+GilXmullin_R.A.;;
+publication_Gilmullin_R_A_2016_ConteRMMDTL<= nrel_authors:
+Gataullin_R.R.;;
+publication_Gilmullin_R_A_2016_ConteRMMDTL => nrel_article_language: lang_ru;;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL => nrel_annotation: [Данная работа является продолжением работ по подготовке размеченного корпуса татарского языка. Ранее был представлен проект (http://tatcorp.antat.ru) по ручному снятию морфологической многозначности в корпусе татарского языка, основной целью которого является использование краудсорсингового подхода для накопления данных. Следующим шагом стала разработка инструментария для создания, тестирования и апробации контекстных правил разрешения морфологической многозначности.];;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL => nrel_count_page: 4;;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL <- article_OSTIS_2016;;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL => nrel_reference_standard: [Гильмуллин, Р. А. Контекстные правила для разрешения морфологической многозадачности в корпусе татарского языка/ Р.А. Гильмуллин, Р.Р. Гатауллин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 389–392.];;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_year_publication: 2016;;
+
+publication_Gilmullin_R_A_2016_ConteRMMDTL=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Gilmullin_R_A_2016_ConteRMMDTL<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Гильмуллин.pdf";; *);;*);;

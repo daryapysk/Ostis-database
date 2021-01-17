@@ -1,0 +1,26 @@
+sc_node_not_relation->Filatova_N.N.;;
+Filatova_N.N.=> nrel_main_idtf:
+	[Филатова Н.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Filatova_N.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Filatova_N.N. => nrel_email: [nfilatova99@mail.ru](*<-lang_en;;*);;
+
+//Filatova_N.N. <= nrel_authors:  ...(* -> Doklad_29_OSTISX2014;; *);;
+
+Filatova_N.N.  <- concept_participant_of_conference_OSTIS2014;;
+
+/*Filatova_N.N. -> doktor_nauk;;
+doktor_nauk <- ucenaa_stepenX;;
+
+Filatova_N.N. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Filatova_N.N. -> professor;;
+
+Filatova_N.N. <= nrel_photo: ...(* -> Fajl:Filatova.JPG;; *);;*/

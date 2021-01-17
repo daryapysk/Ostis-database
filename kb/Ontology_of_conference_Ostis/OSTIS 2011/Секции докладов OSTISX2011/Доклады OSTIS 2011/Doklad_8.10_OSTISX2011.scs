@@ -1,0 +1,30 @@
+//sc_node_not_relation->Doklad_8.10_OSTISX2011;;
+Doklad_8.10_OSTISX2011=>nrel_main_idtf:[Доклад 8.10 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_8.10_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_8.10_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_8.10_OSTISX2011 <= nrel_name_of_doclad: [SmartCoborgSistems](* <- lang_ru;;*);;
+
+/*Doklad_8.10_OSTISX2011 <= nrel_section: [Секция 8 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_8.10_OSTISX2011 <= nrel_authors:  ...(* -> SolovXev_V._I.;; *);;
+
+Doklad_8.10_OSTISX2011 <= nrel_presentation: "file://0";;
+
+Doklad_8.10_OSTISX2011 <= nrel_articke: ...(* -> SolovXev_V.I.2011stXSmartCS;; *);;
+
+Doklad_8.10_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X25_OSTISX2011;; *);;*/
+
+
+
+Doklad_8.10_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Соловьев_В.И.2011ст-SmartCS.pdf";;
+						    *);; 
+					*);;
+
+Doklad_8.10_OSTISX2011=>nrel_authors: SolovXev_V.I.;; 

@@ -1,0 +1,37 @@
+
+ZaboleevaXZotova_A.V.=> nrel_main_idtf:
+	[Заболеева-Зотова А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[ZaboleevaXZotova_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+ZaboleevaXZotova_A.V. => nrel_email: [cad@vstu.ru](*<-lang_en;;*);;
+
+/*ZaboleevaXZotova_A.V. <= nrel_authors:  ...(* -> Doklad_85_OSTISX2015;Doklad_84_OSTISX2015;Doklad_64_OSTISX2015;Doklad_66_OSTISX2014;Doklad_65_OSTISX2014;Doklad_64_OSTISX2014;Doklad_4.05_OSTISX2012;Doklad_4.04_OSTISX2012;Doklad_3.05_OSTISX2011;; *);;*/
+
+ZaboleevaXZotova_A.V. <- concept_participant_of_conference_OSTIS2014;;
+ZaboleevaXZotova_A.V. <- concept_participant_of_conference_OSTIS2011;;
+ZaboleevaXZotova_A.V. <- concept_participant_of_conference_OSTIS2012;;
+ZaboleevaXZotova_A.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+/*ZaboleevaXZotova_A.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+ZaboleevaXZotova_A.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+ZaboleevaXZotova_A.V. -> professor;;
+
+ZaboleevaXZotova_A.V. <= nrel_publication : ...(* -> ZaboleevaXZotova_A.V..2012stXSemanAnalizSimvOboznacVKollDoktov;ZaboleevaXZotova_A.V..2010stXAvtomatSemantAnalizaTTZ;ZaboleevaXZotova_A.V..2008stXSistemaFormZnanijVSI;; *);;
+
+ZaboleevaXZotova_A.V. <- rrel_key_sc_element: ..illustration_ZaboleevaXZotova_A.V.(* <- sc_illustation;; *);;
+..illustration_ZaboleevaXZotova_A.V. <= nrel_translation : ..translation_illustration_ZaboleevaXZotova_A.V.;;
+..translation_illustration_ZaboleevaXZotova_A.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Zaboleeva-Zotova1.png"/>] (* => nrel_format: format_html;; *);;
+
+ZaboleevaXZotova_A.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.40;Foto_OSTISX2011.02.10.10.43;Foto_OSTISX2011.02.10.10.52;Foto_OSTISX2011.02.10.11.17;Foto_OSTISX2011.02.10.11.47;Foto_OSTISX2011.02.10.12.06;; *);;*/

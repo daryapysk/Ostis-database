@@ -1,0 +1,36 @@
+
+Paluh_B.V.=> nrel_main_idtf:
+	[Палюх Б. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Paluh_B.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Paluh_B.V. => nrel_email: [pboris@tstu.tver.ru](*<-lang_en;;*);;
+
+Paluh_B.V. <- concept_participant_of_conference_OSTIS2015;;
+
+Paluh_B.V. <- concept_participant_of_conference_OSTIS2014;;
+Paluh_B.V. <- concept_participant_of_conference_OSTIS2016;;
+Paluh_B.V. <- concept_participant_of_conference_OSTIS2020;;
+
+
+/*Paluh_B.V. <= nrel_authors:  ...(* -> Doklad_67_OSTISX2015;Doklad_23_OSTISX2014;; *);;
+
+Paluh_B._V. -> Ucastnik_konferenzii_OSTIS;;
+
+
+Paluh_B._V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Paluh_B._V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Paluh_B._V. -> zaveduusij;;
+
+Paluh_B._V. <- rrel_key_sc_element: ..illustration_Paluh_B._V.(* <- sc_illustation;; *);;
+..illustration_Paluh_B._V. <= nrel_translation : ..translation_illustration_Paluh_B._V.;;
+..translation_illustration_Paluh_B._V.-> rrel_example : [<img src="http://127.0.0.1:8181/PaluhBV.png"/>] (* => nrel_format: format_html;; *)*/

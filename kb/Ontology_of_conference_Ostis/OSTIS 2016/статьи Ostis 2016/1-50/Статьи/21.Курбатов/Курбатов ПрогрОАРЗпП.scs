@@ -1,0 +1,42 @@
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_main_idtf:
+[Курбатов С.С. 2016 - ПрогрОАРЗпП]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurbatov_S_S_2016_SoftfTASoTOPG] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_name_publication:[Программное обеспечение для автоматического решения задач по планометрии](*
+	<- lang_ru;;
+	*);;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG <= nrel_authors:
+Kurbatov_S.S.;
+Lobzin_A.P.;
+Hahalin_G.K.;;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG <- article;;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_reference_standard: [Курбатов С.С. Программное обеспечение для автоматического решения задач по планометрии / С.С. Курбатов, А.П. Лобзин, Г.К. Хахалин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_year_publication: 2016;;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/21.kurbatov.pdf";; *);; *);;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG =>  nrel_annotation:
+[В статье рассмотрена система автоматического решения задач по планиметрии с использованием онтологии иестественно-языкового интерфейса. В рамках системы разработано программное обеспечение, использующееонтологию  при  поиске  решения  задачи,  сформулированной  на  предметно-ориентированном  естественномязыке.  Для  найденного  решения  разработана  визуализация  на  предметном  и  онтологическом  уровнях.Программное  обеспечение  включает макросы Word для  работы  с  графикой  и  решатель,  реализованный  впрограммной среде  онтологии.](*
+	<- lang_ru;;
+	*);;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_count_page: 6;;
+
+publication_Kurbatov_S_S_2016_SoftfTASoTOPG => nrel_article_language: lang_ru;;
+
+
+
+

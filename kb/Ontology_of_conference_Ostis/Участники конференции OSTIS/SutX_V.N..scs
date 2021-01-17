@@ -1,0 +1,26 @@
+
+SutX_V.N.=> nrel_main_idtf:
+	[Шуть В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[SutX_V.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+SutX_V.N. => nrel_email: [lucking@mail.ru](*<-lang_en;;*);;
+
+//SutX_V.N. <- concept_participant_of_conference_OSTIS;;
+SutX_V.N. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*SutX_V.N. <= nrel_authors:  ...(* -> Doklad_39_OSTISX2015;; *);;
+
+SutX_V.N. <- concept_participant_of_conference_OSTIS;;
+
+SutX_V.N. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+SutX_V.N. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

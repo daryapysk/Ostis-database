@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_6.01_OSTISX2011;;
+Doklad_6.01_OSTISX2011=>nrel_main_idtf:[Доклад 6.01 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_6.01_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_6.01_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_6.01_OSTISX2011 <= nrel_name_publication: [Автоматизация разработки пользовательских интерфейсов с динамическими данными](* <- lang_ru;;*);;
+
+/*Doklad_6.01_OSTISX2011 <= nrel_section: [Секция 6 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_6.01_OSTISX2011 <= nrel_authors : ...(* -> Gribova_V._V.;Cerkezisvili_N._N.;; *);;
+
+Doklad_6.01_OSTISX2011 <= nrel_articke: ...(* -> Gribova_V.V..2011stXAvtomRPIsDD;; *);;
+
+Doklad_6.01_OSTISX2011 <= nrel_stand: ...(* -> Stend_607X1_OSTISX2011;; *);;*/
+
+Doklad_6.01_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Грибова_В.В..2011ст-АвтомРПИсДД.pdf";;
+						    *);; 
+					*);;
+
+Doklad_6.01_OSTISX2011 =>nrel_authors:Gribova_V.V.;Cerkezisvili_N.N.;;

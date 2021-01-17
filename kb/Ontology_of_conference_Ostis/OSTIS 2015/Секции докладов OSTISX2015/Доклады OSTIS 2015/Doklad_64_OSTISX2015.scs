@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_64_OSTISX2015;;
+Doklad_64_OSTISX2015=>nrel_main_idtf:[Доклад 64 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_64_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_64_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_64_OSTISX2015 => nrel_name_of_doclad: [Многокритериальный подход к формированию политики научного фонда и экспертного сообщества](* <- lang_ru;;*);;
+
+//Doklad_64_OSTISX2015 <= nrel_authors : ...(* -> Bojcenko_V._S.;ZaboleevaXZotova_A._V.;Petrovskij_A._B.;; *);;
+
+//Doklad_64_OSTISX2015 <= nrel_articke: ...(* -> 64._Bojcenko_V.S.X_ZaboleevaXZotova_A.V.X_Petrovskij_A.B._X_MnogokriterialXnyjPkFPiNFiES;; *);;
+
+
+Doklad_64_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/64._Бойченко_В.С.,_Заболеева-Зотова_А.В.,_Петровский_А.Б._-_МногокритериальныйПкФПиНФиЭС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_64_OSTISX2015=> nrel_authors: Bojcenko_V.S.;ZaboleevaXZotova_A.V.;Petrovskij_A.B.;;

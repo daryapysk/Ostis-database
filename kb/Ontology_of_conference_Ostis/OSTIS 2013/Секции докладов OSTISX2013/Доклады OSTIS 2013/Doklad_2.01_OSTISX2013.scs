@@ -1,0 +1,22 @@
+// sc_node_not_relation->Doklad_2.01_OSTISX2013;;
+Doklad_2.01_OSTISX2013=>nrel_main_idtf:[Доклад 2.01 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.01_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.01_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.01_OSTISX2013 <= nrel_name_of_doclad: [Метод преобразования классов семантических сетей](* <- lang_ru;;*);;
+
+// //Doklad_2.01_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.01_OSTISX2013 <= nrel_authors : ...(* -> Timcenko_V._A.;; *);;
+Doklad_2.01_OSTISX2013 <= nrel_authors: Timcenko_V._A.;;
+
+//Doklad_2.01_OSTISX2013 <= nrel_articke: ...(* -> Timcenko_V.A.2013stXMetodPKSS;; *);;
+Doklad_2.01_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Тимченко_В.А.2013ст-МетодПКСС.pdf";;
+						    *);;
+					*);;

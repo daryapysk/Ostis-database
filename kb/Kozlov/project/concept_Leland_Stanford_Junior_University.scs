@@ -1,0 +1,53 @@
+
+concept_Leland_Stanford_Junior_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Стэнфордский университет]
+      (*<-lang_ru;;*);
+       [Stanford University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Стэнфордский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_univesity;
+       concept_private_univesity;
+       concept_USA;
+       concept_world;
+       concept_rating
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Стэнфордский университет— частный исследовательский университет в США, один из самых авторитетных и рейтинговых в США и в мире.] (* <- lang_ru;; *);;
+    *);;
+   *);
+
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Стэнфордский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student;
+    concept_competition;
+	concept_sport
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Студенты Стэнфордского университета принимают участие в соревнованиях по 36 видам спорта](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Leland_Stanford_Junior_University -> rrel_example: [Стэнфордский университет был основан в 1891 году.](* <- lang_ru;; *);;
+concept_Leland_Stanford_Junior_University <=nrel_inclusion:concept_higher_education_institution;;
+David_Leigh_Donoho<-rrel_employee:concept_Leland_Stanford_Junior_University;;
+Thomas_Kailat<-rrel_employee:concept_Leland_Stanford_Junior_University;;
+Robert_Endre_Tarjan<-rrel_graduate:concept_Leland_Stanford_Junior_University;;
+Andrew_Chi_Chih_Yao<-rrel_employee:concept_Leland_Stanford_Junior_University;;
+Stanley_Norman_Cohen<-rrel_employee:concept_Leland_Stanford_Junior_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Leland_Stanford_Junior_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Stanford.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Стэнфордский университет)](*<- lang_ru;;*);;
+*);;

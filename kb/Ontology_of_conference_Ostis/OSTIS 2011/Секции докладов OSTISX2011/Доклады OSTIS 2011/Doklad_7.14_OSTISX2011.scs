@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_7.14_OSTISX2011;;
+Doklad_7.14_OSTISX2011=>nrel_main_idtf:[Доклад 7.14 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.14_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_7.14_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.14_OSTISX2011 => nrel_name_of_doclad: [Система редактирования и пополнения словарей речевого интерфейса вопросно-ответной системы для беларуского и русского языков](* <- lang_ru;;*);;
+
+/*Doklad_7.14_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.14_OSTISX2011 <= nrel_authors : ...(* -> Gezevic_U._S.;ValXzev_V._N.;; *);;
+
+Doklad_7.14_OSTISX2011 <= nrel_articke: ...(* -> Gezevic_U.S..2011stXSisteRiPSRIVOSdBiRA;; *);;
+
+Doklad_7.14_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X17_OSTISX2011;; *);;*/
+
+
+Doklad_7.14_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Гецевич_Ю.С..2011ст-СистеРиПСРИВОСдБиРЯ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_7.14_OSTISX2011=>nrel_authors:  Gezevic_U.S.;ValXzev_V.N.;;

@@ -1,0 +1,13 @@
+sc_node_not_relation->Tuzikov_A.V.;;
+Tuzikov_A.V.=>nrel_main_idtf:[Тузиков А.В.](*<-lang_ru;;*);;
+
+Tuzikov_A.V. => nrel_email: [tuzikov@newman.bas-net.by](*<-lang_en;;*);;
+
+
+Tuzikov_A.V. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+Tuzikov_A.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Tuzikov_A.V. -> professor;;

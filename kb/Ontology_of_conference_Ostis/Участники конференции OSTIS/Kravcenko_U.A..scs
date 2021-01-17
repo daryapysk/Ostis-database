@@ -1,0 +1,24 @@
+
+Kravcenko_U.A.=> nrel_main_idtf:
+	[Кравченко Ю.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kravcenko_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kravcenko_U.A. => nrel_email: [krav-jura@yandex.ru](*<-lang_en;;*);;
+
+/*Kravcenko_U.A. <= nrel_publication : ...(* -> Kravcenko_U.A..2006stXSovreITkSPEUP;Kravcenko_U.A.2006stXPrimeRDSdRZVVSvSAPR;Kravcenko_U.A.2005stXOsnovPiNPISPOP;Kravcenko_U.A.2005tezXtNNAfMPC;Kravcenko_U.A.2004stXProgrIPMSOnONSdOMP;Kravcenko_U.A.2003stXKonzePAISPKKZ;Kravcenko_U.A.2002stXAnalSPiPRINS;; *);;*/
+
+///Kravcenko_U.A. <- concept_participant_of_conference_OSTIS;;
+
+/*Kravcenko_U.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Kravcenko_U.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Kravcenko_U.A. -> dozent;;*/

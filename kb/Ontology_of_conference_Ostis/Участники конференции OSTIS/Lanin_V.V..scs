@@ -1,0 +1,23 @@
+
+Lanin_V.V.=> nrel_main_idtf:
+	[Ланин В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lanin_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lanin_V.V. => nrel_email: [lanin@perm.ru](*<-lang_en;;*);;
+
+//Lanin_V.V. <= nrel_authors:  ...(* -> Doklad_94_OSTISX2015;Doklad_54_OSTISX2014;Doklad_2.04_OSTISX2013;Doklad_8.02_OSTISX2011;; *);;
+
+Lanin_V.V. <- concept_participant_of_conference_OSTIS2014;;
+Lanin_V.V. <- concept_participant_of_conference_OSTIS2011;
+concept_participant_of_conference_OSTIS2013;concept_participant_of_conference_OSTIS2015;;
+
+
+/*Lanin_V.V. -> starsij_prepodavatelX;;
+
+Lanin_V.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.54;Foto_OSTISX2011.02.10.10.57;Foto_OSTISX2011.02.10.13.11;Foto_OSTISX2011.02.10.13.16;Foto_OSTISX2011.02.10.13.57;; *);;*/

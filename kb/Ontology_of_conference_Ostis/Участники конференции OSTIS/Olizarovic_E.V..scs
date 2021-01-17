@@ -1,0 +1,24 @@
+
+Olizarovic_E.V.=> nrel_main_idtf:
+	[Олизарович Е.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Olizarovic_E.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Olizarovic_E.V. => nrel_email: [e.olizarovich@grsu.by](*<-lang_en;;*);;
+
+//Olizarovic_E.V. <= nrel_authors:  ...(* -> Doklad_3.09_OSTISX2012;Doklad_5.03_OSTISX2011;; *);;
+
+//Olizarovic_E.V. <- concept_participant_of_conference_OSTIS;;
+Olizarovic_E.V. <- concept_participant_of_conference_OSTIS2011;;
+Olizarovic_E.V. <- concept_participant_of_conference_OSTIS2012;;
+
+
+/*Olizarovic_E.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Olizarovic_E.V. -> dozent;;*/

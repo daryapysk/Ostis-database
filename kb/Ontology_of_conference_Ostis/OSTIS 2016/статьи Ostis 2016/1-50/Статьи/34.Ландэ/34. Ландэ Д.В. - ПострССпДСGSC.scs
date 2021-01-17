@@ -1,0 +1,34 @@
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_main_idtf:
+[Ландэ Д.В. 2016 - ПострССпДСGSC]
+	(*
+	<- lang_ru;;
+	*);
+	[Lande_D_V_2016_CreatoNoTCAAttGSCS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_name_publication:[Построение сетей соавторства по данным сервиса Google scholar citations](*
+	<- lang_ru;;
+	*);;
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_article_language: lang_ru;;
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_annotation: [В работе приводится алгоритм построения сети соавторства ученых, регулируемой их научными интересами. Сеть соавторства формируется на основе зондирования сервиса GoogleScholarCitations.Показано, что
+дескрипторы, определяющие тематическую направленность, влияют на размер формируемой сети, а также на динамику ее роста. Показано, чтокластерыв сетях соавторства могут рассматриваться как основа для выявления
+научных школ.];;
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS <= nrel_authors:
+Lande_D.V.;
+Balagura_I_V;
+Andrushenko_V_B;;
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_count_page: 6;;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS <- article_OSTIS_2016;;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_reference_standard: [Ландэ, Д.В. Построение сетей соавторства по данным сервиса Google scholar citations / Д.В. Ландэ, И.В. Балагура, В.Б. Андрущенко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_year_publication: 2016;;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Lande_D_V_2016_CreatoNoTCAAttGSCS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/34.lande.pdf";; *);; *);;
+

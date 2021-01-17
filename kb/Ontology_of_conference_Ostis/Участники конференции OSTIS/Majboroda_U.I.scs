@@ -1,0 +1,17 @@
+
+Majboroda_U.I.=> nrel_main_idtf:
+	[Майборода Ю.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Majboroda_U.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Majboroda_U.I. <- concept_participant_of_conference_OSTIS2012;;
+
+//Majboroda_U.I. <- concept_participant_of_conference_OSTIS;;
+

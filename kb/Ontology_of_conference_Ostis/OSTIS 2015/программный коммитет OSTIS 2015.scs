@@ -1,0 +1,23 @@
+//concept_program_committee_of_conference_OSTIS -> program_committee_of_conference_OSTIS2015;;
+
+program_committee_of_conference_OSTIS2015 => nrel_main_idtf:
+	[Программный коммитет Конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Program committee OSTIS-2015 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+program_committee_of_conference_OSTIS2015 -> Borisov_A.N.;Borgest_N.M.; VasilXev_S._N.;ValXkman_U._R.; Gavrilova_T.A.;  Golenkov_Vladimir_Vasilevich;Globa_L.S.;
+Golovko_V.A.; Gordej_A.N.; Gribova_V.V.; Gulyakina_Natalia_Anatolevna; Eremeev_A.P.; Efimenko_I.V.;ZaboleevaXZotova_A.V.;
+ZagorulXko_U.A.; Klesev_A.S.; Kobrinskij_B.A.; Kozlov_O.A.;Kuznezov_O.P.; Komarzova_L.G.; Kurejcik_V.M.;Lande_D.V.;Lukasevic_N.V.;MasselX_L.V.;
+Lobanov_B.M.; Nevzorova_O.A.; Najdenova_K.A.; Osipov_G.S.; Paluh_B._V.; Petrovskij_A.A.; Petrovskij_A.B.; Plesnevic_G.S.; Rodcenko_V.G.; Robert_I.V.;Sidorkina_I.G.; Smirnov_S.V.; SolovXev_S.U.; Sosnin_P.I.; Stefanuk_V.L.; Sulejmanov_D.S.;
+Tarasov_V.B.; Tuzikov_A.V.;Harlamov_A.A.; Horosevskij_V.F.; Cernavskij_A.F.; Saripbaj_A.A. ; Serbak_S.S.;;
+
+
+
+
+
+

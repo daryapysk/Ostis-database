@@ -1,0 +1,18 @@
+sc_node_not_relation->Saronova_N.V.;;
+Saronova_N.V.=>nrel_main_ru_idtf:[Шаронова Н.В.];;
+
+Saronova_N.V. <= nrel_email: [nvsharonova@mail.ru](*<-lang_en;;*);;
+
+Saronova_N.V. <= nrel_authors:  ...(* -> Doklad_36_OSTISX2014;; *);;
+
+Saronova_N.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Saronova_N.V. -> doktor_tehniceskih_nauk;;
+doktor_tehniceskih_nauk <- ucenaa_stepenX;;
+
+Saronova_N.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Saronova_N.V. <- rrel_key_sc_element: ..illustration_Saronova_N.V.(* <- sc_illustation;; *);;
+..illustration_Saronova_N.V. <= nrel_translation : ..translation_illustration_Saronova_N.V.;;
+..translation_illustration_Saronova_N.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Шаронова.jpg"/>] (* => nrel_format: format_html;; *);;

@@ -1,0 +1,21 @@
+
+Budanova_N.=> nrel_main_idtf:
+	[Буданова Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Budanova_N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Budanova_N. => nrel_email: [Еmma9876@mail.ru](*<-lang_en;;*);;
+
+//Budanova_N. <- concept_participant_of_conference_OSTIS;;
+Budanova_N.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Budanova_N. <= nrel_authors:  ...(* -> Doklad_14_OSTISX2015;; *);;
+
+Budanova_N. -> Ucastnik_konferenzii_OSTIS;;
+
+Budanova_N. -> student;;*/

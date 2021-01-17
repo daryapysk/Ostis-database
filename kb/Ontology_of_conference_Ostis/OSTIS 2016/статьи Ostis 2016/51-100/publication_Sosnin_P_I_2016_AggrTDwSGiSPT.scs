@@ -1,0 +1,29 @@
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT => nrel_main_idtf:
+[Соснин П. И. 2016 - КомплТОиСГвРПЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Sosnin_P_I_2016_AggrTDwSGiSPT] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_name_publication:[Комплексирование текстовых описаний и семантизированной графики в решении проектных задач](*
+	<- lang_ru;;
+	*);;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  <= nrel_authors:
+Sosnin_P.I.;;
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  <= nrel_authors:
+Galochkin_M_V;;
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  <= nrel_authors:
+Lunetskas_A_A;;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  <- article;;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_reference_standard: [Соснин, П. И. Комплексирование текстовых описаний и семантизированной графики в решении проектных задач / П.И. Соснин, М.В. Галочкин, А.А. Лунецкас // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 359–366.];;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_year_publication: 2016;;
+
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT  => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Sosnin_P_I_2016_AggrTDwSGiSPT <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Соснин.pdf";; *);;*);;

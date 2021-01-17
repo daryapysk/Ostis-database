@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.05_OSTISX2013;;
+Doklad_2.05_OSTISX2013=>nrel_main_idtf:[Доклад 2.05 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.05_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.05_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.05_OSTISX2013 <= nrel_name_of_doclad: [Практические аспекты реализации поисковых интерфейсов семантических приложений linked data](* <- lang_ru;;*);;
+
+// //Doklad_2.05_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.05_OSTISX2013 <= nrel_authors : ...(* -> Serbak_S._S.;Solosic_S._N.;Zavgorodnij_V._V.;Galuska_I._N.;; *);;
+Doklad_2.05_OSTISX2013 <= nrel_authors: Serbak_S._S.;Solosic_S._N.;Zavgorodnij_V._V.;Galuska_I._N.;;
+
+//Doklad_2.05_OSTISX2013 <= nrel_articke: ...(* -> Galuska_I.N..2013stXPraktARPISPLD;; *);;
+
+Doklad_2.05_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Галушка_И.Н..2013ст-ПрактАРПИСПLD.pdf";;
+						    *);;
+					*);;

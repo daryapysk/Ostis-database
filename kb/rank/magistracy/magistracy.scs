@@ -1,0 +1,31 @@
+
+concept_magistracy => nrel_idtf: [magistracy](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Магистратура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Магистратура – II ступень высшего образования, формирующая знания, умения и навыки научно-педагогической и научно-исследовательской работы, обеспечивающая углубленную подготовку специалиста с присвоением степени магистра.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_magistracy;;
+<= nrel_using_constants :...
+(*
+-> concept_master; concept_specialist; concept_higher_education; concept_research_work;;
+*);;
+*);;
+
+ concept_magistracy -> rrel_example: [В магистратуре обучается около 1200 магистрантов.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Магистратура, аспирантура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [После магистрантуры можно поступить в аспирантуру.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_magistracy; concept_postgraduate_studies;;
+*);; 
+
+concept_higher_education_institution => concept_magistracy;;
+

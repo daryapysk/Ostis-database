@@ -1,0 +1,44 @@
+
+concept_Brussels_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Брюссельский свободный университет]
+      (*<-lang_ru;;*);
+       [Brussels University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Брюссельский свободный университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+      concept_univesity;
+      concept_location;
+      concept_Brussels
+      };; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Брюссельский свободный университет— общественный университет, основанный в Брюсселе] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Брюссельский свободный университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Брюссельском свободном университетучится 24000 студентов](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Brussels_University -> rrel_example:[Брюссельский свободный университет был основан в 1970.](* <- lang_ru;; *);;
+concept_Brussels_University <=nrel_inclusion:concept_higher_education_institution;;
+Jean_Burgain<-rrel_employee:concept_Brussels_University;;
+Jean_Burgain<-rrel_graduate:concept_Brussels_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Brussels_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Brus.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Брюссельский свободный университет)](*<- lang_ru;;*);;
+*);;

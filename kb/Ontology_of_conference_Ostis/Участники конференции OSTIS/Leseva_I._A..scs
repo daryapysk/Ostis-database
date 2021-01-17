@@ -1,0 +1,15 @@
+
+Leseva_I.A.=> nrel_main_idtf:
+	[Лещева И. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Leseva_I.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Leseva_I.A. <= nrel_authors:  ...(* -> Doklad_74_OSTISX2014;; *);;
+
+Leseva_I.A. <- concept_participant_of_conference_OSTIS2014;;

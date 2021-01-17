@@ -1,0 +1,25 @@
+
+Vilanskij_U.V.=> nrel_main_idtf:
+	[Виланский Ю.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vilanskij U.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vilanskij_U.V. => nrel_email: [kafiit@bsuir.by](*<-lang_en;;*);;
+
+//Vilanskij_U.V. <= nrel_authors:  ...(* -> Doklad_1.08_OSTISX2011;; *);;
+
+//Vilanskij_U.V.<- concept_participant_of_conference_OSTIS;;
+Vilanskij_U.V.<- concept_participant_of_conference_OSTIS2011;;
+
+/*Vilanskij_U.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Vilanskij_U.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Vilanskij_U.V. -> dozent;;*/

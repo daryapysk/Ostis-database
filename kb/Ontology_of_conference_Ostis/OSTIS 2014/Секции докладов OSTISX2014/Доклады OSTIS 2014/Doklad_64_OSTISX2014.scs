@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_64_OSTISX2014;;
+Doklad_64_OSTISX2014=>nrel_main_idtf:[Доклад 64 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_64_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_64_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_64_OSTISX2014 <= nrel_name_of_doclad: [Распознавание ботов в социальных сетях](* <- lang_ru;;*);;
+
+// Doklad_64_OSTISX2014 <= nrel_authors : ...(* -> ZaboleevaXZotova_A._V.;Kipaeva_E._V.;Kiricenko_M._I.;Orlova_U._A.;; *);;
+
+Doklad_64_OSTISX2014 <= nrel_authors: ZaboleevaXZotova_A._V.;Kipaeva_E._V.;Kiricenko_M._I.;Orlova_U._A.;; 
+
+// Doklad_64_OSTISX2014 <= nrel_articke: ...(* -> 64._ZaboleevaXZotova_A.V.X_Kipaeva_E.V.X_Kiricenko_M.I.X_Orlova_U._A._X_RaspBvSS;; *);;

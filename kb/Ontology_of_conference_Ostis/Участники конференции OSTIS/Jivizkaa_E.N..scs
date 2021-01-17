@@ -1,0 +1,31 @@
+
+Jivizkaa_E.N.=> nrel_main_idtf:
+	[Живицкая Е.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jivizkaa_E.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Jivizkaa_E.N. => nrel_email: [Jivitskaya@bsuir.by](*<-lang_en;;*);;
+
+//Jivizkaa_E.N. <= nrel_publication : ...(* -> Jivizkaa_E.N..2010stXOsnovNOPKdAERBvBGUIR;; *);;
+
+//Jivizkaa_E.N. <- concept_participant_of_conference_OSTIS;;
+
+
+/*Jivizkaa_E.N. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Jivizkaa_E.N. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Jivizkaa_E.N. -> prorektor_po_ucebnoj_rabote_i_menedjmentu_kacestva;;
+
+Jivizkaa_E.N. <- rrel_key_sc_element: ..illustration_Jivizkaa_E.N.(* <- sc_illustation;; *);;
+..illustration_Jivizkaa_E.N. <= nrel_translation : ..translation_illustration_Jivizkaa_E.N.;;
+..translation_illustration_Jivizkaa_E.N.-> rrel_example : [<img src="http://127.0.0.1:8181/JivickaiaEN.png"/>] (* => nrel_format: format_html;; *);;
+
+Jivizkaa_E.N. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.21;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.10.35;Foto_OSTISX2011.02.10.10.41;Foto_OSTISX2011.02.10.10.44;; *);;*/

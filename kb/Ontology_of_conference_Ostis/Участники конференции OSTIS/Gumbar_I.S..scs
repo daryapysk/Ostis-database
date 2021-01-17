@@ -1,0 +1,18 @@
+
+Gumbar_I.S.=> nrel_main_idtf:
+	[Гумбар И.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gumbar_I.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Gumbar_I.S. <= nrel_authors:  ...(* -> Doklad_8.04_OSTISX2011;; *);;
+
+//Gumbar_I.S. <- concept_participant_of_conference_OSTIS;;
+Gumbar_I.S. <- concept_participant_of_conference_OSTIS2011;;
+
+//Gumbar_I.S. -> student;;

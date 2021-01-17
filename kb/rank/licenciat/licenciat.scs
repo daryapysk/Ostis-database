@@ -1,0 +1,30 @@
+
+concept_licenciat => nrel_idtf: [licenciat](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Лиценциат)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лиценциат — ученая степень между бакалавром и доктором.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_licenciat;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_bachelor; concept_doctor;;
+*);;
+*);;
+
+ concept_licenciat -> rrel_example: [Лиценциат Майкл Ривз](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Лиценциат, диссертация)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лиценциат защищал докторскую диссертацию.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_licenciat; concept_thesis;;
+*);; 
+
+

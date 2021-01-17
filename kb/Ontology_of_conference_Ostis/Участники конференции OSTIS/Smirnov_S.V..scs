@@ -1,0 +1,25 @@
+
+Smirnov_S.V.=> nrel_main_idtf:
+	[Смирнов С.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bikmullina_I.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Smirnov_S.V. => nrel_email: [smirnov@iccs.ru](*<-lang_en;;*);;
+
+/*Smirnov_S.V. <= nrel_authors:  ...(* -> Doklad_56_OSTISX2015;Doklad_3.9_OSTISX2013;; *);;
+
+Smirnov_S.V. -> Ucastnik_konferenzii_OSTIS;;*/
+//Smirnov_S.V. <- concept_participant_of_conference_OSTIS;
+Smirnov_S.V. <-concept_participant_of_conference_OSTIS2013;concept_participant_of_conference_OSTIS2015;;
+
+/*Smirnov_S.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Smirnov_S.V. -> direktor;;
+
+Smirnov_S.V. <= nrel_photo : ...(* -> Fajl:Smirnov_sergey.JPG;; *);;*/

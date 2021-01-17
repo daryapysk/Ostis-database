@@ -1,0 +1,31 @@
+
+GirelX_A.I.=> nrel_main_idtf:
+	[Гирель А.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[GirelX_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+GirelX_A.I. => nrel_authors:  ...(* -> Doklad_08_OSTISX2015;Doklad_26_OSTISX2014;; *);;
+
+GirelX_A.I.  <- concept_participant_of_conference_OSTIS2015;;
+GirelX_A.I.  <- concept_participant_of_conference_OSTIS2014;;
+
+
+/*GirelX_A.I. -> Ucastnik_konferenzii_OSTIS;;
+
+GirelX_A.I. -> magistr_tehniceskih_nauk;;
+magistr_tehniceskih_nauk <- ucenaa_stepenX;;
+
+GirelX_A.I. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+GirelX_A.I. -> aspirant;;
+
+GirelX_A.I. <- rrel_key_sc_element: ..illustration_GirelX_A.I.(* <- sc_illustation;; *);;
+..illustration_GirelX_A.I. <= nrel_translation : ..translation_illustration_GirelX_A.I.;;
+..translation_illustration_GirelX_A.I.-> rrel_example : [<img src="http://127.0.0.1:8181/Girel.png"/>] (* => nrel_format: format_html;; *);;*/

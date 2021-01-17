@@ -1,0 +1,5 @@
+Restoran_XStarye_tradiziiX=>nrel_main_idtf:[Ресторан "Старые традиции"](* <- lang_ru;; *);;
+
+Restoran_XStarye_tradiziiX <- place_meals_for_participants_OSTIS2011;;
+
+Restoran_XStarye_tradiziiX ->nrel_phone: [+37529 107-57-57](* <- lang_ru;;*);;

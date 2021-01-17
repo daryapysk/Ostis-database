@@ -1,0 +1,14 @@
+Semenova_V_A => nrel_main_idtf:
+[Семёнова В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Semenova_V_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Semenova_V_A;;
+
+Semenova_V_A => nrel_contact_information:[queenbfjr@gmail.com];;
+

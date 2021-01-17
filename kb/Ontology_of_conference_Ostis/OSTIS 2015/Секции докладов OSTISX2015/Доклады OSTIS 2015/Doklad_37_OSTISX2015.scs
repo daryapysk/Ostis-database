@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_37_OSTISX2015;;
+Doklad_37_OSTISX2015=>nrel_main_idtf:[Доклад 37 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_37_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_37_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_37_OSTISX2015 => nrel_name_of_doclad: [Эвристический метод удовлетворения ограничений на основе их матричного представления](* <- lang_ru;;*);;
+
+//Doklad_37_OSTISX2015 <= nrel_authors : ...(* -> Zuenko_A._A.;Ocinskaa_A._A.;; *);;
+
+//Doklad_37_OSTISX2015 <= nrel_articke: ...(* -> 37._Zuenko_A.A.X_Ocinskaa_A.A._X_EvristiceskijMUOnOiMP;; *);;
+
+
+Doklad_37_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/37._Зуенко_А.А.,_Очинская_А.А._-_ЭвристическийМУОнОиМП.pdf";;
+						    *);; 
+					*);;
+
+Doklad_37_OSTISX2015=> nrel_authors: Zuenko_A.A.;Ocinskaa_A.A.;;

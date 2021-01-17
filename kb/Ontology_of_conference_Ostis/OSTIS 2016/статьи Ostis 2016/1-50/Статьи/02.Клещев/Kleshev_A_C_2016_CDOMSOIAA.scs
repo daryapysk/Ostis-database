@@ -1,0 +1,37 @@
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_main_idtf:
+[Клещёв А.С 2016 - КонцеПУСПИД]
+	(*
+	<- lang_ru;;
+	*);
+	[Kleshev_A_S_2016_ConcDoMSoIAA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_name_publication:[Концептуальное проектирование управляемой системы поддержки интеллектуальной деятельности](*
+	<- lang_ru;;
+	*);;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA <= nrel_authors:
+Klesev_A.S.;
+Shalfeeva_E_A;;
+
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA <- article;;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_reference_standard: [Клещёв, А. С. Концептуальное проектирование управляемой системы поддержки интеллектуальной деятельности / А.С. Клещёв, Е.А. Шалфеева // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_year_publication: 2016;;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/02.kleshev.pdf";; *);; *);;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA =>  nrel_annotation:
+[Данная  работа  посвящена  проблемеуправления  качеством  баз  знаний,  используемых  в  процессе  принятиярешений  повседневной  интеллектуальной  деятельности  специалистов.Выделены  Технологические  этапыавтоматизации интеллектуальной деятельности конкретной предметной области  и предложена концептуальнаяархитектура системы автоматизации, которая позволяет решать множество взаимосвязанных интеллектуальныхзадач известных классов с использованием управляемых баз знаний. ];;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_count_page: 8;;
+
+publication_Kleshev_A_S_2016_ConcDoMSoIAA => nrel_article_language: lang_ru;;
+

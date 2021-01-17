@@ -1,0 +1,17 @@
+
+Maklaev_V.A.=> nrel_main_idtf:
+	[Маклаев В. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Maklaev_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Maklaev_V.A. <- concept_participant_of_conference_OSTIS2012;;
+
+//Maklaev_V.A. <- concept_participant_of_conference_OSTIS;;
+

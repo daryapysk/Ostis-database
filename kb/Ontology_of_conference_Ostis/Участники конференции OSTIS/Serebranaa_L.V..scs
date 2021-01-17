@@ -1,0 +1,25 @@
+
+Serebranaa_L.V.=> nrel_main_idtf:
+	[Серебряная Л.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serebranaa_L.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Serebranaa_L.V. => nrel_email: [l_silver@mail.ru](*<-lang_en;;*);;
+
+//Serebranaa_L.V. <- concept_participant_of_conference_OSTIS;;
+Serebranaa_L.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Serebranaa_L.V. <= nrel_authors:  ...(* -> Doklad_80_OSTISX2015;; *);;
+
+Serebranaa_L.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Serebranaa_L.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Serebranaa_L.V. -> starsij_prepodavatelX;;*/

@@ -1,0 +1,16 @@
+Nguen_Thi_Min_Vu => nrel_main_idtf:
+[Нгуен Тхи Минь Ву]
+	(*
+	<- lang_ru;;
+	*);
+	[Nguen_Thi_Min_Vu] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Nguen_Thi_Min_Vu;;
+Nguen_Thi_Min_Vu <- concept_participant_of_conference_OSTIS2015;;
+Nguen_Thi_Min_Vu <- concept_participant_of_conference_OSTIS2016;;
+
+Nguen_Thi_Min_Vu => nrel_contact_information:[mimhvu.357@gmail.com];;
+

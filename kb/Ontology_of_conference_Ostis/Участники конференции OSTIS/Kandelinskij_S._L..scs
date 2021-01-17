@@ -1,0 +1,15 @@
+
+Kandelinskij_S.L.=> nrel_main_idtf:
+	[Канделинский С. Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kandelinskij_S.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Kandelinskij_S._L. <= nrel_authors:  ...(* -> Doklad_50_OSTISX2014;; *);;
+
+Kandelinskij_S.L.  <- concept_participant_of_conference_OSTIS2014;;

@@ -1,0 +1,16 @@
+
+RatobylXskaa_D.V.=> nrel_main_idtf:
+	[Ратобыльская Д.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[RatobylXskaa_D.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+RatobylXskaa_D.V. => nrel_email: [ratobylskaya@tut.by](*<-lang_en;;*);;
+//RatobylXskaa_D.V. <- concept_participant_of_conference_OSTIS;;
+RatobylXskaa_D.V. <- concept_participant_of_conference_OSTIS2011;;
+
+//RatobylXskaa_D.V. <= nrel_authors:  ...(* -> Doklad_5.04_OSTISX2011;PersonalXnyj_sostav_GGU_im._F._Skoriny;; *);;

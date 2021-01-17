@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_7.10_OSTISX2011;;
+Doklad_7.10_OSTISX2011=>nrel_main_idtf:[Доклад 7.10 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.10_OSTISX2011 <- doklad_OSTISX2011;;
+
+//Doklad_7.10_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.10_OSTISX2011 => nrel_name_of_doclad: [Методы семантического анализа для построения голосовых интерфейсов: построение вектора признаков речевого сигнала на основе антропоморфической обработки информации](* <- lang_ru;;*);;
+
+/*Doklad_7.10_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.10_OSTISX2011 <= nrel_authors : ...(* -> Petrovskij_A._A.;; *);;
+
+Doklad_7.10_OSTISX2011 <= nrel_articke: ...(* -> Petrovskij_A.A.2011stXMetodSAdPGIPVPRSnOAOI;; *);;
+
+Doklad_7.10_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X14_OSTISX2011;; *);;*/
+
+Doklad_7.10_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Петровский_А.А.2011ст-МетодСАдПГИПВПРСнОАОИ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_7.10_OSTISX2011=>nrel_authors:  Petrovskij_A.A.;;

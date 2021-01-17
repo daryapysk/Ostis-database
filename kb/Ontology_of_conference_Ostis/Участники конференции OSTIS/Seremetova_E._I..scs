@@ -1,0 +1,28 @@
+
+Seremetova_E.I.=> nrel_main_idtf:
+	[Шереметова Е. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Seremetova_E.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Seremetova_E.I. => nrel_email: [sheremetova.ei@gmail.com](*<-lang_en;;*);;
+
+//Seremetova_E.I. <- concept_participant_of_conference_OSTIS;;
+Seremetova_E.I. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Seremetova_E._I. <= nrel_authors:  ...(* -> Doklad_22_OSTISX2015;; *);;
+
+Seremetova_E._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Seremetova_E._I. -> net;;
+net <- ucenaa_stepenX;;
+
+Seremetova_E._I. -> student;;
+student <- ucenoe_zvanie;;
+
+Seremetova_E._I. -> student;;*/

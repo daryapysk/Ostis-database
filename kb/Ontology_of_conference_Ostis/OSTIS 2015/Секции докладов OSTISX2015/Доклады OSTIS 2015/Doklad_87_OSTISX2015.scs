@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_87_OSTISX2015;;
+Doklad_87_OSTISX2015=>nrel_main_idtf:[Доклад 87 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_87_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_87_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_87_OSTISX2015 => nrel_name_of_doclad: [Автоматизация распознавания внешнего вида человека по тексту на естественном языке и синтез портретного изображения](* <- lang_ru;;*);;
+
+//Doklad_87_OSTISX2015 <= nrel_authors : ...(* -> Orlova_U._A.;Dolbin_A._V.;Kipaeva_E._V.;; *);;
+
+//Doklad_87_OSTISX2015 <= nrel_articke: ...(* -> 87._Orlova_U.A.X_Dolbin_A.V.X_Kipaeva_E.V._–_AvtomatizaziaRVVCpTnEAiSPI;; *);;
+
+
+Doklad_87_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/87. Орлова Ю.А., Долбин А.В., Кипаева Е.В. – АвтоматизацияРВВЧпТнЕЯиСПИ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_87_OSTISX2015=> nrel_authors: Orlova_U.A.;Dolbin_A.V.;Kipaeva_E.V.;;

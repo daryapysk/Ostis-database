@@ -1,0 +1,14 @@
+Filippov_A_A => nrel_main_idtf:
+[Филиппов А. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Filippov_A_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Filippov_A_A;;
+
+Filippov_A_A => nrel_contact_information:[al.filippov@ulstu.ru];;
+

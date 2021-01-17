@@ -1,0 +1,14 @@
+Lande_D_V => nrel_main_idtf:
+[Ландэ Д. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lande_D_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Lande_D_V;;
+
+Lande_D_V => nrel_contact_information:[dwlande@gmail.com];;
+

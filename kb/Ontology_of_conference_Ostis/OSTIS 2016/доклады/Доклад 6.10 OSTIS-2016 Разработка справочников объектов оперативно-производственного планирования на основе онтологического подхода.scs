@@ -1,0 +1,29 @@
+report_6.10_OSTIS_2016_DevelDOIPBOA => nrel_main_idtf:
+[Доклад 6.10 OSTIS-2016 Разработка справочников объектов оперативно-производственного планирования на основе онтологического подхода]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.10 OSTIS-2016 Developing of a dictionary operative industrial planing based by ontological approach]
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.10_OSTIS_2016_DevelDOIPBOA <- doklad_OSTISX2016;;
+
+report_6.10_OSTIS_2016_DevelDOIPBOA  <= nrel_authors:Karpaev_S_A; Larin_S.N.;;
+report_6.10_OSTIS_2016_DevelDOIPBOA => nrel_published_material:publication_Karpaev_S_A_2016_DevelDOIPBOA;;
+
+report_6.10_OSTIS_2016_DevelDOIPBOA => nrel_report_language: lang_ru;;
+
+
+/*report_6.10_OSTIS_2016_DevelDOIPBOA  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_6.10_OSTIS_2016_DevelDOIPBOA  => nrel_name: [Разработка справочников объектов оперативно-производственного планирования на основе онтологического подхода](*<- lang_ru;;*);;
+
+report_6.10_OSTIS_2016_DevelDOIPBOA  <= nrel_speaker:Karpaev_S_A;;
+
+
+report_6.10_OSTIS_2016_DevelDOIPBOA  => nrel_time_speech: [12:15 - 12:30];;
+report_6.10_OSTIS_2016_DevelDOIPBOA => nrel_data_speech: [19 февраля 2016];;
+
+report_6.10_OSTIS_2016_DevelDOIPBOA => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

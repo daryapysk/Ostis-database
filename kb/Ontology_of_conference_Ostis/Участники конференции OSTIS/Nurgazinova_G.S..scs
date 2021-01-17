@@ -1,0 +1,27 @@
+
+Nurgazinova_G.S.=> nrel_main_idtf:
+	[Нургазинова Г.Ш.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nurgazinova_G.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Nurgazinova_G.S. => nrel_email: [nurgasinova@mail.ru](*<-lang_en;;*);;
+
+Nurgazinova_G.S. <- concept_participant_of_conference_OSTIS2015;;
+
+Nurgazinova_G.S. <- concept_participant_of_conference_OSTIS2014;;
+
+
+/*Nurgazinova_G.S. <= nrel_authors:  ...(* -> Doklad_11_OSTISX2015;Doklad_90_OSTISX2014;; *);;
+
+Nurgazinova_G.S. -> Ucastnik_konferenzii_OSTIS;;
+
+Nurgazinova_G.S. -> net;;
+net <- ucenaa_stepenX;;
+
+Nurgazinova_G.S. -> Mladsij_naucnyj_sotrudnik;;
+Mladsij_naucnyj_sotrudnik <- ucenoe_zvanie;;*/

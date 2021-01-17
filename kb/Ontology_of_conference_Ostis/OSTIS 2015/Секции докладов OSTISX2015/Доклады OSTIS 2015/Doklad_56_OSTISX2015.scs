@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_56_OSTISX2015;;
+Doklad_56_OSTISX2015=>nrel_main_idtf:[Доклад 56 OSTIS-2015](*<- lang_ru;;*);;
+
+
+Doklad_56_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_56_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_56_OSTISX2015 => nrel_name_of_doclad: [Опыт создания средств семантического моделирования и проектирования на массовой программной платформе](* <- lang_ru;;*);;
+
+//Doklad_56_OSTISX2015 <= nrel_authors : ...(* -> Smirnov_S._V.;; *);;
+
+//Doklad_56_OSTISX2015 <= nrel_articke: ...(* -> 56._Smirnov_S.V._–_OpytSSSMiPnMPP;; *);;
+
+Doklad_56_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/56. Смирнов С.В. – ОпытСССМиПнМПП.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_56_OSTISX2015=> nrel_authors: Smirnov_S.V.;;

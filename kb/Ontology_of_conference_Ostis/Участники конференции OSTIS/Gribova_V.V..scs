@@ -1,0 +1,34 @@
+
+Gribova_V.V.=> nrel_main_idtf:
+	[Грибова В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gribova_V.V. => nrel_email: [gribova@iacp.dvo.ru](*<-lang_en;;*);;
+
+/*Gribova_V.V. <= nrel_authors:  ...(* -> Doklad_17_OSTISX2015;Doklad_12_OSTISX2014;Doklad_1.01_OSTISX2013;Doklad_2.11_OSTISX2012;Doklad_6.01_OSTISX2011;Doklad_1.01_OSTISX2011;; *);;
+
+Gribova_V.V. <= nrel_publication : ...(* -> Gribova_V.V..2010prXIspolTOVdRiUIS;Gribova_V.V..2010prXSisteUIIP;Gribova_V.V..2008tezXKonzeSdASIPvEDOSI;Gribova_V.V.2007artXaMoEUoaUIBoIM;Gribova_V.V..2007stXMetodAGKZPOnZP;Gribova_V.V..2007stXSisteIPOBUO;Gribova_V.V..2006stXAvtomRVPPIpMPO;Gribova_V.V.2005artXGeneroVDToBoO;Gribova_V.V..2005stXIspolMIIdPPI;Gribova_V.V..2003artXfaOOACtUID;Gribova_V.V..2002artXUIDBoO;; *);;*/
+
+
+
+Gribova_V.V. <- concept_participant_of_conference_OSTIS2014;;
+Gribova_V.V. <- concept_participant_of_conference_OSTIS2011;;
+Gribova_V.V. <- concept_participant_of_conference_OSTIS2012;
+								concept_participant_of_conference_OSTIS2020;concept_participant_of_conference_OSTIS2016;concept_participant_of_conference_OSTIS2013;concept_participant_of_conference_OSTIS2015;;
+
+
+/*Gribova_V.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Gribova_V.V. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Gribova_V.V. -> zaveduusij_laboratoriej;;
+
+Gribova_V.V. <= nrel_photo: ...(* -> Fajl:Gribova_V._V..PNG;; *);;*/

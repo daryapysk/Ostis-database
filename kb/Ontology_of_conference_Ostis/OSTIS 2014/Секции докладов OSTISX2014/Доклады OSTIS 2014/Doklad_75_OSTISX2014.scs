@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_75_OSTISX2014;;
+Doklad_75_OSTISX2014=>nrel_main_idtf:[Доклад 75 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_75_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_75_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_75_OSTISX2014 <= nrel_name_of_doclad: [Применение нейронных сетей в диагностике ишемических атак](* <- lang_ru;;*);;
+
+// Doklad_75_OSTISX2014 <= nrel_authors : ...(* -> ApanelX_E._N.;Vojzehovic_G._U.;Golovko_V._A.;Mastykin_A._S.;; *);;
+
+Doklad_75_OSTISX2014 <= nrel_authors: ApanelX_E._N.;Vojzehovic_G._U.;Golovko_V._A.;Mastykin_A._S.;; 
+
+// Doklad_75_OSTISX2014 <= nrel_articke: ...(* -> 75._ApanelX_E.N.X_Vojzehovic_G.U.X_Golovko_V.A.X_Mastykin_A.S._X_PrimeNSvDIA;; *);;

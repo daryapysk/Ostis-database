@@ -1,0 +1,24 @@
+
+SokolXnikov_A.M.=> nrel_main_idtf:
+	[Сокольников А.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[SokolXnikov_A.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+SokolXnikov_A.M. => nrel_email: [sokolnikov.alexey@gmail.com](*<-lang_en;;*);;
+
+//SokolXnikov_A.M. <- concept_participant_of_conference_OSTIS;;
+SokolXnikov_A.M. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*SokolXnikov_A.M. <= nrel_authors:  ...(* -> Doklad_92_OSTISX2015;; *);;
+
+SokolXnikov_A.M. -> Ucastnik_konferenzii_OSTIS;;
+
+SokolXnikov_A.M. -> aspirant;;
+
+SokolXnikov_A.M. -> programmist_otdela_vebXrazrabotki;;*/

@@ -1,0 +1,15 @@
+sc_node_not_relation->Sabirov_I.H.;;
+Sabirov_I.H.=>nrel_main_ru_idtf:[Сабиров И.Х.];;
+
+Sabirov_I.H. <= nrel_email: [ilias@coscom.ru](*<-lang_en;;*);;
+
+Sabirov_I.H. <= nrel_authors:  ...(* -> Doklad_27_OSTISX2014;; *);;
+Sabirov_I.H. <- concept_participant_of_conference_OSTIS2016;;
+
+Sabirov_I.H. -> Ucastnik_konferenzii_OSTIS;;
+
+Sabirov_I.H. -> generalXnyj_direktor;;
+
+Sabirov_I.H. <- rrel_key_sc_element: ..illustration_Sabirov_I.H.(* <- sc_illustation;; *);;
+..illustration_Sabirov_I.H. <= nrel_translation : ..translation_illustration_Sabirov_I.H.;;
+..translation_illustration_Sabirov_I.H.-> rrel_example : [<img src="http://127.0.0.1:8181/Сабиров_фото.jpg"/>] (* => nrel_format: format_html;; *);;

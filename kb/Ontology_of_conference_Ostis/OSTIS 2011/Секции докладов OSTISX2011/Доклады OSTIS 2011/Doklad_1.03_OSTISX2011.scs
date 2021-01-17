@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_1.03_OSTISX2011;;
+Doklad_1.03_OSTISX2011=>nrel_main_idtf:[Доклад 1.03 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.03_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_1.03_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_1.03_OSTISX2011 => nrel_name_of_doclad: [Принципы построения массовой семантической технологии компонентного проектирования интеллектуальных систем](* <- lang_ru;;*);;
+
+/*Doklad_1.03_OSTISX2011 <= nrel_section: [Секция 1 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.03_OSTISX2011 <= nrel_authors : ...(* -> Golenkov_V._V.;Gulakina_N._A.;; *);;
+
+Doklad_1.03_OSTISX2011 <= nrel_presentation: "file://презентация доклада 1.3 OSTIS-2011";;
+
+Doklad_1.03_OSTISX2011 <= nrel_articke: ...(* -> Golenkov_V.V..2011stXPrinzPMSTKPIS;; *);;
+
+Doklad_1.03_OSTISX2011 <= nrel_stand: ...(* -> Stend_609X9_OSTISX2011;; *);;*/
+
+Doklad_1.03_OSTISX2011  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Голенков_В.В..2011ст-ПринцПМСТКПИС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_1.03_OSTISX2011  => nrel_authors:Golenkov_Vladimir_Vasilevich;Guluakina_Natalia_Anatolevna;;

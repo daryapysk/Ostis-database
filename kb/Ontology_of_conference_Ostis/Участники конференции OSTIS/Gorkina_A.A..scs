@@ -1,0 +1,18 @@
+
+Gorkina_A.A.=> nrel_main_idtf:
+	[Горкина А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorkina_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Gorkina_A.A. <= nrel_authors:  ...(* -> Doklad_2.05_OSTISX2012;; *);;
+
+//Gorkina_A.A. <- concept_participant_of_conference_OSTIS;;
+Gorkina_A.A. <- concept_participant_of_conference_OSTIS2012;;
+
+//Gorkina_A.A. -> magistrant;;

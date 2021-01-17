@@ -1,0 +1,16 @@
+
+Andrusevic_A_A => nrel_main_idtf:
+	[Андрушевич А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Andrusevic_A_A]
+	(*
+	<- lang_en;;
+	*);;
+
+/*Andrusevic_A_A<= nrel_authors:  ...(* -> Doklad_49_OSTISX2014;; *);;
+
+Andrusevic_A_A-> Ucastnik_konferenzii_OSTIS;;*/
+
+Andrusevic_A_A<- concept_participant_of_conference_OSTIS2014;;

@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_participant_of_competition_of_conference_OSTIS;; 
+concept_participant_of_competition_of_conference_OSTIS=>nrel_main_idtf:
+[участник конкурса конференции OSTIS](*<-lang_ru;;*);
+[participant of competition of conference OSTIS](*<-lang_en;;*);;
+concept_participant_of_competition_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Участник конкурса конференции OSTIS -исполнитель работ, услуг, подавший заявку на участие в конкурсе в рамках конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+

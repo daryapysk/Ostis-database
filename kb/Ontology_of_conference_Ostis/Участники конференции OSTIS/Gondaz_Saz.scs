@@ -1,0 +1,18 @@
+
+Gondaz_S.=> nrel_main_idtf:
+	[Гондаз Саз]
+	(*
+	<- lang_ru;;
+	*);
+	[Gondaz_S.]
+	(*
+	<- lang_en;;
+	*);;
+
+//Gondaz_S. <- concept_participant_of_conference_OSTIS;;
+Gondaz_S. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Gondaz_Saz <= nrel_authors:  ...(* -> Doklad_15_OSTISX2015;; *);;
+
+Gondaz_Saz -> Ucastnik_konferenzii_OSTIS;;*/

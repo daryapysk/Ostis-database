@@ -1,0 +1,13 @@
+ Educational_Establishment_BSUIR => nrel_main_idtf:
+	[Учреждение образования «Белорусский
+государственный университет информатики и
+радиоэлектроники»]
+	(*
+	<- lang_ru;;
+	*);
+	[Educational Establishment "Belarusian
+State University of Informatics and
+electronics "]
+	(*
+	<- lang_en;;
+	*);;

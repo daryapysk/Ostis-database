@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_listener;; 
+nrel_listener=>nrel_main_idtf:
+[слушатель*](*<-lang_ru;;*);
+[listener*](*<-lang_en;;*);;
+nrel_listener<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Слушатель - постороннее лицо, присутствующее на собрании, заседании.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+nrel_listener=>nrel_first_domain:concept_conference;;
+nrel_listener=>nrel_second_domain:concept_participant;;
+nrel_listener=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;
+nrel_listener=> nrel_subdividing:nrel_invited_listener;nrel_voluntary_listener;;

@@ -1,0 +1,21 @@
+
+Nikolaenko_K.A.=> nrel_main_idtf:
+	[Николаенко К.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nikolaenko_K.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Nikolaenko_K.A. => nrel_email: [anak247@gmail.com](*<-lang_en;;*);;
+
+//Nikolaenko_K.A. <- concept_participant_of_conference_OSTIS;;
+Nikolaenko_K.A.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Nikolaenko_K.A. <= nrel_authors:  ...(* -> Doklad_74_OSTISX2015;; *);;
+
+Nikolaenko_K.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Nikolaenko_K.A. -> tehnik;;*/

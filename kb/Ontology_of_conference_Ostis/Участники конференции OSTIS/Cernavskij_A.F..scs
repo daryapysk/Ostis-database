@@ -1,0 +1,30 @@
+
+Cernavskij_A.F.=> nrel_main_idtf:
+	[Чернявский А.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Cernavskij_A.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+Cernavskij_A.F. => nrel_email: [exhibition@bsu.by](*<-lang_en;;*);;
+
+/*Cernavskij_A.F. <= nrel_publication : ...(* -> Cernakovskij_A.F..1980knXStatiMIvEAF;Cernakovskij_A.F..1988knXSisteTZ;Cernakovskij_A.F..1996knXVysokMiSZOI;Cernakovskij_A.F.2004knXObrabIvRS;; *);;*/
+
+//Cernavskij_A.F.  <- concept_participant_of_conference_OSTIS;;
+
+/*Cernavskij_A.F. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Cernavskij_A.F. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Cernavskij_A.F. -> akademik;;
+
+Cernavskij_A.F. -> direktor;;
+
+Cernavskij_A.F. <- rrel_key_sc_element: ..illustration_Cernavskij_A.F.(* <- sc_illustation;; *);;
+..illustration_Cernavskij_A.F. <= nrel_translation : ..translation_illustration_Cernavskij_A.F.;;
+..translation_illustration_Cernavskij_A.F.-> rrel_example : [<img src="http://127.0.0.1:8181/Chernyavskij.png"/>] (* => nrel_format: format_html;; *);;*/

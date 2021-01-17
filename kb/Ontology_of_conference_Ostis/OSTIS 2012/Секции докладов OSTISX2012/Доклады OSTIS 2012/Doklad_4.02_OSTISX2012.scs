@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_4.02_OSTISX2012;;
+Doklad_4.02_OSTISX2012=>nrel_main_idtf:[Доклад 4.02 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_4.02_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_4.02_OSTISX2012 =>nrel_name_of_doclad: [Разработка интерфейса интеллектуального помощника проектанта](* <- lang_ru;;*);;
+
+Doklad_4.02_OSTISX2012 => nrel_section: [Секция 4 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_4.02_OSTISX2012 <= nrel_authors : ...(* -> Borgest_N._M.;Cernov_R._V.;Sustova_D._V.;; *);;
+
+Doklad_4.02_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 4.2 OSTIS-2012";;
+
+Doklad_4.02_OSTISX2012 <= nrel_articke: ...(* -> Borgest_N.M..2012stXRazraIIPP;; *);;
+
+Doklad_4.02_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X16_OSTISX2012;; *);;*/
+
+Doklad_4.02_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Боргест_Н.М..2012ст-РазраИИПП.pdf";;
+						    *);; 
+					*);;
+Doklad_4.02_OSTISX2012=> nrel_authors:Borgest_N.M.;Cernov_R.V.;Sustova_D.V.;;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_program_committee_of_conference_OSTIS;; 
+concept_program_committee_of_conference_OSTIS=> nrel_main_idtf:[программный комитет конференции OSTIS] (* <-lang_ru;; *);;
+concept_program_committee_of_conference_OSTIS=> nrel_main_idtf:[program committee of conference OSTIS] (* <-lang_en;; *);;
+
+concept_program_committee_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Программный комитет конференции OSTIS – это группа признанных специалистов в отрасли науки или практического применения научных знаний определенной отрасли конференции OSTIS.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_program_committee_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->program_committee_of_conference_OSTIS2011; 
+program_committee_of_conference_OSTIS2012; 
+program_committee_of_conference_OSTIS2013; 
+program_committee_of_conference_OSTIS2014;program_committee_of_conference_OSTIS2015;
+program_committee_of_conference_OSTIS2016;;
+*);;
+
+	

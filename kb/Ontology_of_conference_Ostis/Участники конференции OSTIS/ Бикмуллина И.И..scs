@@ -1,0 +1,14 @@
+Bikmullina_I_I => nrel_main_idtf:
+[Бикмуллина И.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bikmullina_I_I] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Bikmullina_I_I;;
+
+Bikmullina_I_I => nrel_contact_information:[elsiyar-b@yandex.ru];;
+

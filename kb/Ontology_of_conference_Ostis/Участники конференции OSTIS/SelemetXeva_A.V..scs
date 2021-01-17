@@ -1,0 +1,19 @@
+
+SelemetXeva_A.V.=> nrel_main_idtf:
+	[Шелеметьева Я.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[SelemetXeva_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+SelemetXeva_A.V. => nrel_email: [yanabaikova@yandex.ru](*<-lang_en;;*);;
+
+//SelemetXeva_A.V. <- concept_participant_of_conference_OSTIS;;
+SelemetXeva_A.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+SelemetXeva_A.V. <= nrel_authors:  ...(* -> Doklad_91_OSTISX2015;; *);;
+

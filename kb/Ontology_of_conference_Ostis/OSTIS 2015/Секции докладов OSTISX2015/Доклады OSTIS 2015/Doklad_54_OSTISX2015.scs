@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_54_OSTISX2015;;
+Doklad_54_OSTISX2015=>nrel_main_idtf:[Доклад 54 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_54_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_54_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_54_OSTISX2015 => nrel_name_of_doclad: [Методики построения нечетких онтологий сложных предметных областей](* <- lang_ru;;*);;
+
+//Doklad_54_OSTISX2015 <= nrel_authors : ...(* -> Moskin_V._S.;Aruskina_N._G.;; *);;
+
+//Doklad_54_OSTISX2015 <= nrel_articke: ...(* -> 54._Moskin_V.S.X_Aruskina_N.G._X_MetodikiPNOSPO;; *);;
+
+
+Doklad_54_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/54._Мошкин_В.С.,_Ярушкина_Н.Г._-_МетодикиПНОСПО.pdf";;
+						    *);; 
+					*);;
+
+Doklad_54_OSTISX2015=> nrel_authors: Moskin_V.S.;Aruskina_N.G.;;

@@ -1,0 +1,14 @@
+Tuzikova_A_V_ => nrel_main_idtf:
+[Тузикова А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tuzikova_A_V_] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Tuzikova_A_V_;;
+
+Tuzikova_A_V_ => nrel_contact_information:[kabaylova@yandex.ru];;
+

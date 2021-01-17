@@ -1,0 +1,7 @@
+sc_node_not_relation->Tertysnyj_V._A.;;
+Tertysnyj_V._A.=>nrel_main_ru_idtf:[Тертышный В. А.];;
+
+
+Tertysnyj_V._A. <= nrel_authors:  ...(* -> Doklad_77_OSTISX2014;; *);;
+
+Tertysnyj_V._A. -> Ucastnik_konferenzii_OSTIS;;

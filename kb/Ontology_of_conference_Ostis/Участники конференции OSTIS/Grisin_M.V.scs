@@ -1,0 +1,17 @@
+
+Grisin_M.V.=> nrel_main_idtf:
+	[Гришин М. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Grisin_M.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Grisin_M.V. <- concept_participant_of_conference_OSTIS2015;;
+
+//Grisin_M.V. <- concept_participant_of_conference_OSTIS;;
+

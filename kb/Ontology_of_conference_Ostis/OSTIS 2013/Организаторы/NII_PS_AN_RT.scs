@@ -1,0 +1,13 @@
+sc_node_not_relation->NII_PS_AN_RT;;
+NII_PS_AN_RT=>nrel_main_idtf:[НИИ ПС АН РТ](* <- lang_ru;;*);;
+
+
+//NII_PS_AN_RT => nrel_email: [anrt_logo.gif](*<-lang_en;;*);;
+
+NII_PS_AN_RT => nrel_phone: [+7 843 292-49-14](* <- lang_ru;;*);;
+
+NII_PS_AN_RT => nrel_address : [г. Казань, ул. Баумана, д.20](* <- lang_ru;;*);;
+
+NII_PS_AN_RT => nrel_site: [http://ips.antat.ru];;
+
+NII_PS_AN_RT => nrel_location : [г. Казань, ул. Баумана, д.20](* <- lang_ru;;*);;

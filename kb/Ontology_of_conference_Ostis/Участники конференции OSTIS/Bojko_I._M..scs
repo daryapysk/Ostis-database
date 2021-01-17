@@ -1,0 +1,17 @@
+
+Bojko_I.M.=> nrel_main_idtf:
+	[Бойко И. М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bojko_I.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bojko_I.M. <-concept_participant_of_conference_OSTIS2014;;
+Bojko_I.M. <-concept_participant_of_conference_OSTIS2016;;
+Bojko_I.M. <-concept_participant_of_conference_OSTIS2020;;
+//Bojko_I.M. <= nrel_authors:  ...(* -> Doklad_50_OSTISX2014;; *);;
+
+//Bojko_I.M. <-concept_participant_of_conference_OSTIS;;

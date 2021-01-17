@@ -1,0 +1,29 @@
+
+concept_graduate => nrel_idtf: [graduate](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Аспирант)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Аспирант — это сотрудник научно-исследовательского учреждения, подготовляющийся к научной деятельности.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_graduate;;
+<= nrel_using_constants :...
+(*
+-> concept_employee; concept_research_institution; concept_scientific_activity;;
+*);;
+*);;
+
+ concept_graduate -> rrel_example: [Аспирант Жидко Владислав Валерьевич.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Аспирант, знания)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Аспирант работает самостоятельно для получения знаний и образования.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_graduate; concept_knowledge;;
+*);; 

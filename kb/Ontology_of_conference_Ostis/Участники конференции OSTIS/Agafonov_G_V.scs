@@ -1,0 +1,21 @@
+Agafonov_G_V=> nrel_main_idtf:
+	[Агафонов Г.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Agafonov_G_V]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Agafonov_G_V <- concept_participant_of_conference_OSTIS;;
+Agafonov_G_V <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+/*Agafonov_G_V <= nrel_authors:  ...(* -> Doklad_86_OSTISX2015;; *);;
+
+Agafonov_G_V -> Ucastnik_konferenzii_OSTIS;;
+
+Agafonov_G_V -> magistrant;;*/

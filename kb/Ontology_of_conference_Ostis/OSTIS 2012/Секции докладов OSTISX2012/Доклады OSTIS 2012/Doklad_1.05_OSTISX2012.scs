@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_1.05_OSTISX2012;;
+Doklad_1.05_OSTISX2012=>nrel_main_idtf:[Доклад 1.05 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.05_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.05_OSTISX2012 => nrel_name_of_doclad: [Терминологические сети](* <- lang_ru;;*);;
+
+Doklad_1.05_OSTISX2012 => nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_1.05_OSTISX2012 <= nrel_authors : ...(* -> MalXkovskij_M._G.;SolovXev_S._U.;; *);;
+
+Doklad_1.05_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 1.5 OSTIS-2012";;
+
+Doklad_1.05_OSTISX2012 <= nrel_articke: ...(* -> MalXkovskij_M.G..2012stXTermiS;; *);;
+
+Doklad_1.05_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X12_OSTISX2012;; *);;*/
+
+Doklad_1.05_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Мальковский_М.Г..2012ст-ТермиС.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_1.05_OSTISX2012 => nrel_authors:MalXkovskij_M.G.;SolovXev_S.U.;;
+

@@ -1,0 +1,17 @@
+Gladun_A_Ya => nrel_main_idtf:
+[Гладун А.Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gladun_A_Ya] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Gladun_A_Ya;;
+Gladun_A_Ya <- concept_participant_of_conference_OSTIS2014;;
+Gladun_A_Ya <- concept_participant_of_conference_OSTIS2012;;
+Gladun_A_Ya <- concept_participant_of_conference_OSTIS2015;;
+
+Gladun_A_Ya => nrel_contact_information:[glanat@yahoo.com];;
+

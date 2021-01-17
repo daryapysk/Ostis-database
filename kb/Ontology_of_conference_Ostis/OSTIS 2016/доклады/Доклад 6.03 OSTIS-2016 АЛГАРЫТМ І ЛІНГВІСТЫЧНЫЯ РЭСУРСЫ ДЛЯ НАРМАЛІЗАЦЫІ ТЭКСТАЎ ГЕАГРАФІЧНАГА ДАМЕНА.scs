@@ -1,0 +1,29 @@
+report_6.03_OSTIS_2016_AlgLRTNGD => nrel_main_idtf:
+[Доклад 6.03 OSTIS-2016 АЛГАРЫТМ І ЛІНГВІСТЫЧНЫЯ РЭСУРСЫ ДЛЯ НАРМАЛІЗАЦЫІ ТЭКСТАЎ ГЕАГРАФІЧНАГА ДАМЕНА]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.03 OSTIS-2016 Algorythm and linguistic resources for text normalization of geographic domain]
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.03_OSTIS_2016_AlgLRTNGD  <- doklad_OSTISX2016;;
+
+report_6.03_OSTIS_2016_AlgLRTNGD  <= nrel_authors:Gecevich_U_A; Kachan_Ya_S; Lysyj_S.I.; Marakulina_P_A; Krivalcevich_A_V;;
+report_6.03_OSTIS_2016_AlgLRTNGD => nrel_published_material:publication_Gecevich_U_A_2016_AlgLRTNGD;;
+
+report_6.03_OSTIS_2016_AlgLRTNGD => nrel_report_language: lang_ru;;
+
+
+/*report_6.03_OSTIS_2016_AlgLRTNGD  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_6.03_OSTIS_2016_AlgLRTNGD  => nrel_name: [АЛГАРЫТМ І ЛІНГВІСТЫЧНЫЯ РЭСУРСЫ ДЛЯ НАРМАЛІЗАЦЫІ ТЭКСТАЎ ГЕАГРАФІЧНАГА ДАМЕНА](*<- lang_ru;;*);;
+
+report_6.03_OSTIS_2016_AlgLRTNGD  <= nrel_speaker:Gecevich_U_A;;
+
+
+report_6.03_OSTIS_2016_AlgLRTNGD  => nrel_time_speech: [10:00 - 10:15];;
+report_6.03_OSTIS_2016_AlgLRTNGD => nrel_data_speech: [19 февраля 2016];;
+
+report_6.03_OSTIS_2016_AlgLRTNGD  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

@@ -1,0 +1,31 @@
+
+concept_specialist => nrel_idtf: [specialist](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Специалист)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Специалист — квалификация, приобретаемая студентом после освоения специальной программы обучения](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_specialist;;
+<= nrel_using_constants :...
+(*
+-> concept_student; concept_qualification; concept_higher_education_institution;;
+*);;
+*);;
+
+ concept_specialist -> rrel_example: [Каждый студент после выпуска становится специалистом в своей индустрии.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Специалист, сфера)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Специалист в сфере туризма и гостеприимства.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_specialist; concept_scope;;
+*);; 
+
+
+

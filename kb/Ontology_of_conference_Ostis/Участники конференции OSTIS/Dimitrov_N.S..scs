@@ -1,0 +1,28 @@
+
+Dimitrov_N.S.=> nrel_main_idtf:
+	[Димитров Н.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dimitrov_N.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Dimitrov_N.S. => nrel_email: [office@dimitrov.ca](*<-lang_en;;*);;
+
+//Dimitrov_N.S. <= nrel_authors:  ...(* -> Doklad_27_OSTISX2014;; *);;
+
+Dimitrov_N.S. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Dimitrov_N.S. -> doktor_tehniceskih_nauk;;
+doktor_tehniceskih_nauk <- ucenaa_stepenX;;
+
+Dimitrov_N.S. -> dejstvitelXnyj_clen_RAN;;
+dejstvitelXnyj_clen_RAN <- ucenoe_zvanie;;
+
+Dimitrov_N.S. -> tehniceskij_direktor;;
+
+Dimitrov_N.S. <- rrel_key_sc_element: ..illustration_Dimitrov_N.S.(* <- sc_illustation;; *);;
+..illustration_Dimitrov_N.S. <= nrel_translation : ..translation_illustration_Dimitrov_N.S.;;
+..translation_illustration_Dimitrov_N.S.-> rrel_example : [<img src="http://127.0.0.1:8181/Димитров_фото.jpg"/>] (* => nrel_format: format_html;; *);;*/

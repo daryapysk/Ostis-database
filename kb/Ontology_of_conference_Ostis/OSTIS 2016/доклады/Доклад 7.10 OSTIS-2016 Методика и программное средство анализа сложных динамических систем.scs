@@ -1,0 +1,31 @@
+report_7.10_OSTIS_2016_MethSSACDS => nrel_main_idtf:
+[Доклад 7.10 OSTIS-2016 Методика и программное средство анализа сложных динамических систем]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 7.10 OSTIS-2016 Methodology and software for semsntic analysis of complex dynamical systems] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_7.10_OSTIS_2016_MethSSACDS  <- doklad_OSTISX2016;;
+
+report_7.10_OSTIS_2016_MethSSACDS  <= nrel_authors:Burak_T_I;
+Lukashevich_M_M;;
+
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_published_material: publication_Burak_T_I_2016_MethSSACDS;;
+
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_report_language: lang_ru;;
+
+
+/*report_7.10_OSTIS_2016_MethSSACDS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_name: [Методика и программное средство анализа сложных динамических систем](*<- lang_ru;;*);;
+
+report_7.10_OSTIS_2016_MethSSACDS  <= nrel_speaker:Burak_T_I;;
+
+
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_time_speech: [12:30 - 12:45];;
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_data_speech: [20 февраля 2016];;
+
+report_7.10_OSTIS_2016_MethSSACDS  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

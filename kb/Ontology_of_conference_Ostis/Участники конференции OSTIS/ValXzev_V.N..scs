@@ -1,0 +1,17 @@
+
+ValXzev_V.N.=> nrel_main_idtf:
+	[Вяльцев В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[ValXzev_V.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+//ValXzev_V.N. <- concept_participant_of_conference_OSTIS;;
+ValXzev_V.N.<- concept_participant_of_conference_OSTIS2011;;
+
+

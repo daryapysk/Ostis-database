@@ -1,0 +1,24 @@
+
+Kataev_V.A=> nrel_main_idtf:
+	[Катаев В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kataev_V.A]
+	(*
+	<- lang_en;;
+	*);;
+
+Kataev_V.A => nrel_email: [bravo666666@yandex.ru](*<-lang_en;;*);;
+
+//Kataev_V.A <= nrel_authors:  ...(* -> Doklad_63_OSTISX2014;Doklad_2.10_OSTISX2012;Doklad_1.07_OSTISX2011;; *);;
+
+Kataev_V.A<- concept_participant_of_conference_OSTIS2014;;
+Kataev_V.A <- concept_participant_of_conference_OSTIS2011;;
+Kataev_V.A <- concept_participant_of_conference_OSTIS2012;;
+
+/*Kataev_V.A -> nacalXnik;;
+
+Kataev_V.A <= nrel_photo: ...(* -> Foto_OSTISX2011.02.10.09.59;; *);;
+
+Kataev_V.A <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.56;Foto_OSTISX2011.02.10.09.54;Foto_OSTISX2011.02.10.10.25;Foto_OSTISX2011.02.10.10.59;Foto_OSTISX2011.02.10.11.31;Foto_OSTISX2011.02.10.11.47;Foto_OSTISX2011.02.10.12.13;Foto_OSTISX2011.02.10.13.00;; *);;*/

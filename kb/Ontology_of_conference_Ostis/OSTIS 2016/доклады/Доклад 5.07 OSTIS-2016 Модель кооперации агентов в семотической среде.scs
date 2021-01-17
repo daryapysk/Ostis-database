@@ -1,0 +1,31 @@
+report_5.07_OSTIS_2016_ModeloACitSE  => nrel_main_idtf:
+[Доклад 5.07 OSTIS-2016 Модель кооперации агентов в семотической среде]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.07 OSTIS-2016 Model of agents cooperation in the semiotic enviroment] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.07_OSTIS_2016_ModeloACitSE <- doklad_OSTISX2016;;
+
+report_5.07_OSTIS_2016_ModeloACitSE <= nrel_authors:Kulinich_A_A;;
+
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_published_material: publication_Kulinich_A_A_2016_ModeloACitSEA;;
+
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_report_language: lang_ru;;
+
+
+/*report_5.07_OSTIS_2016_ModeloACitSE <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_name: [Модель кооперации агентов в семотической среде](*<- lang_ru;;*);;
+
+report_5.07_OSTIS_2016_ModeloACitSE <= nrel_speaker: Kulinich_A_A;;
+
+
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_time_speech: [12:30 - 12:50];;
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_data_speech: [19 февраля 2016];;
+
+report_5.07_OSTIS_2016_ModeloACitSE => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

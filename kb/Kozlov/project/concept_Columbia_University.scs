@@ -1,0 +1,48 @@
+
+concept_Columbia_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Университет Колумбия]
+      (*<-lang_ru;;*);
+       [Columbia University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Университет Колумбия)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_private_university;
+       concept_New_York;
+       concept_resetch_university
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Университет Колумбия — частный исследовательский университет в Нью-Йорке.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Университет Колумбия)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_USA;
+  concept_fame
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Университет Колумбия-один из известнейших и престижнейших университетов США](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Columbia_University -> rrel_example: [Университет Колумбия был основан в 1754 году.](* <- lang_ru;; *);;
+concept_Columbia_University <=nrel_inclusion:concept_higher_education_institution;;
+Hideki_Yukawa<-nrel_employee:concept_Columbia_University;;
+Richard_Axel<-nrel_graduate:concept_Columbia_University;;
+Stephen_Smale<-nrel_employee:concept_Columbia_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Columbia_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Columb.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Университет Колумбия)](*<- lang_ru;;*);;
+*);;

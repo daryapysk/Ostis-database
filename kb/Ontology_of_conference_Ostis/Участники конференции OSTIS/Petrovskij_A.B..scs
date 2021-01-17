@@ -1,0 +1,24 @@
+
+Petrovskij_A.B.=> nrel_main_idtf:
+	[Петровский А.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Petrovskij_A.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Petrovskij_A.B. => nrel_email: [pab@isa.ru](*<-lang_en;;*);;
+
+//Petrovskij_A.B. <- concept_participant_of_conference_OSTIS;;
+Petrovskij_A.B. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Petrovskij_A.B. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Petrovskij_A.B. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Petrovskij_A.B. -> zaveduusij_laboratoriej;;*/
+

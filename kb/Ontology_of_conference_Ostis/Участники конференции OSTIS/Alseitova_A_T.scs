@@ -1,0 +1,17 @@
+
+Alseitova_A_T=> nrel_main_idtf:
+	[Алсеитова А. Т.]
+	(*
+	<- lang_ru;;
+	*);
+	[Alseitova_A_T]
+	(*
+	<- lang_en;;
+	*);;
+
+/*Alseitova_A_T <= nrel_authors:  ...(* -> Doklad_60_OSTISX2014;; *);;
+
+Alseitova_A_T -> Ucastnik_konferenzii_OSTIS;;*/
+
+Alseitova_A_T <- concept_participant_of_conference_OSTIS2014;;
+

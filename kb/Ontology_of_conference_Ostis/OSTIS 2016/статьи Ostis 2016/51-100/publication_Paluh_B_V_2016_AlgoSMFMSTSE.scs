@@ -1,0 +1,28 @@
+ publication_Paluh_B_V_2016_AlgoSMFMSTSE => nrel_main_idtf:
+[Палюх Б.В. 2016 -  АлгорОУЭНМТС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Paluh_B_V_2016_AlgoSMFMSTSE] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Paluh_B_V_2016_AlgoSMFMSTSE => nrel_name_publication:[Алгоритмическое обеспечение управления эволюцией нечеткой многостадийной технологической системы](*
+	<- lang_ru;;
+	*);;
+publication_Paluh_B_V_2016_AlgoSMFMSTSE <= nrel_authors:
+Paluh_B.V.;;
+publication_Paluh_B_V_2016_AlgoSMFMSTSE <= nrel_authors:
+Egereva_I_A;;
+
+publication_Paluh_B_V_2016_AlgoSMFMSTSE <- article;;
+
+publication_Paluh_B_V_2016_AlgoSMFMSTSE=> nrel_reference_standard: [Палюх, Б.В. Алгоритмическое обеспечение управления эволюцией нечеткой многостадийной технологической системы/ Б.В. Палюх, И.А. Егерева   // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 445–448.];;
+
+publication_Paluh_B_V_2016_AlgoSMFMSTSE=> nrel_year_publication: 2016;;
+
+publication_Paluh_B_V_2016_AlgoSMFMSTSE => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Paluh_B_V_2016_AlgoSMFMSTSE<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Палюх.pdf";; *);;*);;
+

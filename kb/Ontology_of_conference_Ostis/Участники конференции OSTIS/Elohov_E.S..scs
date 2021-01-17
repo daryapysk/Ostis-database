@@ -1,0 +1,22 @@
+
+Elohov_E.S.=> nrel_main_idtf:
+	[Елохов Е.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Elohov_E.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Elohov_E.S. => nrel_email: [eugene.yelokhov@gmail.com](*<-lang_en;;*);;
+
+//Elohov_E.S. <= nrel_authors:  ...(* -> Doklad_82_OSTISX2014;Doklad_81_OSTISX2014;; *);;
+
+Elohov_E.S.  <- concept_participant_of_conference_OSTIS2014;;
+
+/*Elohov_E.S. -> net;;
+net <- ucenaa_stepenX;;
+
+Elohov_E.S. -> student;;
+student <- ucenoe_zvanie;;*/

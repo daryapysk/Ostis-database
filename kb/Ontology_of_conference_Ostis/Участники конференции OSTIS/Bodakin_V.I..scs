@@ -1,0 +1,29 @@
+
+Bodakin_V.I.=> nrel_main_idtf:
+	[Бодякин В.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bodakin_V.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bodakin_V.I. => nrel_email: [BODY@IPU.RSSI.RU](*<-lang_en;;*);;
+
+//Bodakin_V.I. <= nrel_authors:  ...(* -> Doklad_1.06_OSTISX2012;; *);;
+
+//Bodakin_V.I. <- concept_participant_of_conference_OSTIS;;
+Bodakin_V.I. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Bodakin_V.I. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Bodakin_V.I. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Bodakin_V.I. -> s.n.s.;;
+
+Bodakin_V.I. <- rrel_key_sc_element: ..illustration_Bodakin_V.I.(* <- sc_illustation;; *);;
+..illustration_Bodakin_V.I. <= nrel_translation : ..translation_illustration_Bodakin_V.I.;;
+..translation_illustration_Bodakin_V.I.-> rrel_example : [<img src="http://127.0.0.1:8181/BodyakinV.jpg"/>] (* => nrel_format: format_html;; *);;*/

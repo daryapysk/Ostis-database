@@ -1,0 +1,25 @@
+
+Urygina_U.S.=> nrel_main_idtf:
+	[Юрыгина Ю. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Urygina_U.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Urygina_U.S. => nrel_email: [Yurygina@smartsolutions-123.ru](*<-lang_en;;*);;
+
+//Urygina_U.S. <- concept_participant_of_conference_OSTIS;;
+Urygina_U.S. <- concept_participant_of_conference_OSTIS2015;;
+Urygina_U.S. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Urygina_U._S. <= nrel_authors:  ...(* -> Doklad_59_OSTISX2015;; *);;
+
+Urygina_U._S. -> Ucastnik_konferenzii_OSTIS;;
+
+Urygina_U._S. -> net;;
+net <- ucenaa_stepenX;;
+
+Urygina_U._S. -> RukovoditelX_proekta;;*/

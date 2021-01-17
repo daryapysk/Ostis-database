@@ -1,0 +1,24 @@
+
+Lazurkin_D.A.=> nrel_main_idtf:
+	[Лазуркин Д.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lazurkin_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lazurkin_D.A. => nrel_email: [Lazyrkin@bsuir.by](*<-lang_en;;*);;
+
+/*Lazurkin_D.A. <= nrel_authors:  ...(* -> Doklad_2.12_OSTISX2012;Doklad_3.04_OSTISX2011;; *);;
+
+Lazurkin_D.A. <= nrel_publication : ...(* -> Lazurkin_D.A..2010artXTechnoDoIYSBoSN;Lazurkin_D.A..2010stXSredsOPOnOBZ;Lazurkin_D.A..2010stXBazaZISSpG;Lazurkin_D.A..2010stXStrukEAIISSpG;Lazurkin_D.A..2010stXInstrSRIHSpAP;Lazurkin_D.A..2010stXSredsRPOnOSS;Lazurkin_D.A.2009stXSovmePOnOBZ;; *);;*/
+
+//Lazurkin_D.A. <- concept_participant_of_conference_OSTIS;;
+Lazurkin_D.A. <- concept_participant_of_conference_OSTIS2011;;
+Lazurkin_D.A. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Lazurkin_D.A. <- rrel_key_sc_element: ..illustration_Lazurkin_D.A.(* <- sc_illustation;; *);;
+..illustration_Lazurkin_D.A. <= nrel_translation : ..translation_illustration_Lazurkin_D.A.;;
+..translation_illustration_Lazurkin_D.A.-> rrel_example : [<img src="http://127.0.0.1:8181/LazurkinDA.png"/>] (* => nrel_format: format_html;; *);;*/

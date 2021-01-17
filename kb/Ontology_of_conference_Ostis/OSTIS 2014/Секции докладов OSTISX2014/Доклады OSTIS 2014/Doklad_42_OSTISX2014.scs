@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_42_OSTISX2014;;
+Doklad_42_OSTISX2014=>nrel_main_idtf:[Доклад 42 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_42_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_42_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_42_OSTISX2014 <= nrel_name_of_doclad: [Иерархия нечетких понятий для описания исторической личности](* <- lang_ru;;*);;
+
+// Doklad_42_OSTISX2014 <= nrel_authors : ...(* -> Globa_L._S.;Ostrovskij_S._A.;Popova_M._A.;Strijak_A._E.;Ternovoj_M._U.;; *);;
+
+Doklad_42_OSTISX2014 <= nrel_authors: Globa_L._S.;Ostrovskij_S._A.;Popova_M._A.;Strijak_A._E.;Ternovoj_M._U.;; 
+
+// Doklad_42_OSTISX2014 <= nrel_articke: ...(* -> 42._Globa_L.S.X_Ostrovskij_S.A.X_Popova_M.A.X_Strijak_A.E.X_Ternovoj_M.U._X_IerarhNPdOIL;; *);;

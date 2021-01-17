@@ -1,0 +1,61 @@
+
+sc_node_not_relation->concept_scientist;;
+concept_scientist => nrel_main_idtf: [учёный](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_specialist;;
+concept_specialist => nrel_main_idtf: [специалист](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_science;;
+concept_science => nrel_main_idtf: [наука](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_method;;
+concept_method => nrel_main_idtf: [метод](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_people;;
+concept_people => nrel_main_idtf: [человек](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_area;;
+concept_area => nrel_main_idtf: [область](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+Kuzin_I.A.=> nrel_main_idtf:
+	[Кузин И.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kuzin_I.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Kuzin_I.A. <= nrel_authors:  ...(* -> Doklad_6.06_OSTISX2012;; *);;
+
+//Kuzin_I.A. <- concept_participant_of_conference_OSTIS;;
+Kuzin_I.A. <- concept_participant_of_conference_OSTIS2012;;
+
+
+//Kuzin_I.A. -> magistrant;;

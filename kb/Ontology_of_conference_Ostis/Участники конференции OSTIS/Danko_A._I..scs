@@ -1,0 +1,15 @@
+
+Danko_A.I.=> nrel_main_idtf:
+	[Данко А. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Danko_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Danko_A.I. <= nrel_authors:  ...(* -> Doklad_62_OSTISX2014;; *);;
+
+Danko_A.I. <- concept_participant_of_conference_OSTIS2014;;

@@ -1,0 +1,22 @@
+
+Kuzko_V.A.=> nrel_main_idtf:
+	[Куцко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kuzko_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kuzko_V.A. => nrel_email: [vkutsko@scand.by](*<-lang_en;;*);;
+
+Kuzko_V.A. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Kuzko_V.A. -> menedjer_po_personalu;;
+
+Kuzko_V.A. -> predstavitelX_soorganizatora_OSTISX2011;;
+
+Kuzko_V.A. <= nrel_photo: ...(* -> Foto_OSTISX2011.02.12.16.15;; *);;
+
+Kuzko_V.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.22;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.10.34;Foto_OSTISX2011.02.10.11.07;Foto_OSTISX2011.02.10.11.19;Foto_OSTISX2011.02.10.12.18;Foto_OSTISX2011.02.10.12.40;Foto_OSTISX2011.02.12.15.13;Foto_OSTISX2011.02.12.15.15;Foto_OSTISX2011.02.12.15.35;Foto_OSTISX2011.02.12.15.36;Foto_OSTISX2011.02.12.16.14;Foto_OSTISX2011.02.12.16.16;Foto_OSTISX2011.02.12.16.17;Foto_OSTISX2011.02.12.16.18;Foto_OSTISX2011.02.12.16.19;Foto_OSTISX2011.02.12.16.20;Foto_OSTISX2011.02.12.16.21;Foto_OSTISX2011.02.12.16.22;Foto_OSTISX2011.02.12.16.23;Foto_OSTISX2011.02.12.16.24;Foto_OSTISX2011.02.12.16.25;; *);;*/

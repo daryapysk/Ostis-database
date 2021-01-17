@@ -1,0 +1,13 @@
+//sc_node_not_relation->ABBYY;;
+ABBYY =>nrel_main_idtf:[ABBYY](*<- lang_ru;;*);;
+
+
+ABBYY => nrel_email: [abbyy_logo.gif](*<-lang_en;;*);;
+
+ABBYY => nrel_phone: [+7 495 783 37 00](* <- lang_ru;;*);;
+
+ABBYY => nrel_address : [Россия, Москва, ул. Отрадная, 2Б, строение 6, бизнес-центр «Отрадный»](* <- lang_ru;;*);;
+
+ABBYY => nrel_site: [http://www.abbyy.ru/];;
+
+ABBYY => nrel_location : [Россия, Москва, ул. Отрадная, д. 2БС6](* <- lang_ru;;*);;

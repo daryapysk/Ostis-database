@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_81_OSTISX2015;;
+Doklad_81_OSTISX2015=>nrel_main_idtf:[Доклад 81 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_81_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_81_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_81_OSTISX2015 => nrel_name_of_doclad: [Проверка информативности классификационных признаков в задаче автоматической классификации текстов на естественном языке](* <- lang_ru;;*);;
+
+//Doklad_81_OSTISX2015 <= nrel_authors : ...(* -> Glazkova_A._V.;; *);;
+
+//Doklad_81_OSTISX2015 <= nrel_articke: ...(* -> 81._Glazkova_A.V._X_ProverkaIKPvZAKTnEA;; *);;
+
+Doklad_81_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/81._Глазкова_А.В._-_ПроверкаИКПвЗАКТнЕЯ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_81_OSTISX2015=> nrel_authors: Glazkova_A.V.;;
+

@@ -1,0 +1,16 @@
+
+Maksimej_I.V.=> nrel_main_idtf:
+	[Максимей И.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Maksimej_I.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Maksimej_I.V. => nrel_email: [mpu@gsu.by](*<-lang_en;;*);;
+//Maksimej_I.V. <- concept_participant_of_conference_OSTIS;;
+Maksimej_I.V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Maksimej_I.V. <= nrel_authors:  ...(* -> Doklad_5.05_OSTISX2011;PersonalXnyj_sostav_GomelXskogo_gosudarstvennogo_universiteta_im._Fr._Skoriny;; *);;*/

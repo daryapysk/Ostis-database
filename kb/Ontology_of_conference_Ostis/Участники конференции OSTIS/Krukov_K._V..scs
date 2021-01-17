@@ -1,0 +1,12 @@
+Krukov_K._V.=> nrel_main_idtf:
+	[Крюков К. В.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Krukov_K._V.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Krukov_K._V. <- concept_participant_of_conference_OSTIS;;
+  Krukov_K._V. <- concept_participant_of_conference_OSTIS2013;;

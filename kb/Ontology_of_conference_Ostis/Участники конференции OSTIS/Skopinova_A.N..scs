@@ -1,0 +1,12 @@
+sc_node_not_relation->Skopinova_A.N.;;
+Skopinova_A.N.=>nrel_main_ru_idtf:[Скопинова А.Н.];;
+
+Skopinova_A.N. <= nrel_email: [skelena777@gmail.com](*<-lang_en;;*);;
+
+Skopinova_A.N. <= nrel_authors:  ...(* -> Doklad_47_OSTISX2014;; *);;
+
+Skopinova_A.N. -> Ucastnik_konferenzii_OSTIS;;
+
+Skopinova_A.N. <- rrel_key_sc_element: ..illustration_Skopinova_A.N.(* <- sc_illustation;; *);;
+..illustration_Skopinova_A.N. <= nrel_translation : ..translation_illustration_Skopinova_A.N.;;
+..translation_illustration_Skopinova_A.N.-> rrel_example : [<img src="http://127.0.0.1:8181/AlenaSkopinava.jpg"/>] (* => nrel_format: format_html;; *);;

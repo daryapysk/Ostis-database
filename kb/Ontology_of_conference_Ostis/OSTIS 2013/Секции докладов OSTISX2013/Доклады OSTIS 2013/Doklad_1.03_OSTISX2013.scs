@@ -1,0 +1,22 @@
+// sc_node_not_relation->Doklad_1.03_OSTISX2013;;
+Doklad_1.03_OSTISX2013=>nrel_main_idtf:[Доклад 1.03 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_1.03_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_1.03_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_1.03_OSTISX2013 <= nrel_name_of_doclad: [Технология формально-логического проектирования и прототипирования интеллектуальных систем](* <- lang_ru;;*);;
+
+// //Doklad_1.03_OSTISX2013 <= nrel_section: [Секция 1 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_1.03_OSTISX2013 <= nrel_authors : ...(* -> Anureev_I._S.;Atucin_M._M.;; *);;
+Doklad_1.03_OSTISX2013 <= nrel_authors: Anureev_I._S.;Atucin_M._M.;;
+
+//Doklad_1.03_OSTISX2013 <= nrel_articke: ...(* -> Anureev_I.S..2013stXTehnoFXLPiPIS;; *);;
+Doklad_1.03_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Ануреев_И.С..2013ст-ТехноФ-ЛПиПИС.pdf";;
+						    *);;
+					*);;

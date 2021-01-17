@@ -1,0 +1,32 @@
+
+concept_scientist => nrel_idtf: [scientist](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Учёный)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Учёный — специалист в какой-либо научной области, внёсший вклад в науку. Обычно учёными называют тех людей, которые применяют научный метод.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_scientist;;
+<= nrel_using_constants :...
+(*
+-> concept_specialist; concept_science; concept_method; concept_people;;
+*);;
+*);;
+
+ concept_scientist -> rrel_example: [Британский ученый предположил, где находился замок короля Артура.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Учёный, область)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Учёный в области семантических сетей.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_scientist; concept_area;;
+*);; 
+
+
+
+

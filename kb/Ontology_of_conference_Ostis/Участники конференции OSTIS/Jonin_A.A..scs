@@ -1,0 +1,18 @@
+
+Jonin_A.A.=> nrel_main_idtf:
+	[Жонин А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jonin_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Jonin_A.A. => nrel_email: [neurofish@yandex.ru](*<-lang_en;;*);;
+
+//Jonin_A.A. <= nrel_authors:  ...(* -> Doklad_17_OSTISX2014;; *);;
+
+Jonin_A.A. <- concept_participant_of_conference_OSTIS2014;;
+
+//Jonin_A.A. -> s.n.s.;;

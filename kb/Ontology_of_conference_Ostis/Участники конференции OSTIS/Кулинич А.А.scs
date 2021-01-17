@@ -1,0 +1,16 @@
+Kulinich_A_A => nrel_main_idtf:
+[Кулинич А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulinich_A_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kulinich_A_A;;
+Kulinic_A_A <- concept_participant_of_conference_OSTIS2014;;
+Kulinic_A_A <- concept_participant_of_conference_OSTIS2016;;
+
+Kulinich_A_A => nrel_contact_information:[kulinich@ipu.ru];;
+

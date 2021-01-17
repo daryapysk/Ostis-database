@@ -1,0 +1,39 @@
+//
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_main_idtf:
+[Массель Л.В. 2016 - РазраЯСУвИССТнООИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Massel_L_V_2016_tDevoSMLiISoSTBoOE] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_name_publication:[Разработка языка ситуационного управления в интеллектуальной системе семиотического типа на основе онтологического инжиниринга](*
+	<- lang_ru;;
+	*);;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE <= nrel_authors:
+MasselX_L.V.;
+MasselX_A.G.;;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE <- article;;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_reference_standard: [Массель, Л. В. Разработка языка ситуационного управления в интеллектуальной системе семиотического типа на основе онтологического инжиниринга / Л.В. Массель, А.Г. Массель Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 18-20 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_year_publication: 2016;;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/08.massel.pdf";; *);; *);;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE =>  nrel_annotation:
+[В  статье  рассматриваются  вопросы  разработки  языка  описания  знаниями  и  управления  знаниями  винтеллектуальной  системе  семиотического  типа  для  ситуационного  управления  в  условиях  экстремальныхситуаций  в  энергетике.  Определение  системы  семиотического  типа  вводится  на  основе  трактовки  Д.А.Поспелова.В качестве инструмента реализации правил изменения базовых множествсемиотическоймоделипредлагается язык ситуационного управления. Приводится общееописаниеязыка, разрабатываемого на основеонтологического инжиниринга, и составляющих его компонентов:дляописания и манипулирования знаниями.](*
+	<- lang_ru;;
+	*);;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_count_page: 6;;
+
+publication_Massel_L_V_2016_tDevoSMLiISoSTBoOE => nrel_article_language: lang_ru;;
+

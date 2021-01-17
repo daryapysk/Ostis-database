@@ -1,0 +1,16 @@
+
+Karminskaa_T.D.=> nrel_main_idtf:
+	[Карминская Т.Д.]
+	(*
+	<- lang_ru;;
+	*);
+	[Karminskaa_T.D.]
+	(*
+	<- lang_en;;
+	*);;
+
+Karminskaa_T.D. => nrel_email: [rector@ugrasu.ru](*<-lang_en;;*);;
+
+//Karminskaa_T.D. <- concept_participant_of_conference_OSTIS;;
+
+

@@ -1,0 +1,31 @@
+
+concept_adjunct => nrel_idtf: [adjunct](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Адъюнкт)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Адъюнкт — должность или звание помощника или заместителя в различных областях.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_adjunct;;
+<= nrel_using_constants :...
+(*
+-> concept_rank; concept_title;;
+*);;
+*);;
+
+ concept_adjunct -> rrel_example: [Адюънкт Ефремов Виталий](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Адъюнкт, должность)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Адъюкт занял должность заместителя в области начуных работ.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_adjunct; concept_post;;
+*);; 
+
+
+

@@ -1,0 +1,18 @@
+
+Lazurkin_E.A.=> nrel_main_idtf:
+	[Лазуркин Е.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lazurkin_E.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Lazurkin_E.A. <= nrel_authors:  ...(* -> Doklad_8.08_OSTISX2011;; *);;
+
+//Lazurkin_E.A. <- concept_participant_of_conference_OSTIS;;
+Lazurkin_E.A. <- concept_participant_of_conference_OSTIS2011;;
+
+//Lazurkin_E.A. -> student;;

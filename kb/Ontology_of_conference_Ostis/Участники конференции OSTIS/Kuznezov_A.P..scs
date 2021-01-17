@@ -1,0 +1,34 @@
+
+Kuznezov_A.P.=> nrel_main_idtf:
+	[Кузнецов А.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kuznezov_A.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kuznezov_A.P. => nrel_email: [kuznap@bsuir.by](*<-lang_en;;*);;
+
+//Kuznezov_A.P. <= nrel_authors:  ...(* -> Doklad_8.11_OSTISX2011;; *);;
+
+//Kuznezov_A.P. <- concept_participant_of_conference_OSTIS;;
+Kuznezov_A.P. <- concept_participant_of_conference_OSTIS2011;;
+
+
+
+
+/*Kuznezov_A.P. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Kuznezov_A.P. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Kuznezov_A.P. -> prorektor_po_naucnoj_rabote;;
+
+Kuznezov_A.P. <- rrel_key_sc_element: ..illustration_Kuznezov_A.P.(* <- sc_illustation;; *);;
+..illustration_Kuznezov_A.P. <= nrel_translation : ..translation_illustration_Kuznezov_A.P.;;
+..translation_illustration_Kuznezov_A.P.-> rrel_example : [<img src="http://127.0.0.1:8181/KuznecovAP.png"/>] (* => nrel_format: format_html;; *);;
+
+Kuznezov_A.P. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.54;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.05;Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.10.41;Foto_OSTISX2011.02.10.10.44;Foto_OSTISX2011.02.10.10.13;; *);;*/

@@ -1,0 +1,20 @@
+
+Dosanova_M.U.=> nrel_main_idtf:
+	[Дощанова М. Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dosanova_M.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Dosanova_M.U. => nrel_email: [malikadoshanova@mail.ru](*<-lang_en;;*);;
+//Dosanova_M.U. <- concept_participant_of_conference_OSTIS;;
+Dosanova_M.U. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Dosanova_M._U. <= nrel_authors:  ...(* -> Doklad_48_OSTISX2015;Doklad_47_OSTISX2015;; *);;
+
+Dosanova_M._U. -> Ucastnik_konferenzii_OSTIS;;
+
+Dosanova_M._U. -> assistent;;*/

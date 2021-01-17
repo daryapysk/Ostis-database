@@ -1,0 +1,48 @@
+concept_Paris_Dauphine_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Университет Париж-Дофин]
+      (*<-lang_ru;;*);
+       [Paris Dauphine University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Университет Париж-Дофин)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+     concept_economic_univesity;
+       concept_Paris;
+       concept_location
+       
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Университет Париж-Дофин— экономический университет расположенный на западе Парижа.] (* <- lang_ru;; *);;
+    *);;
+   *);
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Университет Париж-Дофин)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+		concept_univesity;
+	concept_specialist
+  
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Университете Париж-Дофин работают более 970 преподавателей](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+   
+concept_Paris_Dauphine_University -> rrel_example: [Университет Париж-Дофин был основан в 1971 году.](* <- lang_ru;; *);;
+concept_Paris_Dauphine_University <=nrel_inclusion:concept_higher_education_institution;;
+Yves_Mayer<-rrel_employee:concept_Paris_Dauphine_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Paris_Dauphine_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG/ParisDauphine.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Университет Париж-Дофин)](*<- lang_ru;;*);;
+*);;

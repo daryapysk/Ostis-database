@@ -1,0 +1,33 @@
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS => nrel_main_idtf:
+[Доклад 3.07 OSTIS-2016 Построение сетей соавторства по данным сервиса Google scholar citations]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 3.07 OSTIS-2016 Creation of networks of the co-authorship according to the google scholar citations service] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  <- doklad_OSTISX2016;;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  <= nrel_authors:Lande_D.V.;
+Balagura_I_V;
+Andrushenko_V_B;;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_published_material: publication_Lande_D_V_2016_CreatoNoTCAAttGSCS;;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_report_language: lang_ru;;
+
+
+/*report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_name: [Использование онтологий для создания сценариев обработки данных](*<- lang_ru;;*);;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  <= nrel_speaker: Lande_D.V.;;
+
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_time_speech: [17:30 - 18:15];;
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_data_speech: [18 февраля 2016];;
+
+report_3.07_OSTIS_2016_CreatoNoTCAAttGSCS  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

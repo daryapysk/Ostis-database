@@ -1,0 +1,30 @@
+
+concept_laboratory_assistant => nrel_idtf: [laboratory_assistant](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Лаборант)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лаборант — следит за исправным состоянием лабораторного оборудования, осуществляет его наладку, должен иметь среднее образование без предъявления требований к стажу работы.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_laboratory_assistant;;
+<= nrel_using_constants :...
+(*
+-> concept_work_experience; concept_education;;
+*);;
+*);;
+
+ concept_laboratory_assistant -> rrel_example: [Лаборант Зиноида Власова](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Лаборант, оборудование)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лаборант проверил состояние оборудования в кабинете.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_laboratory_assistant; concept_equipment;;
+*);; 
+
+

@@ -1,0 +1,12 @@
+Suhoverov_V._S.=> nrel_main_idtf:
+	[Суховеров В. С.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Suhoverov_V._S.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Suhoverov_V._S. <- concept_participant_of_conference_OSTIS;;
+  Suhoverov_V._S. <- concept_participant_of_conference_OSTIS2013;;

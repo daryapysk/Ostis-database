@@ -1,0 +1,11 @@
+sekzia_OSTISX2014 => nrel_main_idtf:
+	[Секция OSTIS-2014]
+	(*
+	<- lang_ru;;
+	*);
+	[section OSTIS-2014]
+	(*
+	<- lang_en;;
+	*);;
+
+

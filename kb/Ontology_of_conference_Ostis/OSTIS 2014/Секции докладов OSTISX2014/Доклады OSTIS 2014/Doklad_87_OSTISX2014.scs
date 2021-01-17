@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_87_OSTISX2014;;
+Doklad_87_OSTISX2014=>nrel_main_idtf:[Доклад 87 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_87_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_87_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_87_OSTISX2014 <= nrel_name_of_doclad: [Логическая и лингвистическая семантика на основе идей Г.Фреге и В.В. Мартынова](* <- lang_ru;;*);;
+
+// Doklad_87_OSTISX2014 <= nrel_authors : ...(* -> Demirov_V._V.;; *);;
+
+Doklad_87_OSTISX2014 <= nrel_authors: Demirov_V._V.;; 
+
+// Doklad_87_OSTISX2014 <= nrel_articke: ...(* -> 87._Demirov_V.V._X_LogiciLSnOIG.FiV.V.M;; *);;

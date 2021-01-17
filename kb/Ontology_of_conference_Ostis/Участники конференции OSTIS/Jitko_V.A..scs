@@ -1,0 +1,28 @@
+
+Jitko_V.A.=> nrel_main_idtf:
+	[Житко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jitko_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Jitko_V.A. => nrel_email: [zhitko.vladimir@gmail.com](*<-lang_en;;*);;
+
+/*Jitko_V.A. <= nrel_authors:  ...(* -> Doklad_09_OSTISX2014;Doklad_4.14_OSTISX2012;Doklad_8.05_OSTISX2011;Doklad_5.06_OSTISX2011;; *);;
+
+Jitko_V.A. <= nrel_publication : ...(* -> Jitko_V.A..2010stXTechnoDoIHSBoSN;Jitko_V.A..2010stXModelEAPIISS;Jitko_V.A..2010stXSredsOPOnOBZ;Jitko_V.A..2010stXStrukEAIISSpG;Jitko_V.A..2010stXIntelSSpG;Jitko_V.A..2010stXAzykVIVOS;Jitko_V.A..2010stXEAIVOS;; *);;
+*/
+Jitko_V.A. <- concept_participant_of_conference_OSTIS2014;;
+Jitko_V.A. <- concept_participant_of_conference_OSTIS2011;;
+Jitko_V.A. <- concept_participant_of_conference_OSTIS2012;;
+Jitko_V.A. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Jitko_V.A. -> aspirant;;
+
+Jitko_V.A. <- rrel_key_sc_element: ..illustration_Jitko_V.A.(* <- sc_illustation;; *);;
+..illustration_Jitko_V.A. <= nrel_translation : ..translation_illustration_Jitko_V.A.;;
+..translation_illustration_Jitko_V.A.-> rrel_example : [<img src="http://127.0.0.1:8181/JitkoVA.png"/>] (* => nrel_format: format_html;; *);;*/

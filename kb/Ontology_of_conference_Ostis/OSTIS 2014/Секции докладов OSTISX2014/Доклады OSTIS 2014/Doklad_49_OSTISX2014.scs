@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_49_OSTISX2014;;
+Doklad_49_OSTISX2014=>nrel_main_idtf:[Доклад 49 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_49_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_49_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_49_OSTISX2014 <= nrel_name_of_doclad: [Использование онтологического подхода к семантическому поиску в среде интернета вещей](* <- lang_ru;;*);;
+
+// Doklad_49_OSTISX2014 <= nrel_authors : ...(* -> Andrusevic_A_A;Kurbazkij_A._N.;Rogusina_U._V.;Gladun_A._A.;; *);;
+
+Doklad_49_OSTISX2014 <= nrel_authors: Andrusevic_A_A;Kurbazkij_A._N.;Rogusina_U._V.;Gladun_A._A.;; 
+
+// Doklad_49_OSTISX2014 <= nrel_articke: ...(* -> 49._Andrusevic_A_A_Kurbazkij_A.N.X_Rogusina_U.V.X_Gladun_A.A._X_IspOPkSPvSIV;; *);;

@@ -1,0 +1,23 @@
+
+MasselX_L.V.=> nrel_main_idtf:
+	[Массель Л.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[MasselX_L.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+MasselX_L.V. => nrel_email: [massel@isem.sei.irk.ru](*<-lang_en;;*);;
+
+//MasselX_L.V. <- concept_participant_of_conference_OSTIS;;
+MasselX_L.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*MasselX_L.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+MasselX_L.V. -> professor;;
+professor <- ucenoe_zvanie;;
+
+MasselX_L.V. -> glavnyj_naucnyj_sotrudnik;;*/

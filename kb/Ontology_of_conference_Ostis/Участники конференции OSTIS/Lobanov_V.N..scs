@@ -1,0 +1,22 @@
+
+Lobanov_V.N.=> nrel_main_idtf:
+	[Лобанов В.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lobanov_V.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lobanov_V.N. => nrel_email: [Fisher_1980@mail.ru](*<-lang_en;;*);;
+
+//Lobanov_V.N. <= nrel_authors:  ...(* -> Doklad_25_OSTISX2014;; *);;
+
+Lobanov_V.N. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Lobanov_V.N. -> vedusij_injener;;
+
+Lobanov_V.N. <- rrel_key_sc_element: ..illustration_Lobanov_V.N.(* <- sc_illustation;; *);;
+..illustration_Lobanov_V.N. <= nrel_translation : ..translation_illustration_Lobanov_V.N.;;
+..translation_illustration_Lobanov_V.N.-> rrel_example : [<img src="http://127.0.0.1:8181/Lobanov1.png"/>] (* => nrel_format: format_html;; *);;*/

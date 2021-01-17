@@ -1,0 +1,16 @@
+
+Dundukov_V.S.=> nrel_main_idtf:
+	[Дюндюков В.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dundukov_V.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Dundukov_V.S. <- concept_participant_of_conference_OSTIS;;
+Dundukov_V.S. <- concept_participant_of_conference_OSTIS2012;;
+
+

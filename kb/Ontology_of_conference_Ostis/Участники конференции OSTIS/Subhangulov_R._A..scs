@@ -1,0 +1,26 @@
+
+Subhangulov_R.A.=> nrel_main_idtf:
+	[Субхангулов Р. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Subhangulov_R.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Subhangulov_R.A. => nrel_email: [subkhangulov-ruslan@yandex.ru](*<-lang_en;;*);;
+Subhangulov_R.A. <- concept_participant_of_conference_OSTIS2014;;
+Subhangulov_R.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Subhangulov_R._A. <= nrel_authors:  ...(* -> Doklad_55_OSTISX2015;Doklad_55_OSTISX2014;Doklad_52_OSTISX2014;; *);;
+
+Subhangulov_R._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Subhangulov_R._A. -> net;;
+net <- ucenaa_stepenX;;
+
+Subhangulov_R._A. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+Subhangulov_R._A. -> aspirant;;*/

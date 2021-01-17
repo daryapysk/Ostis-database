@@ -1,0 +1,16 @@
+sc_node_not_relation->NovoselXskij_U.V.;;
+NovoselXskij_U.V.=>nrel_main_ru_idtf:[Новосельский Ю.В.];;
+
+NovoselXskij_U.V. <= nrel_email: [ynov@scand.com](*<-lang_en;;*);;
+
+NovoselXskij_U.V. -> Ucastnik_konferenzii_OSTIS;;
+
+NovoselXskij_U.V. -> direktor;;
+
+NovoselXskij_U.V. -> PredstavitelX_soorganizatora_OSTISX2011;;
+
+NovoselXskij_U.V. <- rrel_key_sc_element: ..illustration_NovoselXskij_U.V.(* <- sc_illustation;; *);;
+..illustration_NovoselXskij_U.V. <= nrel_translation : ..translation_illustration_NovoselXskij_U.V.;;
+..translation_illustration_NovoselXskij_U.V.-> rrel_example : [<img src="http://127.0.0.1:8181/NovoselskiyUV.png"/>] (* => nrel_format: format_html;; *);;
+
+NovoselXskij_U.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.17;Foto_OSTISX2011.02.10.10.22;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.31;Foto_OSTISX2011.02.10.10.33;Foto_OSTISX2011.02.10.10.34;Foto_OSTISX2011.02.10.10.48;Foto_OSTISX2011.02.10.11.07;Foto_OSTISX2011.02.10.11.19;Foto_OSTISX2011.02.10.12.18;Foto_OSTISX2011.02.10.12.28;Foto_OSTISX2011.02.10.12.40;Foto_OSTISX2011.02.10.13.11;Foto_OSTISX2011.02.10.13.16;Foto_OSTISX2011.02.10.13.24;Foto_OSTISX2011.02.10.13.25;Foto_OSTISX2011.02.10.13.26;Foto_OSTISX2011.02.10.13.48;Foto_OSTISX2011.02.10.13.57;Foto_OSTISX2011.02.10.14.15;; *);;

@@ -1,0 +1,14 @@
+ui_menu_count_participants_operation<-ui_user_command_class_atom; ui_user_command_class_view_kb;;
+ui_menu_count_participants_operation=>nrel_main_idtf:[Подсчет участников конференции выбранного года](*<-lang_ru;;*);;
+ui_menu_count_participants_operation=>nrel_main_idtf:[Counting the participants of the selected year of the conference](*<-lang_en;;*);;
+ui_menu_count_participants_operation=>ui_nrel_command_template:
+[*
+               question_count_participants _-> ._question_count_participants_operation_instance
+                         (*
+                              _->ui_arg_1;;   
+                                      *);;
+
+               ._question_count_participants_operation_instance _<- question;;
+*];;
+ui_menu_count_participants_operation=>ui_nrel_command_lang_template: [Запрос подсчета участников конференции выбранного года: $ui_arg_1](*<-lang_ru;;*);;
+ui_menu_count_participants_operation=>ui_nrel_command_lang_template: [Request of counting the participants of the selected year of the conference: $ui_arg_1](*<-lang_en;;*);;

@@ -1,0 +1,22 @@
+SolovXev_V.I.=> nrel_main_idtf:
+	[Соловьев В.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[SolovXev_V.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+SolovXev_V.I. => nrel_email: [sicwl@newmail.ru](*<-lang_en;;*);;
+
+//SolovXev_V.I. <= nrel_authors:  ...(* -> Doklad_72_OSTISX2015;Doklad_8.10_OSTISX2011;; *);;
+
+//SolovXev_V.I. <- concept_participant_of_conference_OSTIS;;
+SolovXev_V.I. <- concept_participant_of_conference_OSTIS2011;;
+SolovXev_V.I. <- concept_participant_of_conference_OSTIS2015;;
+
+/*SolovXev_V.I. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+SolovXev_V.I. -> direktor;;*/

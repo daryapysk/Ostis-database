@@ -1,0 +1,34 @@
+
+Hejdorov_I.E.=> nrel_main_idtf:
+	[Хейдоров И.Э.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hejdorov_I.E.]
+	(*
+	<- lang_en;;
+	*);;
+
+Hejdorov_I.E. => nrel_email: [igorhmm@mail.ru](*<-lang_en;;*);;
+
+//Hejdorov_I.E. <= nrel_authors:  ...(* -> Doklad_7.09_OSTISX2011;; *);;
+
+//Hejdorov_I.E.<- concept_program_committee_of_conference_OSTIS;;
+
+//Hejdorov_I.E. <- concept_participant_of_conference_OSTIS;;
+Hejdorov_I.E. <- concept_participant_of_conference_OSTIS2011;;
+
+
+/*Hejdorov_I.E. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Hejdorov_I.E. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Hejdorov_I.E. -> zaveduusij;;
+
+Hejdorov_I.E. <- rrel_key_sc_element: ..illustration_Hejdorov_I.E.(* <- sc_illustation;; *);;
+..illustration_Hejdorov_I.E. <= nrel_translation : ..translation_illustration_Hejdorov_I.E.;;
+..translation_illustration_Hejdorov_I.E.-> rrel_example : [<img src="http://127.0.0.1:8181/Hejdorov.png"/>] (* => nrel_format: format_html;; *);;
+
+Hejdorov_I.E. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.17;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.28;Foto_OSTISX2011.02.10.10.48;Foto_OSTISX2011.02.10.10.52;Foto_OSTISX2011.02.10.10.54;Foto_OSTISX2011.02.10.11.19;Foto_OSTISX2011.02.10.11.26;Foto_OSTISX2011.02.10.11.49;Foto_OSTISX2011.02.10.12.16;Foto_OSTISX2011.02.10.12.18;Foto_OSTISX2011.02.10.13.16;Foto_OSTISX2011.02.10.13.25;Foto_OSTISX2011.02.10.13.26;Foto_OSTISX2011.02.10.13.48;Foto_OSTISX2011.02.10.13.57;; *);;*/

@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_33_OSTISX2015;;
+Doklad_33_OSTISX2015=>nrel_main_idtf:[Доклад 33 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_33_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_33_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_33_OSTISX2015 => nrel_name_of_doclad: [Спецификация темпоральных отношений в системе «бинарная модель знаний»](* <- lang_ru;;*);;
+
+//Doklad_33_OSTISX2015 <= nrel_authors : ...(* -> Plesnevic_G._S.;Nguen_Thi_MinX_Vu;; *);;
+
+//Doklad_33_OSTISX2015 <= nrel_articke: ...(* -> 33._Plesnevic_G.S.X_Nguen_Thi_MinX_Vu_X_SpezifikaziaTOvSBMZ;; *);;
+
+
+Doklad_33_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/33._Плесневич_Г.С.,_Нгуен_Тхи_Минь_Ву_-_СпецификацияТОвСБМЗ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_33_OSTISX2015=> nrel_authors: Plesnevic_G.S.;Nguen_Thi_MinX_Vu;;

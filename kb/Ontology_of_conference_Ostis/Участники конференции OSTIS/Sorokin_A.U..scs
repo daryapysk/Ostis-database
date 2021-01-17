@@ -1,0 +1,24 @@
+
+Sorokin_A.U.=> nrel_main_idtf:
+	[Сорокин А.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sorokin_A.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sorokin_A.U. => nrel_email: [alexeysorokin13@mail.ru](*<-lang_en;;*);;
+
+Sorokin_A.U. <- concept_participant_of_conference_OSTIS2015;;
+
+//Sorokin_A.U. <- concept_participant_of_conference_OSTIS;;
+
+
+
+/*Sorokin_A.U. <= nrel_authors:  ...(* -> Doklad_68_OSTISX2015;; *);;
+
+Sorokin_A.U. -> Ucastnik_konferenzii_OSTIS;;
+
+Sorokin_A.U. -> assistent;;*/

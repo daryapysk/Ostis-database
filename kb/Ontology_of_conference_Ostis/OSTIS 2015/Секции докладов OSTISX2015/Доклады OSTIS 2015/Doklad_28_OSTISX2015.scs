@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_28_OSTISX2015;;
+Doklad_28_OSTISX2015=>nrel_main_idtf:[Доклад 28 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_28_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_28_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_28_OSTISX2015 => nrel_name_of_doclad: [Создание онтологической модели локальной компьютерной сети](* <- lang_ru;;*);;
+
+//Doklad_28_OSTISX2015 <= nrel_authors : ...(* -> Globa_L._S.;Molcanov_U._N.;; *);;
+
+//Doklad_28_OSTISX2015 <= nrel_articke: ...(* -> 28._Globa_L_S_Molcanov_U_M_DetektirovanieIvPSD;; *);;
+
+
+Doklad_28_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/28._Глоба_Л_С_Молчанов_Ю_М_ДетектированиеИвПСД.pdf";;
+						    *);; 
+					*);;
+
+Doklad_28_OSTISX2015=> nrel_authors: Globa_L.S.;Molcanov_U.N.;;

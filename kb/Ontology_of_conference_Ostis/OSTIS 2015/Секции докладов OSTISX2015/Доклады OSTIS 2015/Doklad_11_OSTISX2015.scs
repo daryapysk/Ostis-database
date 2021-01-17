@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_11_OSTISX2015;;
+Doklad_11_OSTISX2015=>nrel_main_idtf:[Доклад 11 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_11_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_11_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_11_OSTISX2015 => nrel_name_of_doclad: [Проектирование базы знаний интеллектуальной справочной системы по алгебре](* <- lang_ru;;*);;
+
+//Doklad_11_OSTISX2015 <= nrel_authors : ...(* -> Saripbaj_A._A.;Omarbekova_A._S.;Nurgazinova_G._S.;; *);;
+
+//Doklad_11_OSTISX2015 <= nrel_articke: ...(* -> 11._Saripbaj_A.A.X_Nurgazinova_G.S.X_Omarbekova_A.S._–_ProektirovanieBZISSpA;; *);;
+
+
+Doklad_11_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/11. Шарипбай А.А., Нургазинова Г.Ш., Омарбекова А.С. – ПроектированиеБЗИССпА.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_11_OSTISX2015 => nrel_authors: Saripbaj_A.A.;Omarbekova_A.S.;Nurgazinova_G.S.;;

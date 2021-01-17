@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_12_OSTISX2014;;
+Doklad_12_OSTISX2014=>nrel_main_idtf:[Доклад 12 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_12_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_12_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_12_OSTISX2014 <= nrel_name_of_doclad: [Какой должна быть парадигма решения задач на основе баз знаний](* <- lang_ru;;*);;
+
+// Doklad_12_OSTISX2014 <= nrel_authors : ...(* -> Gribova_V._V.;Klesev_A._S.;; *);;
+
+Doklad_12_OSTISX2014 <= nrel_authors: Gribova_V._V.;Klesev_A._S.;; 
+
+// Doklad_12_OSTISX2014 <= nrel_articke: ...(* -> 12._Gribova_V.V.X_Klesev_A.S._X_KakojDBPRZNOBZ;; *);;

@@ -1,0 +1,7 @@
+sc_node_not_relation->Mastykin_A._S.;;
+Mastykin_A._S.=>nrel_main_ru_idtf:[Мастыкин А. С.];;
+
+
+Mastykin_A._S. <= nrel_authors:  ...(* -> Doklad_75_OSTISX2014;; *);;
+
+Mastykin_A._S. -> Ucastnik_konferenzii_OSTIS;;

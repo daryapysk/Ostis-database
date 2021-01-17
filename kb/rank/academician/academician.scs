@@ -1,0 +1,30 @@
+
+concept_academician => nrel_idtf: [academician](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Академик)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Академик - это действительный член какой-либо академии наук, а также соответствующее научное звание.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academician;;
+<= nrel_using_constants :...
+(*
+-> concept_academy_of_sciences; concept_academic_title;;
+*);;
+*);;
+
+ concept_academician -> rrel_example: [Академик Алексей Николаевич Крылов](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Академик, архитектура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Академик архитектуры Алексей Бекетов в академическом головном уборе.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academician; concept_architecture;;
+*);; 
+
+

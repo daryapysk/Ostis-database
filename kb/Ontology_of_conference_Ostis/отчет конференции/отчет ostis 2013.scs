@@ -1,0 +1,13 @@
+official_report_OSTIS2013 
+=> nrel_main_idtf:
+[Отчет Конференции OSTIS-2013]
+	(*
+	<- lang_ru;;
+	*);
+	[Report Conference OSTIS-2013]
+	(*
+	<- lang_en;;
+	*);;
+
+
+official_report_OSTIS2013  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://Отчет_конференции_OSTIS-2013.pdf";; *);; *);;

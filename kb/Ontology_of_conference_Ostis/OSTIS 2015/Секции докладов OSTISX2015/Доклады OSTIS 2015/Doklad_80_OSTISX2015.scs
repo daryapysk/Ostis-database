@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_80_OSTISX2015;;
+Doklad_80_OSTISX2015=>nrel_main_idtf:[Доклад 80 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_80_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_80_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_80_OSTISX2015 => nrel_name_of_doclad: [Частотный метод классификации текстов с лексическим разбором слова](* <- lang_ru;;*);;
+
+//Doklad_80_OSTISX2015 <= nrel_authors : ...(* -> TretXakov_F._I.;Serebranaa_L._V.;; *);;
+
+//Doklad_80_OSTISX2015 <= nrel_articke: ...(* -> 80._TretXakov_F.I.X_Serebranaa_L.V._X_CastotnyjMKTsLRS;; *);;
+
+
+Doklad_80_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/80._Третьяков_Ф.И.,_Серебряная_Л.В._-_ЧастотныйМКТсЛРС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_80_OSTISX2015=> nrel_authors: TretXakov_F.I.;Serebranaa_L.V.;;

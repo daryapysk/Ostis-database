@@ -1,0 +1,29 @@
+
+Sukac_E.I.=> nrel_main_idtf:
+	[Сукач Е.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sukac_E.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sukac_E.I. => nrel_email: [sukach@gsu.by](*<-lang_en;;*);;
+
+//Sukac_E.I. <= nrel_authors:  ...(* -> Doklad_5.04_OSTISX2011;; *);;
+
+/*Sukac_E.I. <= nrel_publication : ...(* -> Sukac_E.I.2002ucXSredsTPIEnEVM;Sukac_E.I.2004stXIspolLMdISS;Sukac_E.I.2010stXMetodVMNFS;Sukac_E.I..2010knXDinamDPnPP;; *);;*/
+
+//Sukac_E.I. <- concept_participant_of_conference_OSTIS;;
+Sukac_E.I. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Sukac_E.I. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Sukac_E.I. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Sukac_E.I. <- rrel_key_sc_element: ..illustration_Sukac_E.I.(* <- sc_illustation;; *);;
+..illustration_Sukac_E.I. <= nrel_translation : ..translation_illustration_Sukac_E.I.;;
+..translation_illustration_Sukac_E.I.-> rrel_example : [<img src="http://127.0.0.1:8181/Sukach.png"/>] (* => nrel_format: format_html;; *);;*/

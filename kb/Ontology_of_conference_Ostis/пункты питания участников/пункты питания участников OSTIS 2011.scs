@@ -1,0 +1,9 @@
+place_meals_for_participants_OSTIS2011 => nrel_main_idtf:
+[Пункты питания участников Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Place meals for participants Conference OSTIS-2011]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_82_OSTISX2015;;
+Doklad_82_OSTISX2015=>nrel_main_idtf:[Доклад 82 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_82_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_82_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_82_OSTISX2015 => nrel_name_of_doclad: [Верификация моделей процессов в динамических системах по методу model checking](* <- lang_ru;;*);;
+
+//Doklad_82_OSTISX2015 <= nrel_authors : ...(* -> Korolev_U._I.;; *);;
+
+//Doklad_82_OSTISX2015 <= nrel_articke: ...(* -> 82._Korolev_U.I._X_VerifikaziaMPvDSpMMC;; *);;
+
+Doklad_82_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/82._Королев_Ю.И._-_ВерификацияМПвДСпМMC.pdf";;
+						    *);; 
+					*);;
+
+Doklad_82_OSTISX2015=> nrel_authors: Korolev_U.I.;;
+

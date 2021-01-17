@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_5.05_OSTISX2011;;
+Doklad_5.05_OSTISX2011=>nrel_main_idtf:[Доклад 5.05 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_5.05_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_5.05_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_5.05_OSTISX2011 =>nrel_name_of_doclad: [Интеллектуальное имитационное моделирование динамических систем](* <- lang_ru;;*);;
+
+/*Doklad_5.05_OSTISX2011 <= nrel_section: [Секция 5 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_5.05_OSTISX2011 <= nrel_authors : ...(* -> Maksimej_I._V.;Smorodin_V._S.;Korotkevic_V._A.;Klimenko_A._V.;; *);;
+
+Doklad_5.05_OSTISX2011 <= nrel_articke: ...(* -> Maksimej_I.V..2011stXIntelIMDS;; *);;
+
+Doklad_5.05_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X5_OSTISX2011;; *);;*/
+
+
+Doklad_5.05_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Максимей_И.В..2011ст-ИнтелИМДС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_5.05_OSTISX2011 =>nrel_authors:Maksimej_I.V.;Smorodin_V.S.;Korotkevic_V.A.;Klimenko_A.V.;; 

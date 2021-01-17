@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_01_OSTISX2014;;
+Doklad_01_OSTISX2014=>nrel_main_idtf:[Доклад 01 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_01_OSTISX2014 -> doklad_OSTISX2014;;
+//doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_01_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_01_OSTISX2014 <= nrel_name_of_doclad: [Уск мартынова – тридцать лет спустя](* <- lang_ru;;*);;
+
+// Doklad_01_OSTISX2014 <= nrel_authors : ...(* -> Efimenko_I._V.;Horosevskij_V._F.;; *);;
+
+Doklad_01_OSTISX2014 <= nrel_authors: Efimenko_I._V.;Horosevskij_V._F.;;
+
+// Doklad_01_OSTISX2014 <= nrel_articke: ...(* -> 01._Efimenko_I.V.X_Horosevskij_V.F._X_USK_M–TLS;; *);;

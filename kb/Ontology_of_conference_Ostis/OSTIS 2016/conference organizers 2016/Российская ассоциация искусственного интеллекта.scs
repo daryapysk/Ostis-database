@@ -1,0 +1,9 @@
+Russian_Association_of_Artificial_Intelligence => nrel_main_idtf:
+	[Российская ассоциация искусственного интеллекта]
+	(*
+	<- lang_ru;;
+	*);
+	[Russian Association of Artificial Intelligence]
+	(*
+	<- lang_en;;
+	*);;

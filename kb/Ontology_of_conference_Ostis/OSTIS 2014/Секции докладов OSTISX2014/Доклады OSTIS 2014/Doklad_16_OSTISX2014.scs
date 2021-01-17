@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_16_OSTISX2014;;
+Doklad_16_OSTISX2014=>nrel_main_idtf:[Доклад 16 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_16_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_16_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_16_OSTISX2014 <= nrel_name_of_doclad: [Роль онтологии в проектировании информационных систем](* <- lang_ru;;*);;
+
+// Doklad_16_OSTISX2014 <= nrel_authors : ...(* -> Borgest_N._M.;; *);;
+
+Doklad_16_OSTISX2014 <= nrel_authors: Borgest_N._M.;; 
+
+// Doklad_16_OSTISX2014 <= nrel_articke: ...(* -> 16._Borgest_N.M._X_RolXOvPIS;; *);;

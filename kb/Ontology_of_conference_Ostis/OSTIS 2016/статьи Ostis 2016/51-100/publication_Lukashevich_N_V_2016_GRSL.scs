@@ -1,0 +1,28 @@
+publication_Lukashevich_N_V_2016_GRSL => nrel_main_idtf:
+[Лукашевич Н. В. 2016 - СоздаЛОСРЯР]
+	(*
+	<- lang_ru;;
+	*);
+	[Lukashevich_N_V_2016_GRSL] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Lukashevich_N_V_2016_GRSL=> nrel_name_publication:[Создание лексикона оценочных слов русского языка Русентилекс](*
+	<- lang_ru;;
+	*);;
+
+publication_Lukashevich_N_V_2016_GRSL<= nrel_authors:
+Lukasevic_N.V.;;
+publication_Lukashevich_N_V_2016_GRSL<= nrel_authors:
+Levchik_A_V;;
+
+
+publication_Lukashevich_N_V_2016_GRSL<- article;;
+
+publication_Lukashevich_N_V_2016_GRSL => nrel_reference_standard: [Лукашевич, Н. В. Создание лексикона оценочных слов русского языка Русентилекс / Н.В. Лукашевич, А.В. Левчик // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 377–382.];;
+
+publication_Lukashevich_N_V_2016_GRSL=> nrel_year_publication: 2016;;
+
+publication_Lukashevich_N_V_2016_GRSL => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Lukashevich_N_V_2016_GRSL<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Лукашевич.pdf";; *);;*);;

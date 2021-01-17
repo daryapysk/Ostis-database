@@ -1,0 +1,23 @@
+
+Vanasin_N.V.=> nrel_main_idtf:
+	[Ванясин Н.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vanasin_N.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vanasin_N.V. => nrel_email: [nikita.vanyasin@gmail.com](*<-lang_en;;*);;
+
+//Vanasin_N.V. <- concept_participant_of_conference_OSTIS;;
+Vanasin_N.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Vanasin_N.V. <= nrel_authors:  ...(* -> Doklad_89_OSTISX2015;; *);;
+
+Vanasin_N.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Vanasin_N.V. -> student;;
+
+Vanasin_N.V. -> programmist_otdela_vebXrazrabotki;;*/

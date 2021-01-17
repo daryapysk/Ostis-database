@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_6.04_OSTISX2012;;
+Doklad_6.04_OSTISX2012=>nrel_main_idtf:[Доклад 6.04 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_6.04_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_6.04_OSTISX2012 => nrel_name_of_doclad: [Разработка систем тестирования с использованием web-ориентированной нотации математических текстов, сохраняющей семантику](* <- lang_ru;;*);;
+
+Doklad_6.04_OSTISX2012 => nrel_section: [Секция 6 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_6.04_OSTISX2012 <= nrel_authors : ...(* -> Vovk_A._I.;Ruban_U._A.;Girnyk_D._A.;; *);;
+
+Doklad_6.04_OSTISX2012 <= nrel_articke: ...(* -> Vovk_A.I..2012stXRazraSTsIWONMTSS;; *);;
+
+Doklad_6.04_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X18_OSTISX2012;; *);;*/
+
+Doklad_6.04_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Вовк_А.И..2012ст-РазраСТсИWОНМТСС.pdf";;
+						    *);; 
+					*);;
+Doklad_6.04_OSTISX2012=> nrel_authors:Vovk_A.I.;Ruban_U.A.;Girnyk_D.A.;;

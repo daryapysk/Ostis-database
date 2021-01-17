@@ -1,0 +1,7 @@
+sc_node_not_relation->Suhov_A._O.;;
+Suhov_A._O.=>nrel_main_ru_idtf:[Сухов А. О.];;
+
+
+Suhov_A._O. <= nrel_authors:  ...(* -> Doklad_53_OSTISX2014;; *);;
+
+Suhov_A._O. -> Ucastnik_konferenzii_OSTIS;;

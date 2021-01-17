@@ -1,0 +1,16 @@
+Materials_OSTIS2015 
+=> nrel_main_idtf:
+[Сборник материалов "Международная научно-техническая конференция OSTIS-2015"]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials of the International Scientific and Technical Conference OSTIS-2015]
+	(*
+	<- lang_en;;
+	*);;
+
+Materials_OSTIS2015 => nrel_place_publication: minsk;;
+
+Materials_OSTIS2015 => nrel_publishing: bsuir;;
+
+Materials_OSTIS2015  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://Изданные_материалы_OSTIS-2015.pdf";; *);; *);;

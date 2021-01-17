@@ -1,0 +1,27 @@
+
+ZagorulXko_G.B.=> nrel_main_idtf:
+	[Загорулько Г.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[ZagorulXko_G.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+ZagorulXko_G.B. => nrel_email: [zagor@iis.nsk.su](*<-lang_en;;*);;
+
+//ZagorulXko_G.B. <= nrel_authors:  ...(* -> Doklad_16_OSTISX2015;Doklad_11_OSTISX2014;Doklad_2.06_OSTISX2012;Doklad_5.02_OSTISX2011;; *);;
+
+ZagorulXko_G.B. <- concept_participant_of_conference_OSTIS2014;;
+ZagorulXko_G.B.<- concept_participant_of_conference_OSTIS2011;;
+ZagorulXko_G.B.<- concept_participant_of_conference_OSTIS2012;;
+ZagorulXko_G.B.<- concept_participant_of_conference_OSTIS2015;;
+
+/*ZagorulXko_G.B. -> naucnyj_sotrudnik;;
+
+ZagorulXko_G.B. <- rrel_key_sc_element: ..illustration_ZagorulXko_G.B.(* <- sc_illustation;; *);;
+..illustration_ZagorulXko_G.B. <= nrel_translation : ..translation_illustration_ZagorulXko_G.B.;;
+..translation_illustration_ZagorulXko_G.B.-> rrel_example : [<img src="http://127.0.0.1:8181/ZagorulkoGB.png"/>] (* => nrel_format: format_html;; *);;
+
+ZagorulXko_G.B. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.54;Foto_OSTISX2011.02.10.11.17;Foto_OSTISX2011.02.10.11.29;Foto_OSTISX2011.02.10.11.30;Foto_OSTISX2011.02.10.11.45;Foto_OSTISX2011.02.10.11.46;Foto_OSTISX2011.02.10.13.16;; *);;*/

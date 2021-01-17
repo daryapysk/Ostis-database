@@ -1,0 +1,5 @@
+Kafe_XAlXXHalilXX=>nrel_main_idtf:[Кафе "Аль-Халиль"](* <- lang_ru;; *);;
+
+Kafe_XAlXXHalilXX <- place_meals_for_participants_OSTIS2011;;
+
+Kafe_XAlXXHalilXX ->nrel_phone: [+375 17 285-27-80](* <- lang_ru;;*);;

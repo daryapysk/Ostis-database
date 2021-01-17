@@ -1,0 +1,12 @@
+Otkrytie_OSTISX2011 => nrel_main_idtf:
+	[Открытие Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Opening OSTIS-2011 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+Otkrytie_OSTISX2011 => nrel_data:[10.02.2011];;
+

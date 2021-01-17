@@ -1,0 +1,33 @@
+//
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_main_idtf:
+[Доклад 6.01 OSTIS-2016 Подход к автоматизации создания баз знаний на основе трансформации концептуальных моделей]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.01 OSTIS-2016 The approach to automate the creation of knowledge-based transformation of conceptual models] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM <- doklad_OSTISX2016;;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM <= nrel_authors: Dorodnykh_N_O;
+Urin_A_U;;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_published_material: publication_Dorodnykh_N_O_2016_AnAfDoKBOTBoCAtoCM;;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_report_language: lang_ru;;
+
+
+//report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.05_Кобринский_ФормиМИСУЗ.pdf";; *);; *);;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_name: [Формирование медицинских информационных систем, управляемых знаниями](*<- lang_ru;;*);;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM <= nrel_speaker: Dorodnykh_N_O;;
+
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_time_speech: [09:30 - 09:45];;
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_data_speech: [19 февраля 2016];;
+
+report_6.01_OSTIS_2016_AnAfDoKBOTBoCAtoCM => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

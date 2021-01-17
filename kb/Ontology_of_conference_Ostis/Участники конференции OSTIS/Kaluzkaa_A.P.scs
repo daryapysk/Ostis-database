@@ -1,0 +1,16 @@
+
+Kaluzkaa_A.P.=> nrel_main_idtf:
+	[Калуцкая А.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kaluzkaa_A.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Kaluzkaa_A.P. <- concept_participant_of_conference_OSTIS;;
+Kaluzkaa_A.P. <- concept_participant_of_conference_OSTIS2012;;
+
+

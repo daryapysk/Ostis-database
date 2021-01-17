@@ -1,0 +1,15 @@
+
+Eremeev_A.A.=> nrel_main_idtf:
+	[Еремеев А. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Eremeev_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Eremeev_A.A. <- concept_participant_of_conference_OSTIS;;
+Eremeev_A.A. <- concept_participant_of_conference_OSTIS2012;;
+

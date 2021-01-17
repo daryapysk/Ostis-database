@@ -1,0 +1,21 @@
+Kotela_V.V.=> nrel_main_idtf:
+	[Котеля В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kotela_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kotela_V.V. => nrel_email: [vlad@scsc.ru](*<-lang_en;;*);;
+
+//Kotela_V.V. <= nrel_authors:  ...(* -> Doklad_28_OSTISX2014;; *);;
+
+Kotela_V.V. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Kotela_V.V. -> nacalXnik_sektora;;
+
+Kotela_V.V. <- rrel_key_sc_element: ..illustration_Kotela_V.V.(* <- sc_illustation;; *);;
+..illustration_Kotela_V.V. <= nrel_translation : ..translation_illustration_Kotela_V.V.;;
+..translation_illustration_Kotela_V.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Котеля.png"/>] (* => nrel_format: format_html;; *);;*/

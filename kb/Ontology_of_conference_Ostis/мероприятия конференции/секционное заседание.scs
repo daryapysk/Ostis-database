@@ -1,0 +1,21 @@
+concept_breakout_session  => nrel_main_idtf:
+[секционное заседание](* <- lang_ru;; *);
+[breakout session] (* <- lang_en;; *);;
+
+
+concept_breakout_session <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(секционное заседание)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Cекционное заседание - обсуждение определенных проблем (вопросов), а также принятие некоторых решений и подведение итогов по секции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+concept_event -> concept_breakout_session ;;

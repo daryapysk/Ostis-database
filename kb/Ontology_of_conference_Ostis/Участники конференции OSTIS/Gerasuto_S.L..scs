@@ -1,0 +1,22 @@
+
+Gerasuto_S.L.=> nrel_main_idtf:
+	[Герасюто С.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gerasuto_S.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gerasuto_S.L. => nrel_email: [contacts@robotics.by](*<-lang_en;;*);;
+
+//Gerasuto_S.L. <- concept_participant_of_conference_OSTIS;;
+Gerasuto_S.L.<- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Gerasuto_S.L. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2015;; *);;
+
+Gerasuto_S.L. -> Ucastnik_konferenzii_OSTIS;;
+
+Gerasuto_S.L. -> Zaveduusij_sektorom_robototehniki;;*/

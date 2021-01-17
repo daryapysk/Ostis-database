@@ -1,0 +1,12 @@
+Apanasovic_V._V.=> nrel_main_idtf:
+	[Апанасович В. В.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Apanasovic_V._V.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+  //Apanasovic_V._V. <- concept_participant_of_conference_OSTIS;;
+  Apanasovic_V._V. <- concept_participant_of_conference_OSTIS2013;;

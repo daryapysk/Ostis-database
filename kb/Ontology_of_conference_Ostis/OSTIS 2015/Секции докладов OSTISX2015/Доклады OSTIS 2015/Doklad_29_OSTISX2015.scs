@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_29_OSTISX2015;;
+Doklad_29_OSTISX2015=>nrel_main_idtf:[Доклад 29 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_29_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_29_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_29_OSTISX2015 => nrel_name_of_doclad: [Интеграция корпоративных данных на основе wiki-систем в условиях слабой связанности источников](* <- lang_ru;;*);;
+
+//Doklad_29_OSTISX2015 <= nrel_authors : ...(* -> Galuska_I._N.;Oksanic_I._G.;Serbak_S._S.;; *);;
+
+//Doklad_29_OSTISX2015 <= nrel_articke: ...(* -> 29._Galuska_I.N.X_Oksanic_I.G.X_Serbak_S.S._–_IntegraziaKDnOWXSvUSSI;; *);;
+
+
+Doklad_29_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/29. Галушка И.Н., Оксанич И.Г., Щербак С.С. – ИнтеграцияКДнОW-СвУССИ.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_29_OSTISX2015=> nrel_authors: Galuska_I.N.;Oksanic_I.G.;Serbak_S.S.;; 

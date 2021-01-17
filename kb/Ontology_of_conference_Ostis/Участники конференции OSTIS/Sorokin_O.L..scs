@@ -1,0 +1,22 @@
+
+Sorokin_O.L.=> nrel_main_idtf:
+	[Сорокин О.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sorokin_O.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sorokin_O.L. => nrel_email: [oleg-ussr2@yandex.ru](*<-lang_en;;*);;
+
+//Sorokin_O.L. <- concept_participant_of_conference_OSTIS;;
+Sorokin_O.L. <- concept_participant_of_conference_OSTIS2015;;
+Sorokin_O.L. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Sorokin_O.L. <= nrel_authors:  ...(* -> Doklad_90_OSTISX2015;; *);;
+
+Sorokin_O.L. -> Ucastnik_konferenzii_OSTIS;;
+
+Sorokin_O.L. -> aspirant;;*/

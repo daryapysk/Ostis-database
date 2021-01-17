@@ -1,0 +1,20 @@
+
+Starzev_S.S.=> nrel_main_idtf:
+	[Старцев С.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Starzev_S.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Starzev_S.S. <= nrel_authors:  ...(* -> Doklad_8.05_OSTISX2011;Doklad_5.07_OSTISX2011;; *);;
+
+//Starzev_S.S.<- concept_participant_of_conference_OSTIS;;
+Starzev_S.S. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Starzev_S.S. -> student;;
+
+Starzev_S.S. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.57;Foto_OSTISX2011.02.10.14.16;Foto_OSTISX2011.02.10.14.25;; *);;*/

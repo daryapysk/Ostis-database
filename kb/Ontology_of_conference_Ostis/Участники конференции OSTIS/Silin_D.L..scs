@@ -1,0 +1,12 @@
+
+Silin_D.L.=> nrel_main_idtf:
+	[Шилин Д.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Silin_D.L.]
+	(*
+	<- lang_en;;
+	*);;
+//Silin_D.L. <- concept_participant_of_conference_OSTIS;;
+Silin_D.L. <- concept_participant_of_conference_OSTIS2011;;

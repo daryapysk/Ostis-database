@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_1.13_OSTISX2012;;
+Doklad_1.13_OSTISX2012=>nrel_main_idtf:[Доклад 1.13 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.13_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.13_OSTISX2012 =>  nrel_name_of_doclad: [Параллельные процессоры для построения интеллектуальных систем](* <- lang_ru;;*);;
+
+Doklad_1.13_OSTISX2012 => nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_1.13_OSTISX2012 <= nrel_authors : ...(* -> Bajrak_S._A.;Odinez_D._N.;Tatur_M._M.;Filipov_F.;Mario_Munos;; *);;
+
+Doklad_1.13_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 1.13 OSTIS-2012";;
+
+Doklad_1.13_OSTISX2012 <= nrel_articke: ...(* -> Bajrak_S.A..2012stXParalPdPIS;; *);;
+
+Doklad_1.13_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X10_OSTISX2012;; *);;*/
+
+Doklad_1.13_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Байрак_С.А..2012ст-ПаралПдПИС.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_1.13_OSTISX2012 => nrel_authors:Bajrak_S.A.;Odinez_D.N.;Tatur_M.M.;Filipov_F.;Mario_Munos;;

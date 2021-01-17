@@ -1,0 +1,14 @@
+//sc_node_not_relation->Konkurs_dokladov_molodyh_ucenyh_OSTISX2015;;
+Konkurs_dokladov_molodyh_ucenyh_OSTISX2015=>nrel_main_idtf:[Конкурс докладов молодых учёных OSTIS-2015](* <- lang_ru;;*);;
+
+Konkurs_dokladov_molodyh_ucenyh_OSTISX2015 <- Konkurs_dokladov_molodyh_ucenyh;;
+
+Konkurs_dokladov_molodyh_ucenyh_OSTISX2015 => nrel_email: [ostisconf@gmail.com];;
+
+Konkurs_dokladov_molodyh_ucenyh_OSTISX2015 <- rrel_key_sc_element: ...
+				 (*<- sc_explanation;; 
+					<= nrel_sc_text_translation: ... 
+							(*-> rrel_example: "file://Положение_о_конкурсе_докладов_молодых_учёных_OSTIS-2015.pdf";; 
+							*);; 
+				*);;
+

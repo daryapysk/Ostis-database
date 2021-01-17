@@ -1,0 +1,79 @@
+sc_node_norole_relation->nrel_be_unequal;;
+nrel_wheelbase
+<-  sc_node_norole_relation;
+
+	<|- transitive_relation;
+	<-antireflexive_relation;
+	<-asymmetric_relation;
+	<- oriented_relation;
+
+
+	 =>nrel_first_domain: car_suspension;
+	 =>nrel_second_domain: value;
+
+
+=> nrel_definitional_domain: ... (*
+ 	<= nrel_combination:{
+		car_suspension;
+		value
+	};;
+*);
+
+
+=>nrel_main_idtf:
+      [колесная база*]
+      (*<-lang_ru;;*);
+       [wheelbase*]
+       (*<-lang_en;;*);
+=> nrel_idtf:
+      [база колес*]
+      (*<-lang_ru;;*);     
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. Колесная база*] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_car;
+      rear_axle;
+	  front_axle
+    };;
+<= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Колесная база - это расстояние между передней и задней осью автомобиля.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+    *);;
+   *);
+<-rrel_key_sc_element: ... (*
+ 	 <- statement;;
+	=>nrel_main_idtf:
+         [Утв. О Колесной базе] (* <- lang_ru;; *);;
+		=>nrel_using_constants: { 
+		nrel_be_unequal;
+	  left_wheel;
+      right_wheel
+};;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В некоторых случаях колесная база может быть неравной для правых и левых колес.](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);;
+
+
+
+
+sc_node_not_relation->car_suspension;;
+sc_node_not_relation->value;;
+sc_node_not_relation->number;;
+sc_node_not_relation->2500mm;;
+
+
+sc_node_norole_relation->mm;;
+car_suspension ->s1;;
+s1=> nrel_wheelbase:2500mm;;
+2500mm=> mm:2500;;
+number->2500;;
+
+
+ar<-sc_node_not_relation;;
+ar=>nrel_measurement:2;;
+ar->nrel_wheelbase;;
+arity->ar;;

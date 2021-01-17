@@ -1,0 +1,14 @@
+Juravkov_M.A.=> nrel_main_idtf:
+	[Журавков М.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Juravkov_M.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+//Juravkov_M.A. <- concept_participant_of_conference_OSTIS;;
+
+
+

@@ -1,0 +1,64 @@
+
+sc_node_not_relation->concept_bachelor;;
+concept_bachelor => nrel_main_idtf: [бакалавр](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_academician_rank;;
+concept_academician_rank => nrel_main_idtf: [академическая степень](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_higher_education_programm;;
+concept_programm => nrel_main_idtf: [образовательная программа](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_agrege;;
+concept_agrege => nrel_main_idtf: [агреже](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_qualification;;
+concept_qualification => nrel_main_idtf: [квалификация](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_university;;
+concept_university => nrel_main_idtf: [университет](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_physics;;
+concept_physics => nrel_main_idtf: [физика](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

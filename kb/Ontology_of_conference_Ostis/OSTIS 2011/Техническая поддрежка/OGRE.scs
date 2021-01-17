@@ -1,0 +1,6 @@
+//sc_node_not_relation->OGRE;;
+OGRE=>nrel_main_idtf:[OGRE](*<-lang_ru;;*);;
+
+OGRE => nrel_email: [ogre_logo.gif](*<-lang_en;;*);;
+
+OGRE => nrel_site: [http://www.ogre3d.org/];;

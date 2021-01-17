@@ -1,0 +1,36 @@
+
+
+Aruskina_N.G.=> nrel_main_idtf:
+	[Ярушкина Н. Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Aruskina_N.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Aruskina_N.G. => nrel_email: [jng@ulstu.ru](*<-lang_en;;*);;
+
+//Aruskina_N.G. <- concept_participant_of_conference_OSTIS;;
+Aruskina_N.G. <- concept_participant_of_conference_OSTIS2015;;
+Aruskina_N.G. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Aruskina_N._G. <= nrel_authors:  ...(* -> Doklad_54_OSTISX2015;Doklad_53_OSTISX2015;; *);;
+
+Aruskina_N._G. -> Ucastnik_konferenzii_OSTIS;;
+
+Aruskina_N._G. -> Programmnyj_komitet_OSTISX2016;;
+
+Aruskina_N._G. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Aruskina_N._G. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Aruskina_N._G. -> zaveduusaa;;*/
+
+
+
+

@@ -1,0 +1,14 @@
+Khoroshevsky_V_F => nrel_main_idtf:
+[Хорошевский В.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Khoroshevsky_V_F] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Khoroshevsky_V_F;;
+
+Khoroshevsky_V_F => nrel_contact_information:[khor@ccas.ru];;
+

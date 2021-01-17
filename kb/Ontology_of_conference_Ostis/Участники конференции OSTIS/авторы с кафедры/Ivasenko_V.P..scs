@@ -1,0 +1,14 @@
+
+Ivashenko_V.P.=> nrel_main_idtf:
+	[Ивашенко В.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivashenko_V.P.]
+	(*
+	<- lang_en;;
+	*);;
+Ivashenko_Valerian_Petrovich <- concept_participant_of_conference_OSTIS;;
+Ivashenko_Valerian_Petrovich <- concept_participant_of_conference_OSTIS2011;
+concept_participant_of_conference_OSTIS2012;concept_participant_of_conference_OSTIS2015;
+concept_participant_of_conference_OSTIS2013;;

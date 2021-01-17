@@ -1,0 +1,28 @@
+
+Namestnikov_A.M.=> nrel_main_idtf:
+	[Наместников А. М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Namestnikov_A.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Namestnikov_A.M. => nrel_email: [nam@ulstu.ru](*<-lang_en;;*);;
+
+Namestnikov_A.M. <- concept_participant_of_conference_OSTIS2014;;
+Namestnikov_A.M. <- concept_participant_of_conference_OSTIS2015;;
+Namestnikov_A.M. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Namestnikov_A._M. <= nrel_authors:  ...(* -> Doklad_55_OSTISX2015;Doklad_55_OSTISX2014;; *);;
+
+Namestnikov_A._M. -> Ucastnik_konferenzii_OSTIS;;
+
+Namestnikov_A._M. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Namestnikov_A._M. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Namestnikov_A._M. -> dozent;;*/

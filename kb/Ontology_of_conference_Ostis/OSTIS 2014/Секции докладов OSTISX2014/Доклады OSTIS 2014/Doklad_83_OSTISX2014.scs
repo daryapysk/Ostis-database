@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_83_OSTISX2014;;
+Doklad_83_OSTISX2014=>nrel_main_idtf:[Доклад 83 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_83_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_83_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_83_OSTISX2014 <= nrel_name_of_doclad: [Разработка интеллектуального сервиса анализа предложений на рынке недвижимости](* <- lang_ru;;*);;
+
+// Doklad_83_OSTISX2014 <= nrel_authors : ...(* -> Anisimova_T._V.;Nesterov_R._A.;Pecenejskij_A._B.;; *);;
+
+Doklad_83_OSTISX2014 <= nrel_authors: Anisimova_T._V.;Nesterov_R._A.;Pecenejskij_A._B.;; 
+
+// Doklad_83_OSTISX2014 <= nrel_articke: ...(* -> 83._Anisimova_T.V.X_Nesterov_R.A.X_Pecenejskij_A.B._X_RazraISAPnRN;; *);;

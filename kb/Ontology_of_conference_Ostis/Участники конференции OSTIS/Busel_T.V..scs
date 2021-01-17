@@ -1,0 +1,20 @@
+
+Busel_T.V.=> nrel_main_idtf:
+	[Бусел Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Busel_T.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Busel_T.V. => nrel_email: [tatsiana-busel@yandex.ru](*<-lang_en;;*);;
+
+/*Busel_T.V. <= nrel_authors:  ...(* -> Doklad_7.05_OSTISX2011;; *);;
+
+Busel_T.V. <= nrel_publication : ...(* -> Busel_T.V.2008stXLogikOADP;Busel_T.V.2009stXoLMPkPGTnEA;Busel_T.V.2009stXBazaZSAPADEP;Busel_T.V.2006stXSovrePkAPT;Busel_T.V.2008stXProblPTnSE;Busel_T.V.2008stXPsihoAPTnEA;Busel_T.V.2008stXSemanAdPSATvPK;Busel_T.V.2008stXStrukSAPADEP;; *);;*/
+
+//Busel_T.V. <- concept_participant_of_conference_OSTIS;;
+Busel_T.V. <- concept_participant_of_conference_OSTIS2011;;
+

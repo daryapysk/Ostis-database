@@ -1,0 +1,14 @@
+Ivanova_A_V => nrel_main_idtf:
+[Иванова А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivanova_A_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Ivanova_A_V;;
+
+Ivanova_A_V => nrel_contact_information:[2395146@gmail.com];;
+

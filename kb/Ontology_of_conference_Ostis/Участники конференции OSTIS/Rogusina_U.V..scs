@@ -1,0 +1,25 @@
+
+Rogusina_U.V.=> nrel_main_idtf:
+	[Рогушина Ю.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Rogusina_U.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+/*Rogusina_U.V. <= nrel_authors:  ...(* -> Doklad_31_OSTISX2015;Doklad_30_OSTISX2015;Doklad_49_OSTISX2014;Doklad_48_OSTISX2014;Doklad_6.05_OSTISX2012;Doklad_3.01_OSTISX2012;; *);;*/
+
+Rogusina_U.V. <- concept_participant_of_conference_OSTIS2014;;
+Rogusina_U.V. <- concept_participant_of_conference_OSTIS2012;;
+Rogusina_U.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Rogusina_U.V. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Rogusina_U.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Rogusina_U.V. -> s.n.s.;;*/

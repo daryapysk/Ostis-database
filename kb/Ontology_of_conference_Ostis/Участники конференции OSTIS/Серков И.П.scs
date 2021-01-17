@@ -1,0 +1,14 @@
+Serkov_I_P => nrel_main_idtf:
+[Серков И.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serkov_I_P] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Serkov_I_P;;
+
+Serkov_I_P => nrel_contact_information:[bivo@bivo.ru];;
+

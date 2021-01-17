@@ -1,0 +1,21 @@
+
+Spirina_M.O.=> nrel_main_idtf:
+	[Спирина М.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Spirina_M.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+Spirina_M.O. => nrel_email: [savlasoglavv@mail.ru](*<-lang_en;;*);;
+
+//Spirina_M.O. <- concept_participant_of_conference_OSTIS;;
+Spirina_M.O.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Spirina_M.O. <= nrel_authors:  ...(* -> Doklad_58_OSTISX2015;; *);;
+
+Spirina_M.O. -> Ucastnik_konferenzii_OSTIS;;
+
+Spirina_M.O. -> student;;*/

@@ -1,0 +1,24 @@
+
+Bojcenko_A.S.=> nrel_main_idtf:
+	[Бойченко А. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bojcenko_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bojcenko_A.S.=> nrel_email: [boychenko.a@gmail.com](*<-lang_en;;*);;
+
+//Bojcenko_A.S. <- concept_participant_of_conference_OSTIS;;
+Bojcenko_A.S. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Bojcenko_A._V. <= nrel_authors:  ...(* -> Doklad_25_OSTISX2015;; *);;
+
+Bojcenko_A._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Bojcenko_A._V. -> net;;
+net <- ucenaa_stepenX;;
+
+Bojcenko_A._V. -> Naucnyj_sotrudnik;;*/

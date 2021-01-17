@@ -1,0 +1,13 @@
+sc_node_not_relation->Titovic_A._F.;;
+Titovic_A._F.=>nrel_main_idtf:[Титович А. Ф.](*<-lang_ru;;*);;
+
+Titovic_A._F. => nrel_email: [titovich@bsuir.by](*<-lang_en;;*);;
+
+Titovic_A._F. -> Ucastnik_konferenzii_OSTIS;;
+
+
+Titovic_A._F. -> nacalXnik;;
+
+Titovic_A._F. <- rrel_key_sc_element: ..illustration_Titovic_A._F.(* <- sc_illustation;; *);;
+..illustration_Titovic_A._F. <= nrel_translation : ..translation_illustration_Titovic_A._F.;;
+..translation_illustration_Titovic_A._F.-> rrel_example : [<img src="http://127.0.0.1:8181/TitovichAF.png"/>] (* => nrel_format: format_html;; *);;

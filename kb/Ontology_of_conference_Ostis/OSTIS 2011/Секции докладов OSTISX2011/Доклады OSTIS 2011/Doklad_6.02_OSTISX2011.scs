@@ -1,0 +1,29 @@
+//sc_node_not_relation->Doklad_6.02_OSTISX2011;;
+Doklad_6.02_OSTISX2011=>nrel_main_idtf:[Доклад 6.02 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_6.02_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_6.02_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_6.02_OSTISX2011 => nrel_name_of_doclad: [Семантическая технология компонентного проектирования пользовательских интерфейсов интеллектуальных системи](* <- lang_ru;;*);;
+
+/*Doklad_6.02_OSTISX2011 <= nrel_section: [Секция 6 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_6.02_OSTISX2011 <= nrel_authors : ...(* -> Koroncik_D._N.;; *);;
+
+Doklad_6.02_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 6.2 OSTIS-2011";;
+
+Doklad_6.02_OSTISX2011 <= nrel_articke: ...(* -> Koroncik_D.N.2011stXSemanTKPPIIS;; *);;
+
+Doklad_6.02_OSTISX2011 <= nrel_stand: ...(* -> Stend_609X7_OSTISX2011;; *);;*/
+
+
+Doklad_6.02_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Корончик_Д.Н.2011ст-СеманТКППИИС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_6.02_OSTISX2011 =>nrel_authors: Koronchik_Denis_Nikolaevich;;

@@ -1,0 +1,21 @@
+
+Kostebelova_V.K.=> nrel_main_idtf:
+	[Костебелова В. К.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kostebelova_V.K.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kostebelova_V.K. => nrel_email: [kostebelovavk@gmail.com](*<-lang_en;;*);;
+
+//Kostebelova_V.K. <- concept_participant_of_conference_OSTIS;;
+Kostebelova_V.K. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Kostebelova_V._K. <= nrel_authors:  ...(* -> Doklad_24_OSTISX2015;; *);;
+
+Kostebelova_V._K. -> Ucastnik_konferenzii_OSTIS;;
+
+Kostebelova_V._K. -> stajer_X_programmist;;*/

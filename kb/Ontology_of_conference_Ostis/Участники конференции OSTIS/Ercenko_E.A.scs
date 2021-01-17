@@ -1,0 +1,15 @@
+
+Ercenko_E.A.=> nrel_main_idtf:
+	[Ерченко Е. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ercenko_E.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Ercenko_E.A. <- concept_participant_of_conference_OSTIS;;
+Ercenko_E.A. <- concept_participant_of_conference_OSTIS2012;;
+

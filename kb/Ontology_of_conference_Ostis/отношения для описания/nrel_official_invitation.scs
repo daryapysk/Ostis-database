@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_official_invitation;; 
+
+nrel_official_invitation => nrel_main_idtf:[официальное приглашение*] (* <-lang_ru;; *);;
+
+nrel_official_invitation => nrel_main_idtf:[official invitation*] (* <-lang_en;; *);;

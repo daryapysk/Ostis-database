@@ -1,0 +1,21 @@
+
+Borzov_D.A.=> nrel_main_idtf:
+	[Борзов Д.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Borzov_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Borzov_D.A. <- concept_participant_of_conference_OSTIS2015;;
+//Borzov_D.A. <- concept_participant_of_conference_OSTIS;;
+
+/*Borzov_D.A. <= nrel_authors:  ...(* -> Doklad_66_OSTISX2015;; *);;
+
+Borzov_D.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Borzov_D.A. -> aspirant;;*/

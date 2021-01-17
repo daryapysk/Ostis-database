@@ -1,0 +1,47 @@
+concept_Massachusetts_Institute_of_Technology<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Массачусетский технологический институт]
+      (*<-lang_ru;;*);
+       [Massachusetts Institute of Technology]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Массачусетский технологический институт)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+      concept_research_center;
+      concept_univesity
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Массачусетский технологический институт—  университет и исследовательский центр.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Массачусетский технологический институт)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_place;
+    concept_position
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Массачусетский технологический институт-занимает лидирующие позиции в престижных рейтингах университетов мира](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Massachusetts_Institute_of_Technology -> rrel_example: [Массачусетский технологический институт был основан в 1861.](* <- lang_ru;; *);;
+concept_Massachusetts_Institute_of_Technology <=nrel_inclusion:concept_higher_education_institution;;
+Thomas_Kailat<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+Robert_Melancton_Metcalfe<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+Gordon_Bel<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+Ivan_Edward_Sutherland<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+Elwyn_Berlekamp<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+Yaakov_Ziv<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Massachusetts_Institute_of_Technology;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//MIT.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Массачусетский технологический институт)](*<- lang_ru;;*);;
+*);;

@@ -1,0 +1,32 @@
+//
+report_5.05_OSTIS_2016_FormMISMbK => nrel_main_idtf:
+[Доклад 5.05 OSTIS-2016 Формирование медицинских информационных систем, управляемых знаниями]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.05 OSTIS-2016 Formation of medical information systems, knowledge management] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.05_OSTIS_2016_FormMISMbK <- doklad_OSTISX2016;;
+
+report_5.05_OSTIS_2016_FormMISMbK <= nrel_author: Kobrinsky_B_A_;;
+
+report_5.05_OSTIS_2016_FormMISMbK => nrel_published_material: publication_Kobrinsky_B_A_2016_FormMISMbK;;
+
+report_5.05_OSTIS_2016_FormMISMbK => nrel_report_language: lang_ru;;
+
+
+report_5.05_OSTIS_2016_FormMISMbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/5.05_Кобринский_ФормиМИСУЗ.pdf";; *);; *);;
+
+report_5.05_OSTIS_2016_FormMISMbK => nrel_name: [Формирование медицинских информационных систем, управляемых знаниями](*<- lang_ru;;*);;
+
+report_5.05_OSTIS_2016_FormMISMbK <= nrel_speaker: Kobrinsky_B_A_;;
+
+
+report_5.05_OSTIS_2016_FormMISMbK => nrel_time_speech: [11:40 - 12:00];;
+report_5.05_OSTIS_2016_FormMISMbK => nrel_data_speech: [19 февраля 2016];;
+
+report_5.05_OSTIS_2016_FormMISMbK => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

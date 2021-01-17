@@ -1,0 +1,30 @@
+report_7.02_OSTIS_2016_EvalELPSCPMB => nrel_main_idtf:
+[Доклад 7.02 OSTIS-2016 Оценка эффективности процесса абучения CAM-обработке студентов машиностроительного профиля]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 7.02 OSTIS-2016 Evaluating the effectiveness of the learning process of students CAM - processing machine building] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  <- doklad_OSTISX2016;;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  <= nrel_authors:Barabanova_E_U;;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  => nrel_published_material: publication_Barabanova_E_U_2016_EvalELPSCPMB;;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB=> nrel_report_language: lang_ru;;
+
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/7.02 Барабанова Е.Ю. 2016 - ОценкЭПОCAM-ОСМП.pdf";; *);; *);;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  => nrel_name: [Оценка эффективности процесса абучения CAM-обработке студентов машиностроительного профиля](*<- lang_ru;;*);;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  <= nrel_speaker: Barabanova_E_U;;
+
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  => nrel_time_speech: [10:15 - 10:30];;
+report_7.02_OSTIS_2016_EvalELPSCPMB  => nrel_data_speech: [20 февраля 2016];;
+
+report_7.02_OSTIS_2016_EvalELPSCPMB  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

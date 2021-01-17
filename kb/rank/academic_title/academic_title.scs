@@ -1,0 +1,37 @@
+
+concept_academic_title => nrel_idtf: [academic title](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Учёное звание)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Учёное звание - присваивается преподавателям вузов и научным работникам (как правило, с учеными степенями) в зависимости от научной квалификации и сложности решаемых исследовательских задач..](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academic_title;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_qualification; concept_lecturer;;
+*);;
+*);;
+
+ concept_academic_title -> rrel_example:[Учёное звание присваивается, как правило, докторам наук.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Учёное звание, система)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Учёные степени и звания квалификационная система в науке.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academic_title; concept_sistem;;
+*);; 
+
+concept_education_system => concept_academic_title;;
+
+concept_academic_title <= nrel_subdividing: ...
+	(* <- concept_professor;;
+	   <- concept_docent;;
+	   <- concept_corresponding_member;;	
+	  
+	*);;

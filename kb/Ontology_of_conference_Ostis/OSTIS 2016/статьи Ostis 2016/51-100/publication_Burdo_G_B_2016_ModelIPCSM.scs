@@ -1,0 +1,31 @@
+publication_Burdo_G_B_2016_ModelIPCSM => nrel_main_idtf:
+[Бурдо Г.Б. 2016 -  МоделИАСУТПТО] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Burdo_G_B_2016_ModelIPCSM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_name_publication:[Модели интеллектуальной АСУТП технического обслуживания ](*
+	<- lang_ru;;
+	*);;
+publication_Burdo_G_B_2016_ModelIPCSM <= nrel_authors:
+Burdo_G_B;;
+publication_Burdo_G_B_2016_ModelIPCSM <= nrel_authors:
+Fedotova_A._V.;;
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_article_language: lang_ru;;
+publication_Burdo_G_B_2016_ModelIPCSM => nrel_annotation: [Приведена иерархическая структура интеллектуальной АСУТП, отражающая структуру процессов планирования и управления производственными подразделениями. Показаны основные подсистемы АСУТП. Приведены модели и алгоритмы работы подсистем объёмного, календарного и оперативного планирования, и диспетчирования. Охарактеризованы особенности предлагаемой АСУТП, определяющие её малую инерционность. Показаны способы формирования приоритетных схем обслуживания объектов, обеспечивающие возможность выбора оптимального в соответствии с установленным критерием.];;
+
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_count_page: 8;;
+publication_Burdo_G_B_2016_ModelIPCSM <- article_OSTIS_2016;;
+
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_reference_standard: [Бурдо, Г.Б. Модели интеллектуальной АСУТП технического обслуживания/ Г.Б. Бурдо, А.В. Федотова   // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 449–456.];;
+
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_year_publication: 2016;;
+
+publication_Burdo_G_B_2016_ModelIPCSM=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Burdo_G_B_2016_ModelIPCSM<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Бурдо.pdf";; *);;*);;
+

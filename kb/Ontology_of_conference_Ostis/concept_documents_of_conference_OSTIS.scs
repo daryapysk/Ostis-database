@@ -1,0 +1,17 @@
+sc_node_not_relation ->concept_documents_of_conference_OSTIS;;
+concept_documents_of_conference_OSTIS=> nrel_main_idtf:
+	[документы конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[documents of conference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+concept_documents_of_conference_OSTIS=> nrel_inclusion: Materials_conference_OSTIS; doklad_OSTIS;
+concept_official_report_of_conference_OSTIS;
+concept_official_program_of_conference_OSTIS;
+concept_official_invitation_of_conference_OSTIS;
+concept_rules_for_published_materials_of_conference_OSTIS;
+concept_order_to_hold_conference_OSTIS;;
+

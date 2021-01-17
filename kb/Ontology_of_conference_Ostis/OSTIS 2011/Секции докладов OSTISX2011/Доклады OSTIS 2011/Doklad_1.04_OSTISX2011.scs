@@ -1,0 +1,28 @@
+//sc_node_not_relation->Doklad_1.04_OSTISX2011;;
+Doklad_1.04_OSTISX2011=>nrel_main_idtf:[Доклад 1.04 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.04_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_1.04_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_1.04_OSTISX2011 => nrel_name_of_doclad: [Интеграция баз данных и знаний интеллектуальных систем на основе алгебраического подхода](* <- lang_ru;;*);;
+
+/*Doklad_1.04_OSTISX2011 <= nrel_section: [Секция 1 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.04_OSTISX2011 <= nrel_authors : ...(* -> Zuenko_A._A.;Kulik_B._A.;Fridman_A._A.;; *);;
+
+Doklad_1.04_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 1.4 OSTIS-2011";;
+
+Doklad_1.04_OSTISX2011 <= nrel_articke: ...(* -> Zuenko_A.A..2011stXIntegBDiZISnOAP;; *);;
+
+Doklad_1.04_OSTISX2011 <= nrel_stand: ...(* -> Stend_607X3_OSTISX2011;; *);;
+*/
+Doklad_1.04_OSTISX2011  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Зуенко_А.А..2011ст-ИнтегБДиЗИСнОАП.pdf";;
+						    *);; 
+					*);;
+
+Doklad_1.04_OSTISX2011  =>nrel_authors: Zuenko_A.A.;Kulik_B.A.;Fridman_A.A.;;

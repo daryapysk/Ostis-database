@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_84_OSTISX2014;;
+Doklad_84_OSTISX2014=>nrel_main_idtf:[Доклад 84 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_84_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_84_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_84_OSTISX2014 <= nrel_name_of_doclad: [Потребность в речевых функциях интеллектуальных САПР](* <- lang_ru;;*);;
+
+// Doklad_84_OSTISX2014 <= nrel_authors : ...(* -> Abramov_G._A.;Borgest_N._M.;Korovin_M._D.;; *);;
+
+Doklad_84_OSTISX2014 <= nrel_authors: Abramov_G_A; Borgest_N._M.;Korovin_M._D.;; 
+
+// Doklad_84_OSTISX2014 <= nrel_articke: ...(* -> 84._Abramov_G_AX_Borgest_N.M.X_Korovin_M.D_X_PotrevRFISAPR;; *);;

@@ -1,0 +1,28 @@
+
+Moskin_N.D.=> nrel_main_idtf:
+	[Москин Н.Д.]
+	(*
+	<- lang_ru;;
+	*);
+	[Moskin_N.D.]
+	(*
+	<- lang_en;;
+	*);;
+
+Moskin_N.D. => nrel_email: [moskin@karelia.ru](*<-lang_en;;*);;
+
+//Moskin_N.D. <= nrel_authors:  ...(* -> Doklad_2.02_OSTISX2011;; *);;
+
+/*Moskin_N.D. <= nrel_publication : ...(* -> Moskin_N.D.2009ucXAlgorSGiTGM;Moskin_N.D.2008trXTeoreGMSFPiMIA;Moskin_N.D.2009trXResenZViPMvEBFT;Moskin_N.D.2010trXPrimenNTGMvZMiPPM;; *);;*/
+
+//Moskin_N.D. <- concept_participant_of_conference_OSTIS;;
+Moskin_N.D. <- concept_participant_of_conference_OSTIS2011;;
+
+
+/*Moskin_N.D. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Moskin_N.D. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Moskin_N.D. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.52;Foto_OSTISX2011.02.10.08.56;Foto_OSTISX2011.02.10.10.01;; *);;*/

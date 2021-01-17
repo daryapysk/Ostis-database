@@ -1,0 +1,28 @@
+
+Dodonov_A.G.=> nrel_main_idtf:
+	[Додонов А. Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dodonov_A.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Dodonov_A.G. => nrel_email: [dodonov@ipri.kiev.ua](*<-lang_en;;*);;
+
+//Dodonov_A.G. <- concept_participant_of_conference_OSTIS;;
+Dodonov_A.G. <- concept_participant_of_conference_OSTIS2015;;
+Dodonov_A.G. <- concept_participant_of_conference_OSTIS2016;;
+
+/*Dodonov_A._G. <= nrel_authors:  ...(* -> Doklad_25_OSTISX2015;; *);;
+
+Dodonov_A._G. -> Ucastnik_konferenzii_OSTIS;;
+
+Dodonov_A._G. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Dodonov_A._G. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Dodonov_A._G. -> ZamestitelX_direktora_po_naucnoj_rabote;;*/

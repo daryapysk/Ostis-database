@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_5.03_OSTISX2012;;
+Doklad_5.03_OSTISX2012=>nrel_main_idtf:[Доклад 5.03 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_5.03_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_5.03_OSTISX2012 => nrel_name_of_doclad: [Об особенностях управления знаниями в российских софтверных компаниях](* <- lang_ru;;*);;
+
+Doklad_5.03_OSTISX2012 => nrel_section: [Секция 5 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_5.03_OSTISX2012 <= nrel_authors : ...(* -> Gavrilova_T._A.;MelXnikov_N._E.;; *);;
+
+Doklad_5.03_OSTISX2012 <= nrel_articke: ...(* -> Gavrilova_T.A..2012stXObOUZvRSK;; *);;
+
+Doklad_5.03_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X20_OSTISX2012;; *);;*/
+
+Doklad_5.03_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Гаврилова_Т.А..2012ст-ОбОУЗвРСК.pdf";;
+						    *);; 
+					*);;
+Doklad_5.03_OSTISX2012=> nrel_authors:Gavrilova_T.A.;MelXnikov_N.E.;;

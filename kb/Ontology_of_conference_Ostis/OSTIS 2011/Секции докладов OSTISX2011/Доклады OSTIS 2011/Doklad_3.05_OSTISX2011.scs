@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_3.05_OSTISX2011;;
+Doklad_3.05_OSTISX2011=>nrel_main_idtf:[Доклад 3.05 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.05_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_3.05_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_3.05_OSTISX2011 => nrel_name_of_doclad: [Автоматизация начальных этапов проектирования программного обеспечения](* <- lang_ru;;*);;
+
+/*Doklad_3.05_OSTISX2011 <= nrel_section: [Секция 3 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_3.05_OSTISX2011 <= nrel_authors : ...(* -> ZaboleevaXZotova_A._V.;Orlova_U._A.;Bobkov_A._S.;; *);;
+
+Doklad_3.05_OSTISX2011 <= nrel_articke: ...(* -> ZaboleevaXZotova_A.V..2011stXAvtomNEPPO;; *);;
+
+Doklad_3.05_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X2_OSTISX2011;; *);;*/
+
+Doklad_3.05_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Заболеева-Зотова_А.В..2011ст-АвтомНЭППО.pdf";;
+						    *);; 
+					*);;
+
+Doklad_3.05_OSTISX2011=>nrel_authors: ZaboleevaXZotova_A.V.;Orlova_U.A.;Bobkov_A.S.;;
+

@@ -1,0 +1,24 @@
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_main_idtf:
+[ Турмаганбетова Ш.К. 2016 - ОнтолМПЗНИ ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Turmaganbetova_Sh_K_2016_OntolMSEIN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN=> nrel_name_publication:[Онтологическая модель поддержки запросов налоговых информаций ](*
+	<- lang_ru;;
+	*);;
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN <= nrel_authors:
+Turmaganbetova_S.K.;;
+
+
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN=> nrel_reference_standard: [Турмаганбетова, Ш.К. Онтологическая модель поддержки запросов налоговых информаций / Ш.К. Турмаганбетова / Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 557–560.];;
+
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN=> nrel_year_publication: 2016;;
+
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Turmaganbetova_Sh_K_2016_OntolMSEIN<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Турмаганбетова.pdf";; *);;*);;

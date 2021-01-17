@@ -1,0 +1,76 @@
+OSTIS_conference_2015 => nrel_main_idtf:
+	[Конференция OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[OSTIS-2015 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+//OSTIS_conference_2015 => nrel_place_conduct: place_conduct_OSTIS_conference_2015;;
+
+
+OSTIS_conference_2015 => nrel_clarification:[Конференция OSTIS-2015 посвящается семантическим технологиям проектирования интеллектуальных систем и совпадает во времени с 20-летием открытия специальности «Искусственный интеллект» в Белорусском государственном университете информатики и радиоэлектроники, а также с созданием соответствующей кафедры.];;
+
+OSTIS_conference_2015 => nrel_working_group: working_group_OSTIS_conference_2015;;
+
+OSTIS_conference_2015 => nrel_program_committe_of_conference: program_committee_of_conference_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_organizing_committee_of_conference: concept_organizing_committee_of_conference_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_sections : Konkurs_dokladov_molodyh_ucenyh_OSTISX2015; Konkurs_proektov_molodyh_ucenyh_OSTISX2015;Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015;;
+
+OSTIS_conference_2015 => nrel_report: official_report_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_information_mail: informational_mail_OSTIS_2015;;
+
+OSTIS_conference_2015 => nrel_start_time: ...
+(*
+<-concept_time_point;;
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2015];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[19];;
+*);;
+*);;
+
+
+OSTIS_conference_2015 => nrel_finish_time: ...
+(*
+<-concept_time_point;;          
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2015];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[21];;
+*);;
+*);;
+
+OSTIS_conference_2015 => nrel_participant_of_conference: concept_participant_of_conference_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_technical_information_support: technical_information_support_OSTIS_conference_2015;;
+
+OSTIS_conference_2015 => nrel_conference_organizer: organizer_OSTIS_conference_2015;;
+
+
+OSTIS_conference_2015 => nrel_material: Materials_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_rules_for_published_materials: Rules_for_published_materials_OSTIS2015;;
+
+//OSTIS_conference_2015 => nrel_official_invitation: official_invitation_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_official_program: official_program_OSTIS2015 ;;
+
+OSTIS_conference_2015 => nrel_photo_collection: ...;;
+
+OSTIS_conference_2015 => nrel_contact_information: [ostisconf@gmail.com];;
+
+OSTIS_conference_2015 => nrel_order_hold_conference: order_hold_Conference2015;;
+
+OSTIS_conference_2015 => nrel_accommodations_of_participants: accommodations_of_participants_OSTIS2015;;
+
+OSTIS_conference_2015 => nrel_place_for_meals_for_participants: place_meals_for_participants_OSTIS2015;;
+
+OSTIS_conference_2015 <- OSTIS_conference;; 

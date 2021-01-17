@@ -1,0 +1,29 @@
+
+Agunova_E_V => nrel_main_idtf:
+	[Ягунова Е.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Agunova_E_V]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Agunova_E_V <- concept_participant_of_conference_OSTIS2014;;
+Agunova_E_V => nrel_email: [Iagounova.Elena@gmail.com](*<-lang_en;;*);;
+
+/*Agunova_E_V <= nrel_authors:  ...(* -> Doklad_24_OSTISX2014;; *);;
+
+Agunova_E_V -> Ucastnik_konferenzii_OSTIS;;
+
+Agunova_E_V -> doktor_filologiceskih_nauk;;
+doktor_filologiceskih_nauk <- ucenaa_stepenX;;
+
+Agunova_E_V -> zaveduusaa;;
+
+Agunova_E_V <- rrel_key_sc_element: ..illustration_Agunova_E_V(* <- sc_illustation;; *);;
+..illustration_Agunova_E_V <= nrel_translation : ..translation_illustration_Agunova_E_V;;
+..translation_illustration_Agunova_E_V-> rrel_example : [<img src="http://127.0.0.1:8181/Jagun.png"/>] (* => nrel_format: format_html;; *);;*/
+
+//Agunova_E_V <- concept_participant_of_conference_OSTIS;;

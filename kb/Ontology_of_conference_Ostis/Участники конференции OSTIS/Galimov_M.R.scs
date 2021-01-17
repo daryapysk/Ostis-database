@@ -1,0 +1,16 @@
+
+Galimov_M.R.=> nrel_main_idtf:
+	[Галимов М.Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Galimov_M.R.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Galimov_M.R. <- concept_participant_of_conference_OSTIS;;
+Galimov_M.R. <- concept_participant_of_conference_OSTIS2012;;
+
+

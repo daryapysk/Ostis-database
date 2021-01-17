@@ -1,0 +1,29 @@
+
+Odinez_D.N.=> nrel_main_idtf:
+	[Одинец Д.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Odinez_D.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Odinez_D.N. => nrel_authors:  ...(* -> Doklad_1.13_OSTISX2012;; *);;
+
+//Odinez_D.N. <- concept_participant_of_conference_OSTIS;;
+Odinez_D.N. <- concept_participant_of_conference_OSTIS2012;;
+
+
+/*Odinez_D.N. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Odinez_D.N. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Odinez_D.N. -> dozent;;
+
+Odinez_D.N. <- rrel_key_sc_element: ..illustration_Odinez_D.N.(* <- sc_illustation;; *);;
+..illustration_Odinez_D.N. <= nrel_translation : ..translation_illustration_Odinez_D.N.;;
+..translation_illustration_Odinez_D.N.-> rrel_example : [<img src="http://127.0.0.1:8181/OdinecDN.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_51_OSTISX2014;;
+Doklad_51_OSTISX2014=>nrel_main_idtf:[Доклад 51 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_51_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_51_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_51_OSTISX2014 <= nrel_name_of_doclad: [Применение онтологий в проектном управлении](* <- lang_ru;;*);;
+
+// Doklad_51_OSTISX2014 <= nrel_authors : ...(* -> VeremXev_V._L.;Gorovaa_D._O.;; *);;
+
+Doklad_51_OSTISX2014 <= nrel_authors: VeremXev_V._L.;Gorovaa_D._O.;; 
+
+// Doklad_51_OSTISX2014 <= nrel_articke: ...(* -> 51._VeremXev_V.L.X_Gorovaa_D.O._X_PrimeOvPU;; *);;

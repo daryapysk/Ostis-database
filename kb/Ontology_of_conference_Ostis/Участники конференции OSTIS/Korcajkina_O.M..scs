@@ -1,0 +1,27 @@
+
+Korcajkina_O.M.=> nrel_main_idtf:
+	[Корчажкина О.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korcajkina_O.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Korcajkina_O.M. => nrel_email: [olgakomax@gmail.com](*<-lang_en;;*);;
+
+//Korcajkina_O.M. <= nrel_authors:  ...(* -> Doklad_7.06_OSTISX2011;; *);;
+
+/*Korcajkina_O.M. <= nrel_publication : ...(* -> Korcajkina_O.M.2009stXSozdaEUPpAAnBPSSOiPOPK1S;Korcajkina_O.M.2009stXPonimiVAHTnIA;Korcajkina_O.M.2009stXoNAFPKSP;Korcajkina_O.M.2009stXProblPKPvUIOS;Korcajkina_O.M.2009stXVozmoSIUMpIA;Korcajkina_O.M.2008stXProblRPNK;; *);;*/
+
+//Korcajkina_O.M. <- concept_participant_of_conference_OSTIS;;
+Korcajkina_O.M. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Korcajkina_O.M. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Korcajkina_O.M. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Korcajkina_O.M. -> professor;;*/

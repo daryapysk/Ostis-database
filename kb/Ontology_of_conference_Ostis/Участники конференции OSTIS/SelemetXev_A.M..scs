@@ -1,0 +1,19 @@
+
+SelemetXev_A.M.=> nrel_main_idtf:
+	[Шелеметьев А.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[SelemetXev_A.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+SelemetXev_A.M. => nrel_email: [forandreika@yandex.ru](*<-lang_en;;*);;
+
+//SelemetXev_A.M. <- concept_participant_of_conference_OSTIS;;
+SelemetXev_A.M. <- concept_participant_of_conference_OSTIS2015;;
+
+/*SelemetXev_A.M. <= nrel_authors:  ...(* -> Doklad_91_OSTISX2015;; *);;
+
+SelemetXev_A.M. -> Ucastnik_konferenzii_OSTIS;;*/

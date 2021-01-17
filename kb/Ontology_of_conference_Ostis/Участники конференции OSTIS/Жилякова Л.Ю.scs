@@ -1,0 +1,22 @@
+Zhilyakova_L_Yu => nrel_main_idtf:
+[Жилякова Л.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zhilyakova_L_Yu] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Zhilyakova_L_Yu;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2011;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2012;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2013;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2014;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2015;;
+Zhilyakova_L_Yu <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+Zhilyakova_L_Yu => nrel_contact_information:[zhilyakova.ludmila@gmail.com];;
+

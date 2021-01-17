@@ -1,0 +1,19 @@
+
+Askarova_S.A.=> nrel_main_idtf:
+	[Аскарова С.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Askarova_S.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Askarova_S.A. => nrel_email: [sandugash.kz@gmail.com](*<-lang_en;;*);;
+Askarova_S.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Askarova_S.A. <= nrel_authors:  ...(* -> Doklad_13_OSTISX2015;; *);;
+
+Askarova_S.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Askarova_S.A. -> doktorant;;*/

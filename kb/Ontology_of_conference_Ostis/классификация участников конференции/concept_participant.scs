@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_participant;; 
+concept_participant=> nrel_main_idtf:[участник] (* <-lang_ru;; *);;
+concept_participant=> nrel_main_idtf:[participant] (* <-lang_en;; *);;
+
+concept_participant<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Участник - лицо, которое принимает участие  в каком-либо мероприятии.](*<-lang_ru;;*);;
+		*);;
+	*);;
+

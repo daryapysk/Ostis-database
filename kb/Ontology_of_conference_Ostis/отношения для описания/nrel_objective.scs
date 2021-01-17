@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_objective;; 
+
+nrel_objective => nrel_main_idtf:[цель*] (* <-lang_ru;; *);;
+
+nrel_objective => nrel_main_idtf:[objective*] (* <-lang_en;; *);;
+
+
+
+nrel_objective <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Цель - это осознанный, запланированный результат деятельности, субъективный образ, модель будущего продукта деятельности.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

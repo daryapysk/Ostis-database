@@ -1,0 +1,31 @@
+publication_Rovba_E_A_2016_DesignISFSNBSKR => nrel_main_idtf:
+[  Ровба Е.А. 2016 - ПроекИСППвКнОСПЗ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Rovba_E_A_2016_DesignISFSNBSKR] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Rovba_E_A_2016_DesignISFSNBSKR=> nrel_name_publication:[Проектирование интеллектуальной системы прогнозирования потребности в кадрах на основе семантического представления знаний](*
+	<- lang_ru;;
+	*);;
+publication_Rovba_E_A_2016_DesignISFSNBSKR <= nrel_authors:
+Rovba_E_A;;
+publication_Rovba_E_A_2016_DesignISFSNBSKR <= nrel_authors:
+Boyko_V_K;;
+publication_Rovba_E_A_2016_DesignISFSNBSKR <= nrel_authors:
+Voytukevich_U_A;;
+publication_Rovba_E_A_2016_DesignISFSNBSKR <= nrel_authors:
+Lyavshuk_V_E;;
+publication_Rovba_E_A_2016_DesignISFSNBSKR <= nrel_authors:
+Petrov_S_V;;
+
+publication_Rovba_E_A_2016_DesignISFSNBSKR=> nrel_reference_standard: [Ровба, Е.А. Проектирование интеллектуальной системы прогнозирования потребности в кадрах на основе семантического представления знаний/ Е.А. Ровба, В.К. Бойко, Ю.А. Войтукевич, В.Е. Лявшук, С.В. Петров // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 535–538.];;
+
+publication_Rovba_E_A_2016_DesignISFSNBSKR=> nrel_year_publication: 2016;;
+
+publication_Rovba_E_A_2016_DesignISFSNBSKR => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Rovba_E_A_2016_DesignISFSNBSKR<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Ровба.pdf";; *);;*);;

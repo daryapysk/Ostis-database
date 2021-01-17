@@ -1,0 +1,24 @@
+
+Noskova_A.I.=> nrel_main_idtf:
+	[Носкова А. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Noskova_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Noskova_A.I=> nrel_email: [noskova@smartsolutions-123.ru](*<-lang_en;;*);;
+
+//Noskova_A.I. <- concept_participant_of_conference_OSTIS;;
+Noskova_A.I. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Noskova_A._I. <= nrel_authors:  ...(* -> Doklad_59_OSTISX2015;; *);;
+
+Noskova_A._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Noskova_A._I. -> net;;
+net <- ucenaa_stepenX;;
+
+Noskova_A._I. -> analitik;;*/

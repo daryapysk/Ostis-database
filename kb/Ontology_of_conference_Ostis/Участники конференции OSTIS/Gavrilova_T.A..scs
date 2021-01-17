@@ -1,0 +1,34 @@
+
+Gavrilova_T.A.=> nrel_main_idtf:
+	[Гаврилова Т.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gavrilova_T.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gavrilova_T.A. => nrel_email: [gavrilova@gsom.pu.ru](*<-lang_en;;*);;
+
+/*Gavrilova_T.A. <= nrel_authors:  ...(* -> Doklad_21_OSTISX2015;Doklad_5.03_OSTISX2012;; *);;
+
+Gavrilova_T.A. <= nrel_publication : ...(* -> Gavrilova_T.A..2007knXIntelTvM;Gavrilova_T.A..2006ucXInfor;Gavrilova_T.A..2008stXVizuaMRsZPO;Gavrilova_T.A..2007stXKogniPkSO;Gavrilova_T.A..2009sbXInforTUZ;; *);;*/
+
+//Gavrilova_T.A. <- concept_participant_of_conference_OSTIS;;
+Gavrilova_T.A. <- concept_participant_of_conference_OSTIS2012;
+Gavrilova_T.A. <- concept_participant_of_conference_OSTIS2015;
+Gavrilova_T.A. <- concept_participant_of_conference_OSTIS2016;
+
+
+
+d.t.n. <- ucenaa_stepenX;;
+
+Gavrilova_T.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Gavrilova_T.A. -> zaveduusij;;
+
+Gavrilova_T.A. <- rrel_key_sc_element: ..illustration_Gavrilova_T.A.(* <- sc_illustation;; *);;
+..illustration_Gavrilova_T.A. <= nrel_translation : ..translation_illustration_Gavrilova_T.A.;;
+..translation_illustration_Gavrilova_T.A.-> rrel_example : [<img src="http://127.0.0.1:8181/GavrilovaTA.jpg"/>] (* => nrel_format: format_html;; *);;

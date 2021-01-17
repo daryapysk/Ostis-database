@@ -1,0 +1,30 @@
+
+concept_senior_laboratory => nrel_idtf: [senior_laboratory](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Старишй лаборант)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Старший лаборант - организует работу техников и лаборантов по подготовке лабораторных работ, семинарских и практических занятий, должен иметь высшее образование без предъявления требований к стажу работы.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_senior_laboratory;;
+<= nrel_using_constants :...
+(*
+-> concept_work_experience; concept_higher_education; laboratory_assistant;;
+*);;
+*);;
+
+ concept_senior_laboratory -> rrel_example: [Старший лаборант Пётр Федоров](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Старший лаборант, оборудование)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Старишй лаборант следил за правильностью эксплуатации лабораторного фонда приборов и оборудования.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_senior_laboratory; concept_equipment;;
+*);; 
+
+

@@ -1,0 +1,9 @@
+ministry_of_Education_of_the_Republic_of_Belarus => nrel_main_idtf:
+	[Министерство образования Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[Ministry of Education of the Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);;

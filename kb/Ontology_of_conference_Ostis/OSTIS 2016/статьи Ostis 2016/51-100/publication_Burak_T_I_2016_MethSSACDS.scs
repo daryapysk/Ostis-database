@@ -1,0 +1,30 @@
+publication_Burak_T_I_2016_MethSSACDS => nrel_main_idtf:
+[ Бурак Т.И. 2016 - МетодиПСАСДС] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Burak_T_I_2016_MethSSACDS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Burak_T_I_2016_MethSSACDS=> nrel_name_publication:[Методика и программное средство анализа сложных динамических систем](*
+	<- lang_ru;;
+	*);;
+publication_Burak_T_I_2016_MethSSACDS <= nrel_authors:
+Burak_T_I;;
+publication_Burak_T_I_2016_MethSSACDS <= nrel_authors:
+Lukashevich_M_M;;
+publication_Burak_T_I_2016_MethSSACDS  => nrel_article_language: lang_ru;;
+publication_Burak_T_I_2016_MethSSACDS  => nrel_annotation: [Приведена методика компьютерного моделирования сложных динамических систем на основе системного подхода Дж. Форрестера. Представлено краткое описание и характеристика программного средства моделирования динамических систем.];;
+
+publication_Burak_T_I_2016_MethSSACDS  => nrel_count_page: 4;;
+publication_Burak_T_I_2016_MethSSACDS <- article_OSTIS_2016;;
+
+publication_Burak_T_I_2016_MethSSACDS=> nrel_reference_standard: [Бурак, Т.И. Методика и программное средство анализа сложных динамических систем/ Т.И. Бурак, М.М. Лукашевич// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 569–572.];;
+
+publication_Burak_T_I_2016_MethSSACDS=> nrel_year_publication: 2016;;
+
+publication_Burak_T_I_2016_MethSSACDS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Burak_T_I_2016_MethSSACDS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Бурак.pdf";; *);;*);;

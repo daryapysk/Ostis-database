@@ -1,0 +1,29 @@
+sc_node_not_relation->Saripbaj_A.A.;;
+Saripbaj_A.A.=>nrel_main_idtf:[Шарипбай А.А.](*
+	<- lang_ru;;
+	*);;
+
+
+Saripbaj_A.A. <= nrel_authors:  ...(* -> Doklad_13_OSTISX2015;Doklad_12_OSTISX2015;Doklad_11_OSTISX2015;Doklad_91_OSTISX2014;Doklad_4.13_OSTISX2012;; *);;
+
+Saripbaj_A.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Saripbaj_A.A. -> Programmnyj_komitet_OSTISX2016;;
+
+Saripbaj_A.A. -> Programmnyj_komitet_OSTISX2015;;
+
+Saripbaj_A.A. -> Programmnyj_komitet_OSTISX2014;;
+
+Saripbaj_A.A. -> Programmnyj_komitet_OSTISX2013;;
+
+Saripbaj_A.A. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Saripbaj_A.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Saripbaj_A.A. -> professor;;
+
+Saripbaj_A.A. <- rrel_key_sc_element: ..illustration_Saripbaj_A.A.(* <- sc_illustation;; *);;
+..illustration_Saripbaj_A.A. <= nrel_translation : ..translation_illustration_Saripbaj_A.A.;;
+..translation_illustration_Saripbaj_A.A.-> rrel_example : [<img src="http://127.0.0.1:8181/SharipbaevА.jpg"/>] (* => nrel_format: format_html;; *);;

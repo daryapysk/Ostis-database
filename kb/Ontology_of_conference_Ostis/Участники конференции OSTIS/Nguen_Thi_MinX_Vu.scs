@@ -1,0 +1,19 @@
+
+Nguen_Thi_MinX_Vu=> nrel_main_idtf:
+	[Нгуен Тхи Минь Ву]
+	(*
+	<- lang_ru;;
+	*);
+	[Nguen_Thi_MinX_Vu]
+	(*
+	<- lang_en;;
+	*);;
+
+Nguen_Thi_MinX_Vu => nrel_email: [mimhvu.357@gmail.com](*<-lang_en;;*);;
+
+//Nguen_Thi_MinX_Vu<- concept_participant_of_conference_OSTIS;;
+Nguen_Thi_MinX_Vu <- concept_participant_of_conference_OSTIS2015;;
+
+/*Nguen_Thi_MinX_Vu <= nrel_authors:  ...(* -> Doklad_33_OSTISX2015;; *);;
+
+Nguen_Thi_MinX_Vu -> Ucastnik_konferenzii_OSTIS;;*/

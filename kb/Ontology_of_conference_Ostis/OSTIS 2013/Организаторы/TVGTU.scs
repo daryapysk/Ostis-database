@@ -1,0 +1,16 @@
+sc_node_not_relation->TVGTU;;
+TVGTU=>nrel_main_idtf:[ТВГТУ](* <- lang_ru;;*);;
+
+
+//TVGTU => nrel_email: [tvgtu_logo.gif](*<-lang_en;;*);;
+
+TVGTU => nrel_doundation_year: [1922](* <- lang_ru;;*);;
+
+TVGTU => nrel_phone: [+7 4822 52-63-35](* <- lang_ru;;*);;
+TVGTU => nrel_phone: [+7 4822 52-49-00](* <- lang_ru;;*);;
+
+TVGTU => nrel_address : [г. Тверь, наб. Аф. Никитина, 22](* <- lang_ru;;*);;
+
+TVGTU => nrel_site: [http://www.tstu.tver.ru];;
+
+TVGTU => nrel_location : [г. Тверь, наб. Аф. Никитина, 22](* <- lang_ru;;*);;

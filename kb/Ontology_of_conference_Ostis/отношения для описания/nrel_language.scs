@@ -1,0 +1,18 @@
+sc_node_norole_relation -> nrel_working_language;; 
+
+nrel_working_language => nrel_main_idtf:[рабочий язык*] (* <-lang_ru;; *);;
+
+nrel_working_language => nrel_main_idtf:[working language*] (* <-lang_en;; *);;
+
+nrel_working_language <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Рабочий язык - установленный язык общения или взаимодействия между людьми.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

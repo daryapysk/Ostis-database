@@ -1,0 +1,29 @@
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS => nrel_main_idtf:
+[Власов С.А. 2016 - СвязьМИИППсCAEСANSYS] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Vlasov_S_A_2016_ConnectMIIACAEСANSYS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS=> nrel_name_publication:[Связь модульного интерфейса интеллектуального помощника проектанта с CAE системой ANSYS](*
+	<- lang_ru;;
+	*);;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS<= nrel_authors:
+Vlasov_S.A. ;;
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS<= nrel_authors:
+Corovin_M_D;;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS<- article;;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS => nrel_reference_standard: [Власов, С.А. Связь модульного интерфейса интеллектуального помощника проектанта с CAE системой ANSYS/ С.А. Власов, М.Д.Коровин  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 427–430.];;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS=> nrel_year_publication: 2016;;
+
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Vlasov_S_A_2016_ConnectMIIACAESANSYS<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Власов.pdf";; *);;*);;

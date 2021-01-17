@@ -1,0 +1,24 @@
+//concept_program_committee_of_conference_OSTIS -> program_committee_of_conference_OSTIS2013;;
+
+program_committee_of_conference_OSTIS2013 => nrel_main_idtf:
+	[Программный коммитет Конференции OSTIS-2013]
+	(*
+	<- lang_ru;;
+	*);
+	[Program committee OSTIS-2013 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+program_committee_of_conference_OSTIS2013 -> Abramov_G_A;Borgest_N.M.;Gavrilova_T.A.;  Golenkov_Vladimir_Vasilevich;Globa_L.S.;
+Golovko_V.A.; Gordej_A.N.; Gribova_V.V.; Gulyakina_Natalia_Anatolevna; Eremeev_A.P.; Ermolov_P._P.; Efimenko_I.V.;ZaboleevaXZotova_A.V.;
+ZagorulXko_U.A.; Ivanuk_A.A.; Ijutkin_V.S.; Klesev_A.S.; Kobrinskij_B.A.; Kozlov_O.A.; Komarzova_L.G.; Kuznezov_A.P.; Kurejcik_V.M.;
+Lobanov_B.M.; Nevzorova_O.A.; Najdenova_K.A.; Osipov_G.S.; Paluh_B._V.; Petrovskij_A.A.; Plesnevic_G.S.; Rodcenko_V.G.; 
+Ryckova_L.V.; Smirnov_S.V.; Smorodin_V.S.; SolovXev_S.U.; Sosnin_P.I.; Stefanuk_V.L.; Sulejmanov_D.S.;
+Tarasov_V.B.; Harlamov_A.A.; Hejdorov_I.E.; Horosevskij_V.F.; Cernavskij_A.F.; Saripbaj_A.A. ; Serbak_S.S.;;
+
+
+
+
+
+

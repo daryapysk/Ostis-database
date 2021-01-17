@@ -1,0 +1,17 @@
+
+Ruban_U.A.=> nrel_main_idtf:
+	[Рубан Ю. Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ruban_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Ruban_U.A. <- concept_participant_of_conference_OSTIS2012;;
+
+//Ruban_U.A. <- concept_participant_of_conference_OSTIS;;
+

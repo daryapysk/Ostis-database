@@ -1,0 +1,48 @@
+
+concept_University_of_California_at_Los_Angeles<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [ Калифорнийский университет в Лос-Анджелесе]
+      (*<-lang_ru;;*);
+       [Univeristy of Califonia at Los Angeles]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Калифорнийский университет в Лос-Анджелесе)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_public_univesity;
+       concept_research_university;
+       concept_Los_Angeles
+       
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Калифорнийский университет в Лос-Анджелесе— государственный исследовательский университет, расположенный в городе Лос-Анджелес ] (* <- lang_ru;; *);;
+    *);;
+   *);
+ 
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Калифорнийский университет в Лос-Анджелесе)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student
+  
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Калифорнийский университет в Лос-Анджелесе обучает 43239 студентов](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_University_of_California_at_Los_Angeles -> rrel_example: [Калифорнийский университет в Лос-Анджелесе был основан в 1919 году.](* <- lang_ru;; *);;
+concept_University_of_California_at_Los_Angeles <=nrel_inclusion:concept_higher_education_institution;;
+Andrew_James_Viterbi<-nrel_employee:concept_University_of_California_at_Los_Angeles;;
+Andrew_James_Viterbi<-nrel_graduate:concept_University_of_California_at_Los_Angeles;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_University_of_California_at_Los_Angeles;;
+<= nrel_sc_text_translation: ...(*->"file://IMG/CaliforniaLosAngeles.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Калифорнийский университет в Лос-Анджелесе)](*<- lang_ru;;*);;
+*);;

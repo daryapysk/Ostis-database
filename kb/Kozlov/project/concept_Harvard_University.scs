@@ -1,0 +1,50 @@
+
+concept_Harvard_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Гарвардский университет]
+      (*<-lang_ru;;*);
+       [Harvard University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Гарвардский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_univesity;
+       concept_USA
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Гарвардский университет — один из самых известных университетов США и всего мира, старейший вуз США.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Гарвардский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_specialist
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В Гарвардском университете работают более 2 100 преподавателей](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Harvard_University -> rrel_example: [Гарвардский университет был основан в 1636 году.](* <- lang_ru;; *);;
+concept_Harvard_University <=nrel_inclusion:concept_higher_education_institution;;
+David_Leigh_Donoho<-rrel_graduate:concept_Harvard_University;;
+Curtis_Tracy_McMullen<-rrel_graduate:concept_Harvard_University;;
+Curtis_Tracy_McMullen<-rrel_employee:concept_Harvard_University;;
+Leslie_Gabriel_Valiant<-rrel_employee:concept_Harvard_University;;
+Andrew_Chi_Chih_Yao<-rrel_graduate:concept_Harvard_University;;
+Robert_Melancton_Metcalfe<-nrel_graduate:concept_Massachusetts_Institute_of_Technology;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Harvard_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Harvard.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Гарвардский университет)](*<- lang_ru;;*);;
+*);;
+
+

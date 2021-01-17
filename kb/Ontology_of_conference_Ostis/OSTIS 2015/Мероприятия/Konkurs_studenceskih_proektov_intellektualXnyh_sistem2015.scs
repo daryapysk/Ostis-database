@@ -1,0 +1,15 @@
+//sc_node_not_relation->Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015;;
+Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015=>nrel_main_idtf:[Конкурс студенческих проектов интеллектуальных систем 2015](* <- lang_ru;;*);;
+
+
+Konkurs_studenceskih_proektov_intellektualXnyh_sistem -> Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015;;
+
+Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015 => nrel_email: [ostisconf@gmail.com];;
+
+Konkurs_studenceskih_proektov_intellektualXnyh_sistem2015 <- rrel_key_sc_element: ...
+				 (*<- sc_explanation;; 
+					<= nrel_sc_text_translation: ... 
+							(*-> rrel_example: "file://Положение_о_конкурсе_студенческих_проектов_2015.pdf";; 
+							*);; 
+				*);;
+

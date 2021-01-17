@@ -1,0 +1,12 @@
+sc_node_not_relation->Elektronika_INFO;;
+Elektronika_INFO=>nrel_main_idtf:[Электроника ИНФО](* <- lang_ru;;*);;
+
+Elektronika_INFO => nrel_email: [ei_logo.jpg](*<-lang_en;;*);;
+
+Elektronika_INFO => nrel_phone: [+375 17 204-40-00](* <- lang_ru;;*);;
+
+Elektronika_INFO => nrel_address : [г. Минск, пр. Пушкина, 29 Б](* <- lang_ru;;*);;
+
+Elektronika_INFO => nrel_site:[http://electronica.by];;
+
+Elektronika_INFO => nrel_location : [г. Минск, пр. Пушкина, д. 29 Б](* <- lang_ru;;*);;

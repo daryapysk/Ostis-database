@@ -1,0 +1,14 @@
+Savkin_L_V => nrel_main_idtf:
+[Cавкин Л.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Savkin_L_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Savkin_L_V;;
+
+Savkin_L_V => nrel_contact_information:[android4.1@mail.ru];;
+

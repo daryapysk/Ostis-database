@@ -1,0 +1,27 @@
+
+Andreev_I_A => nrel_main_idtf:
+	[Андреев И. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Andreev_I_A]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Andreev_I_A <- concept_participant_of_conference_OSTIS;;
+Andreev_I_A <- concept_participant_of_conference_OSTIS2015;;
+Andreev_I_A <- concept_participant_of_conference_OSTIS2016;;
+
+/*Andreev_I_A <= nrel_authors:  ...(* -> Doklad_53_OSTISX2015;; *);;
+
+Andreev_I_A -> Ucastnik_konferenzii_OSTIS;;
+
+Andreev_I_A -> net;;
+net <- ucenaa_stepenX;;
+
+Andreev_I_A -> student;;
+student <- ucenoe_zvanie;;
+
+Andreev_I_A -> student;;*/

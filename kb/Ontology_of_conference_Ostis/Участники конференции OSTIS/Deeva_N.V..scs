@@ -1,0 +1,21 @@
+
+Deeva_N.V.=> nrel_main_idtf:
+	[Деева Н.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Deeva_N.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Deeva_N.V. => nrel_email: [nvdeeva@gmail.com](*<-lang_en;;*);;
+
+//Deeva_N.V. <- concept_participant_of_conference_OSTIS;;
+Deeva_N.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Deeva_N.V. <= nrel_authors:  ...(* -> Doklad_79_OSTISX2015;; *);;
+
+Deeva_N.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Deeva_N.V. -> starsij_prepodavatelX;;*/

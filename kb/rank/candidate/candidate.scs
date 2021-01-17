@@ -1,0 +1,29 @@
+
+concept_candidate_sciences => nrel_idtf: [candidate_sciences](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Кандидат наук)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Кандидат наук — первая из послевузовских степеней, присуждаемая соискателю диссертационным советом после защиты кандидатской диссертации.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_candidate_sciences;;
+<= nrel_using_constants :...
+(*
+-> concept_thesis; concept_degree; concept_seeker;;
+*);;
+*);;
+
+ concept_candidate_sciences -> rrel_example: [Давыденко Ирина Тимофеевна кандидат наук.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Кандидат наук, экзамен)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Кандидат наук принимал экзамен.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_candidate_sciences; concept_exam;;
+*);;
+

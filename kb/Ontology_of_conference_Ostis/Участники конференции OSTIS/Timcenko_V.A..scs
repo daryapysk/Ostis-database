@@ -1,0 +1,30 @@
+
+Timcenko_V.A.=> nrel_main_idtf:
+	[Тимченко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Timcenko_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Timcenko_V.A. => nrel_email: [rakot2k@mail.ru](*<-lang_en;;*);;
+
+/*Timcenko_V.A. <= nrel_authors:  ...(* -> Doklad_19_OSTISX2015;Doklad_41_OSTISX2014;Doklad_2.01_OSTISX2013;Doklad_1.03_OSTISX2012;Doklad_1.01_OSTISX2011;; *);;
+
+Timcenko_V.A. <= nrel_publication : ...(* -> Knazeva_M.A..2005stXStrukRPnAPVUiGMSPvBZoPP;Knazeva_M.A..2006stXSredsSRINvBZoPP;Knazeva_M.A..2008stXPreobPiIPvZPnOOPAIPnAZP;Knazeva_M.A..2008stXPodsiGEVPvSPP;Knazeva_M.A..2009stXSistePInOPGS;Knazeva_M.A..2009stXPreobGSPI;Klesev_A.S..2010prXIspolTOVdRiUIS;Klesev_A.S..2011stXProekIACPaaSKdISnOOV;Klesev_A.S..2011stXZadacPPdRMMD;Klesev_A.S..2012stXAlgorUdRMMD;; *);;*/
+
+Timcenko_V.A. <- concept_participant_of_conference_OSTIS2014;;
+Timcenko_V.A. <- concept_participant_of_conference_OSTIS2011;;
+Timcenko_V.A. <- concept_participant_of_conference_OSTIS2012;
+								concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+/*Timcenko_V.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Timcenko_V.A. -> injenerXprogrammist;;
+
+Timcenko_V.A. <- rrel_key_sc_element: ..illustration_Timcenko_V.A.(* <- sc_illustation;; *);;
+..illustration_Timcenko_V.A. <= nrel_translation : ..translation_illustration_Timcenko_V.A.;;
+..translation_illustration_Timcenko_V.A.-> rrel_example : [<img src="http://127.0.0.1:8181/TimchenkoV.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_working_group;; 
+
+nrel_working_group => nrel_main_idtf:[рабочая группа*] (* <-lang_ru;; *);;
+
+nrel_working_group => nrel_main_idtf:[working group*] (* <-lang_en;; *);;

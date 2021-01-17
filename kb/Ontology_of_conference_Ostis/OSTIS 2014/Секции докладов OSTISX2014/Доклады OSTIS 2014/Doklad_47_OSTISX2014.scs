@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_47_OSTISX2014;;
+Doklad_47_OSTISX2014=>nrel_main_idtf:[Доклад 47 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_47_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_47_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_47_OSTISX2014 => nrel_name_of_doclad: [Метад пабудовы кампанентаў сiнтэзу маўлення па тэксце для натуральна-маўленчага iнтэрфейса пры дапамозе NOOJ](* <- lang_ru;;*);;
+
+// Doklad_47_OSTISX2014 <= nrel_authors : ...(* -> Gezevic_U._S.;Skopіnava_A._M.;; *);;
+
+//Doklad_47_OSTISX2014 <= nrel_authors: Gezevic_U.S.; Skopіnava_A.M.;; 
+
+// Doklad_47_OSTISX2014 <= nrel_articke: ...(* -> 47._Gezevіc_U.S.X_Okrut_T.І.X_Skopіnava_A.M._X_MetadPKSMpTdNXMIpDNOOJ;; *);;

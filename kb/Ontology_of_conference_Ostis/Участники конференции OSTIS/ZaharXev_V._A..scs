@@ -1,0 +1,21 @@
+
+ZaharXev_V.A.=> nrel_main_idtf:
+	[Захарьев В. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[ZaharXev_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+ZaharXev_V.A. => nrel_email: [delfvad@gmail.com](*<-lang_en;;*);;
+
+ZaharXev_V.A.<- concept_participant_of_conference_OSTIS2014;;
+ZaharXev_V.A.<- concept_participant_of_conference_OSTIS2015;;
+
+/*ZaharXev_V._A. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2015;Doklad_69_OSTISX2014;; *);;
+
+ZaharXev_V._A. -> Ucastnik_konferenzii_OSTIS;;
+
+ZaharXev_V._A. -> assistent;;*/

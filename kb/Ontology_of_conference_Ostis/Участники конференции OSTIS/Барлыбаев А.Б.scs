@@ -1,0 +1,14 @@
+Barlibaev_A_B => nrel_main_idtf:
+[Барлыбаев А.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Barlibaev_A_B] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Barlibaev_A_B;;
+
+Barlibaev_A_B => nrel_contact_information:[Sabyrov.Talgat@mail.ru];;
+

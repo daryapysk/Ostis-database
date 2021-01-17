@@ -1,0 +1,35 @@
+
+Klesev_A.S.=> nrel_main_idtf:
+	[Клещев А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Klesev_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Klesev_A.S. => nrel_email: [kleschev@iacp.dvo.ru](*<-lang_en;;*);;
+
+/*Klesev_A.S. <= nrel_authors:  ...(* -> Doklad_40_OSTISX2014;Doklad_39_OSTISX2014;Doklad_12_OSTISX2014;Doklad_1.01_OSTISX2013;Doklad_6.02_OSTISX2012;Doklad_5.02_OSTISX2012;Doklad_2.11_OSTISX2012;Doklad_1.01_OSTISX2011;; *);;
+
+Klesev_A.S. <= nrel_publication : ...(* -> Klesev_A.S.2011stXOperaMID;Klesev_A.S..2010prXIspolTOVdRiUIS;Klesev_A.S..2010prXSisteUIIP;Klesev_A.S..2009prXKompXEpISMSRGPD;Klesev_A.S..2008artXaMfMDoADaIDaDoBt;Klesev_A.S..2008artXaMfMDoADaFDoCaER;Klesev_A.S..2008artXaIoaCKBoMD;Klesev_A.S..2008stXObsijPkPKEpIZ;Klesev_A.S.2008stXOpredSSO;Klesev_A.S..2008prXProzeKAPLMR;Klesev_A.S..2008prXProzeKAPLSOA;Klesev_A.S..2007stXMatheMoDO;Klesev_A.S..2007tezXGenerMDdEpIFZ;Klesev_A.S.2007stXModelAmMD;Klesev_A.S..2006stXVnutrMMPdSAKDTMMD;Klesev_A.S..2006stXVnutrMMPdSAKDTOOM;Klesev_A.S..2006stXVnutrMMPdSAKDTMD;Klesev_A.S..2005artXaMAfDOSLRS;Klesev_A.S..2003artXaUTFEIoDLOA;Klesev_A.S..2003prXKonzeBZvOOPdPNIOiPD;Klesev_A.S..2002stXOtnosmOPOOPOitjKUO;Klesev_A.S..2002stXOtnosmOPOOSOKO;Klesev_A.S..2001stXModelGIvES;; *);;*/
+
+
+
+Klesev_A.S. <- concept_participant_of_conference_OSTIS2014;;
+Klesev_A.S. <- concept_participant_of_conference_OSTIS2011;;
+Klesev_A.S. <- concept_participant_of_conference_OSTIS2012;
+							concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+
+
+/*Klesev_A.S. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+Klesev_A.S. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Klesev_A.S. -> g.n.s.;;
+
+Klesev_A.S. <= nrel_photo: ...(* -> Fajl:Kleshov.PNG;; *);;*/

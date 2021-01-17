@@ -1,0 +1,41 @@
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_main_idtf:
+[Шункевич Д.В. 2016 - ФормаСОЦДРВС]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2016_FormalSDoTVToAPA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_name_publication:[Формальное семантическое описание целенаправленной деятельности различного вида субъектов](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA <= nrel_authors:
+shunkevich_d_v;
+Hubarevich_Anastasia_Vladimirovna;
+Svatkina_M.N.;
+Morosin_O.L.;;
+
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA <- article;;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_reference_standard: [Шункевич, Д. В. Формальное семантическое описание целенаправленной деятельности различного вида субъектов / Д.В. Шункевич, А.В. Губаревич, М.Н. Святкина, О.Л. Моросин // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_year_publication: 2016;;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/16.shunkevich.pdf";; *);; *);;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA =>  nrel_annotation:
+[В  работе рассматриваются  формальные  модели,  позволяющие  описывать  целенаправленную  деятельностьсубъектов   различного   рода   с   использованием   семантических   сетей   с   теоретико-множественнойинтерпретацией.  В  частности,  рассматривается  типология  действий,  понятие  задачи  как  спецификациидействия,  отношения,  используемые  для  спецификации  действий.  Также  рассматриваются  дргуие  классыспецификаций действия, такие как, план, программа, решение и другие.](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_count_page: 12;;
+
+publication_Shunkevich_D_V_2016_FormalSDoTVToAPA => nrel_article_language: lang_ru;;
+

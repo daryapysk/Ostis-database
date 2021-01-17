@@ -1,0 +1,28 @@
+
+concept_degree_lissance => nrel_idtf: [degree_lissance](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Степень лисансье)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Степень лисансье - выдается после заваршения универсистета.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_degree_lissance;;
+<= nrel_using_constants :...
+(*
+-> concept_university; concept_power;;
+*);;
+*);;
+
+ concept_degree_lissance -> rrel_example: [Ахмед получил степень лисансье.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Степень лисансье, университет)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Студент окончил университет в Иране и получил степень лисансье.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_degree_lissance; concept_university;;
+*);; 

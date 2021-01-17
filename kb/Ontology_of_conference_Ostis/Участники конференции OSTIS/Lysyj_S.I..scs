@@ -1,0 +1,21 @@
+
+Lysyj_S.I.=> nrel_main_idtf:
+	[Лысый С.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lysyj_S.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lysyj_S.I. => nrel_email: [stanislau.lysy@gmail.com](*<-lang_en;;*);;
+
+//Lysyj_S.I.<- concept_participant_of_conference_OSTIS;;
+Lysyj_S.I.<- concept_participant_of_conference_OSTIS2015;;
+Lysyj_S.I.<- concept_participant_of_conference_OSTIS2016;;
+/*Lysyj_S.I. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2015;; *);;
+
+Lysyj_S.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Lysyj_S.I. -> injenerXsistemotehnik;;*/

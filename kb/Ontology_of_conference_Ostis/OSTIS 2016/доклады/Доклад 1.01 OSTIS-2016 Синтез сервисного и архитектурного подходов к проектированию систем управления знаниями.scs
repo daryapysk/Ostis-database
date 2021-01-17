@@ -1,0 +1,36 @@
+//
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_main_idtf:
+[Доклад 1.01 OSTIS-2016 Использование онтологий для создания сценариев обработки данных]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 1.01 OSTIS-2016 The use of ontologies to create data processing scripts] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD <- doklad_OSTISX2016;;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD <= nrel_authors: Globa_L.S.;;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_published_material: publication_Globa_L_S_2016_OUfDPSD;;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_report_language: lang_ru;;
+
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_name: [Использование онтологий для создания сценариев обработки данных](*<- lang_ru;;*);;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD <= nrel_speaker: Globa_L.S.;;
+
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_time_speech: [10:30 - 11:15];;
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_data_speech: [18 февраля 2016];;
+
+report_1.01_OSTIS_2016_SynthSaAAtKMSD => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+
+
+//спросить у Натальи Викторовны имеет ли доклад награды
+//report_01_OSTIS_2016_SynthSaAAtKMSD => nrel_reward: super_report_in_the_world;;
+

@@ -1,0 +1,6 @@
+//sc_node_not_relation->Tech_Labs;;
+Tech_Labs=>nrel_main_idtf:[Tech Labs](*<-lang_ru;;*);;
+
+Tech_Labs => nrel_email: [tech_logo.gif](*<-lang_en;;*);;
+
+Tech_Labs => nrel_site: [http://techlabs.by/];;

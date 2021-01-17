@@ -1,0 +1,17 @@
+
+Tkacena_A.V.=> nrel_main_idtf:
+	[Ткаченя А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tkacena_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Tkacena_A.V. <- concept_participant_of_conference_OSTIS2012;;
+
+//Tkacena_A.V. <- concept_participant_of_conference_OSTIS;;
+

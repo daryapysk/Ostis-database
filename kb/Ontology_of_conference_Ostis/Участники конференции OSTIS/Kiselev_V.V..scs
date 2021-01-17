@@ -1,0 +1,22 @@
+
+Kiselev_V.V.=> nrel_main_idtf:
+	[Киселев В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kiselev_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Kiselev_V.V. <= nrel_authors:  ...(* -> Doklad_4.06_OSTISX2012;Doklad_7.15_OSTISX2011;; *);;
+//Kiselev_V.V. <- concept_participant_of_conference_OSTIS;;
+Kiselev_V.V.<- concept_participant_of_conference_OSTIS2011;;
+Kiselev_V.V.<- concept_participant_of_conference_OSTIS2012;;
+
+//Kiselev_V.V. -> attr;;
+
+//Kiselev_V.V. -> PredstavitelX_soorganizatora_OSTISX2011;;
+
+//Kiselev_V.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.37;; *);;

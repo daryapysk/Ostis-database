@@ -1,0 +1,26 @@
+
+Moskalenko_F.M.=> nrel_main_idtf:
+	[Москаленко Ф.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Moskalenko_F.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Moskalenko_F.M. => nrel_email: [philipmm@yahoo.com](*<-lang_en;;*);;
+
+/*Moskalenko_F.M. <= nrel_authors:  ...(* -> Doklad_19_OSTISX2015;Doklad_1.01_OSTISX2011;; *);;
+
+Moskalenko_F.M. <= nrel_publication : ...(* -> Cernahovskaa_M.U..2009stXBazaNvOOdBMZ;Moskalenko_F.M.2009tezXKompBZpMD;Klesev_A.S..2010prXIspolTOVdRiUIS;; *);;*/
+
+//Moskalenko_F.M. <- concept_participant_of_conference_OSTIS;;
+Moskalenko_F.M. <- concept_participant_of_conference_OSTIS2011;;
+Moskalenko_F.M. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Moskalenko_F.M. -> m.n.s.;;
+
+Moskalenko_F.M. <- rrel_key_sc_element: ..illustration_Moskalenko_F.M.(* <- sc_illustation;; *);;
+..illustration_Moskalenko_F.M. <= nrel_translation : ..translation_illustration_Moskalenko_F.M.;;
+..translation_illustration_Moskalenko_F.M.-> rrel_example : [<img src="http://127.0.0.1:8181/Moskalenko.png"/>] (* => nrel_format: format_html;; *);;*/

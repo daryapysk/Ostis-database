@@ -1,0 +1,18 @@
+sc_node_not_relation->Stepanova_M.D.;;
+Stepanova_M.D.=>nrel_main_ru_idtf:[Степанова М.Д.];;
+
+Stepanova_M.D. <= nrel_email: [kafiit@bsuir.by](*<-lang_en;;*);;
+
+Stepanova_M.D. <= nrel_publication : ...(* -> Stepanova_M.D..2009ucXAnaliGDKP;; *);;
+
+Stepanova_M.D. -> Ucastnik_konferenzii_OSTIS;;
+
+Stepanova_M.D. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Stepanova_M.D. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Stepanova_M.D. -> dozent;;
+
+Stepanova_M.D. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.11;Foto_OSTISX2011.02.10.10.05;Foto_OSTISX2011.02.10.10.39;Foto_OSTISX2011.02.10.11.15;Foto_OSTISX2011.02.10.11.31;; *);;

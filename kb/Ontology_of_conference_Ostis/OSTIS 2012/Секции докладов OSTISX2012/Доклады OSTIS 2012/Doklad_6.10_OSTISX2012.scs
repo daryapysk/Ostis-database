@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_6.10_OSTISX2012;;
+Doklad_6.10_OSTISX2012=>nrel_main_idtf:[Доклад 6.10 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_6.10_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_6.10_OSTISX2012 => nrel_name_of_doclad: [Применение нейронных и семантических сетей для сегментации растровых изображений земной поверхности](* <- lang_ru;;*);;
+
+Doklad_6.10_OSTISX2012 => nrel_section: [Секция 6 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_6.10_OSTISX2012 <= nrel_authors : ...(* -> Parkalov_A._V.;; *);;
+
+Doklad_6.10_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 6.10 OSTIS-2012";;
+
+Doklad_6.10_OSTISX2012 <= nrel_articke: ...(* -> Parkalov_A.V.2012stXPrimeNiSSdSRIZP;; *);;
+
+Doklad_6.10_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X7_OSTISX2012;; *);;*/
+
+
+Doklad_6.10_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Паркалов_А.В.2012ст-ПримеНиССдСРИЗП.pdf";;
+						    *);; 
+					*);;
+Doklad_6.10_OSTISX2012=> nrel_authors:Parkalov_Alexey_Viktorovich;;

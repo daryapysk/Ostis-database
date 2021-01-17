@@ -1,0 +1,25 @@
+
+Gladun_A.A.=> nrel_main_idtf:
+	[Гладун А.Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gladun_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Gladun_A.A. <= nrel_authors:  ...(* -> Doklad_30_OSTISX2015;Doklad_49_OSTISX2014;Doklad_6.05_OSTISX2012;; *);;
+
+Gladun_A.A. <- concept_participant_of_conference_OSTIS2014;;
+Gladun_A.A. <- concept_participant_of_conference_OSTIS2012;;
+Gladun_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Gladun_A.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Gladun_A.A. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Gladun_A.A. -> dozent;;*/

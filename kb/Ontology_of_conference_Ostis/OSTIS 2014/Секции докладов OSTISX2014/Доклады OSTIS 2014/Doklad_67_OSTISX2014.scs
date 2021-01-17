@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_67_OSTISX2014;;
+Doklad_67_OSTISX2014=>nrel_main_idtf:[Доклад 67 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_67_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_67_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_67_OSTISX2014 <= nrel_name_of_doclad: [Определение ключевых параметров лица человека для построения объектной модели](* <- lang_ru;;*);;
+
+// Doklad_67_OSTISX2014 <= nrel_authors : ...(* -> Klimov_A._S.;Orlova_U._A.;Rozaliev_V._L.;Fomenkova_M._A.;; *);;
+
+Doklad_67_OSTISX2014 <= nrel_authors: Klimov_A._S.;Orlova_U._A.;Rozaliev_V._L.;Fomenkova_M._A.;; 
+
+// Doklad_67_OSTISX2014 <= nrel_articke: ...(* -> 67._Klimov_A.S.X_Orlova_U.A.X_Rozaliev_V.L.X_Fomenkova_M.A._X_OpreKPLCdPOM;; *);;

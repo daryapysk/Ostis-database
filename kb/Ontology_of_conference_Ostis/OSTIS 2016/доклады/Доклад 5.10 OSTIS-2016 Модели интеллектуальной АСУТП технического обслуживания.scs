@@ -1,0 +1,31 @@
+report_5.10_OSTIS_2016_ModelIPCSM => nrel_main_idtf:
+[Доклад 5.10 OSTIS-2016 Модели интеллектуальной АСУТП технического обслуживания]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 5.10 OSTIS-2016 Model of intelligent process control systems maintenance] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_5.10_OSTIS_2016_ModelIPCSM   <- doklad_OSTISX2016;;
+
+report_5.10_OSTIS_2016_ModelIPCSM   <= nrel_authors:Burdo_G_B;
+Fedotova_A._V.;;
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_published_material: publication_Burdo_G_B_2016_ModelIPCSM;;
+
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_report_language: lang_ru;;
+
+
+/*report_5.10_OSTIS_2016_ModelIPCSM   <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_name: [Модели интеллектуальной АСУТП технического обслуживания](*<- lang_ru;;*);;
+
+report_5.10_OSTIS_2016_ModelIPCSM   <= nrel_speaker: Burdo_G_B;;
+
+
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_time_speech: [13:30 - 13:50];;
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_data_speech: [19 февраля 2016];;
+
+report_5.10_OSTIS_2016_ModelIPCSM   => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+

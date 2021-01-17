@@ -1,0 +1,19 @@
+
+Sustova_D.V.=> nrel_main_idtf:
+	[Шустова Д.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sustova_D.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sustova_D.V. => nrel_email: [shustovadv@yandex.ru](*<-lang_en;;*);;
+
+////Sustova_D.V. <= nrel_authors:  ...(* -> Doklad_4.02_OSTISX2012;; *);;
+
+//Sustova_D.V.<- concept_participant_of_conference_OSTIS;;
+Sustova_D.V.<- concept_participant_of_conference_OSTIS2012;;
+
+//Sustova_D.V. -> aspirant;;

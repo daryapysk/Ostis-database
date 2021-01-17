@@ -1,0 +1,19 @@
+
+VorobXev_V.V.=> nrel_main_idtf:
+	[Воробьев В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[VorobXev_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+VorobXev_V.V. => nrel_email: [Gatus86@mail.ru](*<-lang_en;;*);;
+
+//VorobXev_V.V. <- concept_participant_of_conference_OSTIS;;
+VorobXev_V.V.<- concept_participant_of_conference_OSTIS2015;;
+
+/*VorobXev_V.V. <= nrel_authors:  ...(* -> Doklad_71_OSTISX2015;; *);;
+
+VorobXev_V.V. -> Ucastnik_konferenzii_OSTIS;;*/

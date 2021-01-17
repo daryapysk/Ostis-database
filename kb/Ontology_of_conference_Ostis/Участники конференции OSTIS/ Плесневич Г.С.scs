@@ -1,0 +1,14 @@
+Plesniewicz_G_S => nrel_main_idtf:
+[Плесневич Г.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Plesniewicz_G_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Plesniewicz_G_S;;
+
+Plesniewicz_G_S => nrel_contact_information:[salve777@mail.ru];;
+

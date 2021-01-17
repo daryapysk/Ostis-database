@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_77_OSTISX2014;;
+Doklad_77_OSTISX2014=>nrel_main_idtf:[Доклад 77 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_77_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_77_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_77_OSTISX2014 <= nrel_name_of_doclad: [Метод целенаправленного поиска связанных данных в условиях структурной неопределенности](* <- lang_ru;;*);;
+
+// Doklad_77_OSTISX2014 <= nrel_authors : ...(* -> Tertysnyj_V._A.;Sapoval_I._S.;Serbak_S._S.;; *);;
+
+Doklad_77_OSTISX2014 <= nrel_authors: Tertysnyj_V._A.;Sapoval_I._S.;Serbak_S._S.;; 
+
+// Doklad_77_OSTISX2014 <= nrel_articke: ...(* -> 77._Tertysnyj_V.A.X_Sapoval_I.S.X_Serbak_S.S._X_MetodZPSDvUSN;; *);;

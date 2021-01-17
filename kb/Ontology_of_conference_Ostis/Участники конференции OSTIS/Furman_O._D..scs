@@ -1,0 +1,12 @@
+Furman_O._D.=> nrel_main_idtf:
+	[Фурман О. Д.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Furman_O._D.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+ // Furman_O._D. <- concept_participant_of_conference_OSTIS;;
+  Furman_O._D. <- concept_participant_of_conference_OSTIS2013;;

@@ -1,0 +1,18 @@
+sc_node_not_relation->Stolbanov_N.A.;;
+Stolbanov_N.A.=>nrel_main_idtf:[Столбанов Н.А.](*<-lang_ru;;*);;
+
+Stolbanov_N.A. => nrel_email: [dekfitu@bsuir.by](*<-lang_en;;*);;
+
+/*Stolbanov_N.A. <= nrel_publication : ...(* -> Gorbacev_A.D..1997ucXLaborPpKTAU;Stolbanov_N.A..2003stXAnaliIUFSsIPF;Derusev_A.A..2003stXAnaliIUFSsOSU;Silin_L.U..2003stXAnaliIUFSsIPF;Silin_L.U..2003stXAnaliIUFSsOSU;; *);;
+
+Stolbanov_N.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Stolbanov_N.A. -> Orgkomitet_OSTISX2011;;
+
+Stolbanov_N.A. -> zam.dekana;;
+
+Stolbanov_N.A. <- rrel_key_sc_element: ..illustration_Stolbanov_N.A.(* <- sc_illustation;; *);;
+..illustration_Stolbanov_N.A. <= nrel_translation : ..translation_illustration_Stolbanov_N.A.;;
+..translation_illustration_Stolbanov_N.A.-> rrel_example : [<img src="http://127.0.0.1:8181/StolbanovN.jpg"/>] (* => nrel_format: format_html;; *);;
+
+Stolbanov_N.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.10;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.05;Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.13;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.10.44;Foto_OSTISX2011.02.10.11.19;; *);;*/

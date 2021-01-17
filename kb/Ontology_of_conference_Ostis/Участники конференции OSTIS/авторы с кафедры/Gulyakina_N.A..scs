@@ -1,0 +1,15 @@
+Gulyakina_N.A.=> nrel_main_idtf:
+	[Гулякина Н.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gulyakina_N.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gulyakina_Natalia_Anatolevna<-concept_participant_of_conference_OSTIS;
+concept_participant_of_conference_OSTIS2011;
+concept_participant_of_conference_OSTIS2012;
+concept_participant_of_conference_OSTIS2013;
+concept_participant_of_conference_OSTIS2015;;

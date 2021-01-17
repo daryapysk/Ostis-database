@@ -1,0 +1,19 @@
+sc_node_norole_relation -> nrel_participant_of_competition_of_conference;; 
+nrel_participant_of_competition_of_conference=>nrel_main_idtf:
+[участник конкурса конференции*](*<-lang_ru;;*);
+[participant of competition of conference* ](*<-lang_en;;*);;
+nrel_participant_of_competition_of_conference<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Участник конкурса конференции - исполнитель работ, услуг, подавший заявку на участие в конкурсе в рамках конференции.](*<-lang_ru;;*);;
+		*);;
+	*);;
+nrel_participant_of_competition_of_conference=>nrel_first_domain:concept_conference;;
+nrel_participant_of_competition_of_conference=>nrel_second_domain:concept_participant_of_conference_OSTIS;;
+nrel_participant_of_competition_of_conference=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant_of_conference_OSTIS;;->concept_conference;;*);;
+*);;

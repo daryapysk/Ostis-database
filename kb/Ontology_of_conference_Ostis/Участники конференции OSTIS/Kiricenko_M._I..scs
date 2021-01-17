@@ -1,0 +1,26 @@
+
+Kiricenko_M.I.=> nrel_main_idtf:
+	[Кириченко М. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kiricenko_M.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kiricenko_M.I. <- concept_participant_of_conference_OSTIS2014;;
+Kiricenko_M.I. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+/*Kiricenko_M._I. <= nrel_authors:  ...(* -> Doklad_86_OSTISX2015;Doklad_64_OSTISX2014;; *);;
+
+Kiricenko_M._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Kiricenko_M._I. -> student;;
+student <- Volgogradskij_gosudarstvennyj_tehniceskij_universitet;;
+
+Kiricenko_M._I. -> magistrant;;
+magistrant <- ucenoe_zvanie;;*/

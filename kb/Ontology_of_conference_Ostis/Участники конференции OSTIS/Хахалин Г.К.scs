@@ -1,0 +1,17 @@
+Hahalin_G_K => nrel_main_idtf:
+[Хахалин Г.К.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hahalin_G_K] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Hahalin_G_K;;
+Hahalin_G_K. <- concept_participant_of_conference_OSTIS2014;;
+Hahalin_G_K. <- concept_participant_of_conference_OSTIS2011;;
+Hahalin_G_K. <- concept_participant_of_conference_OSTIS2012;;
+
+Hahalin_G_K => nrel_contact_information:[gkhakhalin@yandex.ru];;
+

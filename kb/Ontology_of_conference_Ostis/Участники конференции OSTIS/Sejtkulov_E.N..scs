@@ -1,0 +1,29 @@
+
+Sejtkulov_E.N.=> nrel_main_idtf:
+	[Сейткулов Е.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sejtkulov_E.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sejtkulov_E.N. => nrel_email: [seitkulov_y@enu.kz](*<-lang_en;;*);;
+
+Sejtkulov_E.N.  <- concept_participant_of_conference_OSTIS2015;;
+//Sejtkulov_E.N.  <- concept_participant_of_conference_OSTIS;;
+
+
+/*Sejtkulov_E.N. <= nrel_authors:  ...(* -> Doklad_08_OSTISX2015;Doklad_26_OSTISX2014;; *);;
+
+Sejtkulov_E.N. -> Ucastnik_konferenzii_OSTIS;;
+
+Sejtkulov_E.N. -> kandidat_fizikoXmatematiceskih_nauk;;
+kandidat_fizikoXmatematiceskih_nauk <- ucenaa_stepenX;;
+
+Sejtkulov_E.N. -> direktor;;
+
+Sejtkulov_E.N. <- rrel_key_sc_element: ..illustration_Sejtkulov_E.N.(* <- sc_illustation;; *);;
+..illustration_Sejtkulov_E.N. <= nrel_translation : ..translation_illustration_Sejtkulov_E.N.;;
+..translation_illustration_Sejtkulov_E.N.-> rrel_example : [<img src="http://127.0.0.1:8181/Seitkulov.jpg"/>] (* => nrel_format: format_html;; *);;*/

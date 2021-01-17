@@ -1,0 +1,23 @@
+
+Babamuhamedova_M.Z.=> nrel_main_idtf:
+	[Бабамухамедова М.З.]
+	(*
+	<- lang_ru;;
+	*);
+	[Babamuhamedova_M.Z.]
+	(*
+	<- lang_en;;
+	*);;
+
+Babamuhamedova_M.Z. => nrel_email: [malikadoshanova@mail.ru](*<-lang_en;;*);;
+
+//Babamuhamedova_M.Z. <- concept_participant_of_conference_OSTIS;;
+Babamuhamedova_M.Z. <- concept_participant_of_conference_OSTIS2015;;
+Babamuhamedova_M.Z. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Babamuhamedova_M.Z. <= nrel_authors:  ...(* -> Doklad_48_OSTISX2015;; *);;
+
+Babamuhamedova_M.Z. -> Ucastnik_konferenzii_OSTIS;;
+
+Babamuhamedova_M.Z. -> dozent;;*/

@@ -1,0 +1,25 @@
+
+Kipatkova_I.S.=> nrel_main_idtf:
+	[Кипяткова И.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kipatkova_I.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kipatkova_I.S. => nrel_email: [kipyatkova@iias.spb.su](*<-lang_en;;*);;
+
+/*Kipatkova_I.S. <= nrel_authors:  ...(* -> Doklad_7.13_OSTISX2011;; *);;
+
+Kipatkova_I.S. <= nrel_publication : ...(* -> Kipatkova_I.S..2010stXEkspepRSRsISS;Kipatkova_I.S..2010stXRazraiISMRA;Kipatkova_I.S..2010stXAnaliOsRRRsBS;; *);;*/
+
+//Kipatkova_I.S. <- concept_participant_of_conference_OSTIS;;
+Kipatkova_I.S. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Kipatkova_I.S. -> m.n.s.;;
+
+Kipatkova_I.S. <- rrel_key_sc_element: ..illustration_Kipatkova_I.S.(* <- sc_illustation;; *);;
+..illustration_Kipatkova_I.S. <= nrel_translation : ..translation_illustration_Kipatkova_I.S.;;
+..translation_illustration_Kipatkova_I.S.-> rrel_example : [<img src="http://127.0.0.1:8181/KipiatkovaIS.png"/>] (* => nrel_format: format_html;; *);;*/

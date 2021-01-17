@@ -1,0 +1,21 @@
+
+Visnevskij_S.A.=> nrel_main_idtf:
+	[Вишневский С.Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Visnevskij_S.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Visnevskij_S.A. => nrel_email: [svishnevskij@gmail.com](*<-lang_en;;*);;
+
+//Visnevskij_S.A. <- concept_participant_of_conference_OSTIS;;
+Visnevskij_S.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Visnevskij_S.A. <= nrel_authors:  ...(* -> Doklad_79_OSTISX2015;; *);;
+
+Visnevskij_S.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Visnevskij_S.A. -> magistrant;;*/

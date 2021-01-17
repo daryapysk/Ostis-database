@@ -1,0 +1,20 @@
+
+Trembac_V.M.=> nrel_main_idtf:
+	[Трембач В.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Trembac_V.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Trembac_V.M. => nrel_email: [vtrembach@mesi.ru](*<-lang_en;;*);;
+
+//Trembac_V.M. <- concept_participant_of_conference_OSTIS;;
+Trembac_V.M. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Trembac_V.M. <= nrel_authors:  ...(* -> Doklad_41_OSTISX2015;; *);;
+
+Trembac_V.M. -> Ucastnik_konferenzii_OSTIS;;*/

@@ -1,0 +1,21 @@
+concept_round_table  => nrel_main_idtf:
+[круглый стол](* <- lang_ru;; *);
+[round table] (* <- lang_en;; *);;
+
+
+concept_round_table <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(круглый стол)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Круглый стол - обсуждение определенных проблем (вопросов), а также принятие некоторых решений и подведение итогов по секции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+concept_event -> concept_round_table ;;

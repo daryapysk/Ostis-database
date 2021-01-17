@@ -1,0 +1,28 @@
+
+Ivanov_V.K.=> nrel_main_idtf:
+	[Иванов В. К.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivanov_V.K.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ivanov_V.K. => nrel_email: [mtivk@tstu.tver.ru](*<-lang_en;;*);;
+
+Ivanov_V.K. <- concept_participant_of_conference_OSTIS2015;;
+
+//Ivanov_V.K. <- concept_participant_of_conference_OSTIS;;
+
+/*Ivanov_V._K. <= nrel_authors:  ...(* -> Doklad_67_OSTISX2015;; *);;
+
+Ivanov_V._K. -> Ucastnik_konferenzii_OSTIS;;
+
+Ivanov_V._K. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Ivanov_V._K. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Ivanov_V._K. -> Direktor_Zentra_naucnoXobrazovatelXnyh_elektronnyh_resursov_TvGTU;;*/

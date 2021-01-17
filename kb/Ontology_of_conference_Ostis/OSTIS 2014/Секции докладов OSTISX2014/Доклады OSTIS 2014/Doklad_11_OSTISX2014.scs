@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_11_OSTISX2014;;
+Doklad_11_OSTISX2014=>nrel_main_idtf:[Доклад 11 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_11_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_11_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_11_OSTISX2014 <= nrel_name_of_doclad: [О формализации семантики областей знаний в информационных и интеллектуальных системах на основе онтологий](* <- lang_ru;;*);;
+
+// Doklad_11_OSTISX2014 <= nrel_authors : ...(* -> ZagorulXko_U._A.;ZagorulXko_G._B.;; *);;
+
+Doklad_11_OSTISX2014 <= nrel_authors: ZagorulXko_U._A.;ZagorulXko_G._B.;; 
+
+// Doklad_11_OSTISX2014 <= nrel_articke: ...(* -> 11._ZagorulXko_U.A.X_ZagorulXko_G.B._X_O_forSOZvIiISnOO;; *);;

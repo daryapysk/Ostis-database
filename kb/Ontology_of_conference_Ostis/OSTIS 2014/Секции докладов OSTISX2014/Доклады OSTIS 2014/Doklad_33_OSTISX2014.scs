@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_33_OSTISX2014;;
+Doklad_33_OSTISX2014=>nrel_main_idtf:[Доклад 33 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_33_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_33_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_33_OSTISX2014 <= nrel_name_of_doclad: [Матричное представление конечных предикатов для автоматизации логико-семантического анализа](* <- lang_ru;;*);;
+
+// Doklad_33_OSTISX2014 <= nrel_authors : ...(* -> Zuenko_A._A.;; *);;
+
+Doklad_33_OSTISX2014 <= nrel_authors: Zuenko_A._A.;; 
+
+// Doklad_33_OSTISX2014 <= nrel_articke: ...(* -> 33._Zuenko_A.A._X_MatriPKPdALXSA;; *);;

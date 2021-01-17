@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_40_OSTISX2014;;
+Doklad_40_OSTISX2014=>nrel_main_idtf:[Доклад 40 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_40_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_40_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_40_OSTISX2014 <= nrel_name_of_doclad: [Содержание системного анализа при автоматизации интеллектуальной деятельности на уровне отрасли](* <- lang_ru;;*);;
+
+// Doklad_40_OSTISX2014 <= nrel_authors : ...(* -> Klesev_A._S.;Salfeeva_E._A.;; *);;
+
+Doklad_40_OSTISX2014 <= nrel_authors: Klesev_A._S.;Salfeeva_E._A.;; 
+
+// Doklad_40_OSTISX2014 <= nrel_articke: ...(* -> 40._Klesev_A.S.X_Salfeeva_E.A._X_SoderSApAIDnUO;; *);;

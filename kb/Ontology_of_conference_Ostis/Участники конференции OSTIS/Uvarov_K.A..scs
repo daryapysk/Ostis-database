@@ -1,0 +1,10 @@
+sc_node_not_relation->Uvarov_K.A.;;
+Uvarov_K.A.=>nrel_main_ru_idtf:[Уваров К.А.];;
+
+Uvarov_K.A. <= nrel_email: [kafiit@mail.ru](*<-lang_en;;*);;
+
+Uvarov_K.A. <= nrel_publication : ...(* -> Uvarov_K.A.2009stXSemanMIRZ;; *);;
+
+Uvarov_K.A. -> assistent;;
+
+Uvarov_K.A. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.57;Foto_OSTISX2011.02.10.11.23;Foto_OSTISX2011.02.10.11.32;; *);;

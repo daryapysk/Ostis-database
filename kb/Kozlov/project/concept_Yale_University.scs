@@ -1,0 +1,47 @@
+
+concept_Yale_University<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Йельский университет]
+      (*<-lang_ru;;*);
+       [Yale University]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Йельский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_USA;
+       concept_private_univesity
+    
+       
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Йельский университет— частный исследовательский университет США] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Йельский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student;
+    concept_univesity
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Йельский университет обучает 13433 студента](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Yale_University -> rrel_example: [Йельский университет был основан в 1701 году.](* <- lang_ru;; *);;
+concept_Yale_University <=nrel_inclusion:concept_higher_education_institution;;
+Ravindran_Kannan<-rrel_employee:concept_Yale_University;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Yale_University;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Yale.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Йельский университет)](*<- lang_ru;;*);;
+*);;

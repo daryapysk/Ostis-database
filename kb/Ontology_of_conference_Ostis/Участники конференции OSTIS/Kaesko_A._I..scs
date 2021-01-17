@@ -1,0 +1,22 @@
+
+Kaesko_A.I.=> nrel_main_idtf:
+	[Каешко А. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kaesko_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kaesko_A.I. => nrel_email: [ondister@gmail.com](*<-lang_en;;*);;
+
+Kaesko_A.I. <- concept_participant_of_conference_OSTIS2015;;
+Kaesko_A.I. <- concept_participant_of_conference_OSTIS2016;;
+Kaesko_A.I. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Kaesko_A._I. <= nrel_authors:  ...(* -> Doklad_10_OSTISX2015;Doklad_68_OSTISX2014;; *);;
+
+Kaesko_A._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Kaesko_A._I. -> magistrant;;*/

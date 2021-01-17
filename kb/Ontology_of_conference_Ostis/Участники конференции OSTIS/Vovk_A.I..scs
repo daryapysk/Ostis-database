@@ -1,0 +1,26 @@
+
+Vovk_A.I.=> nrel_main_idtf:
+	[Вовк А.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vovk_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vovk_A.I. => nrel_email: [vovk@ndiasb.kiev.ua](*<-lang_en;;*);;
+
+//Vovk_A.I. <= nrel_authors:  ...(* -> Doklad_6.04_OSTISX2012;Doklad_8.01_OSTISX2011;; *);;
+
+//Vovk_A.I. <- concept_participant_of_conference_OSTIS;;
+Vovk_A.I. <- concept_participant_of_conference_OSTIS2011;;
+Vovk_A.I. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Vovk_A.I. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Vovk_A.I. -> s.n.s.;;
+s.n.s. <- ucenoe_zvanie;;
+
+Vovk_A.I. -> vedusij_naucnyj_sotrudnik;;*/

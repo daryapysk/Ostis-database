@@ -1,0 +1,14 @@
+Yarushev_S_A=> nrel_main_idtf:
+[Ярушев С.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Yarushev_S_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Yarushev_S_A;;
+
+Yarushev_S_A => nrel_contact_information:[Sergey.Yarushev@icloud.com];;
+

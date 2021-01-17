@@ -1,0 +1,34 @@
+//
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_main_idtf:
+[Доклад 4.05 OSTIS-2016 Принципы платформенной независимости и платформенной реализации OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.05 OSTIS-2016 Principles of platform independence and platform implementation OSTIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI <- doklad_OSTISX2016;;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI <= nrel_authors: 
+Ivashenko_Valerian_Petrovich;
+Tatur_M.M.;;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_published_material: publication_Ivashenko_V_P_2016_FoundoPIaOPI;;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_report_language: lang_ru;;
+
+
+report_4.05_OSTIS_2016_FoundoPIaOPI <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/4.05_Ивашенко_ПринцПНиПРOSTIS.pdf";; *);; *);;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_name: [Принципы платформенной независимости и платформенной реализации OSTIS](*<- lang_ru;;*);;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI <= nrel_speaker: Ivashenko_Valerian_Petrovich;;
+
+
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_time_speech: [16:30 - 16:45];;
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_data_speech: [18 февраля 2016];;
+
+report_4.05_OSTIS_2016_FoundoPIaOPI => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

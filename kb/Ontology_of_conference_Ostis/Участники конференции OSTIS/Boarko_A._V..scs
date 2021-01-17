@@ -1,0 +1,21 @@
+
+Boarko_A.V.=> nrel_main_idtf:
+	[Боярко А. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Boarko_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Boarko_A.V. => nrel_email: [bojarko@bsuir.by](*<-lang_en;;*);;
+
+//Boarko_A.V. <- concept_participant_of_conference_OSTIS;;
+
+
+/*Boarko_A._V. -> rukovoditelX;;
+
+Boarko_A._V. <- rrel_key_sc_element: ..illustration_Boarko_A._V.(* <- sc_illustation;; *);;
+..illustration_Boarko_A._V. <= nrel_translation : ..translation_illustration_Boarko_A._V.;;
+..translation_illustration_Boarko_A._V.-> rrel_example : [<img src="http://127.0.0.1:8181/BoiarkoAV.png"/>] (* => nrel_format: format_html;; *);;*/

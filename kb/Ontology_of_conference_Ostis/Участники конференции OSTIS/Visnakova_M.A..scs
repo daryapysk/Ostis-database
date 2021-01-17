@@ -1,0 +1,21 @@
+Visnakova_M.A.=> nrel_main_idtf:
+	[Вишнякова М.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Visnakova M.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Visnakova_M.A. => nrel_email: [vishnyakova@speetech.by](*<-lang_en;;*);;
+//Visnakova_M.A. <- concept_participant_of_conference_OSTIS;;
+Visnakova_M.A.<- concept_participant_of_conference_OSTIS2011;;
+
+/*Visnakova_M.A. <= nrel_authors:  ...(* -> Doklad_7.15_OSTISX2011;; *);;
+
+Visnakova_M.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Visnakova_M.A. -> PersonalXnyj_sostav_Recevye_tehnologii;;
+
+Visnakova_M.A. -> PredstavitelX_soorganizatora_OSTISX2011;;*/

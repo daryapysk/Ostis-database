@@ -1,0 +1,59 @@
+sc_node_not_relation->suspension_detail;;
+concept_axle
+
+
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+      [мост автомобиля]
+      (*<-lang_ru;;*);
+       [car axle]
+       (*<-lang_en;;*);
+=> nrel_idtf:
+      [мост]
+      (*<-lang_ru;;*);
+      [axle]
+      (*<-lang_en;;*);       
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. Мост] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       axis;
+       wheel;
+       car_component
+    
+};; 
+      <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Мост - комконент машины, соединяющий между собой колёса одной оси.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- statement;;
+    => nrel_main_idtf:
+      [Утв. 1 О М=мосте] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       steering;
+       car_suspension;
+       transmission;
+		engine;
+		chassis
+
+};;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[К раме, как правило, крепятся все основные агрегаты автомобиля - двигатель, трансмиссия, мосты, подвеска, рулевое управление.](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+<=nrel_inclusion:suspension_detail;;
+
+
+sc_node_not_relation->car;;
+sc_node_not_relation->concept_axle;;
+sc_node_norole_relation->have_component;;
+
+car->Golf_2;;
+Golf_2=>nrel_have_component:axle1;;
+concept_axle->axle1;;

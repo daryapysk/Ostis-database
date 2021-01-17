@@ -1,0 +1,19 @@
+
+Ivanov_R.A.=> nrel_main_idtf:
+	[Иванов Р.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivanov_R.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ivanov_R.A. => nrel_email: [crowndriver@gmail.com](*<-lang_en;;*);;
+
+//Ivanov_R.A. <= nrel_authors:  ...(* -> Doklad_38_OSTISX2014;; *);;
+
+Ivanov_R.A. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Ivanov_R.A. -> kandidat_nauk;;
+kandidat_nauk <- ucenaa_stepenX;;*/

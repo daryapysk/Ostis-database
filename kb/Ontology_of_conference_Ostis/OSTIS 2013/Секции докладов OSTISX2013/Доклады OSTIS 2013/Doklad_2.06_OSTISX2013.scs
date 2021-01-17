@@ -1,0 +1,23 @@
+// sc_node_not_relation->Doklad_2.06_OSTISX2013;;
+Doklad_2.06_OSTISX2013=>nrel_main_idtf:[Доклад 2.06 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_2.06_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_2.06_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_2.06_OSTISX2013 <= nrel_name_of_doclad: [Семантические вэб-сервисы для интеграционных решений](* <- lang_ru;;*);;
+
+// //Doklad_2.06_OSTISX2013 <= nrel_section: [Секция 2 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_2.06_OSTISX2013 <= nrel_authors : ...(* -> Visnakov_V._A.;Borodaenko_U._V.;; *);;
+Doklad_2.06_OSTISX2013 <= nrel_authors: Visnakov_V._A.;Borodaenko_U._V.;;
+
+//Doklad_2.06_OSTISX2013 <= nrel_articke: ...(* -> Visnakov_V.A..2013stXSemanVdIR;; *);;
+
+Doklad_2.06_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Вишняков_В.А..2013ст-СеманВдИР.pdf";;
+						    *);;
+					*);;

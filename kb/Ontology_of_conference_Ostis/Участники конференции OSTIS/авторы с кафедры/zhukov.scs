@@ -1,0 +1,13 @@
+
+Zhukov_I_I. => nrel_main_idtf:
+[Жуков И.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zhukov_I_I.] 
+	(*
+	<- lang_en;;
+	*);;
+Zhukov_Ivan_Ivanovich <- concept_participant_of_conference_OSTIS;;
+Zhukov_Ivan_Ivanovich <- concept_participant_of_conference_OSTIS2013;;
+Zhukov_Ivan_Ivanovich <- concept_participant_of_conference_OSTIS2015;;

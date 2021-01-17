@@ -1,0 +1,14 @@
+Urin_A_U => nrel_main_idtf:
+[Юрин А.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Urin_A_U] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Urin_A_U;;
+
+Urin_A_U => nrel_contact_information:[iskander@icc.ru];;
+

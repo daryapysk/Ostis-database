@@ -1,0 +1,15 @@
+
+Volegov_I.S.=> nrel_main_idtf:
+	[Волегов И. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Volegov_I.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Volegov_I.S.<- concept_participant_of_conference_OSTIS;;
+Volegov_I.S. <- concept_participant_of_conference_OSTIS2012;;
+

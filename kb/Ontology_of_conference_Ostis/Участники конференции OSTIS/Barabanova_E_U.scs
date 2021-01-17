@@ -1,0 +1,15 @@
+Barabanova_E_U=> nrel_main_idtf:
+[Барабанова Е.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Barabanova_E_U] 
+	(*
+	<- lang_en;;
+	*);;
+
+//OSTIS_conference_2016 => nrel_participant: Barabanova_E_U;;
+Barabanova_E_U <- concept_participant_of_conference_OSTIS2016;;
+
+Barabanova_E_U => nrel_contact_information:[puzakina@yandex.ru];;
+

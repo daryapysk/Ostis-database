@@ -1,0 +1,9 @@
+sc_node_not_relation->Sihnabieva_T._S.;;
+Sihnabieva_T._S.=>nrel_main_ru_idtf:[Шихнабиева Т. Ш.];;
+
+
+Sihnabieva_T._S. <= nrel_authors:  ...(* -> Doklad_58_OSTISX2014;; *);;
+//Sihnabieva_T._S. <- concept_participant_of_conference_OSTIS;;
+Sihnabieva_T._S. <- concept_participant_of_conference_OSTIS2014;;
+Sihnabieva_T._S. <- concept_participant_of_conference_OSTIS2026;;
+

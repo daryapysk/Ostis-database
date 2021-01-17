@@ -1,0 +1,16 @@
+Ergashev_F_A=> nrel_main_idtf:
+[Эргашев Ф.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ergashev_F_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+Ergashev_F_A <- concept_participant_of_conference_OSTIS2016;;
+
+//OSTIS_conference_2016 => nrel_participant: Ergashev_F_A;;
+
+
+

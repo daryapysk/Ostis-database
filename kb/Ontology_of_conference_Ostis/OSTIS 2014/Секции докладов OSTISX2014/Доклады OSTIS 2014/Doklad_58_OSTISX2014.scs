@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_58_OSTISX2014;;
+Doklad_58_OSTISX2014=>nrel_main_idtf:[Доклад 58 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_58_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_58_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_58_OSTISX2014 <= nrel_name_of_doclad: [Использование адаптивных семантических моделей для представления и структуризации знаний в системах образовательного значения](* <- lang_ru;;*);;
+
+// Doklad_58_OSTISX2014 <= nrel_authors : ...(* -> Sihnabieva_T._S.;; *);;
+
+Doklad_58_OSTISX2014 <= nrel_authors: Sihnabieva_T._S.;; 
+
+// Doklad_58_OSTISX2014 <= nrel_articke: ...(* -> 58._Sihnabieva_T.S._X_IspolASMdPiSZvSON;; *);;

@@ -1,0 +1,17 @@
+
+Davydenko_I.T.=> nrel_main_idtf:
+	[Давыденко И.Т.]
+	(*
+	<- lang_ru;;
+	*);
+	[Davydenko_I.T.]
+	(*
+	<- lang_en;;
+	*);;
+
+Davydenko_Irina_Timofeevna <- concept_participant_of_conference_OSTIS;;
+Davydenko_Irina_Timofeevna <- concept_participant_of_conference_OSTIS2011;;
+Davydenko_Irina_Timofeevna <- concept_participant_of_conference_OSTIS2012;
+concept_participant_of_conference_OSTIS2013; 
+concept_participant_of_conference_OSTIS2015;;
+

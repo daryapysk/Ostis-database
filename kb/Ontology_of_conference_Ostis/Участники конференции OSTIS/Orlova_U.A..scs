@@ -1,0 +1,29 @@
+
+Orlova_U.A.=> nrel_main_idtf:
+	[Орлова Ю.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Orlova_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Orlova_U.A. => nrel_email: [yulia.orlova@gmail.com](*<-lang_en;;*);;
+
+/*Orlova_U.A. <= nrel_authors:  ...(* -> Doklad_88_OSTISX2015;Doklad_87_OSTISX2015;Doklad_84_OSTISX2015;Doklad_67_OSTISX2014;Doklad_64_OSTISX2014;Doklad_4.05_OSTISX2012;Doklad_4.04_OSTISX2012;Doklad_3.05_OSTISX2011;; *);;*/
+
+Orlova_U.A. <- concept_participant_of_conference_OSTIS2014;;
+Orlova_U.A. <- concept_participant_of_conference_OSTIS2011;;
+Orlova_U.A. <- concept_participant_of_conference_OSTIS2012;;
+Orlova_U.A. <- concept_participant_of_conference_OSTIS2015;;
+Orlova_U.A. <- concept_participant_of_conference_OSTIS2020;;
+/*Orlova_U.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Orlova_U.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Orlova_U.A. <- rrel_key_sc_element: ..illustration_Orlova_U.A.(* <- sc_illustation;; *);;
+..illustration_Orlova_U.A. <= nrel_translation : ..translation_illustration_Orlova_U.A.;;
+..translation_illustration_Orlova_U.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Orlova.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,35 @@
+
+Vinogradov_G.P.=> nrel_main_idtf:
+	[Виноградов Г.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vinogradov G.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+Vinogradov_G.P. => nrel_email: [WGP272NG@mail.ru](*<-lang_en;;*);;
+Vinogradov_G.P. <- concept_participant_of_conference_OSTIS2015;;
+
+Vinogradov_G.P. <- concept_participant_of_conference_OSTIS2014;;
+Vinogradov_G.P. <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+
+/*Vinogradov_G.P. <= nrel_authors:  ...(* -> Doklad_68_OSTISX2015;Doklad_66_OSTISX2015;Doklad_29_OSTISX2014;; *);;
+
+Vinogradov_G.P. -> Ucastnik_konferenzii_OSTIS;;
+
+Vinogradov_G.P. -> doktor_nauk;;
+doktor_nauk <- ucenaa_stepenX;;
+
+Vinogradov_G.P. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Vinogradov_G.P. -> professor;;
+
+Vinogradov_G.P. <- rrel_key_sc_element: ..illustration_Vinogradov_G.P.(* <- sc_illustation;; *);;
+..illustration_Vinogradov_G.P. <= nrel_translation : ..translation_illustration_Vinogradov_G.P.;;
+..translation_illustration_Vinogradov_G.P.-> rrel_example : [<img src="http://127.0.0.1:8181/Vinogradov.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,25 @@
+publication_Mityanok_V_V_2016_APhysiSSVSHS => nrel_main_idtf:
+[Митянок В. В. 2016 - ОФизиСПГЗРЧ]
+	(*
+	<- lang_ru;;
+	*);
+	[Mityanok_V_V_2016_APhysiSSVSHS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS => nrel_name_publication:[О физической структуре простых гласных звуков речи человека](*
+	<- lang_ru;;
+	*);;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS<= nrel_authors:
+Mityanok_V_V;;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS <- article;;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS => nrel_reference_standard: [Митянок, В. В. О физической структуре простых гласных звуков речи человека / В.В. Митянок // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 405–410.];;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS => nrel_year_publication: 2016;;
+
+publication_Mityanok_V_V_2016_APhysiSSVSHS => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Mityanok_V_V_2016_APhysiSSVSHS <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Митянок.pdf";; *);;*);;

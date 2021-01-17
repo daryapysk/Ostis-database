@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_country;; 
+
+nrel_country => nrel_main_idtf:[страна*] (* <-lang_ru;; *);;
+
+nrel_country => nrel_main_idtf:[country*] (* <-lang_en;; *);;

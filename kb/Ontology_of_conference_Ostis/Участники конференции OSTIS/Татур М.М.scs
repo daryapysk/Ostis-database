@@ -1,0 +1,14 @@
+Tatur_M_M => nrel_main_idtf:
+[Татур М.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tatur_M_M] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Tatur_M_M;;
+
+Tatur_M_M => nrel_contact_information:[tatur@i-proc.com];;
+

@@ -1,0 +1,29 @@
+//sc_node_not_relation->Doklad_7.11_OSTISX2011;;
+Doklad_7.11_OSTISX2011=>nrel_main_idtf:[Доклад 7.11 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.11_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_7.11_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.11_OSTISX2011 => nrel_name_of_doclad: [Методы семантического анализа для построения голосовых интерфейсов: синтез речи](* <- lang_ru;;*);;
+
+/*Doklad_7.11_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.11_OSTISX2011 <= nrel_authors : ...(* -> Lobanov_B._M.;; *);;
+
+Doklad_7.11_OSTISX2011 <= nrel_presentation: "file://Презентация доклада 7.11 OSTIS-2011";;
+
+Doklad_7.11_OSTISX2011 <= nrel_articke: ...(* -> Lobanov_B._M.2011stXMetodSAdPGISR;; *);;
+
+Doklad_7.11_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X15_OSTISX2011;; *);;*/
+
+
+Doklad_7.11_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Лобанов_Б._М.2011ст-МетодСАдПГИСР.pdf";;
+						    *);; 
+					*);;
+
+Doklad_7.11_OSTISX2011=>nrel_authors:  Lobanov_B.M.;;

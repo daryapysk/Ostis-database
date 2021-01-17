@@ -1,0 +1,38 @@
+//
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_main_idtf:
+[Доклад 1.02 OSTIS-2016 Метод формирования инженерных расчетов на порталах знаний]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 1.02 OSTIS-2016 The method of formation of engineering calculations on a portal of knowledge] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC <- doklad_OSTISX2016;;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC <= nrel_authors: Globa_L.S.;
+Novogrudskaa_R.L.;;
+
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_published_material: publication_Globa_L_S_2016_tMethodoCECoKPC ;;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_report_language: lang_ru;;
+
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.02_Глоба МФИРнПЗ.pdf";; *);; *);;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_name: [Метод формирования инженерных расчетов на порталах знаний](*<- lang_ru;;*);;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC <= nrel_speaker: Novogrudskaa_R.L.;;
+
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_time_speech: [10:30 - 11:15];;
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_data_speech: [18 февраля 2016];;
+
+report_1.02_OSTIS_2016_tMethodoCECoKPC => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+
+
+//спросить у Натальи Викторовны имеет ли доклад награды
+//report_01_OSTIS_2016_SynthSaAAtKMSD => nrel_reward: super_report_in_the_world;;
+

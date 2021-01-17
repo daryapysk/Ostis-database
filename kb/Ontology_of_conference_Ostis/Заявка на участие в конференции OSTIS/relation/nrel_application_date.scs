@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_application_date;; 
+
+nrel_application_date => nrel_main_idtf:[дата подачи*] (* <-lang_ru;; *);;
+
+nrel_application_date => nrel_main_idtf:[creation date*] (* <-lang_en;; *);;

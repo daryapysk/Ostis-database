@@ -1,0 +1,12 @@
+Borodaenko_U._V.=> nrel_main_idtf:
+	[Бородаенко Ю. В.]
+  	(*
+  	<- lang_ru;;
+  	*);
+  	[Borodaenko_U._V.]
+  	(*
+  	<- lang_en;;
+  	*);;
+
+ //Borodaenko_U._V. <- concept_participant_of_conference_OSTIS;;
+  Borodaenko_U._V. <- concept_participant_of_conference_OSTIS2013;;

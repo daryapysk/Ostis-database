@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_13_OSTISX2014;;
+Doklad_13_OSTISX2014=>nrel_main_idtf:[Доклад 13 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_13_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_13_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_13_OSTISX2014 <= nrel_name_of_doclad: [Проектирование инженерных расчетов для порталов знаний](* <- lang_ru;;*);;
+
+// Doklad_13_OSTISX2014 <= nrel_authors : ...(* -> Globa_L._S.;Novogrudskaa_R._L.;; *);;
+
+Doklad_13_OSTISX2014 <= nrel_authors: Globa_L._S.;Novogrudskaa_R._L.;; 
+
+// Doklad_13_OSTISX2014 <= nrel_articke: ...(* -> 13._Globa_L.S.X_Novogrudskaa_R.L._X_ProektIRdPZ;; *);;

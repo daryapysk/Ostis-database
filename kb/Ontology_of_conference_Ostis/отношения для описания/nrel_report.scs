@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_report;; 
+
+nrel_report => nrel_main_idtf:[отчет конференции*] (* <-lang_ru;; *);;
+
+nrel_report => nrel_main_idtf:[report of conference*] (* <-lang_en;; *);;

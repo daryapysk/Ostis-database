@@ -1,0 +1,16 @@
+Smirnov_S_V => nrel_main_idtf:
+[Смирнов С.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Smirnov_S_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Smirnov_S_V;;
+Smirnov_S_V <- concept_participant_of_conference_OSTIS2013;;
+Smirnov_S_V <- concept_participant_of_conference_OSTIS2015;;
+Smirnov_S_V <- concept_participant_of_conference_OSTIS2016;;
+Smirnov_S_V => nrel_contact_information:[smirnov@iccs.ru];;
+

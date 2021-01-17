@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_68_OSTISX2014;;
+Doklad_68_OSTISX2014=>nrel_main_idtf:[Доклад 68 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_68_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_68_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_68_OSTISX2014 <= nrel_name_of_doclad: [Принципы интеграции содержимого RDF-хранилищ в проект OSTIS](* <- lang_ru;;*);;
+
+// Doklad_68_OSTISX2014 <= nrel_authors : ...(* -> Kaesko_A._E.;Kolb_D._G.;; *);;
+
+Doklad_68_OSTISX2014 <= nrel_authors: Kaesko_A._E.;Kolb_D._G.;; 
+
+// Doklad_68_OSTISX2014 <= nrel_articke: ...(* -> 68._Kaesko_A.E._Kolb_D.G._X_PrinzISRDFXHvPOSTIS;; *);;

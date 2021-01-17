@@ -1,0 +1,6 @@
+sc_node_norole_relation -> nrel_technical_information_support;; 
+
+nrel_technical_information_support => nrel_main_idtf:[техническая и информационная поддержка*] (* <-lang_ru;; *);;
+
+nrel_technical_information_support => nrel_main_idtf:[technical and information support*] (* <-lang_en;; *);;
+

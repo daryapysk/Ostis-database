@@ -1,0 +1,31 @@
+
+concept_academician_rank => nrel_idtf: [academician rank](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Академическая степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Академическая степень — степень освоения обучающимися соответствующих образовательных программ высшего профессионального образования, присуждаемая им высшим учебным заведением по результатам итоговой государственной аттестации.  
+
+.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academician_rank;;
+<= nrel_using_constants :...
+(*
+-> concept_higher_education_programm; concept_certification; concept_higher_education_institution; concept_higher_education;;
+*);;
+*);;
+
+ concept_academician_rank -> rrel_example: [Магистр защитил диссертацию и получил академическую степень.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Академическая степень, степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Магистр, вторая академическая степень, присваиваемая в высших учебных заведениях.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_academician_rank; concept_power;;
+*);; 

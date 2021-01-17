@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_3.01_OSTISX2012;;
+Doklad_3.01_OSTISX2012=>nrel_main_idtf:[Доклад 3.01 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.01_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.01_OSTISX2012 => nrel_name_of_doclad: [Семантический поиск как составляющая управления знаниями в Semantic Web](* <- lang_ru;;*);;
+
+Doklad_3.01_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.01_OSTISX2012 <= nrel_authors : ...(* -> Rogusina_U._V.;; *);;
+
+Doklad_3.01_OSTISX2012 <= nrel_articke: ...(* -> Rogustna_U.V.2012stXSemanPkSUZvSW;; *);;
+
+Doklad_3.01_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X21_OSTISX2012;; *);;*/
+
+Doklad_3.01_OSTISX2012  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Рогуштна_Ю.В.2012ст-СеманПкСУЗвSW.pdf";;
+						    *);; 
+					*);;
+Doklad_3.01_OSTISX2012 => nrel_authors:Rogusina_U.V.;;

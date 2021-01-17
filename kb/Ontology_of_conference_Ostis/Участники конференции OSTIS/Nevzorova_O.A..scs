@@ -1,0 +1,40 @@
+
+Nevzorova_O.A.=> nrel_main_idtf:
+	[Невзорова О.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nevzorova_O.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Nevzorova_O.A. => nrel_email: [onevzoro@gmail.com](*<-lang_en;;*);;
+
+/*Nevzorova_O.A. <= nrel_authors:  ...(* -> Doklad_61_OSTISX2015;Doklad_20_OSTISX2014;Doklad_2.03_OSTISX2013;Doklad_3.02_OSTISX2012;Doklad_7.02_OSTISX2011;; *);;
+
+Nevzorova_O.A. <= nrel_publication : ...(* -> Nevzorova_O.A.1999trXPodhokPSSATnOMS;Nevzorova_O.A.1999sbXoRekonpTMMK;Nevzrova_O.A..2000trXAlgorSPnPS;; *);;
+*/
+//Nevzorova_O.A. <- concept_participant_of_conference_OSTIS;;
+Nevzorova_O.A. <- concept_participant_of_conference_OSTIS2011;;
+
+Nevzorova_O.A. <- concept_participant_of_conference_OSTIS2016;;
+Nevzorova_O.A. <- concept_participant_of_conference_OSTIS2012;
+								concept_participant_of_conference_OSTIS2013;concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+
+
+/*Nevzorova_O.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Nevzorova_O.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Nevzorova_O.A. -> zam.direktora_po_naucnoj_rabote;;
+
+Nevzorova_O.A. <- rrel_key_sc_element: ..illustration_Nevzorova_O.A.(* <- sc_illustation;; *);;
+..illustration_Nevzorova_O.A. <= nrel_translation : ..translation_illustration_Nevzorova_O.A.;;
+..translation_illustration_Nevzorova_O.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Nevzorova.png"/>] (* => nrel_format: format_html;; *);;*/

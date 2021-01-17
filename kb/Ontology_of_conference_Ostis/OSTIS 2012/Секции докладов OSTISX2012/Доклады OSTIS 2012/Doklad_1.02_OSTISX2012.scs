@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_1.02_OSTISX2012;;
+Doklad_1.02_OSTISX2012=>nrel_main_idtf:[Доклад 1.02 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.02_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.02_OSTISX2012 => nrel_name_of_doclad: [Образные представления специалиста и проблема их отражения в интеллектуальных системах](* <- lang_ru;;*);;
+
+Doklad_1.02_OSTISX2012 <= nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+
+//Doklad_1.02_OSTISX2012 <= nrel_authors : ...(* -> Kobrinskij_B._A.;; *);;
+
+//Doklad_1.02_OSTISX2012 <= nrel_articke: ...(* -> Kobrinskij_B.A.2012stXObrazPSiPiOvIS;; *);;
+
+//Doklad_1.02_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X4_OSTISX2012;; *);;
+
+Doklad_1.02_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Кобринский_Б.А.2012ст-ОбразПСиПиОвИС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_1.02_OSTISX2012 => nrel_authors:Kobrinskij_B.A.;; 

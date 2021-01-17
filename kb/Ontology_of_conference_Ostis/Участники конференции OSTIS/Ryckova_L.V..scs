@@ -1,0 +1,18 @@
+sc_node_not_relation->Ryckova_L.V.;;
+Ryckova_L.V.=>nrel_main_idtf:[Рычкова Л.В.](*<-lang_ru;;*);;
+
+Ryckova_L.V. <= nrel_email: [ruchkova@grsu.bu](*<-lang_en;;*);;
+
+Ryckova_L.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Ryckova_L.V. -> Programmnyj_komitet_OSTISX2014;;
+
+Ryckova_L.V. -> Programmnyj_komitet_OSTISX2013;;
+
+Ryckova_L.V. -> k.fil.n.;;
+k.fil.n. <- ucenaa_stepenX;;
+
+Ryckova_L.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Ryckova_L.V. -> zaveduusij;;

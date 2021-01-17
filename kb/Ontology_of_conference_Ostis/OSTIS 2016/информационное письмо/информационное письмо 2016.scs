@@ -1,0 +1,24 @@
+informational_mail_OSTIS_2016 => nrel_main_idtf:
+	[Информационное письмо Конференции OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[Informational mail Conference OSTIS-2016]
+	(*
+	<- lang_en;;
+	*);;
+
+informational_mail_OSTIS_2016 <- rrel_key_sc_element: ...
+				 (*<- sc_explanation;; 
+					<= nrel_sc_text_translation: ... 
+							(*-> rrel_example: "file://Information_Letters_OSTIS-2016.pdf";; 
+							*);; 
+				*);;
+
+
+informational_mail_OSTIS_2016 <- rrel_key_sc_element: ...
+				 (*<- sc_explanation;; 
+					<= nrel_sc_text_translation: ... 
+							(*-> rrel_example: "file://Информационное_письмо_OSTIS-2016.pdf";; 
+							*);; 
+				*);;

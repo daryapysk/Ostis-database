@@ -1,0 +1,29 @@
+
+concept_education_system => nrel_idtf: [education system](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Должность)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Система образования — модель, объединяющая институциональные структуры (школа, университет, дошкольные образовательные учреждения, дополнительное образование, колледжи, др.).](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_education_system;;
+<= nrel_using_constants :...
+(*
+-> concept_official_university; concept_school; concept_model;;
+*);;
+*);;
+
+ concept_education_system -> rrel_example: [Система образования неотъемлемая сфера в государстве.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Система образования, государство)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Образовательная система призвана обеспечить готовность молодых людей к труду, адекватному восприятию общества и внутренней жизни государства.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_education_system; concept_state;;
+*);; 
+

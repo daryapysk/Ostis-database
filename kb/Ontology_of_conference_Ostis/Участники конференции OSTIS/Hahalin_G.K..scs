@@ -1,0 +1,28 @@
+
+Hahalin_G.K.=> nrel_main_idtf:
+	[Хахалин Г.К.]
+	(*
+	<- lang_ru;;
+	*);
+	[Hahalin_G.K.]
+	(*
+	<- lang_en;;
+	*);;
+
+Hahalin_G.K. => nrel_email: [gkhakhalin@yandex.ru](*<-lang_en;;*);;
+
+/*Hahalin_G.K. <= nrel_authors:  ...(* -> Doklad_45_OSTISX2014;Doklad_44_OSTISX2014;Doklad_4.01_OSTISX2012;Doklad_5.01_OSTISX2011;; *);;
+
+Hahalin_G.K. <= nrel_publication : ...(* -> Hahalin_G.K..1999stX_KomlepRIiiKETSOTiKT;Hahalin_K.G._2002stX_LingvTSiEEAP;Hahalin_K.G._2002stX_ModelLT;Hahalin_K.G.2002ucX_IntelSMPZAIiIG;; *);;
+*/
+Hahalin_G.K. <- concept_participant_of_conference_OSTIS2014;;
+Hahalin_G.K. <- concept_participant_of_conference_OSTIS2011;;
+Hahalin_G.K. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Hahalin_G.K. -> nezavisimyj_issledovatelX;;
+
+Hahalin_G.K. <- rrel_key_sc_element: ..illustration_Hahalin_G.K.(* <- sc_illustation;; *);;
+..illustration_Hahalin_G.K. <= nrel_translation : ..translation_illustration_Hahalin_G.K.;;
+..translation_illustration_Hahalin_G.K.-> rrel_example : [<img src="http://127.0.0.1:8181/Hahalin.png"/>] (* => nrel_format: format_html;; *);;
+
+Hahalin_G.K. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.11;Foto_OSTISX2011.02.10.09.13;Foto_OSTISX2011.02.10.10.20;Foto_OSTISX2011.02.10.11.11;Foto_OSTISX2011.02.10.11.21;; *);;*/

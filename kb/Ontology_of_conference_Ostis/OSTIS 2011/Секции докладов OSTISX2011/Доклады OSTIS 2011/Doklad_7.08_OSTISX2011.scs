@@ -1,0 +1,19 @@
+//sc_node_not_relation->Doklad_7.08_OSTISX2011;;
+Doklad_7.08_OSTISX2011=>nrel_main_idtf:[Доклад 7.08 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.08_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_7.08_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_7.08_OSTISX2011 => nrel_name_of_doclad: [Проект интеллектуальной справочной системы по русскому языку](* <- lang_ru;;*);;
+
+/*Doklad_7.08_OSTISX2011 <= nrel_section: [Секция 7 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_7.08_OSTISX2011 <= nrel_authors : ...(* -> Necipurenko_D._I.;Rusezkij_K._V.;Skiba_E._V.;Snigurova_I._V.;; *);;
+
+Doklad_7.08_OSTISX2011 <= nrel_stand: ...(* -> Stend_612X12_OSTISX2011;; *);;*/
+
+
+
+Doklad_7.08_OSTISX2011=>nrel_authors:  Necipurenko_D.I.;Rusezkij_K.V.;Skiba_E.V.;Snigurova_I.V.;;

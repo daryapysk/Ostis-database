@@ -1,0 +1,19 @@
+sc_node_norole_relation -> nrel_task_group_of_organizing_committee_of_conference;; 
+nrel_task_group_of_organizing_committee_of_conference=> nrel_main_idtf:[рабочая группа организационного комитета конференции*] (* <-lang_ru;; *);;
+nrel_task_group_of_organizing_committee_of_conference=> nrel_main_idtf:[task group of organizing committee of conference*] (* <-lang_en;; *);;
+
+nrel_task_group_of_organizing_committee_of_conference<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Рабочая группа организационного комитета конференции - призван помочь вам решить вопросы питания и трансфера. На нем лежит ответственность за выбор места проведения конференции и организацию пространства.](*<-lang_ru;;*);;
+		*);;
+	*);;
+nrel_task_group_of_organizing_committee_of_conference=>nrel_first_domain:concept_conference;;
+nrel_task_group_of_organizing_committee_of_conference=>nrel_second_domain:concept_participant;;
+nrel_task_group_of_organizing_committee_of_conference=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;

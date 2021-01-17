@@ -1,0 +1,29 @@
+
+concept_DPh => nrel_idtf: [DPh](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Доктор философии)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Доктор философии или DPh это высшая ученая степень, которая присуждается университетом учёному по специальным учебным программам в области физики, математики, химии, биологии и др.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_DPh;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_maths; concept_physics; concept_university;;
+*);;
+*);;
+
+ concept_DPh -> rrel_example: [Фома Иванович Барсук-Моисеев первый доктор философии по медицине.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Доктор философии, степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Очень трудно получить высшую ученую степень, а именно доктора философии.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_DPh ; concept_power;;
+*);;
+

@@ -1,0 +1,61 @@
+
+sc_node_not_relation->concept_professor;;
+concept_professor => nrel_main_idtf: [профессор](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_academic_title;;
+concept_academic_title => nrel_main_idtf: [учёное звание](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_higher_education_institution;;
+concept_higher_education_institution => nrel_main_idtf: [высшее учебное заведение](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_research_work;;
+concept_research_work => nrel_main_idtf: [научно-исследовательская работа](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_intelligence;;
+concept_intelligence => nrel_main_idtf: [интеллект](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_lecturer;;
+concept_lecturer => nrel_main_idtf: [преподаватель](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

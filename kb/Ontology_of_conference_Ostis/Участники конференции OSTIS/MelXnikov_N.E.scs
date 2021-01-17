@@ -1,0 +1,17 @@
+
+MelXnikov_N.E.=> nrel_main_idtf:
+	[Мельников Н.Е.]
+	(*
+	<- lang_ru;;
+	*);
+	[MelXnikov_N.E.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+MelXnikov_N.E. <- concept_participant_of_conference_OSTIS2012;;
+
+//MelXnikov_N.E. <- concept_participant_of_conference_OSTIS;;
+

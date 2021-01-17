@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_4.01_OSTISX2012;;
+Doklad_4.01_OSTISX2012=>nrel_main_idtf:[Доклад 4.01 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_4.01_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_4.01_OSTISX2012 => nrel_name_of_doclad: [Гибридная схема анализа изображений](* <- lang_ru;;*);;
+
+Doklad_4.01_OSTISX2012 => nrel_section: [Секция 4 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_4.01_OSTISX2012 <= nrel_authors : ...(* -> Kurbatov_S._S.;Lobzin_A._P.;Najdenova_K._A.;Hahalin_G._K.;; *);;
+
+Doklad_4.01_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 4.1 OSTIS-2012";;
+
+Doklad_4.01_OSTISX2012 <= nrel_articke: ...(* -> Kurbatov_S.S..2012stXGibriSAI;; *);;
+
+Doklad_4.01_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X9_OSTISX2012;; *);;*/
+
+Doklad_4.01_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Курбатов_С.С..2012ст-ГибриСАИ.pdf";;
+						    *);; 
+					*);;
+Doklad_4.01_OSTISX2012=> nrel_authors:Kurbatov_S.S.;Lobzin_A.P.;Najdenova_K.A.;Hahalin_G.K.;;

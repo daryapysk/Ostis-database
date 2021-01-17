@@ -1,0 +1,14 @@
+Balagura_I_V => nrel_main_idtf:
+[Балагура И.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Balagura_I_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Balagura_I_V;;
+
+Balagura_I_V => nrel_contact_information:[balaguraira@mail.ru];;
+

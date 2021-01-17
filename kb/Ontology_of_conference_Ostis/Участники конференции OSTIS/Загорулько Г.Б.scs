@@ -1,0 +1,20 @@
+Zagorulko_G_B => nrel_main_idtf:
+[Загорулько Г.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zagorulko_G_B] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Zagorulko_G_B;;
+Zagorulko_G_B <- concept_participant_of_conference_OSTIS2014;;
+Zagorulko_G_B <- concept_participant_of_conference_OSTIS2011;;
+Zagorulko_G_B <- concept_participant_of_conference_OSTIS2012;;
+Zagorulko_G_B <- concept_participant_of_conference_OSTIS2015;;
+Zagorulko_G_B <- concept_participant_of_conference_OSTIS2016;;
+
+
+Zagorulko_G_B => nrel_contact_information:[gal@iis.nsk.su];;
+

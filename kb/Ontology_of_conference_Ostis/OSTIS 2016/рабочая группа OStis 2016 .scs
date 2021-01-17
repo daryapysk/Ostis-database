@@ -1,0 +1,16 @@
+ working_group_OSTIS_conference_2016 => nrel_main_idtf:
+	[Рабочая группа Конференции OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[Working group of OSTIS-2016 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+ working_group_OSTIS_conference_2016 ->  Samodumkin_Sergey_Aleksandrovich;rusetski_k_v;Gulyakina_Natalia_Anatolevna;Grakova_Natalia_Viktorovna;
+Hubarevich_Anastasia_Vladimirovna;Lucina_Tatyana_Leonidovna;;
+
+
+
+

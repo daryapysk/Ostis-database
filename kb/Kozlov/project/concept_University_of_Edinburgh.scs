@@ -1,0 +1,44 @@
+
+ concept_University_of_Edinburgh <-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Эдинбургский университет]
+      (*<-lang_ru;;*);
+       [University of Edinburgh]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Эдинбургский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_univesity;
+       concept_Edinburgh;
+       concept_capital
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Эдинбургский университет —  государственный университет в столице Шотландии городе Эдинбурге.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Эдинбургский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_rating
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Эдинбургский университет занимает 17 место в мировом рейтинге ](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_University_of_Edinburgh -> rrel_example: [Эдинбургский университет был основан в 1538 году.](* <- lang_ru;; *);;
+concept_University_of_Edinburgh <=nrel_inclusion:concept_higher_education_institution;;
+Leslie_Gabriel_Valiant<-nrel_employee:concept_University_of_Edinburgh;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_University_of_Edinburgh;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Edin.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Эдинбургский университет)](*<- lang_ru;;*);;
+*);;

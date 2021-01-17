@@ -1,0 +1,21 @@
+
+Ganisev_V.A.=> nrel_main_idtf:
+	[Ганишев В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ganisev_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ganisev_V.A. => nrel_email: [v.ganishev@gmail.com](*<-lang_en;;*);;
+
+//Ganisev_V.A. <- concept_participant_of_conference_OSTIS;;
+Ganisev_V.A.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Ganisev_V.A. <= nrel_authors:  ...(* -> Doklad_76_OSTISX2015;; *);;
+
+Ganisev_V.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Ganisev_V.A. -> injener;;*/

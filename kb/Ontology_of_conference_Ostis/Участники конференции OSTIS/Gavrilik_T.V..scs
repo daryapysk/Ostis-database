@@ -1,0 +1,17 @@
+
+Gavrilik_T.V.=> nrel_main_idtf:
+	[Гаврилик Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gavrilik_T.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gavrilik_T.V. => nrel_email: [a702@tut.by](*<-lang_en;;*);;
+
+//Gavrilik_T.V. <= nrel_authors:  ...(* -> Doklad_8.11_OSTISX2011;; *);;
+
+//Gavrilik_T.V. <- concept_participant_of_conference_OSTIS;;
+Gavrilik_T.V. <- concept_participant_of_conference_OSTIS2011;;

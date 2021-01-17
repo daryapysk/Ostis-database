@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_94_OSTISX2015;;
+Doklad_94_OSTISX2015=>nrel_main_idtf:[Доклад 94 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_94_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_94_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_94_OSTISX2015 => nrel_name_of_doclad: [Разработка учебной программной платформы для робота iRobot Create](* <- lang_ru;;*);;
+
+//Doklad_94_OSTISX2015 <= nrel_authors : ...(* -> Barmina_E._I.;Lanin_V._V.;Pletnev_A._O.;; *);;
+
+//Doklad_94_OSTISX2015 <= nrel_articke: ...(* -> 94._Barmina_E.I.X_Lanin_V.V.X_Pletnev_A.O._X_RazrabotkaUPPdRiRC;; *);;
+
+
+Doklad_94_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/94._Бармина_Е.И.,_Ланин_В.В.,_Плетнёв_А.О._-_РазработкаУППдРiRC.pdf";;
+						    *);; 
+					*);;
+
+Doklad_94_OSTISX2015=> nrel_authors: Gribova_V.V.;Klesev_A.S.;Krylov_D.A.;Barmina_E.I.;Lanin_V.V.;Pletnev_A.O.;; 
+

@@ -1,0 +1,14 @@
+sc_node_not_relation->Sakrament;;
+Sakrament=>nrel_main_idtf:[Сакрамент](* <- lang_ru;;*);;
+
+//Sakrament => nrel_email: [logo-sakrament.gif](*<-lang_en;;*);;
+
+Sakrament => nrel_doundation_year: [1994](* <- lang_ru;;*);;
+
+Sakrament => nrel_phone: [+375 17 285-82-68](* <- lang_ru;;*);;
+
+Sakrament => nrel_address : [г. Минск, ул. Купревича 1/1, оф. 1011](* <- lang_ru;;*);;
+
+Sakrament => nrel_site: [http://www.sakrament.com];;
+
+Sakrament => nrel_location : [г. Минск, ул. Купревича 1/1](* <- lang_ru;;*);;

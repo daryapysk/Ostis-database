@@ -1,0 +1,23 @@
+publication_Zuenko_A_A_2016_QualMTSBCPM=> nrel_main_idtf:
+[  Зуенко А.А. 2016 - КачесМТСнОМРО] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Zuenko_A_A_2016_QualMTSBCPM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Zuenko_A_A_2016_QualMTSBCPM=> nrel_name_publication:[Качественное моделирование технических систем на основе методов распространения ограничений](*
+	<- lang_ru;;
+	*);;
+publication_Zuenko_A_A_2016_QualMTSBCPM <= nrel_authors:
+Zuenko_A.A. ;;
+
+publication_Zuenko_A_A_2016_QualMTSBCPM=> nrel_reference_standard: [ Зуенко, А.А. Качественное моделирование технических систем на основе методов распространения ограничений/ А.А. Зуенко// Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 573–578.];;
+
+publication_Zuenko_A_A_2016_QualMTSBCPM=> nrel_year_publication: 2016;;
+
+publication_Zuenko_A_A_2016_QualMTSBCPM => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Zuenko_A_A_2016_QualMTSBCPM<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Зуенко.pdf";; *);;*);;

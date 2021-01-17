@@ -1,0 +1,20 @@
+sc_node_role_relation -> nrel_reward;; 
+
+nrel_reward => nrel_main_idtf:[награда*] (* <-lang_ru;; *);;
+
+nrel_reward => nrel_main_idtf:[reward*] (* <-lang_en;; *);;
+
+
+nrel_reward <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(награда)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Награ́да — что-либо, выдаваемое (присваиваемое) в качестве поощрения за заслуги, отличия, в знак благодарности за что-либо.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

@@ -1,0 +1,13 @@
+Dzitko_V_A => nrel_main_idtf:
+[Житко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dzitko_V_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+Dzitko_V_A <- concept_participant_of_conference_OSTIS2016;;
+
+Dzitko_V_A => nrel_contact_information:[qzitko@gmail.com];

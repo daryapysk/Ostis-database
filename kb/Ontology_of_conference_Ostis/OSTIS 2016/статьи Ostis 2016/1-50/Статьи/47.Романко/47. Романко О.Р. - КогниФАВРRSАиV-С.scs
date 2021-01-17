@@ -1,0 +1,30 @@
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_main_idtf:
+[Романко О.Р. 2016 - КогниФАВРRSАиV-С]
+	(*
+	<- lang_ru;;
+	*);
+	[Romanko_A_R_2016_CognitFAoTSRSaVS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_name_publication:[Когнитивный фрактальный анализ временных рядов R/S анализ и V-статистика](*
+	<- lang_ru;;
+	*);;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS <= nrel_authors:
+Romanko_A_R;;
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS=> nrel_article_language: lang_ru;;
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_annotation: [Фрактальный анализ временных рядов – новая методология, использующая инструментарий фрактальной математики для анализа и прогнозирования финансовых и экономических процессов. Представлены описания и алгоритмы нового подхода к анализу временных рядов, позволяющие привнести некий семантический смысл в исследуемые данные - методология R/S анализа, позволяющая идентифицировать процессы с длинной и короткой памятью, и V-статистика, для нахождения длины непериодических циклов.];;
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_count_page: 4;;
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS <- article_OSTIS_2016;;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_reference_standard: [Романко А.Р. Когнитивный фрактальный анализ временных рядов R/S анализ и V-статистика / А.Р. Романко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_year_publication: 2016;;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Romanko_A_R_2016_CognitFAoTSRSaVS <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/47.romanko.pdf";; *);; *);;
+

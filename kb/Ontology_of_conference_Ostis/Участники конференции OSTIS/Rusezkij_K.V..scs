@@ -1,0 +1,27 @@
+sc_node_not_relation->Rusezkij_K.V.;;
+Rusezkij_K.V.=> nrel_main_idtf:
+	[Русецкий Кирилл Валерьевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Rusetski Kirill]
+	(*
+	<- lang_en;;
+	*);
+<-person;
+=>nrel_contact_information:
+	..lookc
+	(*
+		->rrel_work_place:
+		[609-5];;
+		->rrel_mobile_phone:
+		[293-85-33];;
+		->rrel_email:
+		[zvv@open.by ];;
+	*);;
+..lookc=>nrel_main_idtf:
+[посмотреть контактную информацию](*<-lang_ru;;*);;
+//Rusezkij_K.V. <- concept_participant_of_conference_OSTIS;;
+Rusezkij_K.V. <- concept_participant_of_conference_OSTIS2011;;
+//Rusezkij_K.V. <- concept_task_group_of_organizing_committee_of_conference_OSTIS;;
+

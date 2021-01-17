@@ -1,0 +1,22 @@
+sc_node_not_relation->Krapivin_V.;;
+Krapivin_V.=> nrel_main_idtf:
+	[Крапивин В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kozlov_O.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Krapivin_V. => nrel_email: [vik@scand.com](*<-lang_en;;*);;
+
+Krapivin_V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Krapivin_V. -> vedusij_injenerXprogrammist;;
+
+Krapivin_V. -> predstavitelX_soorganizatora_OSTISX2011;;
+
+Krapivin_V. <= nrel_photo: ...(* -> Foto_OSTISX2011.02.12.15.43;; *);;
+
+Krapivin_V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.11.16.41;Foto_OSTISX2011.02.11.18.55;Foto_OSTISX2011.02.11.20.27;Foto_OSTISX2011.02.11.20.29;Foto_OSTISX2011.02.12.15.14;Foto_OSTISX2011.02.12.15.34;Foto_OSTISX2011.02.12.15.36;; *);;*/

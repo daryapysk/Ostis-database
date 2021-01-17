@@ -1,0 +1,20 @@
+
+Lande_D.V.=> nrel_main_idtf:
+	[Ландэ Д.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lande_D.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lande_D.V. => nrel_email: [dwlande@gmail.com](*<-lang_en;;*);;
+//Lande_D.V. <- concept_participant_of_conference_OSTIS;;
+Lande_D.V. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Lande_D.V. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Lande_D.V. -> zaveduusij;;*/

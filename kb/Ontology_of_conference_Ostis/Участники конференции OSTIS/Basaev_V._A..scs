@@ -1,0 +1,27 @@
+
+Basaev_V.A.=> nrel_main_idtf:
+	[Башаев В. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Basaev_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Basaev_V.A. => nrel_email: [perevod73@yandex.ru](*<-lang_en;;*);;
+
+//Basaev_V.A. <- concept_participant_of_conference_OSTIS;;
+Basaev_V.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Basaev_V._A. <= nrel_authors:  ...(* -> Doklad_53_OSTISX2015;; *);;
+
+Basaev_V._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Basaev_V._A. -> net;;
+net <- ucenaa_stepenX;;
+
+Basaev_V._A. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+Basaev_V._A. -> aspirant;;*/

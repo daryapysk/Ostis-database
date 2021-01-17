@@ -1,0 +1,13 @@
+Gostiniza_IBB_Hotel =>nrel_main_idtf:[Гостиница IBB Hotel](* <- lang_ru;; *);;
+
+Gostiniza_IBB_Hotel <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_IBB_Hotel <- concept_hotel;;
+
+Gostiniza_IBB_Hotel -> nrel_phone: [+375 17 270-59-59](* <- lang_ru;;*);;
+
+Gostiniza_IBB_Hotel => nrel_address : [г. Минск, пр. Газеты «Правда», 11](* <- lang_ru;;*);;
+
+Gostiniza_IBB_Hotel => nrel_site: [http://www.ibbhotel.by];;
+
+//Gostiniza_IBB_Hotel => nrel_location : [г. Минск, пр. Газеты «Правда», 11](* <- lang_ru;;*);;

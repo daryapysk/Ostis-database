@@ -1,0 +1,28 @@
+
+Ocinskaa_A.A.=> nrel_main_idtf:
+	[Очинская А. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ocinskaa_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ocinskaa_A._A. => nrel_email: [ochinsk@yandex.ru](*<-lang_en;;*);;
+
+//Ocinskaa_A.A. <- concept_participant_of_conference_OSTIS;;
+Ocinskaa_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Ocinskaa_A._A. <= nrel_authors:  ...(* -> Doklad_37_OSTISX2015;; *);;
+
+Ocinskaa_A._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Ocinskaa_A._A. -> net;;
+net <- ucenaa_stepenX;;
+
+Ocinskaa_A._A. -> student;;
+student <- ucenoe_zvanie;;
+
+Ocinskaa_A._A. -> aspirant;;*/

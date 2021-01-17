@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_76_OSTISX2015;;
+Doklad_76_OSTISX2015=>nrel_main_idtf:[Доклад 76 OSTIS-2015](*<- lang_ru;;*);;;;
+
+Doklad_76_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_76_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_76_OSTISX2015 => nrel_name_of_doclad: [Применение методов интеллектуального анализа временных рядов для задачи кластеризации пользователей по голосу](* <- lang_ru;;*);;
+
+//Doklad_76_OSTISX2015 <= nrel_authors : ...(* -> Vagin_V._N.;Ganisev_V._A.;; *);;
+
+//Doklad_76_OSTISX2015 <= nrel_articke: ...(* -> 76._Vagin_V.N.X_Ganisev_V.A._–_PrimenenieMIAVRdZKPpG;; *);;
+
+Doklad_76_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/76. Вагин В.Н., Ганишев В.А. – ПрименениеМИАВРдЗКПпГ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_76_OSTISX2015=> nrel_authors: Vagin_V.N.;Ganisev_V.A.;;

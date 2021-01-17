@@ -1,0 +1,20 @@
+
+Somin_N.V.=> nrel_main_idtf:
+	[Сомин Н.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Somin_N.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Somin_N.V. => nrel_email: [somin@post.ru](*<-lang_en;;*);;
+
+//Somin_N.V. <= nrel_authors:  ...(* -> Doklad_4.09_OSTISX2012;; *);;
+
+//Somin_N.V. <- concept_participant_of_conference_OSTIS;;
+Somin_N.V. <- concept_participant_of_conference_OSTIS2012;;
+
+//Somin_N.V. -> k.f.Xm.n.;;
+//k.f.Xm.n. <- ucenaa_stepenX;;

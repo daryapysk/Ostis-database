@@ -1,0 +1,14 @@
+Grishenko_M_A => nrel_main_idtf:
+[Грищенко М.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Grishenko_M_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Grishenko_M_A;;
+
+Grishenko_M_A => nrel_contact_information:[makcmg@icc.ru];;
+

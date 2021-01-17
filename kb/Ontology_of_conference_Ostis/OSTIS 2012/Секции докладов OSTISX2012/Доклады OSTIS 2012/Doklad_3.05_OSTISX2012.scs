@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_3.05_OSTISX2012;;
+Doklad_3.05_OSTISX2012=>nrel_main_idtf:[Доклад 3.05 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_3.05_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_3.05_OSTISX2012 => nrel_name_of_doclad: [Миварные технологии создания логического искусственного интеллекта: логическая обработка с линейной вычислительной сложностью более 3 миллионов продукций и возможность понимания смысла через моделирование большого контекста](* <- lang_ru;;*);;
+
+Doklad_3.05_OSTISX2012 => nrel_section: [Секция 3 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_3.05_OSTISX2012 <= nrel_authors : ...(* -> Varlamov_O._O.;; *);;
+
+Doklad_3.05_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 3.5 OSTIS-2012";;
+
+Doklad_3.05_OSTISX2012 <= nrel_articke: ...(* -> Varlamov_O.O.2012stXMivarTSLIILOsLVSB3MPiVPScMBK;; *);;
+
+Doklad_3.05_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X17_OSTISX2012;; *);;*/
+
+
+Doklad_3.05_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Варламов_О.О.2012ст-МиварТСЛИИЛОсЛВСБ3МПиВПСчМБК.pdf";;
+						    *);; 
+					*);;
+Doklad_3.05_OSTISX2012=> nrel_authors:Varlamov_O.O.;;

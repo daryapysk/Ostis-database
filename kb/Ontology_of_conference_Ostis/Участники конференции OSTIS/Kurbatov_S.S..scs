@@ -1,0 +1,23 @@
+
+Kurbatov_S.S.=> nrel_main_idtf:
+	[Курбатов С.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurbatov_S.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kurbatov_S.S. => nrel_email: [kurbatow@yandex.ru](*<-lang_en;;*);;
+
+//Kurbatov_S.S. <= nrel_authors:  ...(* -> Doklad_45_OSTISX2014;Doklad_44_OSTISX2014;Doklad_4.01_OSTISX2012;Doklad_5.01_OSTISX2011;; *);;
+
+Kurbatov_S.S. <- concept_participant_of_conference_OSTIS2014;;
+Kurbatov_S.S. <- concept_participant_of_conference_OSTIS2011;;
+Kurbatov_S.S. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Kurbatov_S.S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Kurbatov_S.S. -> vedusij_naucnyj_sotrudnik;;*/

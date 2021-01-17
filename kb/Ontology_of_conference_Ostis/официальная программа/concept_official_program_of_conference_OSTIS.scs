@@ -1,0 +1,35 @@
+sc_node_not_relation ->concept_official_program_of_conference_OSTIS;;
+concept_official_program_of_conference_OSTIS => nrel_main_idtf:
+	[официальная программа конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[official program of conference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_official_program_of_conference_OSTIS  <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Официальная программа конференции OSTIS –  предварительное описание предстоящих событий или действий конференции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+concept_official_program_of_conference_OSTIS <=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->official_program_OSTIS2016;
+ official_program_OSTIS2015;
+official_program_OSTIS2014 ;
+official_program_OSTIS2013;
+official_program_OSTIS2012;
+official_program_OSTIS2011 ;;
+*);;
+

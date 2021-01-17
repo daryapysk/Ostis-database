@@ -1,0 +1,7 @@
+sc_node_not_relation->Novikova_A._O.;;
+Novikova_A._O.=>nrel_main_ru_idtf:[Новикова А. О.];;
+
+
+Novikova_A._O. <= nrel_authors:  ...(* -> Doklad_62_OSTISX2014;; *);;
+
+Novikova_A._O. -> Ucastnik_konferenzii_OSTIS;;

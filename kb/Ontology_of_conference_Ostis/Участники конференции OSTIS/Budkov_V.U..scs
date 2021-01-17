@@ -1,0 +1,23 @@
+
+Budkov_V.U.=> nrel_main_idtf:
+	[Будков В.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Budkov_V.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Budkov_V.U. => nrel_email: [budkov@iias.spb.su](*<-lang_en;;*);;
+
+/*Budkov_V.U. <= nrel_authors:  ...(* -> Doklad_6.03_OSTISX2011;; *);;
+
+Budkov_V.U. <= nrel_publication : ...(* -> Prisepa_M.V..2010stXRazraSITsMD;Ganbat_D..2010stXRazraVdPoSUMP;; *);;*/
+
+//Budkov_V.U. <- concept_participant_of_conference_OSTIS;;
+Budkov_V.U. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Budkov_V.U. -> aspirant;;
+
+Budkov_V.U. -> m.n.s.;;*/

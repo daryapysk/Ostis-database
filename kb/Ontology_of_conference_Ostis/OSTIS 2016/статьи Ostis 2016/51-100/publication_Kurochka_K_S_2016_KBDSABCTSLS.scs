@@ -1,0 +1,25 @@
+publication_Kurochka_K_S_2016_KBDSABCTSLS => nrel_main_idtf:
+[ Курочка К.С. 2016 - ПострБЗХиАБКТИПОП] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Kurochka_K_S_2016_KBDSABCTSLS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kurochka_K_S_2016_KBDSABCTSLS=> nrel_name_publication:[Построение базы знаний для хранения и анализа биомедицинских КТ изображений поясничного отдела позвоночника](*
+	<- lang_ru;;
+	*);;
+publication_Kurochka_K_S_2016_KBDSABCTSLS <= nrel_authors:
+Kurochka_K_S;;
+publication_Kurochka_K_S_2016_KBDSABCTSLS <= nrel_authors:
+Karabchikova_E_A;;
+
+publication_Kurochka_K_S_2016_KBDSABCTSLS=> nrel_reference_standard: [Курочка, К.С. Построение базы знаний для хранения и анализа биомедицинских КТ изображений поясничного отдела позвоночника/ К.С. Курочка, Е.А. Карабчикова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 583–586.];;
+
+publication_Kurochka_K_S_2016_KBDSABCTSLS=> nrel_year_publication: 2016;;
+
+publication_Kurochka_K_S_2016_KBDSABCTSLS => nrel_information_publication:  Materials_OSTIS2016;;
+

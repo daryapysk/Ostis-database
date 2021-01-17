@@ -1,0 +1,21 @@
+
+Bilalov_R.R.=> nrel_main_idtf:
+	[Билалов Р.Р.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bilalov_R.R.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bilalov_R.R. => nrel_email: [akibro@yandex.ru](*<-lang_en;;*);;
+
+//Bilalov_R.R. <- concept_participant_of_conference_OSTIS;;
+Bilalov_R.R. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Bilalov_R.R. <= nrel_authors:  ...(* -> Doklad_61_OSTISX2015;; *);;
+
+Bilalov_R.R. -> Ucastnik_konferenzii_OSTIS;;
+
+Bilalov_R.R. -> student;;*/

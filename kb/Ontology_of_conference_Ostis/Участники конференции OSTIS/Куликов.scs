@@ -1,0 +1,14 @@
+Kulikov_A_M => nrel_main_idtf:
+[Куликов А.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kulikov_A_M] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kulikov_A_M;;
+
+Kulikov_A_M => nrel_contact_information:[amkulikov@gmail.com];;
+

@@ -1,0 +1,31 @@
+
+Batura_M.P.=> nrel_main_idtf:
+	[Батура М.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Batura_M.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+Batura_M.P. => nrel_email: [rector@bsuir.by](*<-lang_en;;*);;
+
+//Batura_M.P. <- concept_participant_of_conference_OSTIS;;
+
+/*Batura_M.P. <= nrel_publication : ...(* -> Batura_M.P.2002knXDiskrSsFU;Batura_M.P.2003knXTeoriEZNPvEZ;; *);;
+
+Batura_M.P. -> Ucastnik_konferenzii_OSTIS;;
+
+
+Batura_M.P. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Batura_M.P. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Batura_M.P. -> rektor;;
+
+Batura_M.P. <- rrel_key_sc_element: ..illustration_Batura_M.P.(* <- sc_illustation;; *);;
+..illustration_Batura_M.P. <= nrel_translation : ..translation_illustration_Batura_M.P.;;
+..translation_illustration_Batura_M.P.-> rrel_example : [<img src="http://127.0.0.1:8181/BaturaMP.png"/>] (* => nrel_format: format_html;; *);;*/

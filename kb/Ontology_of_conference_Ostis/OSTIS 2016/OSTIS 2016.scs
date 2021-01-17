@@ -1,0 +1,66 @@
+OSTIS_conference_2016 => nrel_main_idtf:
+	[Конференция OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[OSTIS-2016 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+
+OSTIS_conference_2016 => nrel_clarification:[Конференция OSTIS-2016 посвящается семантическим технологиям проектирования интеллектуальных систем.];;
+
+
+OSTIS_conference_2016 => nrel_program_committe_of_conference: program_committee_of_conference_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_organizing_committee_of_conference: concept_organizing_committee_of_conference_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_working_group: working_group_OSTIS_conference_2016;;
+
+OSTIS_conference_2016 => nrel_participant_of_conference: concept_participant_of_conference_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_technical_information_support: technical_information_support_OSTIS_conference_2016;;
+
+OSTIS_conference_2016 => nrel_conference_organizer: organizer_OSTIS_conference_2016;;
+
+OSTIS_conference_2016 => nrel_report: official_report_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_material: Materials_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_report: doklad_OSTISX2016;;
+
+OSTIS_conference_2016 => nrel_official_program: official_program_OSTIS2016 ;;
+
+OSTIS_conference_2016 <- OSTIS_conference;; 
+
+OSTIS_conference_2016 => nrel_order_hold_conference: order_hold_Conference2016;;
+
+OSTIS_conference_2016 => nrel_information_mail: informational_mail_OSTIS_2016;;
+
+OSTIS_conference_2016 => nrel_place_for_meals_for_participants: place_meals_for_participants_OSTIS2016;;
+
+OSTIS_conference_2016 => nrel_contact_information: [ostisconf@gmail.com];;
+
+OSTIS_conference_2016 => nrel_start_time: ...
+(*
+<-concept_time_point;;
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2016];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[18];;
+*);;
+*);;
+
+
+OSTIS_conference_2016 => nrel_finish_time: ...
+(*
+<-concept_time_point;;          
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2016];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[20];;
+*);;
+*);;

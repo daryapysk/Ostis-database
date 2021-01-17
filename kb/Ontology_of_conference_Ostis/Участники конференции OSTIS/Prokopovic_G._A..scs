@@ -1,0 +1,26 @@
+
+Prokopovic_G.A.=> nrel_main_idtf:
+	[Прокопович Г. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Prokopovic_G.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Prokopovic_G.A=> nrel_email: [rprakapovich@robotics.by](*<-lang_en;;*);;
+
+//Prokopovic_G.A. <- concept_participant_of_conference_OSTIS;;
+Prokopovic_G.A.<- concept_participant_of_conference_OSTIS2015;;
+Prokopovic_G.A.<- concept_participant_of_conference_OSTIS2020;;
+
+
+/*Prokopovic_G._A. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2015;; *);;
+
+Prokopovic_G._A. -> Ucastnik_konferenzii_OSTIS;;
+
+Prokopovic_G._A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Prokopovic_G._A. -> Vedusij_naucnyj_sotrudnik;;*/

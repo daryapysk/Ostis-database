@@ -1,0 +1,18 @@
+
+Soroka_S.I.=> nrel_main_idtf:
+	[Сорока С.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Soroka_S.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Soroka_S.I. <= nrel_authors:  ...(* -> Doklad_8.07_OSTISX2011;; *);;
+
+//Soroka_S.I. <- concept_participant_of_conference_OSTIS;;
+Soroka_S.I. <- concept_participant_of_conference_OSTIS2011;;
+
+//Soroka_S.I. -> student;;

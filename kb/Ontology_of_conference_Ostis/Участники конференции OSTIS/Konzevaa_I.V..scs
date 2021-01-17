@@ -1,0 +1,21 @@
+
+Konzevaa_I.V.=> nrel_main_idtf:
+	[Концевая И.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Konzevaa_I.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Konzevaa_I.V. <- concept_participant_of_conference_OSTIS;;
+
+Konzevaa_I.V. -> zam.direktora;;
+
+Konzevaa_I.V. -> PredstavitelX_soorganizatora_OSTISX2011;;
+
+Konzevaa_I.V. -> PredstavitelX_soorganizatora_OSTISX2012;;
+
+Konzevaa_I.V. -> PredstavitelX_soorganizatora_OSTISX2013;;

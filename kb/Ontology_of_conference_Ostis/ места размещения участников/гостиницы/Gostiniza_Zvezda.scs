@@ -1,0 +1,13 @@
+Gostiniza_Zvezda=>nrel_main_idtf:[Гостиница Звезда](* <- lang_ru;; *);;
+
+Gostiniza_Zvezda <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Zvezda <- concept_hotel;;
+
+Gostiniza_Zvezda ->nrel_phone: [+375 17 270-74-85](* <- lang_ru;;*);;
+
+Gostiniza_Zvezda => nrel_address : [г. Минск, пр. газеты Звязда, 47](* <- lang_ru;;*);;
+
+Gostiniza_Zvezda => nrel_site: [http://www.hotelzvezda.com];;
+
+//Gostiniza_Zvezda => nrel_location : [г. Минск, пр. газеты Звязда, 47](* <- lang_ru;;*);;

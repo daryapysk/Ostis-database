@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_39_OSTISX2014;;
+Doklad_39_OSTISX2014=>nrel_main_idtf:[Доклад 39 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_39_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_39_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_39_OSTISX2014 <= nrel_name_of_doclad: [Экспертные системы без экспертов](* <- lang_ru;;*);;
+
+// Doklad_39_OSTISX2014 <= nrel_authors : ...(* -> Klesev_A._S.;Smagin_S._V.;; *);;
+
+Doklad_39_OSTISX2014 <= nrel_authors: Klesev_A._S.;Smagin_S._V.;; 
+
+// Doklad_39_OSTISX2014 <= nrel_articke: ...(* -> 39._Klesev_A.S.X_Smagin_S.V._X_EkspeSBE;; *);;

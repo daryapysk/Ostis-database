@@ -1,0 +1,29 @@
+report_7.03_OSTIS_2016_ProblSAECATS => nrel_main_idtf:
+[Доклад 7.03 OSTIS-2016 Проблемы семантической организации информационно-образовательной среды и подходы к их решению]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 7.03 OSTIS-2016 Problems of semantic arrangement of educational content and approaches to their solution]
+	(*
+	<- lang_en;;
+	*);;
+
+report_7.03_OSTIS_2016_ProblSAECATS <- doklad_OSTISX2016;;
+
+report_7.03_OSTIS_2016_ProblSAECATS  <= nrel_authors:Gorbachev_N_N;;
+report_7.03_OSTIS_2016_ProblSAECATS => nrel_published_material:publication_Gorbachev_N_N_2016_ProblSAECATS;;
+
+report_7.03_OSTIS_2016_ProblSAECATS => nrel_report_language: lang_ru;;
+
+
+/*report_7.03_OSTIS_2016_ProblSAECATS  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_7.03_OSTIS_2016_ProblSAECATS  => nrel_name: [Проблемы семантической организации информационно-образовательной среды и подходы к их решению](*<- lang_ru;;*);;
+
+report_7.03_OSTIS_2016_ProblSAECATS  <= nrel_speaker:Gorbachev_N_N;;
+
+
+report_7.03_OSTIS_2016_ProblSAECATS  => nrel_time_speech: [10:30 - 10:45];;
+report_7.03_OSTIS_2016_ProblSAECATS => nrel_data_speech: [20 февраля 2016];;
+
+report_7.03_OSTIS_2016_ProblSAECATS => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

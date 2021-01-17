@@ -1,0 +1,14 @@
+Afanasjeva_T_V => nrel_main_idtf:
+[Афанасьева Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Afanasjeva_T_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Afanasjeva_T_V;;
+
+Afanasjeva_T_V => nrel_contact_information:[tv.afanasjeva@gmail.com];;
+

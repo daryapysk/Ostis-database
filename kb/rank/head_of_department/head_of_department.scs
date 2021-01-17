@@ -1,0 +1,30 @@
+
+concept_head_of_department => nrel_idtf: [head_of_department](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Заведующий кафедрой)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Заведующий кафедрой — руководитель кафедры в высших учебных заведениях, как правило, профессор, доктор наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_head_of_department;;
+<= nrel_using_constants :...
+(*
+-> concept_professor; concept_higher_education_institution; concept_Ph.D;;
+*);;
+*);;
+
+ concept_head_of_department -> rrel_example: [Заведующий кафедрой ИИТ Голенков Владимир Васильевич.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Заведующий кафедрой, кафедра)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Заведующий кафедрой проходил по коридору своей кафедры.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_head_of_department; concept_pulpit;;
+*);; 
+
+

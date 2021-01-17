@@ -1,0 +1,24 @@
+
+Kuznezov_S.O.=> nrel_main_idtf:
+	[Кузнецов С.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kuznezov_S.O.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kuznezov_S.O. => nrel_email: [skuznetsov@hse.ru](*<-lang_en;;*);;
+
+//Kuznezov_S.O. <- concept_participant_of_conference_OSTIS;;
+
+/*Kuznezov_S.O. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+Kuznezov_S.O. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Kuznezov_S.O. -> zaveduusij;;
+
+Kuznezov_S.O. <= nrel_photo: ...(* -> Fajl:KuznecovSO.PNG;; *);;*/

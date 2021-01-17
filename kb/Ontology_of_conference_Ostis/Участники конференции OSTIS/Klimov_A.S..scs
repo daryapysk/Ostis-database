@@ -1,0 +1,15 @@
+
+Klimov_A.S.=> nrel_main_idtf:
+	[Климов А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Klimov_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Klimov_A.S. <= nrel_authors:  ...(* -> Doklad_67_OSTISX2014;; *);;
+
+Klimov_A.S. <- concept_participant_of_conference_OSTIS2014;;

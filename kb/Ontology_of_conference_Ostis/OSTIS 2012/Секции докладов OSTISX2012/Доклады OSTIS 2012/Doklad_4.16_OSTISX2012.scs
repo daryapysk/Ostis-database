@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_4.16_OSTISX2012;;
+Doklad_4.16_OSTISX2012=>nrel_main_idtf:[Доклад 4.16 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_4.16_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_4.16_OSTISX2012 => nrel_name_of_doclad: [Некоторые аспекты семантического кодирования: способы выражения причинности в языке-системе](* <- lang_ru;;*);;
+
+Doklad_4.16_OSTISX2012 => nrel_section: [Секция 4 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_4.16_OSTISX2012 <= nrel_authors : ...(* -> Golovna_A._I.;; *);;
+
+Doklad_4.16_OSTISX2012 <= nrel_articke: ...(* -> Golovna_A.I.2012stXNekotASKSVPAS;; *);;
+
+Doklad_4.16_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X22_OSTISX2012;; *);;*/
+
+Doklad_4.16_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Головня_А.И.2012ст-НекотАСКСВПЯС.pdf";;
+						    *);; 
+					*);;
+Doklad_4.16_OSTISX2012=> nrel_authors: Golovna_A.I.;; 

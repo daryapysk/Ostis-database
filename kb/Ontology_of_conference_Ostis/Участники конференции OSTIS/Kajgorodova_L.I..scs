@@ -1,0 +1,22 @@
+
+Kajgorodova_L.I.=> nrel_main_idtf:
+	[Кайгородова Л.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kajgorodova_L.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Kajgorodova_L.I. => nrel_email: [Lesia.piatrouskaya@gmail.com](*<-lang_en;;*);;
+
+//Kajgorodova_L.I. <- concept_participant_of_conference_OSTIS;;
+Kajgorodova_L.I.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Kajgorodova_L.I. <= nrel_authors:  ...(* -> Doklad_74_OSTISX2015;; *);;
+
+Kajgorodova_L.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Kajgorodova_L.I. -> m.n.s.;;
+m.n.s. <- ucenoe_zvanie;;*/

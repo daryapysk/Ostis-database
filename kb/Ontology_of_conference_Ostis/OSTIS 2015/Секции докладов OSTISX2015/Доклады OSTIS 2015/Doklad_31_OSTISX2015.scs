@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_31_OSTISX2015;;
+Doklad_31_OSTISX2015=>nrel_main_idtf:[Доклад 31 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_31_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_31_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_31_OSTISX2015 => nrel_name_of_doclad: [Разработка средств персонификации интеллектуальных web-приложений](* <- lang_ru;;*);;
+
+//Doklad_31_OSTISX2015 <= nrel_authors : ...(* -> Rogusina_U._V.;; *);;
+
+//Doklad_31_OSTISX2015 <= nrel_articke: ...(* -> 31._Rogusina_U.V._X_RazrabotkaSPIWXP;; *);;
+
+
+Doklad_31_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/31._Рогушина_Ю.В._-_РазработкаСПИW-П.pdf";;
+						    *);; 
+					*);;
+
+Doklad_31_OSTISX2015=> nrel_authors: Rogusina_U.V.;;

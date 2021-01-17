@@ -1,0 +1,20 @@
+
+Girnyk_D.A.=> nrel_main_idtf:
+	[Гирнык Д.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Girnyk_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Girnyk_D.A. => nrel_email: [den@girnyk.com](*<-lang_en;;*);;
+
+//Girnyk_D.A. <= nrel_authors:  ...(* -> Doklad_6.04_OSTISX2012;Doklad_8.01_OSTISX2011;; *);;
+
+//Girnyk_D.A. <- concept_participant_of_conference_OSTIS;;
+Girnyk_D.A. <- concept_participant_of_conference_OSTIS2011;;
+Girnyk_D.A. <- concept_participant_of_conference_OSTIS2012;;
+
+//Girnyk_D.A. -> sotrudnik;;

@@ -1,0 +1,13 @@
+technical_information_support_OSTIS_conference_2016 => nrel_main_idtf:
+	[Техническая поддержка Конференции OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[Technical information support OSTIS-2016 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+technical_information_support_OSTIS_conference_2016 -> International_Journal_Software_and_system; scientific_journal_Informatics;
+scientific_journal_Ontology_design; Scientific_technical_journal_Automation_of_processes_management;Scientific_journal_specialists_ElectronicsINFO;;
+

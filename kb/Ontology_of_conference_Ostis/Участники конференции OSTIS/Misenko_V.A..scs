@@ -1,0 +1,18 @@
+
+Misenko_V.A.=> nrel_main_idtf:
+	[Мищенко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Misenko_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Misenko_V.A. <= nrel_authors:  ...(* -> Doklad_1.08_OSTISX2011;; *);;
+
+
+//Misenko_V.A.<- concept_participant_of_conference_OSTIS;;
+Misenko_V.A.<- concept_participant_of_conference_OSTIS2011;;
+

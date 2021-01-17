@@ -1,0 +1,16 @@
+coffee_pause => nrel_main_idtf:
+[кофе-пауза](* <- lang_ru;; *);
+[coffee pause] (* <- lang_en;; *);;
+
+coffee_pause <- rrel_key_sc_element: ...
+	(*
+	=> nrel_main_idtf: [пояснение*] (*<-lang_ru;; *);;
+	<-sc_task;;
+	<= nrel_sc_text_translation: ...
+	(*
+		<- rrel_example:
+			[Кофе-пауза - короткий перерыв (10-40 мин.) во время научной или бизнес-конференции для приёма пищи и неформального общения.] 
+		(* <- lang_ru;; *);;
+
+	*);;
+*);;

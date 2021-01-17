@@ -1,0 +1,63 @@
+
+concept_rank => nrel_idtf: [rank](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Должность)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Должность - служебная обязанность, служебное место, связанное с исполнением определённых обязанностей.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_rank;;
+<= nrel_using_constants :...
+(*
+-> concept_official_place; concept_duty;;
+*);;
+*);;
+
+ concept_rank -> rrel_example: [Повышение в должности](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Должность, директор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Она получила должность, о которой мечтала, теперь она — директор издательства.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_rank; concept_director;;
+*);; 
+
+concept_education_system => concept_rank;;
+
+concept_rank <= nrel_subdividing: ...
+(*  		<-concept_adjunct;;
+		<-concept_advisor;;
+		<-concept_assistant;;
+		<-concept_chairman;;
+		<-concept_chief_researcher;;
+		<-concept_engineer;;
+		<-concept_graduate;;
+		<-concept_head_of_department;;
+		<-concept_head_of_laboratory;;
+		<-concept_intern_researcher;;
+		<-concept_junior_researcher;;
+		<-concept_laboratory_assistant;;
+		<-concept_leading_researcher;;
+		<-concept_lector;;
+		<-concept_lecturer;;
+		<-concept_postdoc;;
+		<-concept_researcher;;
+		<-concept_scientific_secretary_of_the_department;;
+		<-concept_scientist;;
+		<-concept_seeker;;
+		<-concept_senior_laboratory;;
+		<-concept_senior_lecturer;;
+		<-concept_senior_researcher;;
+		<-concept_software_engineer;;
+		<-concept_specialist;;
+		<-concept_student;;
+		<-concept_team_leader;;
+		<-concept_training_master;;
+	  
+*);;
+

@@ -1,0 +1,20 @@
+sc_node_norole_relation -> nrel_format;; 
+
+nrel_format => nrel_main_idtf:[формат проведения*] (* <-lang_ru;; *);;
+
+nrel_format => nrel_main_idtf:[format*] (* <-lang_en;; *);;
+
+
+
+nrel_format <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[формат проведения - организация мероприятия.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

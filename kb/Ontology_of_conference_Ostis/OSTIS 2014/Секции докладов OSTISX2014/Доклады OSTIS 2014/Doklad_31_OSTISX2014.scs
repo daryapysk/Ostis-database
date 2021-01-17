@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_31_OSTISX2014;;
+Doklad_31_OSTISX2014=>nrel_main_idtf:[Доклад 31 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_31_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_31_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_31_OSTISX2014 <= nrel_name_of_doclad: [Семантические ассоциативные ресурсные сети с плюральными вершинами](* <- lang_ru;;*);;
+
+// Doklad_31_OSTISX2014 <= nrel_authors : ...(* -> Jilakova_L._U.;; *);;
+
+Doklad_31_OSTISX2014 <= nrel_authors: Jilakova_L._U.;; 
+
+// Doklad_31_OSTISX2014 <= nrel_articke: ...(* -> 31._Jilakova_L.U._X_SemanARSsPV;; *);;

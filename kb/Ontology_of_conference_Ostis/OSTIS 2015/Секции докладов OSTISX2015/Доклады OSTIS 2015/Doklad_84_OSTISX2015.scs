@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_84_OSTISX2015;;
+Doklad_84_OSTISX2015=>nrel_main_idtf:[Доклад 84 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_84_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_84_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_84_OSTISX2015 => nrel_name_of_doclad: [Методы тематической кластеризации применительно к анализу новостных статей](* <- lang_ru;;*);;
+
+//Doklad_84_OSTISX2015 <= nrel_authors : ...(* -> Solosenko_A._N.;Orlova_U._A.;ZaboleevaXZotova_A._V.;; *);;
+
+//Doklad_84_OSTISX2015 <= nrel_articke: ...(* -> 84._Solosenko_A.N.X_Orlova_U.A.X_ZaboleevaXZotova_A.V._X_MetodyTKPkANS;; *);;
+
+Doklad_84_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/84._Солошенко_А.Н.,_Орлова_Ю.А.,_Заболеева-Зотова_А.В._-_МетодыТКПкАНС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_84_OSTISX2015=> nrel_authors: Solosenko_A.N.;Orlova_U.A.;ZaboleevaXZotova_A.V.;;
+

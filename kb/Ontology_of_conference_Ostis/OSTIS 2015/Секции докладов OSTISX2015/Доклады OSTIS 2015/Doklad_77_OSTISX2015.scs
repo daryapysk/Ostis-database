@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_77_OSTISX2015;;
+Doklad_77_OSTISX2015=>nrel_main_idtf:[Доклад 77 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_77_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_77_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_77_OSTISX2015 => nrel_name_of_doclad: [Голосовая идентификация пользователя в системах контроля доступа](* <- lang_ru;;*);;
+
+//Doklad_77_OSTISX2015 <= nrel_authors : ...(* -> MenXsakov_P._A.;Murasko_I._A.;; *);;
+
+//Doklad_77_OSTISX2015 <= nrel_articke: ...(* -> 77._MenXsakov_P.A.X_Murasko_I.A._–_GolosovaaIPvSKD;; *);;
+
+Doklad_77_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/77. Меньшаков П.А., Мурашко И.А. – ГолосоваяИПвСКД.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_77_OSTISX2015 => nrel_authors: MenXsakov_P.A.;Murasko_I.A.;;

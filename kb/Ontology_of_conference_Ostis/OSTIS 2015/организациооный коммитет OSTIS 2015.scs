@@ -1,0 +1,19 @@
+/*concept_organizing_committee_of_conference_OSTIS -> concept_organizing_committee_of_conference_OSTIS2015;;*/
+concept_organizing_committee_of_conference_OSTIS2015=> nrel_main_idtf:
+	[Организационный коммитет Конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Organizing committee OSTIS-2015 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_organizing_committee_of_conference_OSTIS2015->  Golenkov_Vladimir_Vasilevich; Batura_M.P.; Boarko_A._V.;Jivizkaa_E.N.;
+Kuznezov_A.P.;Lihacevskij_D._V.; NikulXsin_B.V.; Susko_O.R.; Titovic_A._F.; Silin_L.U.;;
+
+
+
+
+
+

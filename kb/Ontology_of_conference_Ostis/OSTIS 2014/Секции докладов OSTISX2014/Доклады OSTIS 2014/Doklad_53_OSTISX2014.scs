@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_53_OSTISX2014;;
+Doklad_53_OSTISX2014=>nrel_main_idtf:[Доклад 53 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_53_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_53_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_53_OSTISX2014 <= nrel_name_of_doclad: [Интеграция систем моделирования на основе DSM-платформы с использованием онтологий](* <- lang_ru;;*);;
+
+// Doklad_53_OSTISX2014 <= nrel_authors : ...(* -> Zamatina_E._B.;Ladova_L._N.;Suhov_A._O.;; *);;
+
+Doklad_53_OSTISX2014 <= nrel_authors: Zamatina_E._B.;Ladova_L._N.;Suhov_A._O.;; 
+
+// Doklad_53_OSTISX2014 <= nrel_articke: ...(* -> 53._Zamatina_E.B.X_Ladova_L.N.X_Suhov_A.O._X_IntegSMnODSMXPsIO;; *);;

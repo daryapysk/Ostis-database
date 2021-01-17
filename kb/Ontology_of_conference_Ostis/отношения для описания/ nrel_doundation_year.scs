@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_doundation_year;; 
+
+nrel_doundation_year => nrel_main_idtf:[год основания*] (* <-lang_ru;; *);;
+
+nrel_doundation_year => nrel_main_idtf:[doundation year*] (* <-lang_en;; *);;

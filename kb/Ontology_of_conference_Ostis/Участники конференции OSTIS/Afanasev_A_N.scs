@@ -1,0 +1,28 @@
+
+Afanasev_A_N=> nrel_main_idtf:
+	[Афанасьев А. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Afanasev_A_N]
+	(*
+	<- lang_en;;
+	*);;
+
+Afanasev_A_N => nrel_email: [a.afanasev@ulstu.ru](*<-lang_en;;*);;
+
+//Afanasev_A_N <- concept_participant_of_conference_OSTIS;;
+Afanasev_A_N <- concept_participant_of_conference_OSTIS2015;;
+
+/*Afanasev_A_N <= nrel_authors:  ...(* -> Doklad_51_OSTISX2015;Doklad_44_OSTISX2015;; *);;
+
+Afanasev_A_N -> Ucastnik_konferenzii_OSTIS;;
+
+Afanasev_A_N -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Afanasev_A_N -> professor;;
+professor <- ucenoe_zvanie;;
+
+Afanasev_A_N -> professor;;*/
+

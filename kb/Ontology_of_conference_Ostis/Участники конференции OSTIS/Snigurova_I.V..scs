@@ -1,0 +1,18 @@
+
+Snigurova_I.V.=> nrel_main_idtf:
+	[Снигурова И.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Snigurova_I.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Snigurova_I.V. <= nrel_authors:  ...(* -> Doklad_7.08_OSTISX2011;; *);;
+
+//Snigurova_I.V. <- concept_participant_of_conference_OSTIS;;
+Snigurova_I.V. <- concept_participant_of_conference_OSTIS2011;;
+
+//Snigurova_I.V. -> student;;

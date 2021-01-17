@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_joint_authors;; 
+
+nrel_joint_authors => nrel_main_idtf:[соавторы статьи*] (* <-lang_ru;; *);;
+
+nrel_joint_authors => nrel_main_idtf:[joint authors*] (* <-lang_en;; *);;

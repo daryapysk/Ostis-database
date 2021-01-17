@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_19_OSTISX2015;;
+Doklad_19_OSTISX2015=>nrel_main_idtf:[Доклад 19 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_19_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_19_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_19_OSTISX2015 => nrel_name_of_doclad: [Технология разработки решателей задач интеллектуальных систем с использованием инструментальных сервисов облачной платформы iacpaas](* <- lang_ru;;*);;
+
+//Doklad_19_OSTISX2015 <= nrel_authors : ...(* -> Krylov_D._A.;Moskalenko_F._M.;Timcenko_V._A.;; *);;
+
+//Doklad_19_OSTISX2015 <= nrel_articke: ...(* -> 19._Krylov_D.A.X_Moskalenko_F.M.X_Timcenko_V.A._X_TehnologiaRRZISsIISOPI;; *);;
+
+Doklad_19_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/19._Крылов_Д.А.,_Москаленко_Ф.М.,_Тимченко_В.А._-_ТехнологияРРЗИСсИИСОПI.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_19_OSTISX2015 => nrel_authors: Krylov_D.A.;Moskalenko_F.M.;Timcenko_V.A.;;

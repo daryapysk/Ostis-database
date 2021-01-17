@@ -1,0 +1,29 @@
+
+concept_training_master => nrel_idtf: [training_master](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Учебный мастер)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Учебный мастер — организует работу техников и лаборантов по подготовке лабораторных работ, семинарских и практических занятий, должен иметь высшее образование и стаж работы в должности старшего лаборанта не менее 5 лет.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_training_master;;
+<= nrel_using_constants :...
+(*
+-> concept_work_experience; concept_higher_education; laboratory_assistant; senior_laboratory;;
+*);;
+*);;
+
+ concept_training_master -> rrel_example: [Учебный мастер Виктор Дрозд](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Учебный мастер, учебно-методическое пособие)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Учебный мастер проследил за обновлением учебных, учебно-методических пособий, макетов, стендов.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_training_master; concept_teaching_aids;;
+*);; 
+

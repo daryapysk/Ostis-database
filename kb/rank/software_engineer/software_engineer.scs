@@ -1,0 +1,30 @@
+
+concept_software_engineer => nrel_idtf: [software_engineer](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Инженер-программист)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Инженер-программист — это человек, который применяет принципы разработки программного обеспечения для проектирования, разработки, обслуживания, тестирования и оценки компьютерного программного обеспечения.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_software_engineer;;
+<= nrel_using_constants :...
+(*
+-> concept_software; concept_developer;;
+*);;
+*);;
+
+ concept_software_engineer -> rrel_example: [Инженер-программист Русецкий Кирилл Валерьевич .](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Инженер-программист, программне обеспечение)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Инженер-программист тестировал компьютерного программного обеспечения.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_software_engineer; concept_software;;
+*);; 
+
+

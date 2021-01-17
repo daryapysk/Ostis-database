@@ -1,0 +1,25 @@
+
+Fedaev_O.I.=> nrel_main_idtf:
+	[Федяев О.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Fedaev_O.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Fedaev_O.I. => nrel_email: [fedyaev@r5.dgtu.donetsk.ua olegfedyayev@yahoo.com](*<-lang_en;;*);;
+
+//Fedaev_O.I. <- concept_participant_of_conference_OSTIS;;
+Fedaev_O.I. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Fedaev_O.I. <= nrel_authors:  ...(* -> Doklad_46_OSTISX2015;; *);;
+
+Fedaev_O.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Fedaev_O.I. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Fedaev_O.I. -> Dozent;;
+Dozent <- ucenoe_zvanie;;*/

@@ -1,0 +1,17 @@
+
+Sarnin_M.N.=> nrel_main_idtf:
+	[Сарнин М.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sarnin_M.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Sarnin_M.N. <- concept_participant_of_conference_OSTIS2012;;
+
+//Sarnin_M.N. <- concept_participant_of_conference_OSTIS;;
+

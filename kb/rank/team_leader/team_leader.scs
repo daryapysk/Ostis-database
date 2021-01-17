@@ -1,0 +1,30 @@
+
+concept_team_leader => nrel_idtf: [team_leader](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Тимлид)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Тимлид — это лидер группы разработчиков.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_team_leader;;
+<= nrel_using_constants :...
+(*
+-> concept_leader; concept_developer;;
+*);;
+*);;
+
+ concept_team_leader -> rrel_example: [Тимлид Брендан Эйх.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Тимлид, проект)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Тимлид обсуждал проект с разработчиками.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_team_leader; concept_project;;
+*);; 
+
+

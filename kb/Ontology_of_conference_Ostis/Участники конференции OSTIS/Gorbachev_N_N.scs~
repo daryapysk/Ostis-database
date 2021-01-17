@@ -1,0 +1,29 @@
+
+Gorbachev_N_N=> nrel_main_idtf:
+[ Горбачёв Н.Н. ]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorbachev_N_N] 
+	(*
+	<- lang_en;;
+	*);;
+
+concept_participant_of_conference_OSTIS2016 -> Gorbachev_N_N;;
+
+Gorbachev_N_N => nrel_contact_information:[Gorbachev.NN@rea.ru];;
+ 
+
+Begimtay_U_H=> nrel_main_idtf:
+[Бегимтай У. Х.]
+	(*
+	<- lang_ru;;
+	*);
+	[Begimtay_U_H] 
+	(*
+	<- lang_en;;
+	*);;
+
+concept_participant_of_conference_OSTIS2016 -> Begimtay_U_H;;
+
+Begimtay_U_H=> nrel_contact_information:[ulugbek_begimtai@mail.ru];;

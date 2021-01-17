@@ -1,0 +1,23 @@
+
+Pavlova_Z.I.=> nrel_main_idtf:
+	[Павлова З.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Pavlova_Z.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Pavlova_Z.I. => nrel_email: [vostok@zou.ru](*<-lang_en;;*);;
+
+//Pavlova_Z.I. <= nrel_authors:  ...(* -> Doklad_9.03_OSTISX2011;; *);;
+
+//Pavlova_Z.I. <- concept_participant_of_conference_OSTIS;;
+Pavlova_Z.I. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Pavlova_Z.I. -> direktor;;
+
+Pavlova_Z.I. <- rrel_key_sc_element: ..illustration_Pavlova_Z.I.(* <- sc_illustation;; *);;
+..illustration_Pavlova_Z.I. <= nrel_translation : ..translation_illustration_Pavlova_Z.I.;;
+..translation_illustration_Pavlova_Z.I.-> rrel_example : [<img src="http://127.0.0.1:8181/Pavlova.png"/>] (* => nrel_format: format_html;; *);;*/

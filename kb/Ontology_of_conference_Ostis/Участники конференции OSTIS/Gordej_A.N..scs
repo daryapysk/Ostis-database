@@ -1,0 +1,28 @@
+
+Gordej_A.N.=> nrel_main_idtf:
+	[Гордей А.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gordej_A.N.]
+	(*
+	<- lang_en;;*);;
+
+Gordej_A.N. => nrel_email: [alieks2001@yahoo.com](*<-lang_en;;*);;
+
+//Gordej_A.N. <= nrel_authors:  ...(* -> Doklad_03_OSTISX2014;; *);;
+
+Gordej_A.N. <- concept_participant_of_conference_OSTIS2014;;
+
+
+/*Gordej_A.N. -> d.fil.n.;;
+d.fil.n. <- ucenaa_stepenX;;
+
+Gordej_A.N. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Gordej_A.N. -> zaveduusij;;
+
+Gordej_A.N. <- rrel_key_sc_element: ..illustration_Gordej_A.N.(* <- sc_illustation;; *);;
+..illustration_Gordej_A.N. <= nrel_translation : ..translation_illustration_Gordej_A.N.;;
+..translation_illustration_Gordej_A.N.-> rrel_example : [<img src="http://127.0.0.1:8181/GordeyA.jpg"/>] (* => nrel_format: format_html;; *);;*/

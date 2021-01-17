@@ -1,0 +1,19 @@
+Golovko_V_A => nrel_main_idtf:
+[Головко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Golovko_V_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Golovko_V_A;;
+<- concept_participant_of_conference_OSTIS2014;
+<- concept_participant_of_conference_OSTIS2011;
+<- concept_participant_of_conference_OSTIS2015;
+<- concept_participant_of_conference_OSTIS2020;
+<- concept_participant_of_conference_OSTIS2016;
+
+Golovko_V_A => nrel_contact_information:[gva@gmail.com];;
+

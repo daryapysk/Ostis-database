@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_73_OSTISX2015;;
+Doklad_73_OSTISX2015=>nrel_main_idtf:[Доклад 73 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_73_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_73_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_73_OSTISX2015 => nrel_name_of_doclad: [Адкрытыя кампаненты www.corpus.by для натуральна-маўленчага інтэрфейсу](* <- lang_ru;;*);;
+
+//Doklad_73_OSTISX2015 <= nrel_authors : ...(* -> ZaharXev_V._A.;Denisuk_D._A.;Gunter_A._V.;Lobanov_B._M.;Lysyj_S._I.;; *);;
+
+//Doklad_73_OSTISX2015 <= nrel_articke: ...;;
+
+Doklad_73_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/73. Гецэвіч Ю.С., Лысы С.І., Гюнтар А.В., Дзенісюк Д.А., Захар’еў В.А. – АдкрытыяКWдН-МІ.pdf";;
+						    *);; 
+					*);;
+
+
+
+Doklad_73_OSTISX2015=> nrel_authors: ZaharXev_V.A.;Denisuk_D.A.;Gunter_A.V.;Lobanov_B.M.;Lysyj_S.I.;;

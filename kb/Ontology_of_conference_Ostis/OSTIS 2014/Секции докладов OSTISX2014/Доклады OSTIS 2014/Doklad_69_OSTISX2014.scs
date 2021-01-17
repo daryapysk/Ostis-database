@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_69_OSTISX2014;;
+Doklad_69_OSTISX2014=>nrel_main_idtf:[Доклад 69 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_69_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_69_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_69_OSTISX2014 <= nrel_name_of_doclad: [Применение метода семантического дифференциала для оценки показателей качества конверсии голоса](* <- lang_ru;;*);;
+
+// Doklad_69_OSTISX2014 <= nrel_authors : ...(* -> ZaharXev_V._A.;Petrovskij_A._A.;; *);;
+
+Doklad_69_OSTISX2014 <= nrel_authors: ZaharXev_V._A.;Petrovskij_A._A.;; 
+
+// Doklad_69_OSTISX2014 <= nrel_articke: ...(* -> 69._ZaharXev_V.A.X_Petrovskij_A.A._X_PrimeMSDdOPKKG;; *);;

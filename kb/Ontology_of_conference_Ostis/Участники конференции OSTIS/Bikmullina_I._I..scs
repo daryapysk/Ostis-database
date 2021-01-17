@@ -1,0 +1,28 @@
+
+Bikmullina_I.I.=> nrel_main_idtf:
+	[Бикмуллина И. И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bikmullina_I.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bikmullina_I.I. => nrel_email: [elsiyar-b@yandex.ru](*<-lang_en;;*);;
+
+//Bikmullina_I.I. <- concept_participant_of_conference_OSTIS;;
+Bikmullina_I.I.<- concept_participant_of_conference_OSTIS2015;;
+Bikmullina_I.I.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Bikmullina_I._I. <= nrel_authors:  ...(* -> Doklad_62_OSTISX2015;; *);;
+
+Bikmullina_I._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Bikmullina_I._I. -> net;;
+net <- ucenaa_stepenX;;
+
+Bikmullina_I._I. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+Bikmullina_I._I. -> aspirant;;*/

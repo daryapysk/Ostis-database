@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_91_OSTISX2015;;
+Doklad_91_OSTISX2015=>nrel_main_idtf:[Доклад 91 OSTIS-2015](*<- lang_ru;;*);;;;
+
+Doklad_91_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_91_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_91_OSTISX2015 => nrel_name_of_doclad: [Аппаратный искусственный интеллект для сетевой инфраструктуры САПР и систем управления](* <- lang_ru;;*);;
+
+/*Doklad_91_OSTISX2015 <= nrel_authors : ...(* -> SelemetXev_A._M.;SelemetXeva_A._V.;Sidorkina_I._G.;; *);;
+
+Doklad_91_OSTISX2015 <= nrel_articke: ...(* -> 91._SelemetXev_A.M.X_SelemetXeva_A.V.X_Sidorkina_I.G._–_ApparatnyjIIdSISAPRiSU;; *);;*/
+
+Doklad_91_OSTISX2015  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/91. Шелеметьев А.М., Шелеметьева Я.В., Сидоркина И.Г. – АппаратныйИИдСИСАПРиСУ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_91_OSTISX2015=> nrel_authors:SelemetXev_A.M.;SelemetXeva_A.V.;Sidorkina_I.G.;;

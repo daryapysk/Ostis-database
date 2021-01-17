@@ -1,0 +1,9 @@
+sc_node_not_relation->Macihin_S._I.;;
+Macihin_S._I.=>nrel_main_ru_idtf:[Мачихин С. И.];;
+
+
+Macihin_S._I. -> Ucastnik_konferenzii_OSTIS;;
+
+Macihin_S._I. -> PersonalXnyj_sostav_administrazii_PVT;;
+
+Macihin_S._I. -> PredstavitelX_soorganizatora_OSTISX2011;;

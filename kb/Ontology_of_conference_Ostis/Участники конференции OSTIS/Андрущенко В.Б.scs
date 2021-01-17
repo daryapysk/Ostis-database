@@ -1,0 +1,14 @@
+Andrushenko_V_B => nrel_main_idtf:
+[Андрущенко В.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Andrushenko_V_B] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Andrushenko_V_B;;
+
+Andrushenko_V_B => nrel_contact_information:[valentyna.andrushchenko@gmail.com];;
+

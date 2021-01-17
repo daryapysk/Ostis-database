@@ -1,0 +1,20 @@
+
+Bobkov_A.S.=> nrel_main_idtf:
+	[Бобков А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bobkov_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Bobkov_A.S. => nrel_email: [bobkovart@gmail.com](*<-lang_en;;*);;
+
+//Bobkov_A.S. <= nrel_authors:  ...(* -> Doklad_4.05_OSTISX2012;Doklad_4.04_OSTISX2012;Doklad_8.09_OSTISX2011;Doklad_3.05_OSTISX2011;; *);;
+
+//Bobkov_A.S. <- concept_participant_of_conference_OSTIS;;
+Bobkov_A.S. <- concept_participant_of_conference_OSTIS2011;;
+Bobkov_A.S. <- concept_participant_of_conference_OSTIS2012;;
+
+//Bobkov_A.S. -> student;;

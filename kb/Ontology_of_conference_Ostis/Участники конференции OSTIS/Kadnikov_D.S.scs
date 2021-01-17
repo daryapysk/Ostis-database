@@ -1,0 +1,17 @@
+
+Kadnikov_D.S.=> nrel_main_idtf:
+	[Кадников Д.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kadnikov_D.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Kadnikov_D.S. <- concept_participant_of_conference_OSTIS2012;;
+
+//Kadnikov_D.S. <- concept_participant_of_conference_OSTIS;;
+

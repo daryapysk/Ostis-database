@@ -1,0 +1,18 @@
+
+Morosanova_N.A=> nrel_main_idtf:
+	[Моросанова Н.А,]
+	(*
+	<- lang_ru;;
+	*);
+	[Morosanova_N.A]
+	(*
+	<- lang_en;;
+	*);;
+
+Morosanova_N.A. <- concept_participant_of_conference_OSTIS2012;;
+//Morosanova_N.AX <= nrel_authors:  ...(* -> Doklad_2.07_OSTISX2012;; *);;
+
+//Morosanova_N.A. <- concept_participant_of_conference_OSTIS;;
+
+
+//Morosanova_N.AX -> aspirant;;

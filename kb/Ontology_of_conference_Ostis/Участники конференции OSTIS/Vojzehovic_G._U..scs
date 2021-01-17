@@ -1,0 +1,17 @@
+sc_node_not_relation->Vojzehovic_G._U.;;
+Vojzehovic_G._U.=> nrel_main_idtf:
+	[Войцехович Г. Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojzehovic G. U.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+//Vojzehovic_G._U. <= nrel_authors:  ...(* -> Doklad_75_OSTISX2014;; *);;
+
+//Vojzehovic_G._U. -> Ucastnik_konferenzii_OSTIS;;
+Vojzehovic_G._U. <- concept_participant_of_conference_OSTIS2014;;

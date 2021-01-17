@@ -1,0 +1,29 @@
+
+concept_chief_researcher => nrel_idtf: [chief_researcher](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Главный научный сотрудник)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Главный научный сотрудник — высшая по квалификационному уровню должность, относящаяся к категории научных работников, не являющихся руководителями обособленных подразделений, с опытом работы не менее 15 лет и имеющий учёную степень доктора наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_chief_researcher;;
+<= nrel_using_constants :...
+(*
+-> concept_experience; concept_qualification; concept_higher_education;;
+*);;
+*);;
+
+ concept_chief_researcher -> rrel_example: [Главный научный сотрудник Петров Иван Денисович.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Главный научный сотрудник, опыт работы)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Главный научный сотрудник ИИТ имеет опыт работы более 16 лет и учёную степень доктора наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_chief_researcher; concept_experience; concept_Ph.D;;
+*);; 
+

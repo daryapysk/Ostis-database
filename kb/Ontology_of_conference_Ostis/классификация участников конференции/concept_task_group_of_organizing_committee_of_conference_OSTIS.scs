@@ -1,0 +1,24 @@
+sc_node_not_relation -> concept_task_group_of_organizing_committee_of_conference_OSTIS;; 
+concept_task_group_of_organizing_committee_of_conference_OSTIS=>nrel_main_idtf:
+[рабочая группа организационного комитета конференции OSTIS](*<-lang_ru;;*);
+[task group of organizing committee of conference OSTIS](*<-lang_en;;*);;
+concept_task_group_of_organizing_committee_of_conference_OSTIS<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Рабочая группа организационного комитета конференции OSTIS -призван помочь вам решить вопросы питания и трансфера. На нем лежит ответственность за выбор места проведения конференции OSTIS и организацию пространства.](*<-lang_ru;;*);;
+		*);;
+	*);;
+concept_task_group_of_organizing_committee_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->working_group_OSTIS_conference_2015; 
+working_group_OSTIS_conference_2016
+;;
+*);;
+

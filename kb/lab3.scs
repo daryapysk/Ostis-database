@@ -1,0 +1,90 @@
+nrel_generality -> ...
+(*
+	<- sc_node_not_binary_tuple;;
+	-> rrel_bind_variables: _lex (*<- atomic_logical_formula;;*);;
+	-> ...
+	(*
+		<- sc_node_not_binary_tuple;;
+		<- nrel_equivalence;;
+		->
+		[*
+			concept_lexeme _-> _lex;;
+		*] (*<- atomic_logical_formula;;*);;
+
+        -> ...
+        (*
+            <- sc_node_not_binary_tuple;;
+            <- nrel_existence;;
+            -> nrel_bind_variables: _word (*<- atomic_logical_formula;;*);;
+
+            ->
+            [*
+                concept_word _-> _word; _lex;;
+                concept_nominative_unit _-> _lex;;
+                _word _=> nrel_morphological_analysis:: _lex;;
+
+            *] (*<- atomic_logical_formula;;*);;
+        *);;
+    *);;
+*);;
+
+sc_node_not_relation
+-> concept_lexeme;
+-> concept_word;
+-> concept_nominative_unit;;
+
+sc_node_norole_relation
+-> nrel_morphological_analysis;;
+
+nrel_generality -> ...
+(*
+	<- sc_node_not_binary_tuple;;
+	-> rrel_bind_variables: _word; _chpred;;
+	-> ...
+	(*
+		<- sc_node_not_binary_tuple;;
+		<- nrel_existence;;
+		-> rrel_bind_variables: _predicate_q;;
+
+        -> ...
+        (*
+            <- sc_node_not_binary_tuple;;
+            <- nrel_equivalence;;
+
+            ->
+            [*
+                _chpred _=> nrel_predicate:: _word;;
+
+            *] (*<- atomic_logical_formula;;*);;
+
+            -> ...
+            (*
+                <- sc_node_not_binary_tuple;;
+                <- nrel_conjunction;;
+
+                ->
+                [*
+                    concept_word _-> _word;;
+                    concept_predicate_questions _-> _predicate_q;;
+                    _word _=> nrel_answear:: _predicate_q;;
+
+                *] (*<- atomic_logical_formula;;*);;
+
+                ->
+                [*
+                    concept_word _-> _word;;
+                    _chpred _=> nrel_main_sentence_unit:: _word;;
+
+                *] (*<- atomic_logical_formula;;*);;
+            *);;
+        *);;
+    *);;
+*);;
+
+sc_node_norole_relation
+-> nrel_main_sentence_unit;
+-> nrel_answear;
+-> nrel_predicate;;
+
+sc_node_not_relation
+-> concept_predicate_questions;;

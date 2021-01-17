@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_52_OSTISX2015;;
+Doklad_52_OSTISX2015=>nrel_main_idtf:[Доклад 52 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_52_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_52_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_52_OSTISX2015 => nrel_name_of_doclad: [Применение навигационной структуры электронного архива проектной организации в задачах интеллектуального анализа технических документов](* <- lang_ru;;*);;
+
+//Doklad_52_OSTISX2015 <= nrel_authors : ...(* -> Subhangulov_R._A.;Filippov_A._A.;; *);;
+
+//Doklad_52_OSTISX2015 <= nrel_articke: ...(* -> 52._Subhangulov_R.A.X_Filippov_A.A._X_PrimenenieNSEAPOvZIATD;; *);;
+
+
+Doklad_52_OSTISX2015  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/52._Субхангулов_Р.А.,_Филиппов_А.А._-_ПрименениеНСЭАПОвЗИАТД.pdf";;
+						    *);; 
+					*);;
+
+Doklad_52_OSTISX2015 => nrel_authors: Subhangulov_R.A.;Filippov_A.A.;;

@@ -1,0 +1,33 @@
+//
+report_4.06_OSTIS_2016_SmartHCbK => nrel_main_idtf:
+[Доклад 4.06 OSTIS-2016 Умный дом управляемый знаниями]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.06 OSTIS-2016 Smart house managed by knoweledge] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.06_OSTIS_2016_SmartHCbK <- doklad_OSTISX2016;;
+
+report_4.06_OSTIS_2016_SmartHCbK <= nrel_authors: 
+Koronchik_Denis_Nikolaevich;;
+
+report_4.06_OSTIS_2016_SmartHCbK => nrel_published_material: publication_Koronchik_D_N_2016_SmartHCbK;;
+
+report_4.06_OSTIS_2016_SmartHCbK => nrel_report_language: lang_ru;;
+
+
+//report_4.06_OSTIS_2016_SmartHCbK <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/4.05_Ивашенко_ПринцПНиПРOSTIS.pdf";; *);; *);;
+
+report_4.06_OSTIS_2016_SmartHCbK => nrel_name: [Умный дом управляемый знаниями](*<- lang_ru;;*);;
+
+report_4.06_OSTIS_2016_SmartHCbK <= nrel_speaker: Koronchik_Denis_Nikolaevich;;
+
+
+report_4.06_OSTIS_2016_SmartHCbK => nrel_time_speech: [17:00 - 17:15];;
+report_4.06_OSTIS_2016_SmartHCbK => nrel_data_speech: [18 февраля 2016];;
+
+report_4.06_OSTIS_2016_SmartHCbK => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

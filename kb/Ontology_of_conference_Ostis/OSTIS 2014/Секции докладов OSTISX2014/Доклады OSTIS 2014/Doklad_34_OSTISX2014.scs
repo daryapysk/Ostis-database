@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_34_OSTISX2014;;
+Doklad_34_OSTISX2014=>nrel_main_idtf:[Доклад 34 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_34_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_34_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_34_OSTISX2014 <= nrel_name_of_doclad: [Конструктивная пропозициональная логика с непарадоксальной импликацией](* <- lang_ru;;*);;
+
+// Doklad_34_OSTISX2014 <= nrel_authors : ...(* -> Smetanin_U._M.;; *);;
+
+Doklad_34_OSTISX2014 <= nrel_authors: Smetanin_U._M.;; 
+
+// Doklad_34_OSTISX2014 <= nrel_articke: ...(* -> 34._Smetanin_U.M._X_KonstPLsNI;; *);;

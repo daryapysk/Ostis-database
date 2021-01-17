@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_71_OSTISX2014;;
+Doklad_71_OSTISX2014=>nrel_main_idtf:[Доклад 71 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_71_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_71_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_71_OSTISX2014 <= nrel_name_of_doclad: [Анализ и верификация раскрашенных сетей петри реального времени с поддержкой логики Аллена](* <- lang_ru;;*);;
+
+// Doklad_71_OSTISX2014 <= nrel_authors : ...(* -> Eremeev_A._P.;Korolev_U._I.;; *);;
+
+Doklad_71_OSTISX2014 <= nrel_authors: Eremeev_A._P.;Korolev_U._I.;; 
+
+// Doklad_71_OSTISX2014 <= nrel_articke: ...(* -> 71._Eremeev_A.P.X_Korolev_U.I._X_AnaliiVRSPRVsPLA;; *);;

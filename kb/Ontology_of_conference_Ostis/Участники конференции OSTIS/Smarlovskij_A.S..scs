@@ -1,0 +1,28 @@
+
+Smarlovskij_A.S.=> nrel_main_idtf:
+	[Шмарловский А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Smarlovskij_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Smarlovskij_A.S. => nrel_email: [sas@bsuir.by](*<-lang_en;;*);;
+
+/*Smarlovskij_A.S. <= nrel_authors:  ...(* -> Doklad_8.11_OSTISX2011;; *);;
+
+Smarlovskij_A.S. <= nrel_publication : ...(* -> Markov_A.V..2010stXUpravPKdSO;markov_A.V..2010stXOzenkEREmGL;Hadjinov_M.K..2010stXDempfKvEPG;Kuznezov_A.P..2011stXIntelAUPM;; *);;
+*/
+//Smarlovskij_A.S.. <- concept_participant_of_conference_OSTIS;;
+Smarlovskij_A.S. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Smarlovskij_A.S. -> m.t.n.;;
+m.t.n. <- akademiceskaa_stepenX;;
+
+Smarlovskij_A.S. -> assistent;;
+
+Smarlovskij_A.S. <- rrel_key_sc_element: ..illustration_Smarlovskij_A.S.(* <- sc_illustation;; *);;
+..illustration_Smarlovskij_A.S. <= nrel_translation : ..translation_illustration_Smarlovskij_A.S.;;
+..translation_illustration_Smarlovskij_A.S.-> rrel_example : [<img src="http://127.0.0.1:8181/Shmarlovskij.png"/>] (* => nrel_format: format_html;; *);;*/

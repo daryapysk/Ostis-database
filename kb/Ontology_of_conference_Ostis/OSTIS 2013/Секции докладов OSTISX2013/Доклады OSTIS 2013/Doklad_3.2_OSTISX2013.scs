@@ -1,0 +1,25 @@
+// sc_node_not_relation->Doklad_3.2_OSTISX2013;;
+Doklad_3.2_OSTISX2013=>nrel_main_idtf:[Доклад 3.2 OSTIS-2013](* <- lang_ru;;*);;
+
+Doklad_3.2_OSTISX2013 <- doklad_OSTISX2013;;
+// doklad_OSTISX2013 <- doklad_OSTIS;;
+
+////Doklad_3.2_OSTISX2013 -> sostoavsijsa_doklad_OSTISX2013;;
+
+Doklad_3.2_OSTISX2013 <= nrel_name_of_doclad: [О ПОНЯТИИ ФОРМАЛЬНОЙ КОМПЕТЕНТНОСТИ НАУЧНЫХ СОТРУДНИКОВ](* <- lang_ru;;*);;
+
+// //Doklad_3.2_OSTISX2013 <= nrel_section: [Секция 3 OSTIS-2013](* <- lang_ru;;*);;
+
+// Doklad_3.2_OSTISX2013 <= nrel_authors : ...(* -> Krukov_K._V.;Kuznezov_O._P.;Suhoverov_V._S.;; *);;
+Doklad_3.2_OSTISX2013 <= nrel_authors: Krukov_K._V.;Kuznezov_O._P.;Suhoverov_V._S.;;
+
+//Doklad_3.2_OSTISX2013 <= nrel_articke: ...(* -> Krukov_K.V.X_Kuznezov_O.P.X_Suhoverov_V.S._2013stXOPFKNS;; *);;
+
+/*
+Doklad_3.2_OSTISX2013  <- rrel_key_sc_element: ...
+					(*<- sc_explanation;;
+						<= nrel_sc_text_translation:
+						... (*-> rrel_example: "file://документы докладов/Вереник_Н.Л..2013ст-ПострИСнОВП-ОП.pdf";;
+						    *);;
+					*);;
+*/

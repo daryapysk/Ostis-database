@@ -1,0 +1,22 @@
+
+Demirov_V.V.=> nrel_main_idtf:
+	[Демиров В.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Demirov_V.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Demirov_V.V. => nrel_email: [vitaly.demirov@gmail.com](*<-lang_en;;*);;
+
+//Demirov_V.V. <= nrel_authors:  ...(* -> Doklad_87_OSTISX2014;; *);;
+
+Demirov_V.V.  <- concept_participant_of_conference_OSTIS2014;;
+
+/*Demirov_V.V. -> net;;
+net <- ucenaa_stepenX;;
+
+Demirov_V.V. -> Mladsij_naucnyj_sotrudnik;;
+Mladsij_naucnyj_sotrudnik <- ucenoe_zvanie;;*/

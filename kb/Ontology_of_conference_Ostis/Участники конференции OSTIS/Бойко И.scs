@@ -1,0 +1,14 @@
+Boiko_I_M => nrel_main_idtf:
+[Бойко И.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Boiko_I_M] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Boiko_I_M;;
+
+Boiko_I_M => nrel_contact_information:[igor_m_boyko@hotmail.com];;
+

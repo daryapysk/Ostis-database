@@ -1,0 +1,30 @@
+
+Jilakova_L.U.=> nrel_main_idtf:
+	[Жилякова Л.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jilakova_L.U.]
+	(*
+	<- lang_en;;
+	*);;
+
+Jilakova_L.U. => nrel_email: [zhilyakova.ludmila@gmail.com](*<-lang_en;;*);;
+
+/*Jilakova_L.U. <= nrel_authors:  ...(* -> Doklad_38_OSTISX2015;Doklad_31_OSTISX2014;Doklad_2.02_OSTISX2013;Doklad_1.04_OSTISX2012;Doklad_3.02_OSTISX2011;Doklad_3.01_OSTISX2011;; *);;
+
+Jilakova_L.U. <= nrel_publication : ...(* -> Jilakova_L.U.2010stXProzeIPvARS;Jilakova_L.U.2010stXRealiReZvDARS;Jilakova_L.U..2010stXDvuhsRSNPM;Jilakova_L.U..2010stXPolnyDRSsPPS;; *);;*/
+
+Jilakova_L.U. <- concept_participant_of_conference_OSTIS2014;;
+Jilakova_L.U. <- concept_participant_of_conference_OSTIS2011;;
+Jilakova_L.U. <- concept_participant_of_conference_OSTIS2012;
+								concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+/*Jilakova_L.U. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Jilakova_L.U. -> s.n.s.;;
+
+Jilakova_L.U. <= nrel_photo: ...(* -> Foto_OSTISX2011.02.10.16.26;; *);;
+
+Jilakova_L.U. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.07;Foto_OSTISX2011.02.10.11.06;Foto_OSTISX2011.02.10.11.17;Foto_OSTISX2011.02.10.16.08;; *);;*/

@@ -1,0 +1,32 @@
+
+MalXkovskij_M.G.=> nrel_main_idtf:
+	[Мальковский М.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[MalXkovskij_M.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+MalXkovskij_M.G. => nrel_email: [malk@cs.msu.su](*<-lang_en;;*);;
+
+//MalXkovskij_M.G. <= nrel_authors:  ...(* -> Doklad_34_OSTISX2015;Doklad_18_OSTISX2014;Doklad_3.3_OSTISX2013;Doklad_1.05_OSTISX2012;; *);;
+
+MalXkovskij_M.G. <- concept_participant_of_conference_OSTIS2014;;
+MalXkovskij_M.G. <- concept_participant_of_conference_OSTIS2016;;
+MalXkovskij_M.G. <- concept_participant_of_conference_OSTIS2012;
+concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+
+/*MalXkovskij_M.G. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+MalXkovskij_M.G. -> professor;;
+professor <- ucenoe_zvanie;;
+
+MalXkovskij_M.G. -> zaveduusij;;
+
+MalXkovskij_M.G. <- rrel_key_sc_element: ..illustration_MalXkovskij_M.G.(* <- sc_illustation;; *);;
+..illustration_MalXkovskij_M.G. <= nrel_translation : ..translation_illustration_MalXkovskij_M.G.;;
+..translation_illustration_MalXkovskij_M.G.-> rrel_example : [<img src="http://127.0.0.1:8181/MalkovskijM.jpg"/>] (* => nrel_format: format_html;; *);;*/

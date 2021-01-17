@@ -1,0 +1,90 @@
+axis
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [ось] (* <- lang_ru;; *);
+    [axis] (* <- lang_en;; *);;
+
+
+wheel  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [колесо ] (* <- lang_ru;; *);
+    [wheel ] (* <- lang_en;; *);;
+
+
+ car_component  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [компонент машины ] (* <- lang_ru;; *);
+    [ car_component ] (* <- lang_en;; *);;
+
+ steering  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [рулевое управление] (* <- lang_ru;; *);
+    [ steering ] (* <- lang_en;; *);;
+
+car_suspension  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [подвеска автомобиля ] (* <- lang_ru;; *);
+    [car_suspension ] (* <- lang_en;; *);;
+
+transmission  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [трансмиссия ] (* <- lang_ru;; *);
+    [transmission ] (* <- lang_en;; *);;
+
+engine  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [двигатель ] (* <- lang_ru;; *);
+    [engine ] (* <- lang_en;; *);;
+
+chassis  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [рама ] (* <- lang_ru;; *);
+    [chassis ] (* <- lang_en;; *);;
+
+
+
+left_wheel  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [левое колесо ] (* <- lang_ru;; *);
+    [left_wheel ] (* <- lang_en;; *);;
+
+
+rear_axle  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [задняя ось] (* <- lang_ru;; *);
+    [rear_axle ] (* <- lang_en;; *);;
+
+
+right_wheel  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [правое колесо] (* <- lang_ru;; *);
+    [right_wheel ] (* <- lang_en;; *);;
+
+
+front_axle  
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [передняя ось ] (* <- lang_ru;; *);
+    [front_axle ] (* <- lang_en;; *);;

@@ -1,0 +1,25 @@
+
+Rojnin_A.L.=> nrel_main_idtf:
+	[Рожнин А.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Rojnin_A.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Rojnin_A.L. => nrel_email: [ronzhinal@iias.spb.su](*<-lang_en;;*);;
+
+/*Ronjin_A.L. <= nrel_authors:  ...(* -> Doklad_6.03_OSTISX2011;Doklad_2.03_OSTISX2011;; *);;
+
+Ronjin_A.L. <= nrel_publication : ...(* -> Al.L._Ronzhin.._2009artXDeveloaBAOLS;Al.L._Ronzhin_2009artXApplioCTfVMoAitSR;Al.L._Ronzhin.._2010artXMultiCSfaSR;; *);;*/
+
+//Rojnin_A.L. <- concept_participant_of_conference_OSTIS;;
+Rojnin_A.L. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Ronjin_A.L. -> programmist_2_kat.;;
+
+Ronjin_A.L. <- rrel_key_sc_element: ..illustration_Ronjin_A.L.(* <- sc_illustation;; *);;
+..illustration_Ronjin_A.L. <= nrel_translation : ..translation_illustration_Ronjin_A.L.;;
+..translation_illustration_Ronjin_A.L.-> rrel_example : [<img src="http://127.0.0.1:8181/Rongin.png"/>] (* => nrel_format: format_html;; *);;*/

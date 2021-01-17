@@ -1,0 +1,15 @@
+
+Lesev_D.V.=> nrel_main_idtf:
+	[Лещев Д. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lesev_D.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Lesev_D.V. <= nrel_authors:  ...(* -> Doklad_74_OSTISX2014;; *);;
+
+Lesev_D.V. <- concept_participant_of_conference_OSTIS2014;;

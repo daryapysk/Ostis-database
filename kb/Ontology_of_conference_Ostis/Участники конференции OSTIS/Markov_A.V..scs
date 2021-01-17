@@ -1,0 +1,33 @@
+
+Markov_A.V.=> nrel_main_idtf:
+	[Марков А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Markov_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Markov_A.V. => nrel_email: [a702@tut.by](*<-lang_en;;*);;
+
+/*Markov_A.V. <= nrel_authors:  ...(* -> Doklad_8.11_OSTISX2011;; *);;
+
+Markov_A.V. <= nrel_publication : ...(* -> Kuznezov_A.P..2009tezXMatemMOiRsNLF;Markov_A.V..2009moXAlgorUPMdTPG;; *);;*/
+
+//Markov_A.V. <- concept_participant_of_conference_OSTIS;;
+Markov_A.V. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Markov_A.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Markov_A.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Markov_A.V. -> zaveduusij;;
+
+Markov_A.V. <- rrel_key_sc_element: ..illustration_Markov_A.V.(* <- sc_illustation;; *);;
+..illustration_Markov_A.V. <= nrel_translation : ..translation_illustration_Markov_A.V.;;
+..translation_illustration_Markov_A.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Markov.png"/>] (* => nrel_format: format_html;; *);;
+
+Markov_A.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.54;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.13;Foto_OSTISX2011.02.10.10.22;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.26;Foto_OSTISX2011.02.10.10.31;Foto_OSTISX2011.02.10.10.33;Foto_OSTISX2011.02.10.12.18;Foto_OSTISX2011.02.10.12.28;; *);;*/

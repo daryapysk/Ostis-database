@@ -1,0 +1,29 @@
+
+Moskin_V.S.=> nrel_main_idtf:
+	[Мошкин В. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Moskin_V.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Moskin_V.S. => nrel_email: [postforvadim@yandex.ru](*<-lang_en;;*);;
+
+//Moskin_V.S. <- concept_participant_of_conference_OSTIS;;
+Moskin_V.S. <- concept_participant_of_conference_OSTIS2015;;
+Moskin_V.S. <- concept_participant_of_conference_OSTIS2016;;
+
+
+/*Moskin_V._S. <= nrel_authors:  ...(* -> Doklad_54_OSTISX2015;Doklad_53_OSTISX2015;; *);;
+
+Moskin_V._S. -> Ucastnik_konferenzii_OSTIS;;
+
+Moskin_V._S. -> net;;
+net <- ucenaa_stepenX;;
+
+Moskin_V._S. -> aspirant;;
+aspirant <- ucenoe_zvanie;;
+
+Moskin_V._S. -> aspirant;;*/

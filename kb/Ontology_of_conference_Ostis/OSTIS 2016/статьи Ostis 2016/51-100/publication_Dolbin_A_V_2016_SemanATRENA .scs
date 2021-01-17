@@ -1,0 +1,35 @@
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_main_idtf:
+[Долбин А. В. 2016 - СеманТдРЭВВЧ]
+	(*
+	<- lang_ru;;
+	*);
+	[Dolbin_A_V_2016_SemanATRENA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_name_publication:[Семантический анализ текста для распознавания элементов внешнего вида человека](*
+	<- lang_ru;;
+	*);;
+
+publication_Dolbin_A_V_2016_SemanATRENA <= nrel_authors:
+Dolbin_A.V.;;
+publication_Dolbin_A_V_2016_SemanATRENA <= nrel_authors:
+Rozaliev_V.L.;;
+publication_Dolbin_A_V_2016_SemanATRENA <= nrel_authors:
+Orlova_U.A.;;
+publication_Dolbin_A_V_2016_SemanATRENA <= nrel_authors:
+ZaboleevaXZotova_A.V.;;
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_article_language: lang_ru;;
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_annotation: [В работе приводится описание различных методов обработки теста на естественном языке. Большинство описанных методов относятся к методам, основанным на машинном обучении. Рассматривается метод распознавания именованных сущностей с разрешением кореференции местоимений в третьей лице. Затем приводится использованием латентного размещения Дирихле и латентно-семантического анализа.];;
+
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_count_page: 4;;
+
+publication_Dolbin_A_V_2016_SemanATRENA <- article_OSTIS_2016;;
+
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_reference_standard: [Долбин, А. В. Семантический анализ текста для распознавания элементов внешнего вида человека/ А.В. Долбин, В.Л. Розалиев, Ю.А. Орлова, А.В Заболеева-Зотова // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 401–404.];;
+
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_year_publication: 2016;;
+
+publication_Dolbin_A_V_2016_SemanATRENA => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Dolbin_A_V_2016_SemanATRENA <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Долбин.pdf";; *);;*);;

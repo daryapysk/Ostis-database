@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_city;; 
+
+nrel_city => nrel_main_idtf:[город*] (* <-lang_ru;; *);;
+
+nrel_city => nrel_main_idtf:[city*] (* <-lang_en;; *);;

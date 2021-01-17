@@ -1,0 +1,41 @@
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_main_idtf:
+[Додонов А.Г. 2016 - МоделПОвСППРнОМИП]
+	(*
+	<- lang_ru;;
+	*);
+	[Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_name_publication:[Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства](*
+	<- lang_ru;;
+	*);;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <= nrel_authors:
+Dodonov_A.G.;
+Lande_D.V.;
+Kovalenko_T_V;;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- article;;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_reference_standard: [Додонов А.Г. Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства / А.Г. Додонов, Д.В. Ландэ, Т.В. Коваленко // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_year_publication: 2016;;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/23.dodonov.pdf";; *);; *);;
+
+
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM =>  nrel_annotation:
+[Описываются подходы к построению моделей предметных областей в системах поддержки принятия решений.Как  источники  знаний  рассматриваются  текстовые  корпусы  и  ресурсы  современных  наукометрическихсервисов.  Представлена  архитектура  системы  информационной  поддержки  принятия  решений,  идеологиясоздания и использования онтологий для построения сюжетов информационной поддержки принятия решений.Предложена  методология  аналитического  исследования,  которая  базируется  на  использованииинструментальных средств анализа и визуализации информационных потоков и сетевых структур.](*
+	<- lang_ru;;
+	*);;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_count_page: 6;;
+
+publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM => nrel_article_language: lang_ru;;
+

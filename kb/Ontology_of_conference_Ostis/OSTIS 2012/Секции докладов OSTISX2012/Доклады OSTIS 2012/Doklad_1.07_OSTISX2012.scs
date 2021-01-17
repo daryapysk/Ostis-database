@@ -1,0 +1,26 @@
+//sc_node_not_relation->Doklad_1.07_OSTISX2012;;
+Doklad_1.07_OSTISX2012=>nrel_main_idtf:[Доклад 1.07 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.07_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.07_OSTISX2012 => nrel_name_of_doclad: [О некоторых областях приложений алгебраической модели k-гиперпространства сх-гипертопографов](* <- lang_ru;;*);;
+
+Doklad_1.07_OSTISX2012 => nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+/*
+Doklad_1.07_OSTISX2012 <= nrel_authors : ...(* -> Baranovic_A._E.;Nikitin_N._O.;; *);;
+
+Doklad_1.07_OSTISX2012 <= nrel_articke: ...(* -> Baranovic_A.E..2012stXoNOPAMKGCXG;; *);;
+
+Doklad_1.07_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X11_OSTISX2012;; *);;*/
+
+Doklad_1.07_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Баранович_А.Е..2012ст-оНОПАМKГCXГ.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_1.07_OSTISX2012 => nrel_authors:Baranovic_A.E.;Nikitin_N.O.;;
+

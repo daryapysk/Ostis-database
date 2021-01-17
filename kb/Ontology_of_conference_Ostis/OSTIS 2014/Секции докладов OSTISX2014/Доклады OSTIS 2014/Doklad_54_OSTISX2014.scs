@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_54_OSTISX2014;;
+Doklad_54_OSTISX2014=>nrel_main_idtf:[Доклад 54 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_54_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_54_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_54_OSTISX2014 <= nrel_name_of_doclad: [Архитектура системы обработки публикаций по тематике моделирования информационных систем](* <- lang_ru;;*);;
+
+// Doklad_54_OSTISX2014 <= nrel_authors : ...(* -> Lanin_V._V.;Cugunov_A._P.;; *);;
+
+Doklad_54_OSTISX2014 <= nrel_authors: Lanin_V._V.;Cugunov_A._P.;; 
+
+// Doklad_54_OSTISX2014 <= nrel_articke: ...(* -> 54._Lanin_V.V.X_Cugunov_A.P._X_ArhitSOPpTMIS;; *);;

@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_place_for_meals_for_participants;; 
+
+nrel_place_for_meals_for_participants => nrel_main_idtf:[пункты питания участников*] (* <-lang_ru;; *);;
+
+nrel_place_for_meals_for_participants => nrel_main_idtf:[place for meals for participants*] (* <-lang_en;; *);;

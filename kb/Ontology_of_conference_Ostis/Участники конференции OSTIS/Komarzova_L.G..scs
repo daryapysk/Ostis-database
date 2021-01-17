@@ -1,0 +1,33 @@
+
+Komarzova_L.G.=> nrel_main_idtf:
+	[Комарцова Л.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Komarzova_L.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Komarzova_L.G. => nrel_email: [lkomartsova@yandex.ru](*<-lang_en;;*);;
+
+/*Komarzova_L.G. <= nrel_authors:  ...(* -> Doklad_30_OSTISX2014;Doklad_3.08_OSTISX2012;Doklad_4.01_OSTISX2011;; *);;*/
+
+
+Komarzova_L.G. <- concept_participant_of_conference_OSTIS2014;;
+Komarzova_L.G. <- concept_participant_of_conference_OSTIS2011;;
+Komarzova_L.G. <- concept_participant_of_conference_OSTIS2012;;
+
+
+
+
+
+/*Komarzova_L.G. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Komarzova_L.G. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Komarzova_L.G. -> professor;;
+
+Komarzova_L.G. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.10.43;Foto_OSTISX2011.02.10.11.50;Foto_OSTISX2011.02.10.11.55;Foto_OSTISX2011.02.10.12.06;; *);;*/

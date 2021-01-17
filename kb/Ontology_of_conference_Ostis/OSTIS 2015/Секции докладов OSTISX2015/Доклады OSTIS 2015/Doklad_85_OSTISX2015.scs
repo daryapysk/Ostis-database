@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_85_OSTISX2015;;
+Doklad_85_OSTISX2015=>nrel_main_idtf:[Доклад 85 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_85_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_85_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_85_OSTISX2015 => nrel_name_of_doclad: [Разработка интеллектуального обучающего интерфейса для детей с использованием сенсора Leap Motion](* <- lang_ru;;*);;
+
+//Doklad_85_OSTISX2015 <= nrel_authors : ...(* -> Rozaliev_V._L.;Vahirev_A._A.;ZaboleevaXZotova_A._V.;; *);;
+
+//Doklad_85_OSTISX2015 <= nrel_articke: ...(* -> 85._Rozaliev_V.L.X_Vahirev_A.A.X_ZaboleevaXZotova_A.V._X_RazrabotkaIOIdDsISLM;; *);;
+
+Doklad_85_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/85._Розалиев_В.Л.,_Вяхирев_А.А.,_Заболеева-Зотова_А.В._-_РазработкаИОИдДсИСLM.pdf";;
+						    *);; 
+					*);;
+
+Doklad_85_OSTISX2015=> nrel_authors: Rozaliev_V.L.;Vahirev_A.A.;ZaboleevaXZotova_A.V.;;
+

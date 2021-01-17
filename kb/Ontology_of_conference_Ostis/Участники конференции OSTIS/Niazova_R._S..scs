@@ -1,0 +1,26 @@
+
+Niazova_R.S.=> nrel_main_idtf:
+	[Ниязова Р. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Niazova_R.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Niazova_R.S. => nrel_email: [rozamgul@list.ru](*<-lang_en;;*);;
+
+Niazova_R.S. <- concept_participant_of_conference_OSTIS2014;;
+Niazova_R.S.<- concept_participant_of_conference_OSTIS2015;;
+Niazova_R.S.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Niazova_R._S. <= nrel_authors:  ...(* -> Doklad_14_OSTISX2015;Doklad_60_OSTISX2014;; *);;
+
+Niazova_R._S. -> Ucastnik_konferenzii_OSTIS;;
+
+Niazova_R._S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Niazova_R._S. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

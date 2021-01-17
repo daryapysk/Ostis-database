@@ -1,0 +1,9 @@
+gostiniza => nrel_main_idtf:
+	[гостиница]
+	(*
+	<- lang_ru;;
+	*);
+	[hotel]
+	(*
+	<- lang_en;;
+	*);;

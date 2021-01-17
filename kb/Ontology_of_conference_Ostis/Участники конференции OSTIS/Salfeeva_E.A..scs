@@ -1,0 +1,35 @@
+
+Salfeeva_E.A.=> nrel_main_idtf:
+	[Шалфеева Е.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Salfeeva_E.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Salfeeva_E.A. => nrel_email: [shalf@iacp.dvo.ru](*<-lang_en;;*);;
+
+/*Salfeeva_E.A. <= nrel_authors:  ...(* -> Doklad_18_OSTISX2015;Doklad_40_OSTISX2014;Doklad_4.8_OSTISX2013;Doklad_6.02_OSTISX2012;Doklad_5.02_OSTISX2012;Doklad_1.01_OSTISX2011;; *);;
+
+Salfeeva_E.A. <= nrel_publication : ...(* -> Klesev_A.S..2010prXIspolTOVdRiUIS;Salfeeva_E.A.2010stXSisteUII;Klesev_A.S..2010prXProgrVAM;Klesev_A.S..2008stXOpredSSO;Klesev_A.S..2007prXKatalSOPOK;; *);;*/
+
+Salfeeva_E.A. <- concept_participant_of_conference_OSTIS2014;;
+Salfeeva_E.A. <- concept_participant_of_conference_OSTIS2011;;
+Salfeeva_E.A. <- concept_participant_of_conference_OSTIS2012;
+concept_participant_of_conference_OSTIS2013; concept_participant_of_conference_OSTIS2015;;
+
+
+
+/*Salfeeva_E.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Salfeeva_E.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Salfeeva_E.A. -> s.n.s.;;
+
+Salfeeva_E.A. <- rrel_key_sc_element: ..illustration_Salfeeva_E.A.(* <- sc_illustation;; *);;
+..illustration_Salfeeva_E.A. <= nrel_translation : ..translation_illustration_Salfeeva_E.A.;;
+..translation_illustration_Salfeeva_E.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Shalfeeva.png"/>] (* => nrel_format: format_html;; *);;*/

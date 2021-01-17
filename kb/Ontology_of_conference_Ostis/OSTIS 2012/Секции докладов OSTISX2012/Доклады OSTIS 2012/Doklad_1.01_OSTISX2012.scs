@@ -1,0 +1,27 @@
+//sc_node_not_relation->Doklad_1.01_OSTISX2012;;
+Doklad_1.01_OSTISX2012=>nrel_main_idtf:[Доклад 1.01 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_1.01_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_1.01_OSTISX2012 => nrel_name_of_doclad: [Графодинамические модели параллельной обработки знаний: принципы построения, реализации и проектирования](* <- lang_ru;;*);;
+
+Doklad_1.01_OSTISX2012 => nrel_section: [Секция 1 OSTIS-2012](* <- lang_ru;;*);;
+
+//Doklad_1.01_OSTISX2012 <= nrel_authors : ...(* -> Golenkov_V._V.;Gulakina_N._A.;; *);;
+
+//Doklad_1.01_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 1.1 OSTIS-2012";;
+
+//Doklad_1.01_OSTISX2012 <= nrel_articke: ...(* -> Golenkov_V.V..2012stXGrafoMPOZPPRiP;; *);;
+
+//Doklad_1.01_OSTISX2012 <= nrel_stand: ...(* -> Stend_609X4_OSTISX2012;; *);;
+Doklad_1.01_OSTISX2011 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Голенков_В.В..2012ст-ГрафоМПОЗППРиП.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_1.01_OSTISX2012 => nrel_authors: Golenkov_Vladimir_Vasilevich; Gulyakina_Natalia_Anatolevna;; 
+

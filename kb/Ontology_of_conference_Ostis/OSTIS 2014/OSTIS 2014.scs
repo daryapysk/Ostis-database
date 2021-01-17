@@ -1,0 +1,81 @@
+OSTIS_conference_2014 => nrel_main_idtf:
+	[Конференция OSTIS-2014]
+	(*
+	<- lang_ru;;
+	*);
+	[OSTIS-2014 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+//OSTIS_conference_2014 => nrel_place_conduct: place_conduct_OSTIS_conference_2014;;
+
+
+OSTIS_conference_2014 => nrel_clarification:[Конференция OSTIS-2014 посвящается 90-летию Виктора Владимировича Мартынова – известного специалиста в области формализации семантики. Поэтому основное внимание на конференции OSTIS-2014 будет уделено проблемам семантического представления знаний. Основными вопросами, выносимыми на обсуждение конференции OSTIS-2014 являются:
+формальные модели семантического представления знаний (семантическая типология знаний, структура глобального семантического пространства знаний, онтологии);
+теоретические основы и проблемы формализации семантики (семантические пространства);
+технологии создания комплекса систем, в основе которого лежит формализация семантики;
+прикладные системы, в основе которых лежит формализация семантического пространства, в котором они функционируют;
+формальные модели обработки знаний на уровне семантического представления обрабатываемых знаний;
+архитектура и технология проектирования интеллектуальных систем, в основе которых лежит семантическое представление знаний.];;
+
+
+OSTIS_conference_2014 => nrel_start_time: ...
+(*
+<-concept_time_point;;
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2014];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[20];;
+*);;
+*);;
+
+
+OSTIS_conference_2014 => nrel_finish_time: ...
+(*
+<-concept_time_point;;          
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [2014];;
+->rrel_month:rrel_decimal:[2];;
+->rrel_day:rrel_decimal:[22];;
+*);;
+*);;
+
+OSTIS_conference_2014 => nrel_participant_of_conference: concept_participant_of_conference_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_program_committe_of_conference: program_committee_of_conference_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_organizing_committee_of_conference: concept_organizing_committee_of_conference_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_sections : doklad_OSTISX2014;;
+
+OSTIS_conference_2014 => nrel_report: official_report_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_information_mail: informational_mail_OSTIS_2014;;
+
+/*OSTIS_conference_2014 => nrel_participant_of_conference: concept_participant_of_conference_OSTIS2014;;*/
+
+OSTIS_conference_2014 => nrel_technical_information_support: technical_information_support_OSTIS_conference_2014;;
+
+OSTIS_conference_2014 => nrel_conference_organizer: organizer_OSTIS_conference_2014;;
+
+
+OSTIS_conference_2014 => nrel_material: Materials_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_rules_for_published_materials: Rules_for_published_materials_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_official_invitation: official_invitation_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_official_program: official_program_OSTIS2014 ;;
+
+OSTIS_conference_2014 => nrel_photo_collection: ...;;
+
+OSTIS_conference_2014 => nrel_contact_information: [ostisconf@gmail.com];;
+
+OSTIS_conference_2014 => nrel_accommodations_of_participants: accommodations_of_participants_OSTIS2014;;
+
+OSTIS_conference_2014 => nrel_place_for_meals_for_participants: place_meals_for_participants_OSTIS2014;;
+
+OSTIS_conference_2014 <- OSTIS_conference;; 

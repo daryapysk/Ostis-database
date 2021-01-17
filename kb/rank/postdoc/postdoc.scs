@@ -1,0 +1,31 @@
+
+concept_postdoc => nrel_idtf: [postdoc](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Постдок)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Постдок — временная позиция(ставка), которую занимают молодые учёные со степенью кандидата наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_postdoc;;
+<= nrel_using_constants :...
+(*
+-> concept_rate; concept_Ph.D;;
+*);;
+*);;
+
+ concept_postdoc -> rrel_example: [Постдок Алекс Гук.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Постдок, работа)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лабораторную работу принимал постдок Алекс.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_postdoc; concept_work;;
+*);; 
+
+

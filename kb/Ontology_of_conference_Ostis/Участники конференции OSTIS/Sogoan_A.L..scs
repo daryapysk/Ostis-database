@@ -1,0 +1,21 @@
+
+Sogoan_A.L.=> nrel_main_idtf:
+	[Согоян А.Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sogoan_A.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sogoan_A.L. => nrel_email: [Lexing2008@yandex.ru](*<-lang_en;;*);;
+
+//Sogoan_A.L. <- concept_participant_of_conference_OSTIS;;
+Sogoan_A.L. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Sogoan_A.L. <= nrel_authors:  ...(* -> Doklad_39_OSTISX2015;; *);;
+
+Sogoan_A.L. -> Ucastnik_konferenzii_OSTIS;;
+
+Sogoan_A.L. -> assistent;;*/

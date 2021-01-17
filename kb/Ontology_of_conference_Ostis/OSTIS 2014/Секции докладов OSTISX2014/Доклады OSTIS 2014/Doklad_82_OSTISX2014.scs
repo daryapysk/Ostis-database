@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_82_OSTISX2014;;
+Doklad_82_OSTISX2014=>nrel_main_idtf:[Доклад 82 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_82_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_82_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_82_OSTISX2014 <= nrel_name_of_doclad: [О подходе к подбору DSL на основе анализа корпуса специализированных документов](* <- lang_ru;;*);;
+
+// Doklad_82_OSTISX2014 <= nrel_authors : ...(* -> Valeev_M._T.;Elohov_E._S.;Uzunova_E._N.;Ugov_A._S.;; *);;
+
+Doklad_82_OSTISX2014 <= nrel_authors: Valeev_M._T.;Elohov_E._S.;Uzunova_E._N.;Ugov_A._S.;; 
+
+// Doklad_82_OSTISX2014 <= nrel_articke: ...(* -> 82._Valeev_M.T.X_Elohov_E.S.X_Uzunova_E.N.X_Ugov_A.S._X_O_podkPDSLnOAKSD;; *);;

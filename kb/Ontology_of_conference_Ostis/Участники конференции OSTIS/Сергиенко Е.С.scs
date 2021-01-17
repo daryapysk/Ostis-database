@@ -1,0 +1,14 @@
+Sergienko_E_S => nrel_main_idtf:
+[Сергиенко Е.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sergienko_E_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Sergienko_E_S;;
+
+Sergienko_E_S => nrel_contact_information:[deav@inbox.ru];;
+

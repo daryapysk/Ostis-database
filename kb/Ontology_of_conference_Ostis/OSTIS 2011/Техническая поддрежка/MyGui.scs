@@ -1,0 +1,6 @@
+//sc_node_not_relation->MyGui;;
+MyGui=>nrel_main_idtf:[MyGui](*<-lang_ru;;*);;
+
+MyGui => nrel_email: [mygui_logo.png](*<-lang_en;;*);;
+
+MyGui => nrel_site: [http://mygui.info/];;

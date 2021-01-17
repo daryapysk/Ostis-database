@@ -1,0 +1,20 @@
+sc_node_role_relation -> nrel_voluntary_listener;; 
+nrel_voluntary_listener=>nrel_main_idtf:
+[слушатель, пришедший по собственной инициативе*](*<-lang_ru;;*);
+[listener who came on their own initiative*](*<-lang_en;;*);;
+nrel_voluntary_listener<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+		[Слушатель,пришедший по собственной инициативе- постороннее лицо, присутствующее по собственной инициативе на собрании, заседании.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+nrel_voluntary_listener=>nrel_first_domain:concept_conference;;
+nrel_voluntary_listener=>nrel_second_domain:concept_participant;;
+nrel_voluntary_listener=>nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_participant;;->concept_conference;;*);;
+*);;

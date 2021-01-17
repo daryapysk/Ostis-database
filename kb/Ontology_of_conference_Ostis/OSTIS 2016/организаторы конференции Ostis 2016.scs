@@ -1,0 +1,15 @@
+organizer_OSTIS_conference_2016 => nrel_main_idtf:
+	[Организатор Конференции OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[Organizer OSTIS-2016 conference]
+	(*
+	<- lang_en;;
+	*);;
+
+organizer_OSTIS_conference_2016 ->  ministry_of_Education_of_the_Republic_of_Belarus; Educational_Establishment_BSUIR; 
+Russian_Association_of_Artificial_Intelligence; Administration_high_tech_park; United_Institute_of_Informatics_Problems_National_Academy_of_Sciences_of_Belarus; Ministry_Communications_Informatization;
+FGBNU_Institute_of_Education_Management_Russian_Academy_Education;
+FGBOU_of_higher_education_Ugra_State_University; Ltd_Intelligent_Processors; CJSC_QulixSystems;
+CJSC_Itransition; ODO_VirusBlokAda; Ruberoid_Lab_Ltd; LLC_Apsilon_aytee; ChTUP_Ai_Ji_Soft_Bel; LLC_Octonions_Technology;;

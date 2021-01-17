@@ -1,0 +1,20 @@
+sc_node_not_relation->Sadov_V.S.;;
+Sadov_V.S.=>nrel_main_ru_idtf:[Садов В.С.];;
+
+Sadov_V.S. <= nrel_email: [sado@bsu.by](*<-lang_en;;*);;
+
+Sadov_V.S. <= nrel_publication : ...(* -> Davydenko_I.N..2009stXOsibkSASPvRLSsNS;Sadov_V.S..2009stX_MetodOPdSMUI;Cernavskij_A.F..2010stX_ModelDHPiIiHvSM;Sadov_V.S..2010stX_OzenkPSSSSDvPOI;Petrakov_D.V..2010stX_AlgorSPIsIDH;VXugin_V.A..2010stX_AlgorSVIvPK;Kalazkaa_L.V..2000ucX_ProgrMUiZpKIiVTdSZOSB;Sadov_V.S.2002ucX_ZifroEKL;Kalazkaa_L.V..2003ucX_OrganIOINSUPdSSRFE;Sadov_V.S.2003ucXIntegEZELPdSSR_iFE;Sadov_V.S.2007ucXIntegEKL;; *);;
+
+Sadov_V.S. -> Ucastnik_konferenzii_OSTIS;;
+
+Sadov_V.S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Sadov_V.S. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Sadov_V.S. <- rrel_key_sc_element: ..illustration_Sadov_V.S.(* <- sc_illustation;; *);;
+..illustration_Sadov_V.S. <= nrel_translation : ..translation_illustration_Sadov_V.S.;;
+..translation_illustration_Sadov_V.S.-> rrel_example : [<img src="http://127.0.0.1:8181/SadovVS.png"/>] (* => nrel_format: format_html;; *);;
+
+Sadov_V.S. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.05;Foto_OSTISX2011.02.10.10.02;Foto_OSTISX2011.02.10.10.28;; *);;

@@ -1,0 +1,31 @@
+sc_node_not_relation ->concept_official_invitation_of_conference_OSTIS;;
+concept_official_invitation_of_conference_OSTIS => nrel_main_idtf:
+	[официальное приглашение конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[official invitation of OSTIS conference]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_official_invitation_of_conference_OSTIS  <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Официальное приглашение конференции OSTIS – это  письменная просьба явиться, прибыть, присутствовать на конференции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+concept_official_invitation_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->official_invitation_OSTIS2011 ; 
+official_invitation_OSTIS2012; 
+official_invitation_OSTIS2014;; 
+*);;

@@ -1,0 +1,27 @@
+
+Eremeev_A.P.=> nrel_main_idtf:
+	[Еремеев А.П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Eremeev_A.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Eremeev_A.X. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2014;Doklad_2.04_OSTISX2012;; *);;
+
+Eremeev_A.P. <- concept_participant_of_conference_OSTIS2014;;
+Eremeev_A.P.<- concept_participant_of_conference_OSTIS2012;;
+
+
+
+
+/*Eremeev_A.PX -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Eremeev_A.PX -> professor;;
+professor <- ucenoe_zvanie;;
+
+Eremeev_A.PX -> zaveduusij;;*/

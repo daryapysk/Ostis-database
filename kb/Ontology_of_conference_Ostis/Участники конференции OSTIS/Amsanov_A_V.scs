@@ -1,0 +1,22 @@
+
+Amsanov_A_V => nrel_main_idtf:
+	[Ямшанов А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Amsanov_A_V]
+	(*
+	<- lang_en;;
+	*);;
+
+Amsanov_A_V<- concept_participant_of_conference_OSTIS2014;;
+Amsanov_A_V<- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Amsanov_A_V<= nrel_authors:  ...(* -> Doklad_42_OSTISX2015;Doklad_43_OSTISX2014;; *);;
+
+Amsanov_A_V-> Ucastnik_konferenzii_OSTIS;;
+
+Amsanov_A_V<- rrel_key_sc_element: ..illustration_Amsanov_A_V* <- sc_illustation;; *);;
+..illustration_Amsanov_A_V<= nrel_translation : ..translation_illustration_Amsanov_A_V;
+..translation_illustration_Amsanov_A_V> rrel_example : [<img src="http://127.0.0.1:8181/ЯмшановАВ.jpg"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,29 @@
+
+concept_doctorant => nrel_idtf: [doctorant](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Докторант)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Докторант — лицо, оказавшееся достойным ученой степени доктора, но не получившее её.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_doctorant;;
+<= nrel_using_constants :...
+(*
+-> concept_degree; concept_doctor;;
+*);;
+*);;
+
+ concept_doctorant -> rrel_example: [Докторант Быков Геннадий.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Докторант, университет)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Докторант окончил докторантуру университета БГУИР.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_doctorant; concept_university;;
+*);; 
+

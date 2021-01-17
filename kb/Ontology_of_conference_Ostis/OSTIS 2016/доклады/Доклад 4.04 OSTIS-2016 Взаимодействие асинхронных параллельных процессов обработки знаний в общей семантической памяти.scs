@@ -1,0 +1,33 @@
+//
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_main_idtf:
+[Доклад 4.04 OSTIS-2016 Взаимодействие асинхронных параллельных процессов обработки знаний в общей семантической памяти]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 4.04 OSTIS-2016 The interaction of asynchronous parallel processes of knowledge processing in general semantic memory] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM <- doklad_OSTISX2016;;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM <= nrel_authors: 
+shunkevich_d_v;;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_published_material: publication_Shunkevich_D_V_2016_AsynAPKPIICSM;;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_report_language: lang_ru;;
+
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/4.04_Шункевич_ВзаимАППОЗвОСП.pdf";; *);; *);;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_name: [Взаимодействие асинхронных параллельных процессов обработки знаний в общей семантической памяти](*<- lang_ru;;*);;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM <= nrel_speaker: shunkevich_d_v;;
+
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_time_speech: [16:15 - 16:30];;
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_data_speech: [18 февраля 2016];;
+
+report_4.04_OSTIS_2016_AsynAPKPIICSM => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

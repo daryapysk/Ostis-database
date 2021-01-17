@@ -1,0 +1,5 @@
+sc_node_norole_relation -> nrel_position;; 
+
+nrel_position => nrel_main_idtf:[позиция*] (* <-lang_ru;; *);;
+
+nrel_position => nrel_main_idtf:[position*] (* <-lang_en;; *);;

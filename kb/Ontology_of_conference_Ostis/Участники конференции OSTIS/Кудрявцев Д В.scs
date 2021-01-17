@@ -1,0 +1,14 @@
+Kudravcev_D_V => nrel_main_idtf:
+[Кудрявцев Д. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kudravcev_D_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kudravcev_D_V;;
+
+Kudravcev_D_V => nrel_contact_information:[d.v.kudryavtsev@gsom.pu.ru];;
+

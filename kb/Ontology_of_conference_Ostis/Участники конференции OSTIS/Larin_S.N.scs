@@ -1,0 +1,18 @@
+
+Larin_S.N.=> nrel_main_idtf:
+	[Ларин С. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Larin_S.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Larin_S.N. <- concept_participant_of_conference_OSTIS2015;;
+Larin_S.N. <- concept_participant_of_conference_OSTIS2016;;
+
+//Larin_S.N. <- concept_participant_of_conference_OSTIS;;
+

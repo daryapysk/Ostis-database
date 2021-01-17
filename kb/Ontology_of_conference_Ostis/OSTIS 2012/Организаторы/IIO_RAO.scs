@@ -1,0 +1,14 @@
+//sc_node_not_relation->IIO_RAO;;
+IIO_RAO=>nrel_main_idtf:[ИИО РАО](* <- lang_ru;;*);;
+
+IIO_RAO => nrel_doundation_year: [1996](* <- lang_ru;;*);;
+
+IIO_RAO => nrel_phone: [+7 499 246-97-90](* <- lang_ru;;*);;
+IIO_RAO => nrel_phone: [+7 499 246-77-23](* <- lang_ru;;*);;
+IIO_RAO => nrel_phone: [+7 499 246-00-50](* <- lang_ru;;*);;
+
+IIO_RAO => nrel_address : [г. Москва, ул. Погодинская, д. 8](* <- lang_ru;;*);;
+
+IIO_RAO => nrel_site: [http://www.iiorao.ru];;
+
+IIO_RAO => nrel_location : [г. Москва, ул. Погодинская, д. 8](* <- lang_ru;;*);;

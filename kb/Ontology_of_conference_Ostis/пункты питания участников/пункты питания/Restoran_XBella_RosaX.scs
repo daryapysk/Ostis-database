@@ -1,0 +1,5 @@
+Restoran_XBella_RosaX=>nrel_main_idtf:[Ресторан "Bella Rosa"](* <- lang_ru;; *);;
+
+Restoran_XBella_RosaX <- place_meals_for_participants_OSTIS2011;;
+
+Restoran_XBella_RosaX ->nrel_phone: [+375 17 284-53-03](* <- lang_ru;;*);;

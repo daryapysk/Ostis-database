@@ -1,0 +1,30 @@
+
+Najdenova_K.A.=> nrel_main_idtf:
+	[Найденова К.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Najdenova_K.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Najdenova_K.A. => nrel_email: [naidenovaxen@gmail.com](*<-lang_en;;*);;
+
+/*Najdenova_K.A. <= nrel_authors:  ...(* -> Doklad_36_OSTISX2015;Doklad_4.01_OSTISX2012;Doklad_5.01_OSTISX2011;; *);;
+
+Najdenova_K.A. <= nrel_publication : ...(* -> Losev_K.V..2007ucXoVajnoIPRASPPOV;Losev_K.V..2007stXAvtomMPPOOMS;Najdenova_K.V..2008ucXMasinOvZOEAOSSI;; *);;*/
+
+//Najdenova_K.A. <- concept_participant_of_conference_OSTIS;;
+Najdenova_K.A. <- concept_participant_of_conference_OSTIS2011;;
+Najdenova_K.A. <- concept_participant_of_conference_OSTIS2012;;
+Najdenova_K.A. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+
+/*Najdenova_K.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Najdenova_K.A. -> PersonalXnyj_sostav_voennoXmedizinskoj_akademii_im._S._M._Kirova;;*/

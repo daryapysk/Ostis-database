@@ -1,0 +1,23 @@
+//sc_node_not_relation->Doklad_6.02_OSTISX2012;;
+Doklad_6.02_OSTISX2012=>nrel_main_idtf:[Доклад 6.02 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_6.02_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_6.02_OSTISX2012 => nrel_name_of_doclad: [Анализ медицинской интеллектуальной профессиональной деятельности с точки зрения возможностей ее автоматизации](* <- lang_ru;;*);;
+
+Doklad_6.02_OSTISX2012 => nrel_section: [Секция 6 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_6.02_OSTISX2012 <= nrel_authors : ...(* -> Klesev_A._S.;Cernahovskaa_M._U.;Salfeeva_E._A.;; *);;
+
+Doklad_6.02_OSTISX2012 <= nrel_articke: ...(* -> Klesev_A.S..2012stXAnaliMIPDsTZVEA;; *);;
+
+Doklad_6.02_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X9_OSTISX2012;; *);;*/
+
+Doklad_6.02_OSTISX2012<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Клещёв_А.С..2012ст-АналиМИПДсТЗВЕА.pdf";;
+						    *);; 
+					*);;
+Doklad_6.02_OSTISX2012=> nrel_authors:Klesev_A.S.;Cernahovskaa_M.U.;Salfeeva_E.A.;;

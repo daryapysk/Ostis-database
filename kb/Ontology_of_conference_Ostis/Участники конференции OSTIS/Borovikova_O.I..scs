@@ -1,0 +1,21 @@
+
+Borovikova_O.I.=> nrel_main_idtf:
+	[Боровикова О.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Borovikova_O.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Borovikova_O.I. => nrel_email: [olesya@iis.nsk.su](*<-lang_en;;*);;
+
+/*Borovikova_O.I. <= nrel_authors:  ...(* -> Doklad_2.06_OSTISX2012;; *);;
+
+Borovikova_O.I. <= nrel_publication : ...(* -> Borovikova_O.I..2002stXOrganPZnOO;ZagorulXko_U.A..2003stXPodhoKRNPZ;Borovikova_O.I..2004stXKonzeIIPZdDkIRpAiE;Borovikova_O.I..2005stXSisteZIIPpNT;Borovikova_O.I..2005stXPodhoKASOIdIPZ;ZagorulXko_U.A..2006stXPodhoKPPOdPZpKL;ZagorulXko_U.A..2007stXMetodPPiIOvPNZ;ZagorulXko_U.A..2008stXPodhoKPZvMIS;Anureev_I.S..2009knXModelIMPISOnFLiLP;ZagorulXko_U.A..20011stXProblPiVZvTpKL;; *);;*/
+
+//Borovikova_O.I. <- concept_participant_of_conference_OSTIS;;
+Borovikova_O.I. <- concept_participant_of_conference_OSTIS2012;;
+
+//Borovikova_O.I. -> m.n.s.;;

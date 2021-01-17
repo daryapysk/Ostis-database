@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_2.05_OSTISX2012;;
+Doklad_2.05_OSTISX2012=>nrel_main_idtf:[Доклад 2.05 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_2.05_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_2.05_OSTISX2012 => nrel_name_of_doclad: [Интеграция логики движения и бинарной модели данных и знаний](* <- lang_ru;;*);;
+
+Doklad_2.05_OSTISX2012 => nrel_section: [Секция 2 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_2.05_OSTISX2012 <= nrel_authors : ...(* -> Gorkina_A._A.;; *);;
+
+Doklad_2.05_OSTISX2012 <= nrel_presentation: "file://Презентация доклада 2.5 OSTIS-2012";;
+
+Doklad_2.05_OSTISX2012 <= nrel_articke: ...(* -> Gorkina_A.A.2012stXIntegLDiBMDiZ;; *);;
+
+Doklad_2.05_OSTISX2012 <= nrel_stand: ...(* -> Stend_612X23_OSTISX2012;; *);;*/
+
+Doklad_2.05_OSTISX2012 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Горкина_А.А.2012ст-ИнтегЛДиБМДиЗ.pdf";;
+						    *);; 
+					*);;
+Doklad_2.05_OSTISX2012 => nrel_authors:Gorkina_A.A.;;

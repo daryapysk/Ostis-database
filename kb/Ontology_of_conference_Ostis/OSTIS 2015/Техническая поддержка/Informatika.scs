@@ -1,0 +1,11 @@
+sc_node_not_relation->Informatika;;
+Informatika=>nrel_main_idtf:[Информатика](* <- lang_ru;;*);;
+
+
+Informatika => nrel_phone: [+375 17 284-26-22](* <- lang_ru;;*);;
+
+Informatika => nrel_address : [г. Минск, ул. Сурганова 6, к. 305](* <- lang_ru;;*);;
+
+Informatika => nrel_site: [http://depository.bas-net.by/];;
+
+Informatika => nrel_location : [г. Минск, ул. Сурганова 6, к. 305](* <- lang_ru;;*);;

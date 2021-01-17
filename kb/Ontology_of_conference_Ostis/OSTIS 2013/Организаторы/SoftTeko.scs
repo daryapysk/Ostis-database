@@ -1,0 +1,15 @@
+sc_node_not_relation->SoftTeko;;
+SoftTeko=>nrel_main_idtf:[СофтТеко](* <- lang_ru;;*);;
+
+
+//SoftTeko <= nrel_email: [softteco_logo.gif](*<-lang_en;;*);;
+
+SoftTeko => nrel_doundation_year: [2008](* <- lang_ru;;*);;
+
+SoftTeko => nrel_phone: [+375 17 207 01 40](* <- lang_ru;;*);;
+
+SoftTeko => nrel_address : [г. Минск, пр. Держинского, 104](* <- lang_ru;;*);;
+
+SoftTeko => nrel_site: [http://www.softteco.com];;
+
+SoftTeko => nrel_location : [г. Минск, пр. Держинского, 104](* <- lang_ru;;*);;

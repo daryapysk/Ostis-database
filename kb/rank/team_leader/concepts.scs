@@ -1,0 +1,55 @@
+
+sc_node_not_relation->concept_team_leader;;
+concept_team_leader => nrel_main_idtf: [тимлид](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_leader;;
+concept_leader => nrel_main_idtf: [лидер](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_developer;;
+concept_developer => nrel_main_idtf: [разработчик](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_project;;
+concept_project => nrel_main_idtf: [проект](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

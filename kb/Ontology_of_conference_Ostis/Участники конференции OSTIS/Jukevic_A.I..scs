@@ -1,0 +1,21 @@
+
+Jukevic_A.I.=> nrel_main_idtf:
+	[Жукевич А.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jukevic_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Jukevic_A.I. => nrel_email: [san@grsu.by](*<-lang_en;;*);;
+
+//Jukevic_A.I. <= nrel_authors:  ...(* -> Doklad_86_OSTISX2014;Doklad_3.09_OSTISX2012;Doklad_5.03_OSTISX2011;; *);;
+
+Jukevic_A.I. <- concept_participant_of_conference_OSTIS2014;;
+Jukevic_A.I. <- concept_participant_of_conference_OSTIS2011;;
+Jukevic_A.I. <- concept_participant_of_conference_OSTIS2012;;
+
+
+//Jukevic_A.I. -> nacalXnik_;;

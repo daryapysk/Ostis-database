@@ -1,0 +1,25 @@
+publication_Khusainov_A_F_2016_AboutCASMLMG => nrel_main_idtf:
+[Хусаинов А.Ф. 2016 - ОСоздАСГМОМ] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Khusainov_A_F_2016_AboutCASMLMG] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Khusainov_A_F_2016_AboutCASMLMG=> nrel_name_publication:[О создании адаптивной системы генерации мультимодальных обучающих материалов](*
+	<- lang_ru;;
+	*);;
+publication_Khusainov_A_F_2016_AboutCASMLMG<= nrel_authors:
+Khusainov_A_F;;
+publication_Khusainov_A_F_2016_AboutCASMLMG<= nrel_authors:
+rusetski_k_v;;
+
+publication_Khusainov_A_F_2016_AboutCASMLMG=> nrel_reference_standard: [Хусаинов, А.Ф. О создании адаптивной системы генерации мультимодальных обучающих материалов/ А.Ф. Хусаинов, К.В. Русецкий // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 507–510.];;
+
+publication_Khusainov_A_F_2016_AboutCASMLMG=> nrel_year_publication: 2016;;
+
+publication_Khusainov_A_F_2016_AboutCASMLMG=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Khusainov_A_F_2016_AboutCASMLMG<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Хусаинов.pdf";; *);;*);;

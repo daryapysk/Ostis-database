@@ -1,0 +1,15 @@
+Gostiniza_XU_FontanaX=>nrel_main_idtf:[Гостиница "У Фонтана"](* <- lang_ru;; *);;
+
+Gostiniza_XU_FontanaX <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_XU_FontanaX<- concept_hotel;;
+
+Gostiniza_XU_FontanaX ->nrel_phone: [+375 17 203-58-18](* <- lang_ru;;*);;
+
+Gostiniza_XU_FontanaX => nrel_address : [г. Минск, ул. Амураторская, 4](* <- lang_ru;;*);;
+
+Gostiniza_XU_FontanaX => nrel_site: [http://www.ufontana.com/];;
+
+/*Gostiniza_XU_FontanaX =>nrel_location : [г. Минск, ул. Амураторская, 4](* <- lang_ru;;*);;
+
+Gostiniza_XU_FontanaX => nrel_content : "file://Схема проезда к гост. У Фонтана.zip";;*/

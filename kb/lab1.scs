@@ -1,0 +1,91 @@
+concept_triangle -> triangleABC
+(*
+    => nrel_inclusion: A; C;;
+    => nrel_angle: ABC;;
+*);;
+
+ABC => nrel_bisector: BL
+(*
+    => nrel_perpendicular: C; A;;
+*);;
+
+concept_line
+-> ..line1
+(*
+    => nrel_inclusion: CM;;
+    <= nrel_belonging: C;;
+*);
+-> ..line2
+(*
+    => nrel_inclusion: AK;;
+    => nrel_belonging: A;;
+*);;
+
+concept_segment
+-> CM;
+-> BA;
+-> CB;
+-> AK;
+-> KC;
+-> AB;
+-> BM;;
+
+AK <- ...
+(*
+    <- sc_node_not_binary_tuple;;
+    -> CB;;
+    => nrel_intersection: ...
+    (*
+        -> K;;
+    *);;
+*);;
+
+BA <- ...
+(*
+    <- sc_node_not_binary_tuple;;
+    -> CM;;
+    => nrel_intersection: ...
+    (*
+        -> M;;
+    *);;
+*);;
+
+nrel_exact_value -> ...
+(*
+    <- sc_node_not_relation;;
+    <- concept_length;;
+    -> KC;;
+    => nrel_measuring_in_cm: 1;;
+*);;
+
+nrel_exact_value -> ...
+(*
+    <- sc_node_not_relation;;
+    <- concept_length;;
+    -> BM;;
+    => nrel_measuring_in_cm: 8;;
+*);;
+
+concept_number -> 8; 1;;
+concept_length -> ...
+(*
+    <- concept_required_value;;
+    -> AB;;
+*);;
+concept_fixed_unit_measurement -> nrel_measuring_in_cm;;
+
+sc_node_norole_relation
+-> nrel_measuring_in_cm;
+-> nrel_angle;
+-> nrel_exact_value;
+-> nrel_bisector;
+-> nrel_perpendicular;
+-> nrel_belonging;;
+
+sc_node_not_relation
+-> concept_length;
+-> concept_number;
+-> concept_line;
+-> concept_segment;
+-> concept_triangle;
+-> concept_fixed_unit_measurement;;

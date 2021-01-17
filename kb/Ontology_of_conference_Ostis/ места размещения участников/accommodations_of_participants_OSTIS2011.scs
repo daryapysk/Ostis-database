@@ -1,0 +1,9 @@
+accommodations_of_participants_OSTIS2011 => nrel_main_idtf:
+	[Места размещения участников Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Accommodations of participants Сonference OSTIS-2011]
+	(*
+	<- lang_en;;
+	*);;

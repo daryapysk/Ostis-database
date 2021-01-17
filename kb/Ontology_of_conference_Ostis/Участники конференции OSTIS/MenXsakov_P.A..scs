@@ -1,0 +1,23 @@
+
+MenXsakov_P.A.=> nrel_main_idtf:
+	[Меньшаков П.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[MenXsakov_P.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+MenXsakov_P.A. => nrel_email: [pmenshakov@gmail.com](*<-lang_en;;*);;
+
+//MenXsakov_P.A. <- concept_participant_of_conference_OSTIS;;
+MenXsakov_P.A.<- concept_participant_of_conference_OSTIS2015;;
+MenXsakov_P.A.<- concept_participant_of_conference_OSTIS2016;;
+
+
+/*MenXsakov_P.A. <= nrel_authors:  ...(* -> Doklad_77_OSTISX2015;; *);;
+
+MenXsakov_P.A. -> Ucastnik_konferenzii_OSTIS;;
+
+MenXsakov_P.A. -> magistrant;;*/

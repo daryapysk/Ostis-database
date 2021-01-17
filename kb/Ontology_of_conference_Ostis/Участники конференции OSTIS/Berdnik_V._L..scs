@@ -1,0 +1,15 @@
+
+Berdnik_V.L.=> nrel_main_idtf:
+	[Бердник В. Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[Berdnik_V.L.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Berdnik_V.L. <= nrel_authors:  ...(* -> Doklad_66_OSTISX2014;; *);;
+
+Berdnik_V.L. <- concept_participant_of_conference_OSTIS2014;;

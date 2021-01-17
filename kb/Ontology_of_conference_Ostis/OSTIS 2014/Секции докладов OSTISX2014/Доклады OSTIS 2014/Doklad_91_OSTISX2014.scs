@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_91_OSTISX2014;;
+Doklad_91_OSTISX2014=>nrel_main_idtf:[Доклад 91 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_91_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_91_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_91_OSTISX2014 <= nrel_name_of_doclad: [Создание онтологической модели налоговой системы Казахстана](* <- lang_ru;;*);;
+
+// Doklad_91_OSTISX2014 <= nrel_authors : ...(* -> Omarbekova_A._S.;Turmaganbetova_S._K.;Saripbaev_A._A.;; *);;
+
+Doklad_91_OSTISX2014 <= nrel_authors: Omarbekova_A._S.;Turmaganbetova_S._K.;Saripbaev_A._A.;; 
+
+// Doklad_91_OSTISX2014 <= nrel_articke: ...(* -> 91._Omarbekova_A.S.X_Turmaganbetova_S.K.X_Saripbaev_A.A._X_SozdaOMNSK;; *);;

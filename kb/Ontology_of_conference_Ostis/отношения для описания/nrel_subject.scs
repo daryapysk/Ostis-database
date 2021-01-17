@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_subject;; 
+
+nrel_subject => nrel_main_idtf:[тематика*] (* <-lang_ru;; *);;
+
+nrel_subject => nrel_main_idtf:[subject*] (* <-lang_en;; *);;
+
+
+
+nrel_subject <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Тематика - совокупность основных и побочных тем какого-либо мероприятия или объекта .]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

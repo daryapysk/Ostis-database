@@ -1,0 +1,30 @@
+
+concept_seeker => nrel_idtf: [seeker](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Соискатель)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Соискатель — лицо, имеющее высшее профессиональное образование, прикрепленное к организации или учреждению, которые имеют аспирантуру и докторантуру, и подготавливающее диссертацию на соискание учёной степени кандидата наук без обучения в аспирантуре.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_seeker;;
+<= nrel_using_constants :...
+(*
+-> concept_thesis; concept_degree; concept_higher_education; concept_candidate_eciences;;
+*);;
+*);;
+
+ concept_seeker -> rrel_example: [Соискатель полностью погружён в науку.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Соискатель, наука)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Соискатель находится в поисках научной степени.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_seeker; concept_science;;
+*);; 
+
+

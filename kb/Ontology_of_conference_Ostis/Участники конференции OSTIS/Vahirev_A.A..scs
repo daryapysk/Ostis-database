@@ -1,0 +1,20 @@
+
+Vahirev_A.A.=> nrel_main_idtf:
+	[Вяхирев А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Vahirev_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Vahirev_A.A. <- concept_participant_of_conference_OSTIS;;
+Vahirev_A.A. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Vahirev_A.A. <= nrel_authors:  ...(* -> Doklad_85_OSTISX2015;; *);;
+
+Vahirev_A.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Vahirev_A.A. -> magistrant;;*/

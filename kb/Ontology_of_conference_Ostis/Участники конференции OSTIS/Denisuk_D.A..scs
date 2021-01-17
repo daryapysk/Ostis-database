@@ -1,0 +1,21 @@
+
+Denisuk_D.A.=> nrel_main_idtf:
+	[Денисюк Д.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Denisuk_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Denisuk_D.A. => nrel_email: [d.denissyuk@gmail.com](*<-lang_en;;*);;
+
+//Denisuk_D.A.<- concept_participant_of_conference_OSTIS;;
+Denisuk_D.A.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Denisuk_D.A. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2015;; *);;
+
+Denisuk_D.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Denisuk_D.A. -> tehnik;;*/

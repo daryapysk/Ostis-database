@@ -1,0 +1,18 @@
+//sc_node_not_relation->Doklad_9.04_OSTISX2011;;
+Doklad_9.04_OSTISX2011=>nrel_main_idtf:[Доклад 9.04 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_9.04_OSTISX2011 <- doklad_OSTISX2011;;
+
+//Doklad_9.04_OSTISX2011 - sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_9.04_OSTISX2011 => nrel_name_of_doclad: [Некоторые актуальные проблемы разработки лингвистического семантического кодирования](* <- lang_ru;;*);;
+
+
+Doklad_9.04_OSTISX2011<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Головня_А.И.2011ст-НекотАПРЛСК.pdf";;
+						    *);; 
+					*);;
+
+Doklad_9.04_OSTISX2011=>nrel_authors: Golovna_A.I.;;

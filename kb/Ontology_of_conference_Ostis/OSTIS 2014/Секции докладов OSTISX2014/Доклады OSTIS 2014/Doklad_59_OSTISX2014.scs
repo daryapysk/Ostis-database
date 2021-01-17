@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_59_OSTISX2014;;
+Doklad_59_OSTISX2014=>nrel_main_idtf:[Доклад 59 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_59_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_59_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_59_OSTISX2014 <= nrel_name_of_doclad: [Концепция генезиса саморазвивающегося интеллекта Ж. Пиаже:Методология и принципы моделирования](* <- lang_ru;;*);;
+
+// Doklad_59_OSTISX2014 <= nrel_authors : ...(* -> Starjinskij_V._P.;; *);;
+
+Doklad_59_OSTISX2014 <= nrel_authors: Starjinskij_V._P.;; 
+
+// Doklad_59_OSTISX2014 <= nrel_articke: ...(* -> 59._Starjinskij_V.P._X_KonzeGSIJ.PMiPM;; *);;

@@ -1,0 +1,34 @@
+//
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_main_idtf:
+[Доклад 3.08 OSTIS-2016 Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 3.08 OSTIS-2016 Domain models in decision support systems based on monitoring information space solutions] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM <- doklad_OSTISX2016;;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM <= nrel_authors:
+Dodonov_A.G.;
+Lande_D.V.;
+Kovalenko_T_V;;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_published_material: publication_Dodonov_A_G_2016_ModeloSDIDMSSOTBoISM;;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_report_language: lang_ru;;
+
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/3.08_Додонов_МоделПОвСППРнОМИП.pdf";; *);; *);;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_name: [Модели предметных областей в системах поддержки принятия решений на основе мониторинга информационного пространства](*<- lang_ru;;*);;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM <= nrel_speaker: Dodonov_A.G.;;
+
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_time_speech: [17:30 - 18:30];;
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_data_speech: [18 февраля 2016];;
+
+report_3.08_OSTIS_2016_ModeloSDIDMSSOTBoISM => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;

@@ -1,0 +1,17 @@
+Burak_T_I => nrel_main_idtf:
+[Бурак Т.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Burak_T_I] 
+	(*
+	<- lang_en;;
+	*);;
+
+Burak_T_I <- concept_participant_of_conference_OSTIS2016;;
+//OSTIS_conference_2016 => nrel_participant: Burak_T_I;;
+
+Burak_T_I => nrel_contact_information:[timburik@gmail.com];;
+
+
+

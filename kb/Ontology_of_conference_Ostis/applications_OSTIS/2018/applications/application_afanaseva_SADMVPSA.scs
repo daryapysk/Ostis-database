@@ -1,0 +1,47 @@
+application_afanaseva_SADMVPSA => nrel_main_idtf:
+[Заявка на участие в международной научно-технической конференции
+OSTIS-2018: Семантический анализ диаграмматических моделей в проектировании сложных автомати]
+(*
+<- lang_ru;;
+*);;
+
+application_to_OSTIS_2018 -> application_afanaseva_SADMVPSA;;
+
+application_afanaseva_SADMVPSA => nrel_application:  Afanaseva_T_V;;
+
+
+application_afanaseva_SADMVPSA => nrel_name_of_article:
+[Семантический анализ диаграмматических моделей в проектировании сложных автомати]
+(*
+<- lang_ru;;
+*);;
+
+application_afanaseva_SADMVPSA => nrel_joint_authors:
+[Афанасьев А. Н.]
+(*
+<- lang_ru;;
+*);;
+
+application_afanaseva_SADMVPSA => nrel_participation_form:
+[доклад]
+(*
+<- lang_ru;;
+*);;
+
+
+application_afanaseva_SADMVPSA => nrel_conference_competition:
+[конкурс научных докладов молодых учёных]
+(*
+<- lang_ru;;
+*);;
+
+
+application_afanaseva_SADMVPSA => nrel_speaker:
+[Афанасьев А. Н.]
+(*
+<- lang_ru;;
+*);;
+
+
+application_afanaseva_SADMVPSA => nrel_application_date:
+[09-05-2017];;

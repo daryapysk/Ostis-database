@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_46_OSTISX2015;;
+Doklad_46_OSTISX2015=>nrel_main_idtf:[Доклад 46 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_46_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_46_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_46_OSTISX2015 => nrel_name_of_doclad: [Нейросетевая модель процесса профессионального обучения молодых специалистов](* <- lang_ru;;*);;
+
+//Doklad_46_OSTISX2015 <= nrel_authors : ...(* -> Fedaev_O._I.;; *);;
+
+//Doklad_46_OSTISX2015 <= nrel_articke: ...(* -> 46._Fedaev_O.I._X_NejrosetevaaMPPOMS;; *);;
+
+
+Doklad_46_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/46._Федяев_О.И._-_НейросетеваяМППОМС.pdf";;
+						    *);; 
+					*);;
+
+Doklad_46_OSTISX2015=> nrel_authors: Fedaev_O.I.;;

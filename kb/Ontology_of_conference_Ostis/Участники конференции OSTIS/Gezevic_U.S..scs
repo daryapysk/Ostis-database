@@ -1,0 +1,28 @@
+
+Gezevic_U.S.=> nrel_main_idtf:
+	[Гецевич Ю.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gezevic_U.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gezevic_U.S. => nrel_email: [mix1122@gmail.com](*<-lang_en;;*);;
+
+/*Gezevic_U.S. <= nrel_authors:  ...(* -> Doklad_74_OSTISX2015;Doklad_47_OSTISX2014;Doklad_4.14_OSTISX2012;Doklad_7.14_OSTISX2011;Doklad_7.12_OSTISX2011;; *);;*/
+
+Gezevic_U.S. <- concept_participant_of_conference_OSTIS2014;;
+Gezevic_U.S. <- concept_participant_of_conference_OSTIS2011;;
+Gezevic_U.S. <- concept_participant_of_conference_OSTIS2012;;
+Gezevic_U.S. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Gezevic_U.S. -> m.f.Xm.n.;;
+m.f.Xm.n. <- akademiceskaa_stepenX;;
+
+Gezevic_U.S. -> m.n.s.;;
+
+Gezevic_U.S. <- rrel_key_sc_element: ..illustration_Gezevic_U.S.(* <- sc_illustation;; *);;
+..illustration_Gezevic_U.S. <= nrel_translation : ..translation_illustration_Gezevic_U.S.;;
+..translation_illustration_Gezevic_U.S.-> rrel_example : [<img src="http://127.0.0.1:8181/GecevichUS.png"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,20 @@
+sc_node_not_relation->Matusin_M.M.;;
+Matusin_M.M.=>nrel_main_ru_idtf:[Матюшин М.М.];;
+
+Matusin_M.M. <= nrel_email: [matushin@scsc.ru](*<-lang_en;;*);;
+
+Matusin_M.M. <= nrel_authors:  ...(* -> Doklad_28_OSTISX2014;; *);;
+
+Matusin_M.M. -> Ucastnik_konferenzii_OSTIS;;
+
+Matusin_M.M. -> k.n.;;
+k.n. <- ucenaa_stepenX;;
+
+Matusin_M.M. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Matusin_M.M. -> nacalXnik_otdela;;
+
+Matusin_M.M. <- rrel_key_sc_element: ..illustration_Matusin_M.M.(* <- sc_illustation;; *);;
+..illustration_Matusin_M.M. <= nrel_translation : ..translation_illustration_Matusin_M.M.;;
+..translation_illustration_Matusin_M.M.-> rrel_example : [<img src="http://127.0.0.1:8181/Matushin_foto.png"/>] (* => nrel_format: format_html;; *);;

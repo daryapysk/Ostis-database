@@ -1,0 +1,27 @@
+
+Savin_A.M.=> nrel_main_idtf:
+	[Савин А. М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Savin_A.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Savin_A.M. => nrel_email: [savin.alexey.m@gmail.com](*<-lang_en;;*);;
+
+//Savin_A.M. <- concept_participant_of_conference_OSTIS;;
+Savin_A.M. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Savin_A._M. <= nrel_authors:  ...(* -> Doklad_23_OSTISX2015;; *);;
+
+Savin_A._M. -> Ucastnik_konferenzii_OSTIS;;
+
+Savin_A._M. -> net;;
+net <- ucenaa_stepenX;;
+
+Savin_A._M. -> student;;
+student <- ucenoe_zvanie;;
+
+Savin_A._M. -> student;;*/

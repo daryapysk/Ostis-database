@@ -1,0 +1,44 @@
+
+concept_University_of_Madras<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Мадрасский университет]
+      (*<-lang_ru;;*);
+       [University of Madras]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Мадрасский университет)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_reserch_univesity;
+       concept_India;
+       concept_Chennai
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Мадрасский университет — государственный исследовательский университет в г. Ченнаи,Индия] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Мадрасский университет)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_univesity;
+	concept_India
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Мадрасский университет- один из старейших университетов Индии](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_University_of_Madras -> rrel_example: [Мадрасский университет был основан в 1831 году.](* <- lang_ru;; *);;
+concept_University_of_Madras <=nrel_inclusion:concept_higher_education_institution;;
+Sathamangalam_Ranga_Iyengar_Srinivasa_Varadhan<-nrel_graduate:concept_University_of_Madras;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_University_of_Madras;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Madara.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Мадрасский университет)](*<- lang_ru;;*);;
+*);;

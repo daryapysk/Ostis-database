@@ -1,0 +1,27 @@
+publication_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_main_idtf:
+[Ларин С.Н. 2016 - ПрактРМЗППвКАУПК-ТР] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Larin_S_N_2016_PractIMMFPCACFAEW] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_name_publication:[Практическая реализация моделей зрелых производственных процессов в контексте автоматизированного управления потоками конструкторско-технологических работ](*
+	<- lang_ru;;
+	*);;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW <= nrel_authors:
+Larin_S.N.;;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW <- article;;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_reference_standard: [Ларин, С.Н. Практическая реализация моделей зрелых производственных процессов в контексте автоматизированного управления потоками конструкторско-технологических работ/ С.Н. Ларин  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 435–440.];;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_year_publication: 2016;;
+
+publication_Larin_S_N_2016_PractIMMFPCACFAEW => nrel_information_publication:  Materials_OSTIS2016;;
+publication_Larin_S_N_2016_PractIMMFPCACFAEW<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Ларин.pdf";; *);;*);;
+

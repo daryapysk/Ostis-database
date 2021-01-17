@@ -1,0 +1,46 @@
+
+concept_Courant_Institute_of_Mathematical_Sciences<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Курантовский институт математических наук]
+      (*<-lang_ru;;*);
+       [Courant Institute of Mathematical Sciences]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Курантовский институт математических наук)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_Applied_Mathematics;
+       concept_education_centre;
+       concept_computer_calculations
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Курантовский институт математических наук— одним из ведущих образовательных и научно-исследовательских центров в мире,специализирующийся на прикладной математике и компьютерных вычислениях.] (* <- lang_ru;; *);;
+    *);;
+   *);
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Курантовский институт математических наук)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_independent_unit;
+	concept_New_York_University
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Курантовский институт математических наук-независимое подразделение Нью-Йоркского университета](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Courant_Institute_of_Mathematical_Sciences -> rrel_example: [Курантовский институт математических наук был основан в 1935 году.](* <- lang_ru;; *);;
+concept_Courant_Institute_of_Mathematical_Sciences <=nrel_inclusion:concept_higher_education_institution;;
+Peter_David_Lax<-rrel_employee:concept_Courant_Institute_of_Mathematical_Sciences;;
+Peter_David_Lax<-rrel_graduate:concept_Courant_Institute_of_Mathematical_Sciences;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Courant_Institute_of_Mathematical_Sciences;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//Coura.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Курантовский институт математических наук)](*<- lang_ru;;*);;
+*);;

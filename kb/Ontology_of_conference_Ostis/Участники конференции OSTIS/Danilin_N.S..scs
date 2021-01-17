@@ -1,0 +1,29 @@
+
+Danilin_N.S.=> nrel_main_idtf:
+	[Данилин Н.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Danilin_N.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Danilin_N.S. => nrel_email: [N_danilin@rambker.ru](*<-lang_en;;*);;
+
+//Danilin_N.S. <= nrel_authors:  ...(* -> Doklad_27_OSTISX2014;; *);;
+
+Danilin_N.S.  <- concept_participant_of_conference_OSTIS2014;;
+Danilin_N.S.  <- concept_participant_of_conference_OSTIS2016;;
+
+/*Danilin_N.S. -> doktor_tehniceskih_nauk;;
+doktor_tehniceskih_nauk <- ucenaa_stepenX;;
+
+Danilin_N.S. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Danilin_N.S. -> naucnyj_rukovoditelX_ispytatelXnogo_zentra;;
+
+Danilin_N.S. <- rrel_key_sc_element: ..illustration_Danilin_N.S.(* <- sc_illustation;; *);;
+..illustration_Danilin_N.S. <= nrel_translation : ..translation_illustration_Danilin_N.S.;;
+..translation_illustration_Danilin_N.S.-> rrel_example : [<img src="http://127.0.0.1:8181/Данилин_в_форме.jpg"/>] (* => nrel_format: format_html;; *);;*/

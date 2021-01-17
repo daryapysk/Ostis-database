@@ -1,0 +1,22 @@
+
+Krylov_D.A.=> nrel_main_idtf:
+	[Крылов Д.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Krylov_D.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Krylov_D.A. => nrel_email: [dmalkr@gmail.com](*<-lang_en;;*);;
+
+/*Krylov_D.A. <= nrel_authors:  ...(* -> Doklad_19_OSTISX2015;Doklad_1.01_OSTISX2011;; *);;
+
+Krylov_D.A. <= nrel_publication : ...(* -> Krylov_D.A..2010prXIspolTOVdRiUIS;Krylov_D.A.2005stXKonzeOdRRZnOMO;; *);;*/
+
+//Krylov_D.A. <- concept_participant_of_conference_OSTIS;;
+Krylov_D.A. <- concept_participant_of_conference_OSTIS2011;;
+Krylov_D.A. <- concept_participant_of_conference_OSTIS2015;;
+
+//Krylov_D.A. -> m.n.s.;;

@@ -1,0 +1,17 @@
+
+Krosenko_A.A.=> nrel_main_idtf:
+	[Крошенко А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Krosenko_A.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Krosenko_A.A. <- concept_participant_of_conference_OSTIS2015;;
+
+//Krosenko_A.A. <- concept_participant_of_conference_OSTIS;;
+

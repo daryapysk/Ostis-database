@@ -1,0 +1,31 @@
+
+Tarasov_V.B.=> nrel_main_idtf:
+	[Тарасов В. Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tarasov_V.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Tarasov_V.B. => nrel_email: [vbulbov@yahoo.com](*<-lang_en;;*);;
+
+/*Tarasov_V._B. <= nrel_authors:  ...(* -> Doklad_01_OSTISX2015;Doklad_73_OSTISX2014;Doklad_02_OSTISX2014;Doklad_3.04_OSTISX2012;Doklad_3.03_OSTISX2012;; *);;*/
+
+Tarasov_V.B. <- concept_participant_of_conference_OSTIS2014;;
+Tarasov_V.B. <- concept_participant_of_conference_OSTIS2012;;
+Tarasov_V.B. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+/*Tarasov_V._B. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Tarasov_V._B. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Tarasov_V._B. <- rrel_key_sc_element: ..illustration_Tarasov_V._B.(* <- sc_illustation;; *);;
+..illustration_Tarasov_V._B. <= nrel_translation : ..translation_illustration_Tarasov_V._B.;;
+..translation_illustration_Tarasov_V._B.-> rrel_example : [<img src="http://127.0.0.1:8181/TarasovVB.png"/>] (* => nrel_format: format_html;; *);;*/

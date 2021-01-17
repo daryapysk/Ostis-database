@@ -1,0 +1,27 @@
+publication_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_main_idtf:
+[Орлова А. А. 2016 - СеманАТЧРПпСДсПОFE] 
+
+	(*
+	<- lang_ru;;
+	*);
+	[Orlova_A_A_2016_SemanATUMEAOEFE] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Orlova_A_A_2016_SemanATUMEAOEFE=> nrel_name_publication:[Семантический анализ текстовой речи руководства пользователя по сборке двигателя с помощью онторедактора FLUENT EDITOR](*
+	<- lang_ru;;
+	*);;
+
+publication_Orlova_A_A_2016_SemanATUMEAOEFE<= nrel_authors:
+Orlova_A_A;;
+publication_Orlova_A_A_2016_SemanATUMEAOEFE<= nrel_authors:
+Bogrest_N.M.;;
+publication_Orlova_A_A_2016_SemanATUMEAOEFE <- article;;
+
+publication_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_reference_standard: [Орлова, А. А. Семантический анализ текстовой речи руководства пользователя по сборке двигателя с помощью онторедактора FLUENT EDITOR / А.А. Орлова, Н.М. Богрест  // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 421–426.];;
+
+publication_Orlova_A_A_2016_SemanATUMEAOEFE => nrel_year_publication: 2016;;
+
+publication_Orlova_A_A_2016_SemanATUMEAOEFE=> nrel_information_publication:  Materials_OSTIS2016;;
+publication_Orlova_A_A_2016_SemanATUMEAOEFE<- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://статьи/Орлова.pdf";; *);;*);;

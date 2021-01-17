@@ -1,0 +1,24 @@
+
+Gunter_A.V.=> nrel_main_idtf:
+	[Гюнтер А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gunter_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gunter_A.V. => nrel_email: [lena205593@gmail.com](*<-lang_en;;*);;
+
+//Gunter_A.V.<- concept_participant_of_conference_OSTIS;;
+Gunter_A.V.<- concept_participant_of_conference_OSTIS2015;;
+
+/*Gunter_A.V. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2015;; *);;
+
+Gunter_A.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Gunter_A.V. -> m.n.s.;;
+m.n.s. <- ucenoe_zvanie;;
+
+Gunter_A.V. -> stajer;;*/

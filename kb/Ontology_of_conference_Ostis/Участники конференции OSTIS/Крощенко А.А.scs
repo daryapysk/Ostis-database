@@ -1,0 +1,14 @@
+Kroschenko_A_A => nrel_main_idtf:
+[Крощенко А.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kroschenko_A_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kroschenko_A_A;;
+
+Kroschenko_A_A => nrel_contact_information:[kroschenko@gmail.com];;
+

@@ -1,0 +1,31 @@
+
+Visnakov_V.A.=> nrel_main_idtf:
+	[Вишняков В. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Visnakov_V.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Visnakov_V.A. => nrel_email: [vish2002@list.ru](*<-lang_en;;*);;
+
+//Visnakov_V._A. <= nrel_authors:  ...(* -> Doklad_15_OSTISX2015;Doklad_56_OSTISX2014;; *);;
+
+//Visnakov_V._A. -> Ucastnik_konferenzii_OSTIS;;
+Visnakov_V.A. <- concept_participant_of_conference_OSTIS2014;;
+Visnakov_V.A. <- concept_participant_of_conference_OSTIS2013;;
+Visnakov_V.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Visnakov_V._A. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Visnakov_V._A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Visnakov_V._A. -> professor;;
+
+Visnakov_V._A. <- rrel_key_sc_element: ..illustration_Visnakov_V._A.(* <- sc_illustation;; *);;
+..illustration_Visnakov_V._A. <= nrel_translation : ..translation_illustration_Visnakov_V._A.;;
+..translation_illustration_Visnakov_V._A.-> rrel_example : [<img src="http://127.0.0.1:8181/Вишняков.jpg"/>] (* => nrel_format: format_html;; *);;*/

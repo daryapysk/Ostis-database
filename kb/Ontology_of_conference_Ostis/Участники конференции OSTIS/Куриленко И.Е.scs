@@ -1,0 +1,14 @@
+Kurilenko_I_E => nrel_main_idtf:
+[Куриленко И.Е.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurilenko_I_E] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kurilenko_I_E;;
+
+Kurilenko_I_E => nrel_contact_information:[ivan@appmat.com];;
+

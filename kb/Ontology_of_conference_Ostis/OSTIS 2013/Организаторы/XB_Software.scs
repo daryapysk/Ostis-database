@@ -1,0 +1,8 @@
+sc_node_not_relation->XB_Software;;
+XB_Software=>nrel_main_idtf:[XB Software](* <- lang_ru;;*);;
+
+XB_Software => nrel_phone: [+375 17 223 69 29](* <- lang_ru;;*);;
+
+XB_Software => nrel_address : [г. Минск Партизанский 2](* <- lang_ru;;*);;
+
+XB_Software => nrel_location : [г. Минск Партизанский 2](* <- lang_ru;;*);;

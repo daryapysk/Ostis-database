@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_55_OSTISX2014;;
+Doklad_55_OSTISX2014=>nrel_main_idtf:[Доклад 55 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_55_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_55_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_55_OSTISX2014 <= nrel_name_of_doclad: [Онтологически-ориентированная модель классификаций текстовых документов](* <- lang_ru;;*);;
+
+// Doklad_55_OSTISX2014 <= nrel_authors : ...(* -> Namestnikov_A._M.;Subhangulov_R._A.;; *);;
+
+Doklad_55_OSTISX2014 <= nrel_authors: Namestnikov_A._M.;Subhangulov_R._A.;; 
+
+// Doklad_55_OSTISX2014 <= nrel_articke: ...(* -> 55._Namestnikov_A.M.X_Subhangulov_R.A._X_OntolXOMKTD;; *);;

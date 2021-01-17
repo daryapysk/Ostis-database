@@ -1,0 +1,20 @@
+Shalfeeva_E_A => nrel_main_idtf:
+[Шалфеева Е.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Shalfeeva_E_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Shalfeeva_E_A;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2011;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2012;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2013;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2014;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2015;;
+Salfeeva_E_A <- concept_participant_of_conference_OSTIS2016;;
+
+Shalfeeva_E_A => nrel_contact_information:[shalf@ iacp.dvo.ru];;
+

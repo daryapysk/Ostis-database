@@ -1,0 +1,30 @@
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_main_idtf:
+[Мошкин В.С. 2016 - МодифМЛВЗнОНОиБП]
+	(*
+	<- lang_ru;;
+	*);
+	[Moshkin_V_S_2016_ModifKIMBOFOASoUC] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_name_publication:[Модифицированный метод логического вывода знаний на основе нечёткой онотологии и базы прецендентов](*
+	<- lang_ru;;
+	*);;
+
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC <= nrel_authors:
+Moskin_V.S.;
+Yarushkina_N_G;;
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_article_language: lang_ru;;
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC <- article_OSTIS_2016;;
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_annotation: [В данной работе представлены результаты применения методологии интеграции систем продукционных правил с нечеткой онтологией на примере решения задачи оценки состояния локальной вычислительной сети в процессе искусственного повышения трафика. Помимо этого, рассмотрена возможность модификация данного алгоритма за счет параллельного запуска механизма анализа прецедентов в процессе логического вывода знаний.];;
+
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_reference_standard: [Мошкин, В.С. Модифицированный метод логического вывода знаний на основе нечёткой онотологии и базы прецендентов / В.С. Мошкин, Н.Г. Ярушкина // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_count_page: 6;;
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_year_publication: 2016;;
+
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Moshkin_V_S_2016_ModifKIMBOFOASoUC <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/39.moshkin.pdf";; *);; *);;
+

@@ -1,0 +1,31 @@
+report_6.06_OSTIS_2016_SyntAKLBLGP => nrel_main_idtf:
+[Доклад 6.06 OSTIS-2016 Синтаксический анализатор казахского языка на основе грамматики связей-LINK GRAMMAR PARSER]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.06 OSTIS-2016 Syntactical analyzer of kazakh language based by "LINK GRAMMAR PARSER"] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  <- doklad_OSTISX2016;;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  <= nrel_authors:Begimtay_U_H;;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_published_material:publication_Begimtay_U_H_2016_SyntAKLBLGP;;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_report_language: lang_ru;;
+
+
+/*report_6.06_OSTIS_2016_SyntAKLBLGP  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_name: [Синтаксический анализатор казахского языка на основе грамматики связей-LINK GRAMMAR PARSER](*<- lang_ru;;*);;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  <= nrel_speaker: Begimtay_U_H;;
+
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_time_speech: [11:00 - 11:15];;
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_data_speech: [19 февраля 2016];;
+
+report_6.06_OSTIS_2016_SyntAKLBLGP  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;
+

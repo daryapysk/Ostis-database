@@ -1,0 +1,14 @@
+Korolev_U_I => nrel_main_idtf:
+[Королёв Ю.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Korolev_U_I] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Korolev_U_I;;
+
+Korolev_U_I => nrel_contact_information:[KorolevYu@gmail.com];;
+

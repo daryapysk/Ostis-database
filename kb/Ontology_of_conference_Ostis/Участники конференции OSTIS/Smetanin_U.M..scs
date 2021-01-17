@@ -1,0 +1,25 @@
+
+Smetanin_U.M.=> nrel_main_idtf:
+	[Сметанин Ю.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Smetanin_U.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Smetanin_U.M. => nrel_email: [Gms1234gms@rambler.ru](*<-lang_en;;*);;
+
+/*Smetanin_U.M. <= nrel_authors:  ...(* -> Doklad_35_OSTISX2014;Doklad_34_OSTISX2014;Doklad_6.03_OSTISX2012;Doklad_3.06_OSTISX2012;; *);;*/
+
+Smetanin_U.M. <- concept_participant_of_conference_OSTIS2014;;
+Smetanin_U.M. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Smetanin_U.M. -> k.f.Xm.n.;;
+k.f.Xm.n. <- ucenaa_stepenX;;
+
+Smetanin_U.M. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Smetanin_U.M. -> zaveduusij*/

@@ -1,0 +1,52 @@
+
+sc_node_not_relation->concept_chairman;;
+concept_chairman => nrel_main_idtf: [председатель](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_collection;;
+concept_collection => nrel_main_idtf: [собрание](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_meeting;;
+concept_meeting => nrel_main_idtf: [заседание](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_conference;;
+concept_conference => nrel_main_idtf: [конференция](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

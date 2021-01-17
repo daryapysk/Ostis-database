@@ -1,0 +1,38 @@
+//
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_main_idtf:
+[Доклад 1.04 OSTIS-2016 Интеграция семиотики, когнитивной графики и семантичного моделирования в интеллектуальных семиотических системах ситуационного управления]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 1.04 OSTIS-2016 Integration of semiotics, cognitive graphics and semantically modeling in intelligent systems semiotic situational management] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM <- doklad_OSTISX2016;;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM <= nrel_author: MasselX_L.V.;
+MasselX_A.G.;;
+
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_published_material: publication_Massel_L_V_2016_IntegoSCGaSMIISSfSM;;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_report_language: lang_ru;;
+
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.04_Массель_ИнтегСКГиСМвИСССУ.pdf";; *);; *);;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_name: [Интеграция семиотики, когнитивной графики и семантичного моделирования в интеллектуальных семиотических системах ситуационного управления](*<- lang_ru;;*);;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM <= nrel_speaker: MasselX_A.G.;;
+
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_time_speech: [11:30 - 12:15];;
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_data_speech: [18 февраля 2016];;
+
+report_1.04_OSTIS_2016_IntegoSCGaSMIISSfSM => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;
+
+
+//спросить у Натальи Викторовны имеет ли доклад награды
+//report_01_OSTIS_2016_SynthSaAAtKMSD => nrel_reward: super_report_in_the_world;;
+

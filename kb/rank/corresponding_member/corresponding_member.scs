@@ -1,0 +1,29 @@
+
+concept_corresponding_member => nrel_idtf: [corresponding_member](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Член-корреспондент)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Член-корреспондент — член организации учёных — академии наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_corresponding_member;;
+<= nrel_using_constants :...
+(*
+-> concept_scientist; concept_academy_of_sciences;;
+*);;
+*);;
+
+ concept_corresponding_member -> rrel_example: [Член-корреспондент Михаил Гаус.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Член-корреспондент, учёный)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Членами-корреспондентами академий были учёные.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_corresponding_member; concept_scientist_new;;
+*);; 
+

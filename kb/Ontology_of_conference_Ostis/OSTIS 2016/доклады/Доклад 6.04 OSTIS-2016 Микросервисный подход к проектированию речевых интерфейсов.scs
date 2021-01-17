@@ -1,0 +1,30 @@
+report_6.04_OSTIS_2016_MicroDADSUI => nrel_main_idtf:
+[Доклад 6.04 OSTIS-2016 Микросервисный подход к проектированию речевых интерфейсов]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 6.04 OSTIS-2016 Microservice design approach for developing speech user interfaces] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_6.04_OSTIS_2016_MicroDADSUI  <- doklad_OSTISX2016;;
+
+report_6.04_OSTIS_2016_MicroDADSUI  <= nrel_authors:Dzitko_V_A;
+Lobanov_B.M.;;
+report_6.04_OSTIS_2016_MicroDADSUI => nrel_published_material: publication_Dzitko_V_A_2016_MicroDADSUI;;
+
+report_6.04_OSTIS_2016_MicroDADSUI => nrel_report_language: lang_ru;;
+
+
+report_6.04_OSTIS_2016_MicroDADSUI  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/6.04 Житко В. А. 2016 - МикроПкПРИ.pdf";; *);; *);;
+
+report_6.04_OSTIS_2016_MicroDADSUI  => nrel_name: [Микросервисный подход к проектированию речевых интерфейсов](*<- lang_ru;;*);;
+
+report_6.04_OSTIS_2016_MicroDADSUI  <= nrel_speaker: Dzitko_V_A;;
+
+
+report_6.04_OSTIS_2016_MicroDADSUI  => nrel_time_speech: [10:15 - 10:45];;
+report_6.04_OSTIS_2016_MicroDADSUI => nrel_data_speech: [19 февраля 2016];;
+
+report_6.04_OSTIS_2016_MicroDADSUI  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 411];;

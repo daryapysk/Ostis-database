@@ -1,0 +1,7 @@
+sc_node_not_relation->Scurko_M._L.;;
+Scurko_M._L.=>nrel_main_ru_idtf:[Шчурко М. Л.];;
+
+
+Scurko_M._L. <= nrel_authors:  ...(* -> Doklad_70_OSTISX2014;; *);;
+
+Scurko_M._L. -> Ucastnik_konferenzii_OSTIS;;

@@ -1,0 +1,29 @@
+
+concept_docent => nrel_idtf: [docent](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Доцент)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Доцент — учёное звание преподавателей высших учебных заведений, выполняющих функцию университетских лекторов или другую педагогическую работу сопоставимого уровня](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_docent;;
+<= nrel_using_constants :...
+(*
+-> concept_lecturer; concept_academic_title; concept_higher_education_institution; concept_lector;;
+*);;
+*);;
+
+ concept_docent -> rrel_example: [Романов Владимир Ильич доцент кафедры интеллектуальных информационных технологий.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Доцент, лекция)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Доцент Романов Владимир Ильич проводит лекции по предмету ППВИС.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_docent; concept_lecture;;
+*);; 
+

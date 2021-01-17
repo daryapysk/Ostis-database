@@ -1,0 +1,10 @@
+//sc_node_not_relation->Scand_Ltd;;
+Scand_Ltd=>nrel_main_idtf:[Scand Ltd](* <- lang_ru;;*);;
+
+Scand_Ltd => rrel_work_phone: [+375 17 256-07-76](* <- lang_ru;;*);;
+
+Scand_Ltd => nrel_address : [г. Минск, ул. Мельникайте, д.4](* <- lang_ru;;*);;
+
+Scand_Ltd => nrel_site: [scand.by];;
+
+//Scand_Ltd => nrel_location : [г. Минск, ул. Мельникайте, д.4](* <- lang_ru;;*);;

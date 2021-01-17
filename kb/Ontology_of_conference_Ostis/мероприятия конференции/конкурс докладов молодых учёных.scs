@@ -1,0 +1,18 @@
+young_scientists_contest_reports => nrel_main_idtf:
+[конкурс докладов молодых учёных](* <- lang_ru;; *);
+[young scientists contest reports] (* <- lang_en;; *);;
+
+young_scientists_contest_reports <- rrel_key_sc_element: ...
+	(*
+	=> nrel_main_idtf: [пояснение*] (*<-lang_ru;; *);;
+	<-sc_task;;
+	<= nrel_sc_text_translation: ...
+	(*
+		<- rrel_example:
+			[Конкурс докладов молодых учёных - соискательство молодых ученых с целью разработки и представления проектов в рамках конференции.] 
+		(* <- lang_ru;; *);;
+
+	*);;
+*);;
+
+

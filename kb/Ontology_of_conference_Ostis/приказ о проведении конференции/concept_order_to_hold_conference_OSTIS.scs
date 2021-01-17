@@ -1,0 +1,19 @@
+sc_node_not_relation ->concept_order_to_hold_conference_OSTIS;;
+concept_order_to_hold_conference_OSTIS=> nrel_main_idtf:
+	[приказ о проведении конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[order to hold conference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+
+concept_order_to_hold_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->order_hold_Conference2015; 
+order_hold_Conference2016;;
+*);;

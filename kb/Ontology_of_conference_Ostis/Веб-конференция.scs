@@ -1,0 +1,22 @@
+web_conference => nrel_main_idtf:
+	[веб-конференция]
+	(*
+	<- lang_ru;;
+	*);
+	[web conference]
+	(*
+	<- lang_en;;
+	*);;
+
+web_conference <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Веб-конференция — технология и инструментарий для организации онлайн-встреч и совместной работы в режиме реального времени через Интернет. ]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

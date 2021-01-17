@@ -1,0 +1,14 @@
+Jelepov_A_S => nrel_main_idtf:
+[Желепов А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Jelepov_A_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Jelepov_A_S;;
+
+Jelepov_A_S => nrel_contact_information:[a.zhelepov@yandex.ru];;
+

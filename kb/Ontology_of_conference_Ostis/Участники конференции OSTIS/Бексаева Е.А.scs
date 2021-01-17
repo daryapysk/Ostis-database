@@ -1,0 +1,14 @@
+Beksaeva_E_A => nrel_main_idtf:
+[Бексаева Е.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Beksaeva_E_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Beksaeva_E_A;;
+
+Beksaeva_E_A => nrel_contact_information:[ekaty@clukva.ru];;
+

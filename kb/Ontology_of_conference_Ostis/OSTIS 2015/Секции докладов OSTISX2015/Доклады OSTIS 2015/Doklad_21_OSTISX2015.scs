@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_21_OSTISX2015;;
+Doklad_21_OSTISX2015=>nrel_main_idtf:[Доклад 21 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_21_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_21_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_21_OSTISX2015 => nrel_name_of_doclad: [От интеллектуальных порталов к порталам знаний: о роли интеллектуальных сервисов](* <- lang_ru;;*);;
+
+//Doklad_21_OSTISX2015 <= nrel_authors : ...(* -> Strahovic_E._V.;Vlasov_S._A.;Gavrilova_T._A.;; *);;
+
+//Doklad_21_OSTISX2015 <= nrel_articke: ...(* -> 21._Strahovic_E.V.X_Vlasov_S.A.X_Gavrilova_T.A._X_OtIPkPZoRIS;; *);;
+
+
+Doklad_21_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/21._Страхович_Э.В.,_Власов_С.А.,_Гаврилова_Т.А._-_ОтИПкПЗоРИС.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_21_OSTISX2015 => nrel_authors:Strahovic_E.V.;Vlasov_S.A.;Gavrilova_T.A.;;

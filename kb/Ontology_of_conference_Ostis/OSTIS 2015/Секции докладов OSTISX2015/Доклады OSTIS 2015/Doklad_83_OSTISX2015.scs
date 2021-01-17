@@ -1,0 +1,24 @@
+//sc_node_not_relation->Doklad_83_OSTISX2015;;
+Doklad_83_OSTISX2015=>nrel_main_idtf:[Доклад 83 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_83_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_83_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_83_OSTISX2015 => nrel_name_of_doclad: [Исследование и разработка системы абстрактной аргументации с вероятностными степенями обоснования](* <- lang_ru;;*);;
+
+//Doklad_83_OSTISX2015 <= nrel_authors : ...(* -> Derevanko_A._V.;Morosin_O._L.;; *);;
+
+//Doklad_83_OSTISX2015 <= nrel_articke: ...(* -> 83._Derevanko_A._V.X_Morosin_O._L._X_IssledovanieiRSAAsVSO;; *);;
+
+
+Doklad_83_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/83._Деревянко_А._В.,_Моросин_О._Л._-_ИсследованиеиРСААсВСО.pdf";;
+						    *);; 
+					*);;
+
+Doklad_83_OSTISX2015=> nrel_authors: Derevanko_A.V.;Morosin_O.L.;;
+

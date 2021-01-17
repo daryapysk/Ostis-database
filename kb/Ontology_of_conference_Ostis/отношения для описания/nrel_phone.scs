@@ -1,0 +1,19 @@
+sc_node_norole_relation -> nrel_phone;; 
+
+nrel_phone => nrel_main_idtf:[телефон*] (* <-lang_ru;; *);;
+
+nrel_phone => nrel_main_idtf:[phone*] (* <-lang_en;; *);;
+
+
+nrel_phone <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Телефон — последовательность цифр, присвоенная пользователю или абоненту телефонной сети, зная которую, можно ему позвонить. ]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

@@ -1,0 +1,43 @@
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_main_idtf:
+[Зубцов Р.О. 2016 - АлгориПООАД]
+	(*
+	<- lang_ru;;
+	*);
+	[Zubcov_R_O_2016_AlgoASfODA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_name_publication:[Алгоритмическое и программное обеспечение онтологического анализа данных](*
+	<- lang_ru;;
+	*);;
+
+publication_Zubcov_R_O_2016_AlgoASfODA <= nrel_authors:
+Zubcov_R_O;
+Semenova_V_A;
+Smirnov_S.V.;;
+
+
+publication_Zubcov_R_O_2016_AlgoASfODA <- article;;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_reference_standard: [Зубцов Р.О. Алгоритмическое и программное обеспечение онтологического анализа данных / Р.О. Зубцов, В.А. Семенова, С.В. Смирнов // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2016) : материалы VI междунар. науч.-техн. конф. (Минск, 1820 февраля 2016 года)/ редкол. : В. В. Голенков (отв. ред.)  – Минск : БГУИР, 2016. – С. 27–30.];;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_year_publication: 2016;;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_information_publication:  Materials_OSTIS2016;;
+
+publication_Zubcov_R_O_2016_AlgoASfODA <- rrel_key_sc_element: ... (*<- sc_scplanation;; <=
+nrel_sc_text_translation: ... (*-> rrel_example: "file://../../Pdf/11.zubcov.pdf";; *);; *);;
+
+
+
+
+publication_Zubcov_R_O_2016_AlgoASfODA =>  nrel_annotation:
+[Встатье  рассматриваютсяматематическиемодели,  методы  и  алгоритмы  онтологического  анализа  данных,составляющие  аналитическое  ядроразрабатываемогоинструментариясемантического  моделирования  ипроектирования,  и  предназначенные  для выводаформальных  онтологий  на  основеэмпирическихобъектно-признаковых  данных,  организованных  в  виде  соответствия  «объекты-свойства».  Оцениваются  перспективыразвития соответствующего программного обеспечения.](*
+	<- lang_ru;;
+	*);;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_count_page: 6;;
+
+publication_Zubcov_R_O_2016_AlgoASfODA => nrel_article_language: lang_ru;;
+

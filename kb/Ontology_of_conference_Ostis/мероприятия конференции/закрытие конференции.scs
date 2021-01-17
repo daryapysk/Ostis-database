@@ -1,0 +1,16 @@
+nrel_conference_closing => nrel_main_idtf:
+[закрытие конференции*](* <- lang_ru;; *);
+[nrel conference closing*] (* <- lang_en;; *);;
+
+nrel_conference_closing <- rrel_key_sc_element: ...
+	(*
+	=> nrel_main_idtf: [пояснение*] (*<-lang_ru;; *);;
+	<-sc_task;;
+	<= nrel_sc_text_translation: ...
+	(*
+		<- rrel_example:
+			[Закрытие конференции* - этап конференции, характеризующийся действиями, направленными на подведение итогов конференции.] 
+		(* <- lang_ru;; *);;
+
+	*);;
+*);;

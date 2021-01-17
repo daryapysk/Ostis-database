@@ -1,0 +1,12 @@
+
+Abramov_G_A => nrel_main_idtf:
+	[Абрамов Г.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Abramov_G_A]
+	(*
+	<- lang_en;;
+	*);;
+
+Abramov_G_A <- student;;

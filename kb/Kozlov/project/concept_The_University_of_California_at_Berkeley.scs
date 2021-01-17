@@ -1,0 +1,54 @@
+
+concept_The_University_of_California_at_Berkeley<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Калифорнийский университет в Беркли ]
+      (*<-lang_ru;;*);
+       [The University of California at Berkeley]
+       (*<-lang_en;;*);
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Калифорнийский университет в Беркли)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+      concept_research_center;
+      concept_univesity;
+      concept_Berkeley;
+      concept_location
+      };; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Калифорнийский университет в Беркли — государственный исследовательский университет США, расположенный в Беркли] (* <- lang_ru;; *);;
+    *);;
+   *);
+   
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Калифорнийский университет в Беркли )] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_place;
+    concept_univesity;
+    concept_rating
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Калифорнийский университет в Беркли -в 2016 году занял третье место в а рейтинге лучших высших учебных заведений мира](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_The_University_of_California_at_Berkeley -> rrel_example: [Калифорнийский университет в Беркли  был основан в 1868.](* <- lang_ru;; *);;
+concept_The_University_of_California_at_Berkeley <=nrel_inclusion:concept_higher_education_institution;;
+Curtis_Tracy_McMullen<-rrel_employee:concept_The_University_of_California_at_Berkeley;;
+Stephen_Smale<-rrel_employee:concept_The_University_of_California_at_Berkeley;;
+Elwyn_Berlekamp<-rrel_employee:concept_The_University_of_California_at_Berkeley;;
+Narendra_Karmarkar<-rrel_graduate:concept_The_University_of_California_at_Berkeley;;
+
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_The_University_of_California_at_Berkeley;;
+<= nrel_sc_text_translation: ...(*->"file://IMG/CaliforniaBerkly.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Калифорнийский университет в Беркли)](*<- lang_ru;;*);;
+*);;
+
+

@@ -1,0 +1,24 @@
+
+Gajnullin_R.F.=> nrel_main_idtf:
+	[Гайнуллин Р. Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gajnullin_R.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+Gajnullin_R.F.=> nrel_email: [r.gainullin@gmail.com](*<-lang_en;;*);;
+
+//Gajnullin_R.F. <- concept_participant_of_conference_OSTIS;;
+Gajnullin_R.F. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Gajnullin_R._F. <= nrel_authors:  ...(* -> Doklad_51_OSTISX2015;; *);;
+
+Gajnullin_R._F. -> Ucastnik_konferenzii_OSTIS;;
+
+Gajnullin_R._F. -> net;;
+net <- ucenaa_stepenX;;
+
+Gajnullin_R._F. -> Ved._Programmist;;*/

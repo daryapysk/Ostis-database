@@ -1,0 +1,19 @@
+//sc_node_not_relation->Doklad_1.08_OSTISX2011;;
+Doklad_1.08_OSTISX2011=>nrel_main_idtf:[Доклад 1.08 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.08_OSTISX2011 <- doklad_OSTISX2011;;
+
+
+//Doklad_1.08_OSTISX2011 -> sostoavsijsa_doklad_OSTISX2011;;
+
+Doklad_1.08_OSTISX2011 => nrel_name_of_doclad: [Перспективы использования семантических сетей для защиты информации](* <- lang_ru;;*);;
+
+/*Doklad_1.08_OSTISX2011 <= nrel_section: [Секция 1 OSTIS-2011](* <- lang_ru;;*);;
+
+Doklad_1.08_OSTISX2011 <= nrel_authors : ...(* -> Misenko_V._A.;Golenkov_V._V.;Vilanskij_U._V.;Zaharov_V._V.;; *);;
+
+Doklad_1.08_OSTISX2011 <= nrel_stand: ...(* -> Stend_609X1_OSTISX2011;; *);;*/
+
+
+
+Doklad_1.08_OSTISX2011 =>nrel_authors: Misenko_V.A.;Golenkov_Vladimir_Vasilevich;Vilanskij_U.V.;Zakharov_Vladimir_Vladimirovich;;

@@ -1,0 +1,7 @@
+sc_node_not_relation->Starjinskij_V._P.;;
+Starjinskij_V._P.=>nrel_main_ru_idtf:[Старжинский В. П.];;
+
+
+Starjinskij_V._P. <= nrel_authors:  ...(* -> Doklad_59_OSTISX2014;; *);;
+
+Starjinskij_V._P. -> Ucastnik_konferenzii_OSTIS;;

@@ -1,0 +1,18 @@
+
+Erges_B.J.=> nrel_main_idtf:
+	[Ергеш Б.Ж.]
+	(*
+	<- lang_ru;;
+	*);
+	[Erges_B.J.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Erges_B.J. <= nrel_authors:  ...(* -> Doklad_4.13_OSTISX2012;; *);;
+
+//Erges_B.J. <- concept_participant_of_conference_OSTIS;;
+Erges_B.J. <- concept_participant_of_conference_OSTIS2012;;
+
+//Erges_B.J. -> doktorant;;

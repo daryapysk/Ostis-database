@@ -1,0 +1,19 @@
+
+Mosenko_S.G.=> nrel_main_idtf:
+	[Мошенко С.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mosenko_S.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Mosenko_S.G. => nrel_email: [moshenko@bsuir.by](*<-lang_en;;*);;
+
+//Mosenko_S.G. <= nrel_authors:  ...(* -> Doklad_8.05_OSTISX2011;; *);;
+
+//Mosenko_S.G.<- concept_participant_of_conference_OSTIS;;
+Mosenko_S.G. <- concept_participant_of_conference_OSTIS2011;;
+
+//Mosenko_S.G. -> injener_programmist;;

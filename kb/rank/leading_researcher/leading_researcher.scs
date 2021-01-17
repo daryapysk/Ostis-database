@@ -1,0 +1,29 @@
+
+concept_leading_researcher => nrel_idtf: [leading_researcher](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Ведущий научный сотрудник)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Ведущий научный сотрудник — квалификацированный работник с высшим образованием, с опытом работы не менее 10 лет и имеющий учёную степень доктора или кандидата наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_leading_researcher;;
+<= nrel_using_constants :...
+(*
+-> concept_experience; concept_qualification; concept_higher_education;;
+*);;
+*);;
+
+ concept_leading_researcher -> rrel_example: [Ведущий научный сотрудник повышает свою квалификацию и становится главным научным сотрудником при получении учёной степень доктора наук, крупные научные труды или дипломы на открытия и авторские свидетельства на изобретения, а также реализованные на практике результаты, научный авторитет в соответствующей области знаний.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Ведущий научный сотрудник, опыт работы)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Ведущий научный сотрудник ИИТ имеет опыт работы более 13 лет и учёную степень кандидата наук.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_leading_researcher; concept_experience; concept_candidate_eciences;;
+*);; 
+

@@ -1,0 +1,26 @@
+
+Neborskij_S.N.=> nrel_main_idtf:
+	[Неборский С.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Neborskij_S.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Neborskij_S.N. => nrel_authors:  ...(* -> Doklad_5.05_OSTISX2012;; *);;
+
+//Neborskij_S.N. <- concept_participant_of_conference_OSTIS;;
+
+Neborskij_S.N. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Neborskij_S.N. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Neborskij_S.N. -> assistent;;
+
+Neborskij_S.N. <- rrel_key_sc_element: ..illustration_Neborskij_S.N.(* <- sc_illustation;; *);;
+..illustration_Neborskij_S.N. <= nrel_translation : ..translation_illustration_Neborskij_S.N.;;
+..translation_illustration_Neborskij_S.N.-> rrel_example : [<img src="http://127.0.0.1:8181/Neborskij.png"/>] (* => nrel_format: format_html;; *);;*/

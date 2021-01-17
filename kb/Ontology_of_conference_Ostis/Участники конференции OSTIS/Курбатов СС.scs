@@ -1,0 +1,14 @@
+Kurbatov_S_S => nrel_main_idtf:
+[Курбатов С.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kurbatov_S_S] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kurbatov_S_S;;
+
+Kurbatov_S_S => nrel_contact_information:[curbatow.serg@yandex.ru];;
+

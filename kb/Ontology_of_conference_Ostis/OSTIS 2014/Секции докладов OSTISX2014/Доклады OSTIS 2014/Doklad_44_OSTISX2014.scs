@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_44_OSTISX2014;;
+Doklad_44_OSTISX2014=>nrel_main_idtf:[Доклад 44 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_44_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_44_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_44_OSTISX2014 <= nrel_name_of_doclad: [ТТР-система:Интеграция естественного языка и изображений](* <- lang_ru;;*);;
+
+// Doklad_44_OSTISX2014 <= nrel_authors : ...(* -> Kurbatov_S._S.;Litvinovic_A._V.;Lobzin_A._P.;Hahalin_G._K.;; *);;
+
+Doklad_44_OSTISX2014 <= nrel_authors: Kurbatov_S._S.;Litvinovic_A._V.;Lobzin_A._P.;Hahalin_G._K.;; 
+
+// Doklad_44_OSTISX2014 <= nrel_articke: ...(* -> 44._Kurbatov_S.S.X_Litvinovic_A.V.X_Lobzin_A.P.X_Hahalin_G.K._X_TTPXSIEAiI;; *);;

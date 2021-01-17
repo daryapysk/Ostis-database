@@ -1,0 +1,24 @@
+
+Kipaeva_E.V.=> nrel_main_idtf:
+	[Кипаева Е. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kipaeva_E.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Kipaeva_E.V. <- concept_participant_of_conference_OSTIS2014;;
+Kipaeva_E.V. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Kipaeva_E._V. <= nrel_authors:  ...(* -> Doklad_87_OSTISX2015;Doklad_64_OSTISX2014;; *);;
+
+Kipaeva_E._V. -> Ucastnik_konferenzii_OSTIS;;
+
+Kipaeva_E._V. -> student;;
+student <- Volgogradskij_gosudarstvennyj_tehniceskij_universitet;;
+
+Kipaeva_E._V. -> magistrant;;
+magistrant <- ucenoe_zvanie;;*/

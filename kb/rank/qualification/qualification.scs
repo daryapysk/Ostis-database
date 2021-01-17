@@ -1,0 +1,31 @@
+
+concept_qualification => nrel_idtf: [qualification](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Квалификация)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Квалификация —  степень и вид профессиональной обученности работника, наличие у него знаний, умения и навыков, необходимых для выполнения им определённой работы.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_qualification;;
+<= nrel_using_constants :...
+(*
+-> concept_extent; concept_work; concept_level_of_training;;
+*);;
+*);;
+
+ concept_qualification -> rrel_example: [В универе 69 работников прошли обучение по повышению своей квалификации.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Квалификация, обучение)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [В СССР на предприятиях, в учреждениях и организациях создана система подготовки и повышения квалификации рабочих и служащих, где рабочие и служащие обучаются новым профессиям и специальностям и проходят обучение по повышению своей квалификации.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_qualification; concept_level_of_training;;
+*);; 
+
+
+

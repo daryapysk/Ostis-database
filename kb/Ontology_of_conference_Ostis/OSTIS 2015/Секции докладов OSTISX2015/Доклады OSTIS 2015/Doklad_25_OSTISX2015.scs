@@ -1,0 +1,22 @@
+//sc_node_not_relation->Doklad_25_OSTISX2015;;
+Doklad_25_OSTISX2015=>nrel_main_idtf:[Доклад 25 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_25_OSTISX2015 <- doklad_OSTISX2015;;
+
+
+//Doklad_25_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_25_OSTISX2015 => nrel_name_of_doclad: [Сценарный подход при исследовании динамики информационных потоков в сети интернет](* <- lang_ru;;*);;
+
+//Doklad_25_OSTISX2015 <= nrel_authors : ...(* -> Dodonov_A._G.;Lande_D._V.;Bojcenko_A._V.;; *);;
+
+//Doklad_25_OSTISX2015 <= nrel_articke: ...(* -> 25._Dodonov_A.G.X_Lande_D.V.X_Bojcenko_A.V._X_SzenarnyjPpIDIPvSI;; *);;
+
+Doklad_25_OSTISX2015 <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/25._Додонов_А.Г.,_Ландэ_Д.В.,_Бойченко_А.В._-_СценарныйПпИДИПвСИ.pdf";;
+						    *);; 
+					*);;
+
+Doklad_25_OSTISX2015=> nrel_authors: Dodonov_A.G.;Lande_D.V.;Bojcenko_A.V.;;;;

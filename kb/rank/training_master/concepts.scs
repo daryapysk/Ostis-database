@@ -1,0 +1,55 @@
+
+sc_node_not_relation->concept_training_master;;
+concept_training_master => nrel_main_idtf: [учебный мастер](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_work_experience;;
+concept_work_experience => nrel_main_idtf: [стаж работы](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_education;;
+concept_education => nrel_main_idtf: [среднее образование](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_teaching_aids;;
+concept_teaching_aids => nrel_main_idtf: [учебно-методическое пособие](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

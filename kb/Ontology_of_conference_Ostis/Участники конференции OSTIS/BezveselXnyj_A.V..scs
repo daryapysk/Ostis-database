@@ -1,0 +1,18 @@
+
+BezveselXnyj_A.V.=> nrel_main_idtf:
+	[Безвесельный А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[BezveselXnyj_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+BezveselXnyj_A.V. => nrel_email: [electronica@nsys.by](*<-lang_en;;*);;
+
+//BezveselXnyj_A.V.  <- concept_participant_of_conference_OSTIS;;
+
+BezveselXnyj_A.V. -> glavnyj_redaktor;;
+
+BezveselXnyj_A.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.04;Foto_OSTISX2011.02.10.09.05;Foto_OSTISX2011.02.10.09.09;Foto_OSTISX2011.02.10.10.02;Foto_OSTISX2011.02.10.10.28;; *);;

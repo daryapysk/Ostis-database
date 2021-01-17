@@ -1,0 +1,18 @@
+sc_node_not_relation->Prokopcuk_U.A.;;
+Prokopcuk_U.A.=>nrel_main_ru_idtf:[Прокопчук Ю.А.];;
+
+Prokopcuk_U.A. <= nrel_email: [Itk3@ukr.net](*<-lang_en;;*);;
+
+Prokopcuk_U.A. <= nrel_authors:  ...(* -> Doklad_37_OSTISX2014;; *);;
+
+Prokopcuk_U.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Prokopcuk_U.A. -> kandidat_nauk;;
+kandidat_nauk <- ucenaa_stepenX;;
+
+Prokopcuk_U.A. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Prokopcuk_U.A. <- rrel_key_sc_element: ..illustration_Prokopcuk_U.A.(* <- sc_illustation;; *);;
+..illustration_Prokopcuk_U.A. <= nrel_translation : ..translation_illustration_Prokopcuk_U.A.;;
+..translation_illustration_Prokopcuk_U.A.-> rrel_example : [<img src="http://127.0.0.1:8181/Прокопчук_Ю.А..png"/>] (* => nrel_format: format_html;; *);;

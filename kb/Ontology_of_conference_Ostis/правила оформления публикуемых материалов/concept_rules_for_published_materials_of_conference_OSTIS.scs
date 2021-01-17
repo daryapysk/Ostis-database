@@ -1,0 +1,22 @@
+sc_node_not_relation ->concept_rules_for_published_materials_of_conference_OSTIS;;
+concept_rules_for_published_materials_of_conference_OSTIS=> nrel_main_idtf:
+	[правила оформления публикуемых материалов Конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[rules for published materials of conference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+
+concept_rules_for_published_materials_of_conference_OSTIS<=nrel_subdividing:
+...
+(*
+=> nrel_main_idtf: [Разбиение по году проведения конференции](* <-lang_ru;; *);;
+->Rules_for_published_materials_OSTIS2011  ; 
+Rules_for_published_materials_OSTIS2012; 
+Rules_for_published_materials_OSTIS2013;
+Rules_for_published_materials_OSTIS2014; 
+Rules_for_published_materials_OSTIS2015;;
+*);;

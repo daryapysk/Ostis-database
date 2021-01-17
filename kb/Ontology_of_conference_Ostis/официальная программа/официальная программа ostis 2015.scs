@@ -1,0 +1,13 @@
+official_program_OSTIS2015
+=> nrel_main_idtf:
+[Официальная программа Конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Official program Conference OSTIS-2015]
+	(*
+	<- lang_en;;
+	*);;
+
+
+official_program_OSTIS2015  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://Официальная_программа_мероприятий_OSTIS-2015.pdf";; *);; *);;

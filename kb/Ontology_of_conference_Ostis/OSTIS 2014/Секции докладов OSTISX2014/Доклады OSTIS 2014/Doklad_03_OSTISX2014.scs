@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_03_OSTISX2014;;
+Doklad_03_OSTISX2014=>nrel_main_idtf:[Доклад 03 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_03_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_03_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_03_OSTISX2014 <= nrel_name_of_doclad: [Теория автоматического порождения архитектуры знаний (тапаз-2) и дальнейшая минимизация семантических исчислений](* <- lang_ru;;*);;
+
+// Doklad_03_OSTISX2014 <= nrel_authors : ...(* -> Gordej_A._N.;; *);;
+
+Doklad_03_OSTISX2014 <= nrel_authors: Gordej_A._N.;;
+
+// Doklad_03_OSTISX2014 <= nrel_articke: ...(* -> 03._Gordej_A.N._X_TeoriAPAZXTAPAZX2XiDMSI;; *);;

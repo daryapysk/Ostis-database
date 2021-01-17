@@ -1,0 +1,20 @@
+Gribova_V_V => nrel_main_idtf:
+[Грибова В. В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gribova_V_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Gribova_V_V;;
+<- concept_participant_of_conference_OSTIS2011;
+<- concept_participant_of_conference_OSTIS2012;
+<- concept_participant_of_conference_OSTIS2013;
+<- concept_participant_of_conference_OSTIS2014;
+<- concept_participant_of_conference_OSTIS2015;
+<- concept_participant_of_conference_OSTIS2016;
+<- concept_participant_of_conference_OSTIS2020;
+Gribova_V_V => nrel_contact_information:[gribova@iacp.dvo.ru];;
+

@@ -1,0 +1,30 @@
+
+concept_lector => nrel_idtf: [lector](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Лектор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Лектор — преподаватель, читающий лекцию в среднем специальном или высшем учебном заведении.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_lector;;
+<= nrel_using_constants :...
+(*
+-> concept_lecturer; concept_higher_education_institution;;
+*);;
+*);;
+
+ concept_lector -> rrel_example: [Лектор по физике.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Лектор, физика)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Лектор читал курс по физике о наночастицах.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_lector; concept_physics;;
+*);; 
+
+

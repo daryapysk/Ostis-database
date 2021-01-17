@@ -1,0 +1,16 @@
+Gostiniza_Orbita => nrel_main_idtf:[Гостиница Орбита](* <- lang_ru;; *);;
+
+Gostiniza_Orbita <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Orbita <- concept_hotel;;
+
+/*Gostiniza_Orbita => nrel_phone: [бронирование](* <- lang_ru;;*);;
+Gostiniza_Orbita => nrel_phone: [портье](* <- lang_ru;;*);;*/
+
+Gostiniza_Orbita => nrel_address : [г. Минск, пр. Пушкина, 39](* <- lang_ru;;*);;
+
+Gostiniza_Orbita => nrel_site: [http://www.orbita-hotel.com];;
+
+//Gostiniza_Orbita => nrel_location : [Минск, пр. Пушкина, 39](* <- lang_ru;;*);;
+
+//Gostiniza_Orbita => nrel_content : "file://Схема проезда к гост. Орбита.zip";;

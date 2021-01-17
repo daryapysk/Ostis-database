@@ -1,0 +1,29 @@
+
+concept_assistant => nrel_idtf: [assistant](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Ассистент)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Ассистент — младшая преподавательская должность в высших учебных заведениях, помощник профессора, врача при выполнении ими каких-либо научно-исследовательских работ.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_assistant;;
+<= nrel_using_constants :...
+(*
+-> concept_helper; concept_academic_rank; concept_higher_education_institution; concept_research_work;;
+*);;
+*);;
+
+ concept_assistant -> rrel_example: [Ассистент Петров всегда учавствовал в научных работах на кафедре.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Ассистент, конференция)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Ассистент обязан помогать в проведении конференции професору кафедры.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_assistant; concept_conference;;
+*);; 
+

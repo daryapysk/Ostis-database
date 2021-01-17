@@ -1,0 +1,30 @@
+
+concept_doctor => nrel_idtf: [doctor](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Доктор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Доктор — высшая учёная степень.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_doctor ;;
+<= nrel_using_constants :...
+(*
+-> concept_degree;;
+*);;
+*);;
+
+ concept_doctor  -> rrel_example: [Доктор Протоиерей Павел Хондзинский](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Доктор, университет)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Звание доктора появилось в Средние века, в качестве разрешения преподавать в средневековых университетах.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_doctor ; concept_the_university;;
+*);; 
+
+

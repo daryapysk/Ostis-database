@@ -1,0 +1,43 @@
+Materials_conference_OSTIS
+=> nrel_main_idtf:
+[Материалы конференции OSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials of сonference OSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+OSTIS_conference => nrel_material : Materials_conference_OSTIS;;
+
+Materials_conference_OSTIS -> Materials_OSTIS2011;
+Materials_OSTIS2012;
+Materials_OSTIS2013;
+Materials_OSTIS2014;
+Materials_OSTIS2015;
+Materials_OSTIS2016;;
+
+periodical_collection -> Materials_OSTIS2011;
+Materials_OSTIS2012;
+Materials_OSTIS2013;
+Materials_OSTIS2014;
+Materials_OSTIS2015;
+Materials_OSTIS2016;;
+
+
+published_document -> Materials_OSTIS2011;
+Materials_OSTIS2012;
+Materials_OSTIS2013;
+Materials_OSTIS2014;
+Materials_OSTIS2015;
+Materials_OSTIS2016;;
+
+official_document -> Materials_OSTIS2011;
+Materials_OSTIS2012;
+Materials_OSTIS2013;
+Materials_OSTIS2014;
+Materials_OSTIS2015;
+Materials_OSTIS2016;;
+
+

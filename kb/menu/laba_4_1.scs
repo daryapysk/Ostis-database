@@ -1,0 +1,113 @@
+/* SCs_code0.3.1.Level 6 */
+lab_1=[*
+
+sc_node_not_relation->segment;;
+sc_node_not_relation->point;;
+sc_node_not_relation->triangle;;
+sc_node_not_relation->length;;
+sc_node_not_relation->value;;
+sc_node_not_relation->isosceles_triangle;;
+sc_node_not_relation->proof_in_need;;
+sc_node_not_relation->q;;
+sc_node_not_relation->w;;
+sc_node_not_relation->1;;
+sc_node_not_relation->2;;
+sc_node_not_relation->e;;
+sc_node_not_relation->r;;
+sc_node_not_relation->t;;
+sc_node_not_relation->u;;
+sc_node_not_relation->i;;
+sc_node_not_relation->p;;
+
+
+
+sc_node_norole_relation->nrel_vertex;;
+sc_node_norole_relation->nrel_crossing;;
+sc_node_norole_relation->nrel_boundary_point;;
+sc_node_norole_relation->nrel_composition_of_quantities;; 
+
+triangle->triangle_DMB;;
+
+triangle_DMB=> nrel_vertex:B;;
+triangle_DMB=> nrel_vertex:M;;
+triangle_DMB=> nrel_vertex:D;;
+
+M<= nrel_crossing:{
+AD;
+DC
+};;
+
+segment->AD;;
+segment->BC;;
+segment->OD;;
+segment->CO;;
+segment->OB;;
+segment->CO;;
+segment->AO;;
+segment->OD;;
+segment->AB;;
+segment->CD;;
+AB=>nrel_boundary_point:B;;
+AB=>nrel_boundary_point:A;;
+CD=>nrel_boundary_point:D;;
+CD=>nrel_boundary_point:C;;
+length->q;;
+q->AB;;
+q->CD;;
+point->O;;
+point->M;;
+
+O<= nrel_crossing:{
+AB;
+CD
+};;
+
+value->1;;
+value->2;;
+value->p;;
+w->OD;;
+e->CO;;
+r->OB;;
+t->CO;;
+u->AO;;
+i->OD;;
+length->w;;
+length->e;;
+length->r;;
+length->t;;
+length->u;;
+length->i;;
+
+O<= nrel_composition_of_quantities:{
+w;
+1
+};;
+
+O<= nrel_composition_of_quantities:{
+2;
+e
+};;
+
+O<= nrel_composition_of_quantities:{
+r;
+t
+};;
+
+O<= nrel_composition_of_quantities:{
+u;
+i
+};;
+
+
+proof_in_need=[*
+
+isosceles_triangle->triangle_DMB;;
+
+						*];;
+
+
+
+*];;
+
+
+

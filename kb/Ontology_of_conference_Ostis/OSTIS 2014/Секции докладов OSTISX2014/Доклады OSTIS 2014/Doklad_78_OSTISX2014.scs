@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_78_OSTISX2014;;
+Doklad_78_OSTISX2014=>nrel_main_idtf:[Доклад 78 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_78_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_78_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_78_OSTISX2014 <= nrel_name_of_doclad: [Практические аспекты тестирования распределенных приложений на основе связанных данных](* <- lang_ru;;*);;
+
+// Doklad_78_OSTISX2014 <= nrel_authors : ...(* -> Solosic_S._N.;; *);;
+
+Doklad_78_OSTISX2014 <= nrel_authors: Solosic_S._N.;; 
+
+// Doklad_78_OSTISX2014 <= nrel_articke: ...(* -> 78._Solosic_S.N._X_PraktATRPnOSD;; *);;

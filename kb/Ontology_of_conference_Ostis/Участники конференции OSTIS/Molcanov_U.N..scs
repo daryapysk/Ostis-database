@@ -1,0 +1,21 @@
+
+Molcanov_U.N.=> nrel_main_idtf:
+	[Молчанов Ю.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Molcanov_U.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Molcanov_U.N. => nrel_email: [lgloba@its.kpi.ua](*<-lang_en;;*);;
+
+//Molcanov_U.N. <= nrel_authors:  ...(* -> Doklad_28_OSTISX2015;; *);;
+
+//Molcanov_U.N. <- concept_participant_of_conference_OSTIS;;
+Molcanov_U.N. <- concept_participant_of_conference_OSTIS2012;;
+Molcanov_U.N. <- concept_participant_of_conference_OSTIS2015;;
+
+
+//Molcanov_U.N. -> aspirant;;

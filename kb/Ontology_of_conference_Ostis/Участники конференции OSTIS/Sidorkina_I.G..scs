@@ -1,0 +1,24 @@
+
+Sidorkina_I.G.=> nrel_main_idtf:
+	[Сидоркина И.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sidorkina_I.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sidorkina_I.G. => nrel_email: [igs592000@mail.ru](*<-lang_en;;*);;
+
+//Sidorkina_I.G. <- concept_participant_of_conference_OSTIS;;
+Sidorkina_I.G. <- concept_participant_of_conference_OSTIS2015;;
+Sidorkina_I.G. <- concept_participant_of_conference_OSTIS2020;;
+
+/*Sidorkina_I.G. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Sidorkina_I.G. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Sidorkina_I.G. -> dekan;;*/

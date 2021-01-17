@@ -1,0 +1,16 @@
+Gostiniza_Sputnik=>nrel_main_idtf:[Гостиница Спутник](* <- lang_ru;; *);;
+
+Gostiniza_Sputnik <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_Sputnik <- concept_hotel;;
+
+/*Gostiniza_Sputnik => nrel_phone: [бронирование](* <- lang_ru;;*);;
+Gostiniza_Sputnik => nrel_phone: [администратор](* <- lang_ru;;*);;*/
+
+Gostiniza_Sputnik => nrel_address : [Минск, ул. Брилевская, 2](* <- lang_ru;;*);;
+
+Gostiniza_Sputnik => nrel_site: [http://sputnik-hotel.com];;
+
+//Gostiniza_Sputnik => nrel_location : [г. Минск, ул. Брилевская, 2](* <- lang_ru;;*);;
+
+//Gostiniza_Sputnik => nrel_content : "file://Схема проезда к гост. Спутник.zip";;

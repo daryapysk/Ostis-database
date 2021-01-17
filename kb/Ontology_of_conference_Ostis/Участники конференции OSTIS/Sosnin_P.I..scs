@@ -1,0 +1,35 @@
+
+Sosnin_P.I.=> nrel_main_idtf:
+	[Соснин П.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Sosnin_P.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Sosnin_P.I. => nrel_email: [sosnin@ulstu.ru](*<-lang_en;;*);;
+
+//Sosnin_P.I. <= nrel_authors:  ...(* -> Doklad_50_OSTISX2015;Doklad_49_OSTISX2015;Doklad_15_OSTISX2014;Doklad_5.01_OSTISX2012;; *);;
+
+Sosnin_P.I. <- concept_participant_of_conference_OSTIS2014;;
+Sosnin_P.I. <- concept_participant_of_conference_OSTIS2012;;
+Sosnin_P.I. <- concept_participant_of_conference_OSTIS2015;;
+Sosnin_P.I. <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+
+
+/*Sosnin_P.I. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Sosnin_P.I. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Sosnin_P.I. -> zaveduusij;;
+
+Sosnin_P.I. <- rrel_key_sc_element: ..illustration_Sosnin_P.I.(* <- sc_illustation;; *);;
+..illustration_Sosnin_P.I. <= nrel_translation : ..translation_illustration_Sosnin_P.I.;;
+..translation_illustration_Sosnin_P.I.-> rrel_example : [<img src="http://127.0.0.1:8181/SosninP.jpg"/>] (* => nrel_format: format_html;; *);;*/

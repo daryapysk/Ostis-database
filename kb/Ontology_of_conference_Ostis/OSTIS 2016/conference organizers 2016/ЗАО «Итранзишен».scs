@@ -1,0 +1,9 @@
+CJSC_Itransition => nrel_main_idtf:
+	[ЗАО «Итранзишен»]
+	(*
+	<- lang_ru;;
+	*);
+	[CJSC «Itransition»]
+	(*
+	<- lang_en;;
+	*);;

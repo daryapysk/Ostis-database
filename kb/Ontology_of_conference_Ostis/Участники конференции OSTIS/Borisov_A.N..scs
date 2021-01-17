@@ -1,0 +1,21 @@
+
+Borisov_A.N.=> nrel_main_idtf:
+	[Борисов А.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Borisov_A.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Borisov_A.N. => nrel_email: [Arkadijs.Borisovs@cs.rtu.lv](*<-lang_en;;*);;
+
+/*Borisov_A.N. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Borisov_A.N. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Borisov_A.N. -> professor;;*/
+

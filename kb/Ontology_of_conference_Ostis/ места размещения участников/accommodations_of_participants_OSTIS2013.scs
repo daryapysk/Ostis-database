@@ -1,0 +1,13 @@
+accommodations_of_participants_OSTIS2013 => nrel_main_idtf:
+	[Места размещения участников Конференции OSTIS-2013]
+	(*
+	<- lang_ru;;
+	*);
+	[Accommodations of participants Сonference OSTIS-2013]
+	(*
+	<- lang_en;;
+	*);;
+
+accommodations_of_participants_OSTIS2013 -> Gostiniza_IBB_Hotel; Gostiniza_Orbita; Gostiniza_Planeta; 
+Gostiniza_Sport; Gostiniza_Sputnik; Gostiniza_Turist; Gostiniza_Ubilejnaa; Gostiniza_X40_let_PobedyX;
+Gostiniza_XAkademiceskaaX; Gostiniza_XBelarusXX; Gostiniza_XU_FontanaX; Gostiniza_Zvezda;;

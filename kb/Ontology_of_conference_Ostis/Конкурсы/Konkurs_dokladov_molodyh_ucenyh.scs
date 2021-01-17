@@ -1,0 +1,5 @@
+//sc_node_not_relation->Konkurs_dokladov_molodyh_ucenyh;;
+Konkurs_dokladov_molodyh_ucenyh=>nrel_main_idtf:[Конкурс докладов молодых ученых](* <- lang_ru;;*);;
+
+Konkurs_dokladov_molodyh_ucenyh => nrel_purpose : [Целью конкурса являться выявление и поощрение научной активности талантливых молодых исследователей.](* <- lang_ru;;*);;
+

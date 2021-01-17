@@ -1,0 +1,47 @@
+
+concept_Engineering_and_Technology_Academy_YUFU<-sc_node_not_relation;
+=> nrel_main_idtf:
+      [Инженерно-технологическая академия ЮФУ]
+      (*<-lang_ru;;*);
+       [Engineering and Technology Academy YUFU]
+       (*<-lang_en;;*);
+          
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр.(Инженерно-технологическая академия ЮФУ)] (* <- lang_ru;; *);;
+    => nrel_using_constants: {
+       concept_city;
+  concept_Taganrog
+
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+        [Инженерно-технологическая академия ЮФУ— высшее учебное заведение в Таганроге.] (* <- lang_ru;; *);;
+    *);;
+   *);
+  
+  
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утверждение (Инженерно-технологическая академия ЮФУ)] (* <- lang_ru;; *);;
+=> nrel_using_constants: {
+	concept_student
+};; 
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[В инженерное-технологической академии Юфу обучается 7600 студентов](*<-lang_ru;;*);;
+      *);;
+  *);;
+    
+ concept_Engineering_and_Technology_Academy_YUFU-> rrel_example: [Инженерно-технологическая академия ЮФУ была основана в 1951 году.](* <- lang_ru;; *);;
+concept_Engineering_and_Technology_Academy_YUFU<=nrel_inclusion:concept_higher_education_institution;;
+Ilya_Izrailevich_Levin<-nrel_graduate:concept_Engineering_and_Technology_Academy_YUFU;;
+illustration -> ...
+(*
+->rrel_key_sc_element: concept_Engineering_and_Technology_Academy_YUFU;;
+<= nrel_sc_text_translation: ...(*->"file://IMG//YUFU.jpg";;*);;
+=> nrel_main_idtf: [Рисунок(Инженерно-технологическая академия ЮФУ)](*<- lang_ru;;*);;
+*);;
+

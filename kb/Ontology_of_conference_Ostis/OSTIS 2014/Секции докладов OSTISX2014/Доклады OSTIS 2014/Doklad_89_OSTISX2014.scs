@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_89_OSTISX2014;;
+Doklad_89_OSTISX2014=>nrel_main_idtf:[Доклад 89 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_89_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_89_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_89_OSTISX2014 <= nrel_name_of_doclad: [Адаптивный интерфейс пользователей](* <- lang_ru;;*);;
+
+// Doklad_89_OSTISX2014 <= nrel_authors : ...(* -> Barlybaev_A._B.;; *);;
+
+Doklad_89_OSTISX2014 <= nrel_authors: Barlybaev_A._B.;; 
+
+// Doklad_89_OSTISX2014 <= nrel_articke: ...(* -> 89._Barlybaev_A.B._X_AdaptIP;; *);;

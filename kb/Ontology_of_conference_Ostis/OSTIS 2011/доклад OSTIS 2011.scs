@@ -1,0 +1,11 @@
+doklad_OSTISX2011 => nrel_main_idtf:
+	[доклад конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[lecture of conference OSTIS-2011]
+	(*
+	<- lang_en;;
+	*);;
+
+

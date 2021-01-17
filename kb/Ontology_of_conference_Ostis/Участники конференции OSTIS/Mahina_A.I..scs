@@ -1,0 +1,18 @@
+
+Mahina_A.I.=> nrel_main_idtf:
+	[Махина А.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Mahina_A.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Mahina_A.I. <= nrel_authors:  ...(* -> Doklad_8.07_OSTISX2011;; *);;
+
+//Mahina_A.I. <- concept_participant_of_conference_OSTIS;;
+Mahina_A.I. <- concept_participant_of_conference_OSTIS2011;;
+
+//Mahina_A.I. -> student;;

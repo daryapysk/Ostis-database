@@ -1,0 +1,25 @@
+
+Omarbekova_A.S.=> nrel_main_idtf:
+	[Омарбекова А. С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Omarbekova_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+Omarbekova_A.S. => nrel_authors:  ...(* -> Doklad_11_OSTISX2015;Doklad_91_OSTISX2014;; *);;
+
+Omarbekova_A.S. <- concept_participant_of_conference_OSTIS2015;;
+
+Omarbekova_A.S. <- concept_participant_of_conference_OSTIS2014;;
+
+/*Omarbekova_A._S. -> Ucastnik_konferenzii_OSTIS;;
+
+Omarbekova_A._S. -> k.n.;;
+k.n. <- ucenaa_stepenX;;
+
+Omarbekova_A._S. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

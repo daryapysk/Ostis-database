@@ -1,0 +1,14 @@
+Kobrinsky_B_A => nrel_main_idtf:
+[Кобринский Б.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kobrinsky_B_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Kobrinsky_B_A;;
+
+Kobrinsky_B_A => nrel_contact_information:[bak@isa.ru];;
+

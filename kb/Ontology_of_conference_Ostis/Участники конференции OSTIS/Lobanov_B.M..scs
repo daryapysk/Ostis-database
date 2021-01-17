@@ -1,0 +1,35 @@
+
+Lobanov_B.M.=> nrel_main_idtf:
+	[Лобанов Б.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lobanov_B.M.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lobanov_B.M. => nrel_email: [lobanov@newman.bas-net.by](*<-lang_en;;*);;
+
+/*Lobanov_B.M. <= nrel_authors:  ...(* -> Doklad_73_OSTISX2015;Doklad_09_OSTISX2014;Doklad_7.11_OSTISX2011;; *);;
+
+Lobanov_B.M. <= nrel_publication : ...(* -> Lobanov_B.M..2007trXPraviRRKnFSiSVEKpSR;Lobanov_B.M..2007trXTehnoKKiSPHRD;Lobanov_B.M..2007trXAlgorSPHRpTvS;Lobanov_B.M..2007trXAlgorVRnPEKdSRpT;; *);;*/
+
+Lobanov_B.M. <- concept_participant_of_conference_OSTIS2014;;
+Lobanov_B.M. <- concept_participant_of_conference_OSTIS2011;;
+Lobanov_B.M. <- concept_participant_of_conference_OSTIS2015;;
+
+
+
+
+/*Lobanov_B.M. -> d.t.n.;;
+d.t.n. <- ucenaa_stepenX;;
+
+Lobanov_B.M. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Lobanov_B.M. -> g.n.s.;;
+
+Lobanov_B.M. <- rrel_key_sc_element: ..illustration_Lobanov_B.M.(* <- sc_illustation;; *);;
+..illustration_Lobanov_B.M. <= nrel_translation : ..translation_illustration_Lobanov_B.M.;;
+..translation_illustration_Lobanov_B.M.-> rrel_example : [<img src="http://127.0.0.1:8181/Lobanov.png"/>] (* => nrel_format: format_html;; *);;*/

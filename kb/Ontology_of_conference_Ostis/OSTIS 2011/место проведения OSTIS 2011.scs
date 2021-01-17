@@ -1,0 +1,10 @@
+//sc_node_not_relation -> place_conduct_OSTIS_conference_2011;;
+place_conduct_OSTIS_conference_2011 => nrel_main_idtf:
+	[Место проведения Конференции OSTIS-2011]
+	(*
+	<- lang_ru;;
+	*);
+	[Place of conduct OSTIS-2011 conference]
+	(*
+	<- lang_en;;
+	*);;

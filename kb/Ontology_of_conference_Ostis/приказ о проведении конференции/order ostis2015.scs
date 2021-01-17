@@ -1,0 +1,11 @@
+order_hold_Conference2015 => nrel_main_idtf:
+[Приказ о проведении конференции OSTIS-2015]
+	(*
+	<- lang_ru;;
+	*);
+	[The order to hold Conference OSTIS-2015]
+	(*
+	<- lang_en;;
+	*);;
+
+order_hold_Conference2015 <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://Приказ_конференции_OSTIS-2015.pdf";; *);; *);;

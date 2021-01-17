@@ -1,0 +1,21 @@
+sc_node_not_relation->Osipov_G.S.;;
+Osipov_G.S.=>nrel_main_idtf:[Осипов Г.С.](*<-lang_ru;;*);;
+
+Osipov_G.S. => nrel_email: [gos@isa.ru](*<-lang_en;;*);;
+
+/*Osipov_G.S. <= nrel_publication : ...(* -> Belov_S.D..2009trXKomplZKKSPD;Osipov_G.S..2009dokX_IntelUTSSPR;Osipov_G.S.2008trXKlassDSONiIA;Osipov_G.S..2008stXRelazSMPiATiEP;; *);;
+
+Osipov_G.S. -> Ucastnik_konferenzii_OSTIS;;
+
+
+Osipov_G.S. -> d.f.Xm.n.;;
+d.f.Xm.n. <- ucenaa_stepenX;;
+
+Osipov_G.S. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Osipov_G.S. -> zam.direktora_po_naucnoj_rabote;;
+
+Osipov_G.S. <- rrel_key_sc_element: ..illustration_Osipov_G.S.(* <- sc_illustation;; *);;
+..illustration_Osipov_G.S. <= nrel_translation : ..translation_illustration_Osipov_G.S.;;
+..translation_illustration_Osipov_G.S.-> rrel_example : [<img src="http://127.0.0.1:8181/Osipov.png"/>] (* => nrel_format: format_html;; *);;*/

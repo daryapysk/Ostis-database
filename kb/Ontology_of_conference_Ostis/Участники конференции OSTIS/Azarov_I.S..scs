@@ -1,0 +1,26 @@
+
+Azarov_I.S.=> nrel_main_idtf:
+	[Азаров И.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Azarov_I.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Azarov_I.S. => nrel_email: [azarov@bsuir.by](*<-lang_en;;*);;
+
+//Azarov_I.S. <- concept_participant_of_conference_OSTIS;;
+Azarov_I.S.<- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Azarov_I.S. <= nrel_authors:  ...(* -> Doklad_75_OSTISX2015;; *);;
+
+Azarov_I.S. -> Ucastnik_konferenzii_OSTIS;;
+
+Azarov_I.S. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Azarov_I.S. -> dozent;;
+dozent <- ucenoe_zvanie;;*/

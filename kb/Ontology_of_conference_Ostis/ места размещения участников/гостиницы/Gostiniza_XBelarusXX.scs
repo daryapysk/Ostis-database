@@ -1,0 +1,15 @@
+Gostiniza_XBelarusXX=>nrel_main_idtf:[Гостиница "Беларусь"](* <- lang_ru;; *);;
+
+Gostiniza_XBelarusXX <- accommodations_of_participants_OSTIS2011;;
+
+Gostiniza_XBelarusXX <- concept_hotel;;
+
+Gostiniza_XBelarusXX ->nrel_phone: [+375 17 209-76-92](* <- lang_ru;;*);;
+
+Gostiniza_XBelarusXX => nrel_address : [г. Минск, ул. Сторожевская, д. 15](* <- lang_ru;;*);;
+
+Gostiniza_XBelarusXX => nrel_site: [http://www.hotel-belarus.com];;
+
+//Gostiniza_XBelarusXX => nrel_location : [г. Минск, ул. Сторожевская, 15](* <- lang_ru;;*);;
+
+//Gostiniza_XBelarusXX => nrel_content : "file://Схема проезда к гост. Беларусь.zip";;

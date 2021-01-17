@@ -1,0 +1,6 @@
+sc_node_norole_relation -> nrel_name_of_doclad;; 
+
+nrel_name_of_doclad => nrel_main_idtf:[название доклада*] (* <-lang_ru;; *);;
+
+nrel_name_of_doclad => nrel_main_idtf:[name of doclad*] (* <-lang_en;; *);;
+

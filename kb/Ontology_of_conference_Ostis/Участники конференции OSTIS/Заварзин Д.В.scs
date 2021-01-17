@@ -1,0 +1,14 @@
+Zavarzin_D_V => nrel_main_idtf:
+[Заварзин Д.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zavarzin_D_V] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Zavarzin_D_V;;
+
+Zavarzin_D_V => nrel_contact_information:[d.zavarzin91@gmail.com];;
+

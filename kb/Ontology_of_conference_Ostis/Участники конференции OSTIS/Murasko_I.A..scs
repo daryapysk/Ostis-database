@@ -1,0 +1,26 @@
+
+Murasko_I.A.=> nrel_main_idtf:
+	[Мурашко И.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Murasko_I.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Murasko_I.A. => nrel_email: [iamurashko@tut.by](*<-lang_en;;*);;
+
+//Murasko_I.A. <- concept_participant_of_conference_OSTIS;;
+Murasko_I.A.<- concept_participant_of_conference_OSTIS2015;;
+Murasko_I.A.<- concept_participant_of_conference_OSTIS2016;;
+
+/*Murasko_I.A. <= nrel_authors:  ...(* -> Doklad_77_OSTISX2015;; *);;
+
+Murasko_I.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Murasko_I.A. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Murasko_I.A. -> professor;;
+professor <- ucenoe_zvanie;;*/

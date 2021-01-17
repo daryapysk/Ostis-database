@@ -1,0 +1,24 @@
+
+Lanin_A.S.=> nrel_main_idtf:
+	[Ланин А.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Lanin_A.S.]
+	(*
+	<- lang_en;;
+	*);;
+
+Lanin_A.S. => nrel_email: [lanin@perm.ru](*<-lang_en;;*);;
+
+//Lanin_A.S. <= nrel_authors:  ...(* -> Doklad_81_OSTISX2014;; *);;
+
+Lanin_A.S. <- concept_participant_of_conference_OSTIS2014;;
+Lanin_A.S. <- concept_participant_of_conference_OSTIS2011;;
+
+
+/*Lanin_A.S. -> net;;
+net <- ucenaa_stepenX;;
+
+Lanin_A.S. -> starsij_prepodavatelX;;
+starsij_prepodavatelX <- ucenoe_zvanie;;*/

@@ -1,0 +1,22 @@
+
+Barmina_E.I.=> nrel_main_idtf:
+	[Бармина Е.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Barmina_E.I.]
+	(*
+	<- lang_en;;
+	*);;
+
+Barmina_E.I. => nrel_email: [enokokok@yandex.ru](*<-lang_en;;*);;
+
+//Barmina_E.I. <- concept_participant_of_conference_OSTIS;;
+Barmina_E.I. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*Barmina_E.I. <= nrel_authors:  ...(* -> Doklad_94_OSTISX2015;; *);;
+
+Barmina_E.I. -> Ucastnik_konferenzii_OSTIS;;
+
+Barmina_E.I. -> student;;*/

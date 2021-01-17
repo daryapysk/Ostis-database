@@ -1,0 +1,16 @@
+
+Svatkina_M.N.=> nrel_main_idtf:
+	[Святкина М. Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Svatkina_M.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+
+//Svatkina_M.N. <- concept_participant_of_conference_OSTIS;;
+Svatkina_M.N. <- concept_participant_of_conference_OSTIS2012;;
+
+

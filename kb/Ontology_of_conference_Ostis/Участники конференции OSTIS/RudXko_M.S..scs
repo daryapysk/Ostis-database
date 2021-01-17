@@ -1,0 +1,9 @@
+sc_node_not_relation->RudXko_M.S.;;
+RudXko_M.S.=>nrel_main_ru_idtf:[Рудько М.С.];;
+
+
+RudXko_M.S. -> Ucastnik_konferenzii_OSTIS;;
+
+RudXko_M.S. -> student;;
+
+RudXko_M.S. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.08.37;Foto_OSTISX2011.02.10.08.38;Foto_OSTISX2011.02.10.08.52;Foto_OSTISX2011.02.10.08.56;Foto_OSTISX2011.02.10.09.01;Foto_OSTISX2011.02.10.09.04;Foto_OSTISX2011.02.10.09.14;; *);;

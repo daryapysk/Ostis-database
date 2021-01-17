@@ -1,0 +1,30 @@
+report_3.04_OSTIS_2016_NeuralNiSA => nrel_main_idtf:
+[Доклад 3.04 OSTIS-2016 Нейронные сети в семантическом анализе]
+	(*
+	<- lang_ru;;
+	*);
+	[Report 3.04 OSTIS-2016 Neural networks in semantic analysis] 
+	(*
+	<- lang_en;;
+	*);;
+
+report_3.04_OSTIS_2016_NeuralNiSA  <- doklad_OSTISX2016;;
+
+report_3.04_OSTIS_2016_NeuralNiSA  <= nrel_authors:Averkin_A_N;
+Yarushev_S_A;;
+report_3.04_OSTIS_2016_NeuralNiSA => nrel_published_material: publication_Averkin_A_N_2016_NeuralNiSA;;
+
+report_3.04_OSTIS_2016_NeuralNiSA => nrel_report_language: lang_ru;;
+
+
+/*report_3.04_OSTIS_2016_NeuralNiSA  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://презентации/1.01_Глоба_Л.С._-_ИсполОдССОД.pdf";; *);; *);;*/
+
+report_3.04_OSTIS_2016_NeuralNiSA  => nrel_name: [Нейронные сети в семантическом анализе](*<- lang_ru;;*);;
+
+report_3.04_OSTIS_2016_NeuralNiSA  <= nrel_speaker: Averkin_A_N;;
+
+
+report_3.04_OSTIS_2016_NeuralNiSA  => nrel_time_speech: [16:00 - 16:30];;
+report_3.04_OSTIS_2016_NeuralNiSA => nrel_data_speech: [18 февраля 2016];;
+
+report_3.04_OSTIS_2016_NeuralNiSA  => nrel_address: [Республика Беларусь, г. Минск, ул. Платонова, д. 39, ауд. 414];;

@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_contact_information;; 
+
+nrel_contact_information => nrel_main_idtf:[контактная информация*] (* <-lang_ru;; *);;
+
+nrel_contact_information => nrel_main_idtf:[contact information*] (* <-lang_en;; *);;
+
+

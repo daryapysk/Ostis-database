@@ -1,0 +1,23 @@
+
+Dolbin_A.V.=> nrel_main_idtf:
+	[Долбин А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Dolbin_A.V.]
+	(*
+	<- lang_en;;
+	*);;
+//Dolbin_A.V. <- concept_participant_of_conference_OSTIS;;
+Dolbin_A.V. <- concept_participant_of_conference_OSTIS2015;;
+
+Dolbin_A.V. <- concept_participant_of_conference_OSTIS2016;;
+
+
+
+
+/*Dolbin_A.V. <= nrel_authors:  ...(* -> Doklad_87_OSTISX2015;; *);;
+
+Dolbin_A.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Dolbin_A.V. -> magistrant;;*/

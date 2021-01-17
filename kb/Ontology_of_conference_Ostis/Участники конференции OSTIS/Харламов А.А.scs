@@ -1,0 +1,14 @@
+Harlamov_A_A => nrel_main_idtf:
+[Харламов А. А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Harlamov_A_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Harlamov_A_A;;
+
+Harlamov_A_A => nrel_contact_information:[kharlamov@analyst.ru];;
+

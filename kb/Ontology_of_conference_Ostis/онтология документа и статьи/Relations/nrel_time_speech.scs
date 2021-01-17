@@ -1,0 +1,21 @@
+sc_node_role_relation -> nrel_time_speech;; 
+
+nrel_time_speech => nrel_main_idtf:[время выступления*] (* <-lang_ru;; *);;
+
+nrel_time_speech => nrel_main_idtf:[time of speech*] (* <-lang_en;; *);;
+
+
+nrel_time_speech <- rrel_key_sc_element: 
+        ...
+	(*
+	=> nrel_main_idtf: [Опр.(время выступления)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Время выступления - время, отведенное на представление чего-либо.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

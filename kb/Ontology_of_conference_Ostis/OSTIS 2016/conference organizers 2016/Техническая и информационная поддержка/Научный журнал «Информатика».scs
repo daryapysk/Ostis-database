@@ -1,0 +1,9 @@
+scientific_journal_Informatics => nrel_main_idtf:
+	[Научный журнал «Информатика»]
+	(*
+	<- lang_ru;;
+	*);
+	[The scientific journal "Informatics"]
+	(*
+	<- lang_en;;
+	*);;

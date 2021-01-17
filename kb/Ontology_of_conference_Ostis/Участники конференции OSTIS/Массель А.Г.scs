@@ -1,0 +1,16 @@
+Massel_A_G => nrel_main_idtf:
+[Массель А.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Massel_A_G] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Massel_A_G;;
+MasselX_A_G <- concept_participant_of_conference_OSTIS2014;;
+MasselX_A_G <- concept_participant_of_conference_OSTIS2015;;
+MasselX_A_G <- concept_participant_of_conference_OSTIS2016;;
+Massel_A_G => nrel_contact_information:[amassel@gmail.com];;
+

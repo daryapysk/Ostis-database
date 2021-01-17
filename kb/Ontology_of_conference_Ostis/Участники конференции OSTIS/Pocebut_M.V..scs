@@ -1,0 +1,14 @@
+sc_node_not_relation->Pocebut_M.V.;;
+Pocebut_M.V.=>nrel_main_ru_idtf:[Почебут М.В.];;
+
+Pocebut_M.V. <= nrel_email: [pochebut@bsuir.by](*<-lang_en;;*);;
+
+Pocebut_M.V. <= nrel_publication : ...(* -> BusXko_V.L..2007stXAvtomSUTUSsPOIT;Paskevic_A.P..2007stXVlianDRSnTIKP;; *);;
+
+Pocebut_M.V. -> Ucastnik_konferenzii_OSTIS;;
+
+Pocebut_M.V. -> zam.dekana_po_ucebnoXvospitatelXnoj_rabote;;
+
+Pocebut_M.V. <- rrel_key_sc_element: ..illustration_Pocebut_M.V.(* <- sc_illustation;; *);;
+..illustration_Pocebut_M.V. <= nrel_translation : ..translation_illustration_Pocebut_M.V.;;
+..translation_illustration_Pocebut_M.V.-> rrel_example : [<img src="http://127.0.0.1:8181/PochebutMV.png"/>] (* => nrel_format: format_html;; *);;

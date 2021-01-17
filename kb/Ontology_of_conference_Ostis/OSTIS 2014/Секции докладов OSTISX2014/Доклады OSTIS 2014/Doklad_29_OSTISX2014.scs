@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_29_OSTISX2014;;
+Doklad_29_OSTISX2014=>nrel_main_idtf:[Доклад 29 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_29_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_29_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_29_OSTISX2014 <= nrel_name_of_doclad: [Модели оценки убежденности об адекватности представлений о предметной области в задачах выбора](* <- lang_ru;;*);;
+
+// Doklad_29_OSTISX2014 <= nrel_authors : ...(* -> Vinogradov_G._P.;Filatova_N._N.;; *);;
+
+Doklad_29_OSTISX2014 <= nrel_authors: Vinogradov_G._P.;Filatova_N._N.;; 
+
+// Doklad_29_OSTISX2014 <= nrel_articke: ...(* -> 29._Vinogradov_G.P.X_Filatova_N.N._X_ModelOUoAPoPOvZV;; *);;

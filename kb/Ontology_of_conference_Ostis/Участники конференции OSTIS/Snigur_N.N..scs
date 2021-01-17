@@ -1,0 +1,19 @@
+
+Snigur_N.N.=> nrel_main_idtf:
+	[Снигур Н.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Snigur_N.N.]
+	(*
+	<- lang_en;;
+	*);;
+
+Snigur_N.N. => nrel_email: [nastena_sss@mail.ru](*<-lang_en;;*);;
+
+//Snigur_N.N. <= nrel_authors:  ...(* -> Doklad_3.03_OSTISX2011;; *);;
+
+//Snigur_N.N. <- concept_participant_of_conference_OSTIS;;
+Snigur_N.N. <- concept_participant_of_conference_OSTIS2011;;
+
+//Snigur_N.N. -> aspirant;;

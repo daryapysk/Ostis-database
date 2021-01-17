@@ -1,0 +1,29 @@
+
+Ermolenko_T.V.=> nrel_main_idtf:
+	[Ермоленко Т.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ermolenko_T.V.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ermolenko_T.V. => nrel_email: [etv@iai.dn.ua](*<-lang_en;;*);;
+
+/*Ermolenko_T.V. <= nrel_authors:  ...(* -> Doklad_17_OSTISX2014;Doklad_4.11_OSTISX2012;Doklad_1.06_OSTISX2011;; *);;
+
+Ermolenko_T.V. <= nrel_publication : ...(* -> Ermolenko_T.V.2006stXMetodFEFBnV;Ermolenko_T.V..2006stXMetodPSvSOnViKZR;Ermolenko_T.V..2002stXPrimeVdOiRRS;Ermolenko_T.V.2005stXRazraSRISRAnOV;Ermolenko_T.V.2004stXIspolNVpRVURS;; *);;*/
+
+//Ermolenko_T.V. <- concept_participant_of_conference_OSTIS;;
+Ermolenko_T.V. <- concept_participant_of_conference_OSTIS2011;;
+Ermolenko_T.V. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Ermolenko_T.V. -> k.n.;;
+k.n. <- ucenaa_stepenX;;
+
+Ermolenko_T.V. -> nacalXnik_otdela;;
+
+Ermolenko_T.V. <- rrel_key_sc_element: ..illustration_Ermolenko_T.V.(* <- sc_illustation;; *);;
+..illustration_Ermolenko_T.V. <= nrel_translation : ..translation_illustration_Ermolenko_T.V.;;
+..translation_illustration_Ermolenko_T.V.-> rrel_example : [<img src="http://127.0.0.1:8181/ErmolenkoTV.png"/>] (* => nrel_format: format_html;; *);;*/

@@ -1,0 +1,21 @@
+
+Margunov_E.A.=> nrel_main_idtf:
+	[Маргунов Е.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Margunov_E.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Margunov_E.A. => nrel_email: [margunov@tut.by](*<-lang_en;;*);;
+
+Margunov_E.A. <- concept_participant_of_conference_OSTIS2015;;
+//Margunov_E.A. <- concept_participant_of_conference_OSTIS;;
+
+/*Margunov_E.A. <= nrel_authors:  ...(* -> Doklad_10_OSTISX2015;; *);;
+
+Margunov_E.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Margunov_E.A. -> aspirant;;*/

@@ -1,0 +1,7 @@
+//sc_node_not_relation->Sekzia_9_OSTISX2011;;
+Sekzia_9_OSTISX2011=>nrel_main_idtf:[Секция 9 OSTIS-2011](* <-lang_ru;; *);;
+
+Sekzia_9_OSTISX2011 <- sekzia_OSTISX2011;;
+
+Sekzia_9_OSTISX2011 <= nrel_section : Doklad_9.01_OSTISX2011;
+Doklad_9.02_OSTISX2011;Doklad_9.03_OSTISX2011;Doklad_9.04_OSTISX2011;;

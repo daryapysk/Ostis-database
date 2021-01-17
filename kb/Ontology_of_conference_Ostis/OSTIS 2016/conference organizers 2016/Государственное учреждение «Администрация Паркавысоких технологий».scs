@@ -1,0 +1,10 @@
+Administration_high_tech_park => nrel_main_idtf:
+	[Государственное учреждение «Администрация Парка
+высоких технологий»]
+	(*
+	<- lang_ru;;
+	*);
+	[State Institution "Administration of the high-tech park"]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,22 @@
+scientific_conference => nrel_main_idtf:
+	[научная конференция]
+	(*
+	<- lang_ru;;
+	*);
+	[scientific conference]
+	(*
+	<- lang_en;;
+	*);;
+
+scientific_conference <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Научная конференция  — форма организации научной деятельности, при которой исследователи (не обязательно учёные или студенты) представляют и обсуждают свои работы]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

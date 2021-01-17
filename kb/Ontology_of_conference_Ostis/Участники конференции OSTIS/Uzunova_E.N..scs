@@ -1,0 +1,14 @@
+sc_node_not_relation->Uzunova_E.N.;;
+Uzunova_E.N.=>nrel_main_ru_idtf:[Узунова Е.Н.];;
+
+Uzunova_E.N. <= nrel_email: [euzunova@hse.ru](*<-lang_en;;*);;
+
+Uzunova_E.N. <= nrel_authors:  ...(* -> Doklad_82_OSTISX2014;; *);;
+
+Uzunova_E.N. -> Ucastnik_konferenzii_OSTIS;;
+
+Uzunova_E.N. -> net;;
+net <- ucenaa_stepenX;;
+
+Uzunova_E.N. -> student;;
+student <- ucenoe_zvanie;;

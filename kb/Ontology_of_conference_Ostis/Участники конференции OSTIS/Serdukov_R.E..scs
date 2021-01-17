@@ -1,0 +1,28 @@
+
+Serdukov_R.E.=> nrel_main_idtf:
+	[Сердюков Р.Е.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serdukov_R.E.]
+	(*
+	<- lang_en;;
+	*);;
+
+Serdukov_R.E. => nrel_email: [E-mail: serdyukov@bsuir.by](*<-lang_en;;*);;
+
+/*Serdukov_R.E. <= nrel_authors:  ...(* -> Doklad_8.06_OSTISX2011;; *);;
+
+Serdukov_R.E. <= nrel_publication : ...(* -> Serdukov_R.E.2003stXSegmeOBZPvVGS;Serdukov_R.E..2002stXAdaptPIGAM;Leonuk_N.P..2009stXSisteKZnOOPO;; *);;*/
+
+//Serdukov_R.E. <- concept_participant_of_conference_OSTIS;;
+Serdukov_R.E. <- concept_participant_of_conference_OSTIS2011;;
+
+
+/*Serdukov_R.E. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Serdukov_R.E. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Serdukov_R.E. -> dozent;;*/

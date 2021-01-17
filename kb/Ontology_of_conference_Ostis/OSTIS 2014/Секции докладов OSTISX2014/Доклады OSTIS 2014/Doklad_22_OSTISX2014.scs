@@ -1,0 +1,15 @@
+// sc_node_not_relation->Doklad_22_OSTISX2014;;
+Doklad_22_OSTISX2014=>nrel_main_idtf:[Доклад 22 OSTIS-2014](* <- lang_ru;;*);;
+
+Doklad_22_OSTISX2014 -> doklad_OSTISX2014;;
+// doklad_OSTISX2014 <- doklad_OSTIS;;
+
+// Doklad_22_OSTISX2014 -> sostoavsijsa_doklad_OSTISX2014;;
+
+Doklad_22_OSTISX2014 <= nrel_name_of_doclad: [Условно-рефлекторная основа запоминания знаний](* <- lang_ru;;*);;
+
+// Doklad_22_OSTISX2014 <= nrel_authors : ...(* -> Stefanuk_V._L.;; *);;
+
+Doklad_22_OSTISX2014 <= nrel_authors: Stefanuk_V._L.;; 
+
+// Doklad_22_OSTISX2014 <= nrel_articke: ...(* -> 22._Stefanuk_V.L._X_UslovXROZZ;; *);;

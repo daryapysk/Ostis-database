@@ -1,0 +1,11 @@
+sc_node_not_relation->Lucina_T.L.;;
+Lucina_T.L.=>nrel_main_ru_idtf:[Лучина Т.Л.];;
+
+
+Lucina_T.L. -> Ucastnik_konferenzii_OSTIS;;
+
+Lucina_T.L. -> Rabocaa_gruppa_OSTISX2016;;
+
+Lucina_T.L. -> Rabocaa_gruppa_OSTISX2015;;
+
+Lucina_T.L. -> injener;;

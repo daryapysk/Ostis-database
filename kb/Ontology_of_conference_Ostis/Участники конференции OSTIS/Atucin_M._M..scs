@@ -1,0 +1,12 @@
+Atucin_M._M.=> nrel_main_idtf:
+	[Атучин М.М.]
+	(*
+	<- lang_ru;;
+	*);
+	[Atucin_M._M.]
+	(*
+	<- lang_en;;
+	*);;
+
+//Atucin_M._M. <- concept_participant_of_conference_OSTIS;;
+Atucin_M._M. <- concept_participant_of_conference_OSTIS2013;;

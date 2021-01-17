@@ -1,0 +1,13 @@
+VeremXev_V._L.=> nrel_main_idtf:
+	[Веремьев В. Л.]
+	(*
+	<- lang_ru;;
+	*);
+	[VeremXev V. L.]
+	(*
+	<- lang_en;;
+	*);;
+
+VeremXev_V._L.<- concept_participant_of_conference_OSTIS2014;;
+
+

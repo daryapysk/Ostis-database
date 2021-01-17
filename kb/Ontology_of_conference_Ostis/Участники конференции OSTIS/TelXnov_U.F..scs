@@ -1,0 +1,26 @@
+
+TelXnov_U.F.=> nrel_main_idtf:
+	[Тельнов Ю.Ф.]
+	(*
+	<- lang_ru;;
+	*);
+	[TelXnov_U.F.]
+	(*
+	<- lang_en;;
+	*);;
+
+TelXnov_U.F. => nrel_email: [YTelnov@rector.mesi.ru](*<-lang_en;;*);;
+
+//TelXnov_U.F. <- concept_participant_of_conference_OSTIS;;
+TelXnov_U.F. <- concept_participant_of_conference_OSTIS2015;;
+
+
+/*TelXnov_U.F. -> Ucastnik_konferenzii_OSTIS;;
+
+TelXnov_U.F. -> d.e.n.;;
+d.e.n. <- ucenaa_stepenX;;
+
+TelXnov_U.F. -> professor;;
+professor <- ucenoe_zvanie;;
+
+TelXnov_U.F. -> professor;;*/

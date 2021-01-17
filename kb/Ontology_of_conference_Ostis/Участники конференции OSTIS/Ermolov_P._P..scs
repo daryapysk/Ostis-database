@@ -1,0 +1,28 @@
+
+Ermolov_P.P.=> nrel_main_idtf:
+	[Ермолов П. П.]
+	(*
+	<- lang_ru;;
+	*);
+	[Ermolov_P.P.]
+	(*
+	<- lang_en;;
+	*);;
+
+Ermolov_P.P. => nrel_email: [10.99057@gmail.com](*<-lang_en;;*);;
+
+Ermolov_P.P. <- concept_participant_of_conference_OSTIS2013;;
+Ermolov_P.P. <- concept_participant_of_conference_OSTIS2012;;
+
+/*Ermolov_P._P. -> Programmnyj_komitet_OSTISX2013;;
+
+Ermolov_P._P. -> Programmnyj_komitet_OSTISX2012;;
+
+Ermolov_P._P. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Ermolov_P._P. -> zam.direktora;;
+
+Ermolov_P._P. <- rrel_key_sc_element: ..illustration_Ermolov_P._P.(* <- sc_illustation;; *);;
+..illustration_Ermolov_P._P. <= nrel_translation : ..translation_illustration_Ermolov_P._P.;;
+..translation_illustration_Ermolov_P._P.-> rrel_example : [<img src="http://127.0.0.1:8181/ErmolovPP.jpg"/>] (* => nrel_format: format_html;; *);;*/

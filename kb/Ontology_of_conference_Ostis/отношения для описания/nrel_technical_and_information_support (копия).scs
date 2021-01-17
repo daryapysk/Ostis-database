@@ -1,0 +1,6 @@
+sc_node_norole_relation -> nrel_order_hold_conference;; 
+
+nrel_order_hold_conference => nrel_main_idtf:[приказ о проведении конференции*] (* <-lang_ru;; *);;
+
+nrel_order_hold_conference => nrel_main_idtf:[order hold conference*] (* <-lang_en;; *);;
+

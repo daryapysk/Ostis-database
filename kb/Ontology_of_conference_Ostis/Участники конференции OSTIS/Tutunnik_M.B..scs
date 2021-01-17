@@ -1,0 +1,20 @@
+
+Tutunnik_M.B.=> nrel_main_idtf:
+	[Тютюнник М.Б.]
+	(*
+	<- lang_ru;;
+	*);
+	[Tutunnik_M.B.]
+	(*
+	<- lang_en;;
+	*);;
+
+Tutunnik_M.B. => nrel_email: [michaelhuman@gmail.com](*<-lang_en;;*);;
+//Tutunnik_M.B. <- concept_participant_of_conference_OSTIS;;
+Tutunnik_M.B. <- concept_participant_of_conference_OSTIS2011;;
+
+/*Tutunnik_M.B. <= nrel_authors:  ...(* -> Doklad_1.01_OSTISX2011;; *);;
+
+Tutunnik_M.B. <= nrel_publication : ...(* -> Klesev_A.S..2010prXIspolTOVdRiUIS;Tutunnik_M.B.2009tezXSistePLPREPROXS;ArtemXeva_I.L..2009prXProduSREPROXSIiKLM;ArtemXeva_I.L..2009prXProduSREPROXSPPR;; *);;
+
+Tutunnik_M.B. -> vedusij_injenerXprogrammist;;*/

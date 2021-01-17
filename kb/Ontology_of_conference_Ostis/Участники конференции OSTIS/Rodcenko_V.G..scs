@@ -1,0 +1,36 @@
+
+Rodcenko_V.G.=> nrel_main_idtf:
+	[Родченко В.Г.]
+	(*
+	<- lang_ru;;
+	*);
+	[Rodcenko_V.G.]
+	(*
+	<- lang_en;;
+	*);;
+
+Rodcenko_V.G. => nrel_email: [rovar@mail.ru](*<-lang_en;;*);;
+
+//Rodcenko_V.G. <= nrel_authors:  ...(* -> Doklad_86_OSTISX2014;Doklad_3.09_OSTISX2012;Doklad_5.03_OSTISX2011;; *);;
+
+//Rodcenko_V.G. <= nrel_publication : ...(* -> RodcenkoV.G..2008sbXObOMPKSDVTFiPIO;RodcenkoV.G..2008sbXObOMPKSDSTP;; *);;
+
+Rodcenko_V.G. <- concept_participant_of_conference_OSTIS2014;;
+Rodcenko_V.G. <- concept_participant_of_conference_OSTIS2011;;
+Rodcenko_V.G. <- concept_participant_of_conference_OSTIS2012;;
+Rodcenko_V.G. <- concept_participant_of_conference_OSTIS2020;;
+
+
+
+
+/*Rodcenko_V.G. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+Rodcenko_V.G. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+Rodcenko_V.G. -> zaveduusij;;
+
+Rodcenko_V.G. <- rrel_key_sc_element: ..illustration_Rodcenko_V.G.(* <- sc_illustation;; *);;
+..illustration_Rodcenko_V.G. <= nrel_translation : ..translation_illustration_Rodcenko_V.G.;;
+..translation_illustration_Rodcenko_V.G.-> rrel_example : [<img src="http://127.0.0.1:8181/Rodchenko.png"/>] (* => nrel_format: format_html;; *);;*/

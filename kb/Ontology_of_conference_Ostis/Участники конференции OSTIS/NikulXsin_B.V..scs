@@ -1,0 +1,21 @@
+sc_node_not_relation->NikulXsin_B.V.;;
+NikulXsin_B.V.=>nrel_main_idtf:[Никульшин Б.В.](*<-lang_ru;;*);;
+
+NikulXsin_B.V. => nrel_email: [nik@bsuir.by](*<-lang_en;;*);;
+
+/*NikulXsin_B.V. -> Ucastnik_konferenzii_OSTIS;;
+
+
+NikulXsin_B.V. -> k.t.n.;;
+k.t.n. <- ucenaa_stepenX;;
+
+NikulXsin_B.V. -> dozent;;
+dozent <- ucenoe_zvanie;;
+
+NikulXsin_B.V. -> prorektor_po_ucebnoj_rabote_i_informatizazii;;
+
+NikulXsin_B.V. <- rrel_key_sc_element: ..illustration_NikulXsin_B.V.(* <- sc_illustation;; *);;
+..illustration_NikulXsin_B.V. <= nrel_translation : ..translation_illustration_NikulXsin_B.V.;;
+..translation_illustration_NikulXsin_B.V.-> rrel_example : [<img src="http://127.0.0.1:8181/Nikulshin.png"/>] (* => nrel_format: format_html;; *);;
+
+NikulXsin_B.V. <= nrel_photo : ...(* -> Foto_OSTISX2011.02.10.09.10;Foto_OSTISX2011.02.10.10.01;Foto_OSTISX2011.02.10.10.06;Foto_OSTISX2011.02.10.10.10;Foto_OSTISX2011.02.10.10.13;Foto_OSTISX2011.02.10.10.22;Foto_OSTISX2011.02.10.10.23;Foto_OSTISX2011.02.10.10.31;Foto_OSTISX2011.02.10.11.19;Foto_OSTISX2011.02.10.12.18;; *);;*/

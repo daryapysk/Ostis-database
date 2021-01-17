@@ -1,0 +1,59 @@
+
+sc_node_not_relation->concept_candidate_sciences;;
+concept_candidate_sciences => nrel_main_idtf: [кандидат наук](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_degree;;
+concept_degree => nrel_main_idtf: [учёная степень](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_thesis;;
+concept_thesis => nrel_main_idtf: [диссертация](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_seeker;;
+concept_seeker => nrel_main_idtf: [соискатель](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_exam;;
+concept_exam => nrel_main_idtf: [экзамен](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

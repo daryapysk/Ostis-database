@@ -1,0 +1,12 @@
+sc_node_not_relation -> doklad_OSTISX2016;;
+doklad_OSTISX2016 => nrel_main_idtf:
+	[доклад конференции OSTIS-2016]
+	(*
+	<- lang_ru;;
+	*);
+	[doklad of conference OSTIS-2016]
+	(*
+	<- lang_en;;
+	*);;
+
+doklad_OSTISX2016 <- doklad_OSTIS;;

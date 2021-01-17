@@ -1,0 +1,26 @@
+
+Surygin_U.A.=> nrel_main_idtf:
+	[Шурыгин Ю.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Surygin_U.A.]
+	(*
+	<- lang_en;;
+	*);;
+
+Surygin_U.A. => nrel_email: [office@tusur.ru](*<-lang_en;;*);;
+//Surygin_U.A. <- concept_participant_of_conference_OSTIS;;
+Surygin_U.A. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Surygin_U.A. <= nrel_authors:  ...(* -> Doklad_42_OSTISX2015;; *);;
+
+Surygin_U.A. -> Ucastnik_konferenzii_OSTIS;;
+
+Surygin_U.A. -> d.n.;;
+d.n. <- ucenaa_stepenX;;
+
+Surygin_U.A. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Surygin_U.A. -> 1Xj_prorektor;;*/

@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_07_OSTISX2015;;
+Doklad_07_OSTISX2015=>nrel_main_idtf:[Доклад 07 OSTIS-2015](*<- lang_ru;;*);;
+
+Doklad_07_OSTISX2015 <- doklad_OSTISX2015;;
+
+//Doklad_07_OSTISX2015 -> sostoavsijsa_doklad_OSTISX2015;;
+
+Doklad_07_OSTISX2015 => nrel_name_of_doclad: [Модели и алгоритмы интеграции знаний на основе однородных семантических сетей](* <- lang_ru;;*);;
+
+//Doklad_07_OSTISX2015 <= nrel_authors : ...(* -> Ivasenko_V._P.;; *);;
+
+//Doklad_07_OSTISX2015 <= nrel_articke: ...(* -> 07._Ivasenko_V.P;; *);;
+
+
+Doklad_07_OSTISX2015<- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/07._Ивашенко_В.П.pdf";;
+						    *);; 
+					*);;
+
+
+
+
+Doklad_07_OSTISX2015 => nrel_authors: Ivashenko_Valerian_Petrovich;;

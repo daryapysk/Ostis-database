@@ -1,0 +1,25 @@
+//sc_node_not_relation->Doklad_2.03_OSTISX2012;;
+Doklad_2.03_OSTISX2012=>nrel_main_idtf:[Доклад 2.03 OSTIS-2012](*<- lang_ru;;*);;
+
+Doklad_2.03_OSTISX2012 <- doklad_OSTISX2012;;
+//doklad_OSTISX2012 <- doklad_OSTIS;;
+
+Doklad_2.03_OSTISX2012 => nrel_name_of_doclad: [Формальные онтологии](* <- lang_ru;;*);;
+
+Doklad_2.03_OSTISX2012 => nrel_section: [Секция 2 OSTIS-2012](* <- lang_ru;;*);;
+
+/*Doklad_2.03_OSTISX2012 <= nrel_authors : ...(* -> Plesnevic_G._S.;; *);;
+
+Doklad_2.03_OSTISX2012 <= nrel_articke: ...(* -> Plesnevic_G.S.2012stXFormaO;; *);;
+
+Doklad_2.03_OSTISX2012 <= nrel_stand: ...(* -> Stend_607X15_OSTISX2012;; *);;*/
+
+Doklad_2.03_OSTISX2012  <- rrel_key_sc_element: ... 
+					(*<- sc_explanation;; 
+						<= nrel_sc_text_translation: 
+						... (*-> rrel_example: "file://документы докладов/Плесневич_Г.С.2012ст-ФормаО.pdf";;
+						    *);; 
+					*);;
+
+
+Doklad_2.03_OSTISX2012  => nrel_authors:Plesnevic_G.S.;;

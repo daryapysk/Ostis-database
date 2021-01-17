@@ -1,0 +1,28 @@
+
+Nisanov_A.H.=> nrel_main_idtf:
+	[Нишанов А. Х.]
+	(*
+	<- lang_ru;;
+	*);
+	[Nisanov_A.H.]
+	(*
+	<- lang_en;;
+	*);;
+
+Nisanov_A.H. => nrel_email: [nishanovaxram@mail.ru](*<-lang_en;;*);;
+
+
+//Nisanov_A.H. <- concept_participant_of_conference_OSTIS;;
+Nisanov_A.H. <- concept_participant_of_conference_OSTIS2015;;
+
+/*Nisanov_A._H. <= nrel_authors:  ...(* -> Doklad_47_OSTISX2015;; *);;
+
+Nisanov_A._H. -> Ucastnik_konferenzii_OSTIS;;
+
+Nisanov_A._H. -> d.n.;;
+d.n. <- ucenaa_stepenX;;
+
+Nisanov_A._H. -> professor;;
+professor <- ucenoe_zvanie;;
+
+Nisanov_A._H. -> direktor;;*/

@@ -1,0 +1,19 @@
+Timchenko_V_A => nrel_main_idtf:
+[Тимченко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Timchenko_V_A] 
+	(*
+	<- lang_en;;
+	*);;
+
+member_conference_OSTIS -> Timchenko_V_A;;
+Timchenko_V_A <- concept_participant_of_conference_OSTIS2011;;
+Timchenko_V_A <- concept_participant_of_conference_OSTIS2012;;
+Timchenko_V_A <- concept_participant_of_conference_OSTIS2013;;
+Timchenko_V_A <- concept_participant_of_conference_OSTIS2014;;
+Timchenko_V_A <- concept_participant_of_conference_OSTIS2015;;
+
+Timchenko_V_A => nrel_contact_information:[vadim@dvo.ru];;
+

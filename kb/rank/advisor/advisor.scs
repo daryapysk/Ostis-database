@@ -1,0 +1,31 @@
+
+concept_advisor => nrel_idtf: [advisor](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Советник)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Советник — название членов некоторых присутственных мест, некоторых должностей.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_advisor;;
+<= nrel_using_constants :...
+(*
+-> concept_rank;;
+*);;
+*);;
+
+ concept_advisor -> rrel_example: [Советник Сомойлов Алексей.](* <- lang_ru;; *);;
+
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Советник, совет)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Советник дал совет по устройству гражданских чинов.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_advisor; concept_advice;;
+*);; 
+
+
